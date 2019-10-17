@@ -1,0 +1,1 @@
+rsync -avrh ./build gaeel@spaceshipsin.space:spaceships --delete

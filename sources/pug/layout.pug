@@ -1,0 +1,35 @@
+include [[dots]]/sources/pug/utils
+doctype html
+html(lang="en")
+  head
+    title= title
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel='stylesheet', href='/style.css')
+    
+  body
+    #thepage
+      h1 Spaceships in Space
+      .linkheader
+        p.links
+          span navigation(
+            a.hlink(href="/") home 
+            a.hlink(href="/tags.html") tags 
+            a.hlink(href="/contact.html") contact
+            | )
+      hr
+      include:marked [[markdown]]
+      br
+      hr
+      br
+      h4 Related tags
+      if tags
+        ul
+          each tag in tags
+            li
+              a(href="/tag/"+tag.replace(" ","-")+".html")= tag
+    #footer
+      p Last built: #{formatDate(new Date())} - #{formatTime(new Date())}
+      include:marked [[dots]]/sources/markdown/buildmessage.md
+      //script(src="reload/reload.js")
