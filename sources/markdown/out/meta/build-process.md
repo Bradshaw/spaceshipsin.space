@@ -34,13 +34,13 @@ Apparently no-one else does this, because it was a real pain to get working, and
 ### Gulp
 And then there's [Gulp](https://gulpjs.com/). Gulp is a system that transforms data. In most cases, it reads a bunch of files, and outputs a bunch of files, and does that any time one of the original files changes.  
 The best thing I can say about it is that it does what it says on the tin. Unfortunately, it's a pain to work with. No two plugins share the same way to configure them, error handling is a complete and total mess, and tutorials and documentation are written as though you *already know* what the hell a "Vinyl Stream" is.   
-I'm hesitant to share the code for this build system, because I know it's a mess to look at, and part of me is still not sure if that mess is just how you configure a Gulp build process, or if I've committed some terrible sin against modern Javascript frameworks.  
+The code for this build system is a mess to look at, and part of me is still not sure if that mess is just how you configure a Gulp build process, or if I've committed some terrible sin against modern Javascript frameworks.  
 Either way, it does actually work. Now I can write articles such as this one, refresh my browser, and if all looks right, upload the whole shebang with a simple rsync script, lovely.
 
 <hr>
 
 If you have any questions about all of this, feel free to [get in touch](/contact.html). I'm probably not the best person to talk to about modern web software, but I feel like I've learnt a few things along the way.  
-If you have the know-how (or want to use my system), I recommend doing something like this. Updating my website is now super easy, and I don't have to fiddle with a CMS or authentication or anything.
+If you have the know-how (or want to use [this system](https://drydock.spaceshipsin.space/gaeel/spaceshipsin-space)), I recommend doing something like this. Updating my website is now super easy, and I don't have to fiddle with a CMS or authentication or anything.
 
 
 %YAML 1.2
