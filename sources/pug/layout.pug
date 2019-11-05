@@ -10,6 +10,8 @@ html(lang="en")
     
   body
     #thepage
+      
+      // Header
       h1 Spaceships in Space
       .linkheader
         p.links
@@ -19,7 +21,11 @@ html(lang="en")
             a.hlink(href="/contact.html") contact
             | )
       hr
+
+      // Main article
       include:marked [[markdown]]
+
+      // Generated links
       br
       hr
       br
@@ -31,5 +37,4 @@ html(lang="en")
               a(href="/tag/"+tag.replace(" ","-")+".html")= tag
     #footer
       p Last built: #{formatDate(new Date())} - #{formatTime(new Date())}
-      include:marked [[dots]]/sources/markdown/buildmessage.md
-      //script(src="reload/reload.js")
+      include:marked [[dots]]/sources/markdown/footer.md

@@ -1,3 +1,7 @@
+#### Code   
+The code that generates this website is hosted on my [Git drydock repo](https://drydock.spaceshipsin.space/gaeel/spaceshipsin-space)   
+I cannot guarantee that it is fit for your purpose, nor that it is anywhere near the best way to achieve what I've done. This is simply the tool I've built for the dual purpose of having a website that I enjoy using, and learning to use node.js and its ecosystem.
+
 ## Build process
 As the footer of this website says, everything you see here rests on the shoulders of giants standing on mountains of Javascript. I'm using [Markdown](https://daringfireball.net/projects/markdown/syntax), [Pug](https://pugjs.org), and [Sass](https://sass-lang.com/) to create all of the content. And then a stack of over a million lines of Javascript, mostly in the form of [Gulp](https://gulpjs.com/) plugins, interprets these files to generate the HTML and CSS that I serve to you, the reader.
 
