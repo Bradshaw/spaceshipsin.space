@@ -27,7 +27,15 @@ If you'd like to learn to play .lazr., I recommend finding a friend who is about
 
 ### The Paper Sail [→](https://papersail.lab.arte.tv/)
 ![A paper boat on a screen](papersail.700w.jpg)
-A collaboration with [Cosmografik](http://cosmografik.fr/), The Paper Sail is a meditative experience where the user places a small paper sail on their touch-capable device (phone, tablet, Cintiq, etc…), and then explores a quiet archipelago. They'll meet insects, fish, and occasionally, another traveller. [play](https://papersail.lab.arte.tv/)
+A collaboration with [Cosmografik](http://cosmografik.fr/), The Paper Sail is a meditative experience where the user places a small paper sail on their touch-capable device (phone, tablet, Cintiq, etc…), and then explores a quiet archipelago. They'll meet insects, fish, and occasionally, another traveller.   
+This project went through quite a few design iterations, and ended up being a very small and peaceful space
+
+I'm proud of the fauna and flora. The dragonflies excitedly flutter around, landing on the lilies, and I spent quite some time bringing the big koi fish to life.
+
+This project also served as an experiment for a concept I'd like to explore more, which is indirect multiplayer play. If other people play The Paper Sail at the same time as you, there's a chance you'll meet them. I found that when I'd meet other boats, playful moments would happen. We'd try to sail side by side, or dance in lagoons, circling around each other.   
+These fleeting, non-verbal interactions with strangers is something I've been interested in for a while. I first toyed with this idea during a Ludum Dare with [a game about connected gardens](https://twitter.com/_Gaeel_/status/1105939396442972160), and I'm trying to find a way to make it work with my [lost.spaceshipsin.space](https://lost.spaceshipsin.space) project
+
+You can try The Paper Sail [here](https://papersail.lab.arte.tv/), I recommend playing on a large tablet device in a dark room with a tiny paper sail cut out of cigarette paper for the best effect
 
 ## Get in touch <a name="contact"></a>
 E-Mail
