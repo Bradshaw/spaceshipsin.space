@@ -1,39 +1,35 @@
 Hello, my name is __Gaeel&nbsp;Bradshaw‑Rodriguez__  
 I am a designer and programmer, particularly interested in videogames, interactivity, and technology   
 If you're working on something weird, fun, thoughtful, or rebellious, please [get in touch](contact.html). I'd like to help you make that thing happen!   
-If you'd like to support the weird, nerdy and pretty things I make and do, [head to my Patreon](https://www.patreon.com/gaeel)
 
 ## Things
-Projects I've worked on or am a part of
+Some things I'm particularly proud of being a part of
 
 ### void.garden [→](https://voidgarden.itch.io/)
 ![void.garden logo](voidgarden.700w.jpg)
-[void.garden](http://void.garden/) is a project/collective that aims to develop art, events, media and stuff, all tangential to video games. [more](https://voidgarden.itch.io/)
+[void.garden](http://void.garden/) is a project/collective that aims to develop art, events, media and stuff, all tangential to video games.
 
-### l'indécadence [→](https://voidgarden.itch.io/lindecadence)
-L'indécadence was an indie games & art party taking place during IndieCade Europe in Paris. Nine games and four musicians were on the lineup. We featured colourful and unconventional projects from around the world. Relive the event through [Anna-Céléstine's](https://twitter.com/lafilledct) photo gallery [on Facebook](https://www.facebook.com/pg/lafilledct/photos/?tab=album&album_id=1471957822887747). [more](https://voidgarden.itch.io/lindecadence)
+The event we're proudest of is [L'indécadence](https://voidgarden.itch.io/lindecadence). This was an indie games & art party taking place during IndieCade Europe in Paris. Nine games and four musicians were on the lineup. We featured colourful and unconventional projects from around the world. You can relive the event through [Anna-Céléstine's](https://twitter.com/lafilledct) photo gallery [on Facebook](https://www.facebook.com/pg/lafilledct/photos/?tab=album&album_id=1471957822887747).
+
+As part of void.garden, I'm running a social network based on [Darius Kazemi](http://tinysubversions.com/)'s article "[runyourown.social](https://runyourown.social)". It's a micro-scale community, serving as a home to a small handful of creative people. Because it's built upon [Mastodon](https://joinmastodon.org/), this small network is connected to and can interact with the wider [fediverse](https://en.wikipedia.org/wiki/Fediverse)   
+
 
 ### .lazr. [→](https://gaeel.itch.io/lazr)
 ![".lazr." text on a dark CRT screen](lazr.700w.jpg)
-.lazr. is a local multiplayer arena shooter with deliciously glitchy visuals. Up to four players using standard XBox controllers face off in a number of game modes. This was made in part as a homage to Warsow "insta-gib" deathmatch games, with one-hit kills, weapon-based movement, and easy to learn, hard to master mechanics. [play](https://gaeel.itch.io/lazr)
+.lazr. is a local multiplayer arena shooter with deliciously glitchy visuals. Up to four players using standard XBox controllers face off in a number of game modes.
 
-### Prepare to Meet Thy God [→](http://shakethatbutton.com/prepare-to-meet-thy-god/)
-The title and the original idea were inspired by [this photo, titled "The Long Walk"](https://en.wikipedia.org/wiki/Bomb_disposal#/media/File:Eod_technician_ireland.jpg)
-Prepare to Meet Thy God is an installation where the user is equipped with protective gear and an explosive ordinance disposal kit, and sent, alone, into a room where they'll have to find and defuse a bomb. The screen of the bomb includes clues as to the process to defuse it, but also threatening and disturbing messages. A camera films the user and the bomb, recording their every movement, but for the user, they're terribly alone, with only the weight of responsibility. [more](http://shakethatbutton.com/prepare-to-meet-thy-god/)
+I made this game while living in a friend's spare room after dropping out of college. There were often people at the house, and we'd play a lot of local multiplayer games, like Samurai Gunn and Towerfall. I started making this game in a weird attempt to try and mix this newfound love of local competitive play with some of the experiences I had online playing Warsow and Quake 2.   
+ Because of this context, .lazr. became a game that can be weirdly intense and cerebral when played by people who already know how to play, but also very weird and opaque for people who don't.
+ 
+If you'd like to learn to play .lazr., I recommend finding a friend who is about as competitive as you and spending an evening figuring out the movement mechanics. (Pro-tip, all of the weapons affect your movement in some way, and you're "slippery" as long as the trigger is held down)   
+[Download here](https://gaeel.itch.io/lazr)
+
 
 ### The Paper Sail [→](https://papersail.lab.arte.tv/)
 ![A paper boat on a screen](papersail.700w.jpg)
 A collaboration with [Cosmografik](http://cosmografik.fr/), The Paper Sail is a meditative experience where the user places a small paper sail on their touch-capable device (phone, tablet, Cintiq, etc…), and then explores a quiet archipelago. They'll meet insects, fish, and occasionally, another traveller. [play](https://papersail.lab.arte.tv/)
 
-## The Future
-Projects and ideas I'm working on or looking to start
-
-### Mind Thief [→](https://twitter.com/_gaeel_/status/1080566801237454851)
-![The Sentinel, emerging inside a hall of colums](thief.700w.jpg)
-A virtual reality experience inspired by the [Raymarching Toolkit](https://kev.town/raymarching-toolkit/) by [Kevin Watters](https://kev.town/) and [Fernando Ramallo](https://fernandoramallo.github.io/2018/).
-Raymarching allows for dynamic shapes that move and twist in uncanny ways, and when I started building a simple scene. [more](https://twitter.com/_gaeel_/status/1080566801237454851)
-
-## Get in touch
+## Get in touch <a name="contact"></a>
 E-Mail
   * [gaeel@nanoleptic.net](mailto:gaeel@nanoleptic.net)
   
@@ -57,5 +53,4 @@ Other identities:
 ---
 tags:
   - meta
-  - contact
   
