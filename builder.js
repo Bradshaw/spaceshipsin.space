@@ -28,6 +28,7 @@ var print = require('gulp-print').default;
 var errorHandler = require('gulp-error-handle')
 var debug = require('gulp-debug');
 var PluginError = require('plugin-error');
+var touch = require('touch');
 
 
 var yaml = require("js-yaml");
@@ -309,15 +310,8 @@ var builder = function(config){
   })
   
   gulp.task('cleanbuild', gulp.series('clean', 'cleantemp', 'preprocess', 'collecttags', 'mapandtag', 'build', 'reload'));
-  gulp.series('cleanbuild');
   var watcher = gulp.watch(path.join(config.root, config.all), gulp.series('cleanbuild'))
-  var time = new Date();
-  var filename = path.join(config.root, config.pugLayout);
-  try {
-    fs.utimesSync(filename, time, time);
-  } catch (err) {
-    fs.closeSync(fs.openSync(filename, 'w'));
-  }
+  touch(path.join(config.root, config.pugLayout));
 }
 
 function wrapPipe(taskFn) {
