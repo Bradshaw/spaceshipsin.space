@@ -53,6 +53,7 @@
     "reload": "^2.2.2",
     "serve-static": "^1.13.2",
     "through2": "^3.0.1",
+    "touch": "^3.1.0",
     "vega-embed": "^3.14.0",
     "vega-lite": "^2.5.2",
     "vinyl": "^2.2.0",
