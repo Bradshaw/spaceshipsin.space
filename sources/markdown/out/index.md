@@ -3,7 +3,7 @@ I am a designer and programmer, particularly interested in videogames, interacti
 If you're working on something weird, fun, thoughtful, or rebellious, please [get in touch](contact.html). I'd like to help you make that thing happen!   
 
 ## Things
-Some things I'm particularly proud of being a part of
+Some things I'm particularly proud of being involved with
 
 ### void.garden [→](https://voidgarden.itch.io/)
 ![void.garden logo](voidgarden.700w.jpg)
