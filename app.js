@@ -5,17 +5,23 @@ var serveStatic = require('serve-static');
 var reload = require('reload')
 var app = express().use(serveStatic(path.join(__dirname, 'build')));
 var reloader = reload(app);
+var argv = require('yargs').argv;
+/*
 app.listen(3000, function(){
     console.log('Server running on 3000...');
 });
-
+*/
+var dest = './build'
+if (argv.dest){
+  dest = argv.dest
+}
 
 // BUILDER
 var config = {
   title: 'Spaceships in Space',
   temp: './temp',
   pugLayout: 'pug/layout.pug',
-  dest: './build',
+  dest: dest,
   root: './sources',
   public: 'public/**',
   html: 'pug/out/*.pug',
@@ -24,7 +30,8 @@ var config = {
   jspath: 'js',
   jsname: 'app.js',
   markdown: 'markdown/out/**/*.md',
-  all: '**'
+  all: '**',
+  done: argv.b ? ()=>{process.exit(0)} : ()=>{console.log("Done building")}
 }
 // var libconfig = {
 //   dest: './build',
@@ -38,8 +45,7 @@ var config = {
 // }
 
 var builder = require('./builder')
-var reload = ()=>reloader.reload();
 console.log(config);
 
-builder(reload, config);
+builder(config);
 //builder(reload, libconfig);

@@ -57,6 +57,7 @@
     "vega-lite": "^2.5.2",
     "vinyl": "^2.2.0",
     "vinyl-buffer": "^1.0.1",
-    "vinyl-source-stream": "^2.0.0"
+    "vinyl-source-stream": "^2.0.0",
+    "yargs": "^14.2.0"
   }
 }

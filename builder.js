@@ -96,7 +96,7 @@ function splitYAML(cwd){
 
 
 
-var builder = function(reload, config){
+var builder = function(config){
   function getDefaultTitle(file, ext){
     var ext = ext || ".md"
     var filename = path.basename(file.path, ext);
@@ -303,15 +303,21 @@ var builder = function(reload, config){
   })
   
   gulp.task('reload', function(done) {
-    console.log("Build done, going for reload...");
-    reload();
+    console.log("Build done, calling \"done\" callback");
+    config.done();
     done();
   })
   
   gulp.task('cleanbuild', gulp.series('clean', 'cleantemp', 'preprocess', 'collecttags', 'mapandtag', 'build', 'reload'));
-  
-  var watcher = gulp.watch(path.join(config.root, config.all), gulp.series('cleanbuild'))
   gulp.series('cleanbuild');
+  var watcher = gulp.watch(path.join(config.root, config.all), gulp.series('cleanbuild'))
+  var time = new Date();
+  var filename = path.join(config.root, config.pugLayout);
+  try {
+    fs.utimesSync(filename, time, time);
+  } catch (err) {
+    fs.closeSync(fs.openSync(filename, 'w'));
+  }
 }
 
 function wrapPipe(taskFn) {
