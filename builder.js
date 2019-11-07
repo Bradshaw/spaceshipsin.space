@@ -311,7 +311,9 @@ var builder = function(config){
   
   gulp.task('cleanbuild', gulp.series('clean', 'cleantemp', 'preprocess', 'collecttags', 'mapandtag', 'build', 'reload'));
   var watcher = gulp.watch(path.join(config.root, config.all), gulp.series('cleanbuild'))
-  touch(path.join(config.root, config.pugLayout));
+  setTimeout(()=>{
+    touch(path.join(config.root, config.pugLayout));
+  },200)
 }
 
 function wrapPipe(taskFn) {
