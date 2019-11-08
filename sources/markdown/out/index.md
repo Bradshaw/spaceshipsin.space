@@ -39,7 +39,7 @@ You can try The Paper Sail [here](https://papersail.lab.arte.tv/), I recommend p
 
 ## Get in touch <a name="contact"></a>
 E-Mail
-  * [gaeel@nanoleptic.net](mailto:gaeel@nanoleptic.net)
+  * [gaeel@spaceshipsin.space](mailto:gaeel@spaceshipsin.space)
   
 Mastodon:
   * <a rel="me" href="https://stream.void.garden/@gaeel">@gaeel@stream.void.garden</a>
