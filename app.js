@@ -2,20 +2,14 @@
 var path = require('path');
 var express = require('express');
 var serveStatic = require('serve-static');
-var reload = require('reload')
-var app = express().use(serveStatic(path.join(__dirname, 'build')));
-var reloader = reload(app);
 var argv = require('yargs').argv;
-/*
-app.listen(3000, function(){
-    console.log('Server running on 3000...');
-});
-*/
 var dest = './build'
 if (argv.dest){
   dest = argv.dest
 }
-
+var app = express().use(serveStatic(dest));
+var reload = require('reload')
+var reloader = reload(app);
 
 // BUILDER
 var config = {
@@ -49,4 +43,11 @@ var builder = require('./builder')
 console.log(config);
 
 builder(config);
+
+if (!argv.b){
+  app.listen(3000, function(){
+    console.log('Server running on 3000...');
+  });
+}
+
 //builder(reload, libconfig);
