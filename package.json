@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node app.js"
   },
+  "engines" : { "node" : ">=0.10 <0.13" },
   "author": "Gaeel Bradshaw-Rodriguez <gaeel@nanoleptic.net> (https://gaeel.spaceshipsin.space)",
   "dependencies": {
     "@tensorflow/tfjs": "^0.11.1",
