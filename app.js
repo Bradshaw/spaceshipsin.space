@@ -24,7 +24,8 @@ var config = {
   css: 'sass/out/*.sass',
   jspath: 'js',
   jsname: 'app.js',
-  markdown: 'markdown/out/**/*.md',
+  markdown: 'markdown/out',
+  markglob: '/**/*.md',
   all: '**',
   done: argv.b ? ()=>{process.exit(0)} : ()=>{console.log("Done building")}
 }

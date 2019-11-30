@@ -8,3 +8,4 @@ title: Ethical Software
 tags:
   - ethics
   - blog
+status: unpublished

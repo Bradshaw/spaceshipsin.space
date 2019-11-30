@@ -30,6 +30,9 @@ var debug = require('gulp-debug');
 var PluginError = require('plugin-error');
 var touch = require('touch');
 
+var dateFormat = require('dateformat');
+var child_process = require('child_process');
+
 
 var yaml = require("js-yaml");
 //var gutil = require("gulp-util");
@@ -71,7 +74,7 @@ function markdownBuilder(){
   })
 }
 
-function splitYAML(cwd){
+function splitYAML(cwd, config){
   return through.obj(function(file, enc, next){
     var strings = file.contents.toString('utf8').split(/(?=%YAML)/);
     var base = path.join(file.path, '..');
@@ -84,12 +87,20 @@ function splitYAML(cwd){
       this.push(markdown)
     }
     if (strings.length>1){
-      var yaml = new vinyl({
+      var data = yaml.safeLoad(strings[1])
+      var mdpath = file.path;
+      data.updated = data.hasOwnProperty("updated") ? data.updated : new Date(child_process.execSync('git log -1 --pretty="format:%ci" '+mdpath));
+      data.updated = isNaN(data.updated) ? new Date() : data.updated;
+      data.created = data.hasOwnProperty("created") ? data.created : new Date(child_process.execSync('git log --pretty="format:%ci" '+mdpath+' | tail -1'))
+      data.created = isNaN(data.created) ? data.updated : data.created;
+      data.status = data.hasOwnProperty("status") ? data.status : "published";      
+      data.url = "/"+path.relative(path.join(config.root,config.markdown),file.path).replace(".md",".html");
+      var yamlob = new vinyl({
         cwd: cwd,
   			path: path.join(base,path.basename(file.path,".md")+".yaml"),
-  			contents: Buffer.from(strings[1])
+  			contents: Buffer.from(yaml.safeDump(data))
   		})
-      this.push(yaml)
+      this.push(yamlob)
     }
     next();
   })
@@ -227,9 +238,9 @@ var builder = function(config){
   
   gulp.task('preprocess', function(){
     try {
-      return gulp.src(path.join(config.root, config.markdown))
+      return gulp.src(path.join(config.root, config.markdown+config.markglob))
         .pipe(errorHandler())
-        .pipe(splitYAML(path.join(config.root,  "markdown", "out")))
+        .pipe(splitYAML(path.join(config.root,  "markdown", "out"), config))
         .pipe(gulp.dest(config.temp))
     } catch (e) {
       console.error(e)
@@ -246,16 +257,34 @@ var builder = function(config){
           try{
             var data = yaml.safeLoad(file.contents.toString())
             var memo = memo || [];
+            var mdpath = path.join(config.root, config.markdown, path.relative(config.temp,file.path).replace(".yaml",".md"));
+            var modDate = data.hasOwnProperty("updated") ? data.updated : new Date(child_process.execSync('git log -1 --pretty="format:%ci" '+mdpath));
+            modDate = isNaN(modDate) ? new Date() : modDate;
+            var creationDate = data.hasOwnProperty("created") ? data.created : new Date(child_process.execSync('git log --pretty="format:%ci" '+mdpath+' | tail -1'))
+            creationDate = isNaN(creationDate) ? modDate : creationDate;
+            var status = data.hasOwnProperty("status") ? data.status : "published";
+            var published = status!="unpublished"
             if (data.hasOwnProperty("tags")){
+              data.tags.unshift("all")
               for (var i = 0; i < data.tags.length; i++) {
                 var tag = data.tags[i];
                 if (!memo.hasOwnProperty(tag)){
                   memo[tag] = [];
                 }
-                memo[tag].push({
-                  url: "/"+path.relative(config.temp,file.path).replace(".yaml",".html"),
-                  title: data.title || getDefaultTitle(file, ".yaml")
-                });
+                if (true || published){
+                  memo[tag].push({
+                    url: "/"+path.relative(config.temp,file.path).replace(".yaml",".html"),
+                    title: data.title || getDefaultTitle(file, ".yaml"),
+                    updated: modDate,
+                    created: creationDate,
+                    status: status
+                  });
+                  memo[tag] = memo[tag].sort((a,b)=>{
+                    return new Date(b.created) - new Date(a.created);
+                  }).sort((a,b)=>{
+                    return new Date(b.date) - new Date(a.date);
+                  })
+                }
               }
             }  
           } catch (e) {
@@ -281,11 +310,16 @@ var builder = function(config){
     var tags = yaml.safeLoad(fs.readFileSync(path.join(config.temp,"tags.yaml")).toString('utf8'))
     var tagstr = "## All tags: \n"
     for (var tag in tags) {
+      //if (tag=="all") continue;
       var str = "## Pages tagged with: "+tag+"\n";
       if (tags.hasOwnProperty(tag)) {
-        tagstr+="* ["+tag+"](/tag/"+tag.replace(" ","-")+".html)\n"
+        if (tags[tag].filter(t=>t.status!="unpublished").length>0){
+          tagstr+="* ["+tag+"](/tag/"+tag.replace(" ","-")+".html)\n"
+        }
         for (var i = 0; i < tags[tag].length; i++) {
-          str+="* ["+tags[tag][i].title+"]("+tags[tag][i].url+")\n";
+          if (tags[tag][i].status!="unpublished"){
+            str+="* ["+tags[tag][i].title+" - "+dateFormat(new Date(tags[tag][i].updated), "mmmm dS, yyyy")+"]("+tags[tag][i].url+")\n";
+          }
         }
       }
       str+="\n[View all available tags](/tags.html)";
