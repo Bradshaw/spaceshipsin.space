@@ -43,6 +43,7 @@
     // pad `str`!
     return pad + str;
   }
+  
   function formatDate(date) {
     var monthNames = [
       "January", "February", "March",
@@ -52,10 +53,27 @@
     ];
 
     var day = date.getDate();
+    switch (day) {
+      case 1:
+      case 21:
+      case 31:
+        day+="st";
+        break;
+      case 2:
+      case 22:
+        day+="nd";
+        break;
+      case 3:
+      case 23:
+        day+="rd";
+        break;
+      default:
+        day+="th";
+    }
     var monthIndex = date.getMonth();
     var year = date.getFullYear();
 
-    return day + ' ' + monthNames[monthIndex] + ' ' + year;
+    return monthNames[monthIndex] + ' ' + day + ', ' + year;
   }
   function formatTime(date) {
     var hours = date.getHours();

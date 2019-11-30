@@ -33,14 +33,23 @@ html(lang="en")
 
       // Generated links
       br
-      hr
       br
+      hr
+    #footer
       h4 Related tags
       if tags
         ul
           each tag in tags
             li
               a(href="/tag/"+tag.replace(" ","-")+".html")= tag
-    #footer
-      p Last built: #{formatDate(new Date())} - #{formatTime(new Date())}
+      if created
+        - var datesEqual = new Date(updated).getTime() == new Date(created).getTime();
+        p
+          | Created: #{formatDate(new Date(created))} - #{formatTime(new Date(created))}
+          br
+          unless datesEqual
+            | Updated: #{formatDate(new Date(updated))} - #{formatTime(new Date(updated))}
+            br
+          | Last built: #{formatDate(new Date())} - #{formatTime(new Date())}
+          br
       include:marked [[dots]]/sources/markdown/footer.md
