@@ -37,7 +37,7 @@
     "gulp-reduce-file": "0.0.1",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "gulp-scale-images": "git+https://github.com/Bradshaw/gulp-scale-images.git",
+    "gulp-scale-images": "^2.0.0",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
