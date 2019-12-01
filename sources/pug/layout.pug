@@ -47,17 +47,18 @@ html(lang="en")
       #article
         include:marked [[markdown]]
 
-      // Generated links
       br
       br
       hr
     #footer
+      // Tags
       h4 Related tags
       if tags
         ul
           each tag in tags
             li
               a(href="/tag/"+tag.replace(" ","-")+".html")= tag
+      // Metadata
       if created
         p
           | Created: #{formatDate(new Date(created))} - #{formatTime(new Date(created))}

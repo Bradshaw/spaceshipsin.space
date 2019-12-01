@@ -93,7 +93,7 @@ function getFirstImageURL(mdpath){
   const dom = new JSDOM(htmlstr);
   var firstP = dom.window.document.querySelector("p")
   var image = dom.window.document.querySelector("img")
-  var first = (image && firstP.contains(image)) ? image.src : "/favicon.ico";
+  var first = (image && firstP.contains(image)) ? image.src : "/favicon.png";
   return first;
 }
 
