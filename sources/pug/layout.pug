@@ -58,9 +58,12 @@ html(lang="en")
       h4 Related tags
       if tags
         ul
+          - tags.unshift('all')            
           each tag in tags
             li
-              a(href="/tag/"+tag.replace(" ","-")+".html")= tag
+              span
+                a(href="/tag/"+tag.replace(" ","-")+".html")= tag
+                a.rss(href="/tag/"+tag.replace(" ","-")+"/rss.xml") (rss.xml)
       // Metadata
       if created
         p
