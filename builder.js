@@ -348,7 +348,8 @@ var builder = function(config){
       str += "[Get these pages as an RSS feed](/tag/"+tag+"/rss.xml)\n\n";
       if (tags.hasOwnProperty(tag)) {
         if (tags[tag].filter(t=>t.status!="unpublished").length>0){
-          tagstr+="* ["+tag+"](/tag/"+tag.replace(" ","-")+".html)\n"
+          tagstr+="* ["+tag+"](/tag/"+tag.replace(" ","-")+".html)"
+          tagstr+=" <a class=\"rss\" href=\"/tag/"+tag.replace(" ","-")+"/rss.xml)\">(rss.xml)</a>\n"
         }
         for (var i = 0; i < tags[tag].length; i++) {
           if (tags[tag][i].status!="unpublished"){
