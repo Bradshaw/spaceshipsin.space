@@ -14,6 +14,7 @@ var reloader = reload(app);
 // BUILDER
 var config = {
   title: 'Spaceships in Space',
+  siteURL: 'https://spaceshipsin.space/',
   temp: './temp',
   pugLayout: 'pug/layout.pug',
   dest: dest,

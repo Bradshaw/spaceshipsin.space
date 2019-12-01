@@ -35,6 +35,9 @@ var child_process = require('child_process');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
+var RSS = require('rss');
+var urljoin = require('urljoin');
+
 var yaml = require("js-yaml");
 //var gutil = require("gulp-util");
 
@@ -342,6 +345,7 @@ var builder = function(config){
     for (var tag in tags) {
       //if (tag=="all") continue;
       var str = "## Pages tagged with: "+tag+"\n";
+      str += "[Get these pages as an RSS feed](/tag/"+tag+"/rss.xml)\n\n";
       if (tags.hasOwnProperty(tag)) {
         if (tags[tag].filter(t=>t.status!="unpublished").length>0){
           tagstr+="* ["+tag+"](/tag/"+tag.replace(" ","-")+".html)\n"
@@ -359,6 +363,42 @@ var builder = function(config){
     done();
   })
   
+  gulp.task('generate-rss', function(done){
+    var tags = yaml.safeLoad(fs.readFileSync(path.join(config.temp,"tags.yaml")).toString('utf8'))
+    for (var tag in tags) {
+      if (tags.hasOwnProperty(tag)) {
+        if (tags[tag].filter(t=>t.status!="unpublished").length>0){
+          var feed = new RSS({
+            title: tag+" @ "+config.title,
+            description: "Articles tagged with \""+tag+"\" on "+config.title,
+            feed_url: config.siteURL+'tag/'+tag+"/rss.xml",
+            site_url: config.siteURL+'tag/'+tag,
+            generator: "spaceshipsin-space",
+            categories: [tag]
+          })
+          for (var i = 0; i < tags[tag].length; i++) {
+            if (tags[tag][i].status!="unpublished"){
+              var item = tags[tag][i];
+              feed.item({
+                title: item.title,
+                description: item.preview,
+                url: urljoin(config.siteURL,item.url),
+                categories: item.tags,
+                date: new Date(item.updated),
+              })
+            }
+          }
+          var folderpath = path.join(config.dest,"tag",tag);
+          var filepath = path.join(folderpath, "rss.xml");
+          fs.mkdirSync(folderpath)
+          fs.writeFileSync(filepath, feed.xml({indent: true}));
+        }
+      }
+    }
+    //fs.writeFileSync(path.join(config.temp,"tags.md"), tagstr);
+    done();
+  })
+  
   gulp.task('build', gulp.parallel('markdown', 'css', 'public' ));
   
   gulp.task('clearscreen', function(done) {
@@ -373,7 +413,7 @@ var builder = function(config){
     done();
   })
   
-  gulp.task('cleanbuild', gulp.series('clean', 'cleantemp', 'preprocess', 'collecttags', 'mapandtag', 'build', 'reload'));
+  gulp.task('cleanbuild', gulp.series('clean', 'cleantemp', 'preprocess', 'collecttags', 'mapandtag', 'build', 'generate-rss', 'reload'));
   var watcher = gulp.watch(path.join(config.root, config.all), gulp.series('cleanbuild'))
   setTimeout(()=>{
     touch(path.join(config.root, config.pugLayout));
