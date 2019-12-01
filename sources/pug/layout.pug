@@ -1,5 +1,7 @@
 include [[dots]]/sources/pug/utils
 doctype html
+if (created)
+  - var datesEqual = new Date(updated).getTime() == new Date(created).getTime();
 html(lang="en")
   head
     title= title
@@ -7,6 +9,18 @@ html(lang="en")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     link(rel='stylesheet', href='/style.css')
+    if (created)
+      meta(property="og:site_name" content="Spaceships in Space")
+      meta(property="og:title" content=title)
+      meta(property="og:description" content=preview)
+      meta(property="og:image" content=imageURL)
+      meta(property="og:type" content="article")
+      meta(property="article:published_time" content=created)
+      unless datesEqual
+        meta(property="article:modified_time" content=updated)
+      if tags
+        each tag in tags
+          meta(property="article:tag" content=tag)
     
   body
     #thepage
@@ -29,7 +43,8 @@ html(lang="en")
       hr
 
       // Main article
-      include:marked [[markdown]]
+      #article
+        include:marked [[markdown]]
 
       // Generated links
       br
@@ -43,7 +58,6 @@ html(lang="en")
             li
               a(href="/tag/"+tag.replace(" ","-")+".html")= tag
       if created
-        - var datesEqual = new Date(updated).getTime() == new Date(created).getTime();
         p
           | Created: #{formatDate(new Date(created))} - #{formatTime(new Date(created))}
           br

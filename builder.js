@@ -32,7 +32,8 @@ var touch = require('touch');
 
 var dateFormat = require('dateformat');
 var child_process = require('child_process');
-
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
 
 var yaml = require("js-yaml");
 //var gutil = require("gulp-util");
@@ -74,6 +75,28 @@ function markdownBuilder(){
   })
 }
 
+function getFirstParagraph(mdpath){
+  var mdstr = fs.readFileSync(mdpath, 'utf8');
+  var htmlstr = md.render(mdstr);
+  const dom = new JSDOM(htmlstr);
+  var paragraphs = dom.window.document.getElementsByTagName("p")
+  var i = 0;
+  while (i<paragraphs.length && paragraphs[i].contains(dom.window.document.querySelector("img"))){
+    i++;
+  }
+  var first = i<paragraphs.length ? paragraphs[i].textContent : "No preview";
+  return first;
+}
+function getFirstImageURL(mdpath){
+  var mdstr = fs.readFileSync(mdpath, 'utf8');
+  var htmlstr = md.render(mdstr);
+  const dom = new JSDOM(htmlstr);
+  var firstP = dom.window.document.querySelector("p")
+  var image = dom.window.document.querySelector("img")
+  var first = (image && firstP.contains(image)) ? image.src : "/favicon.ico";
+  return first;
+}
+
 function splitYAML(cwd, config){
   return through.obj(function(file, enc, next){
     var strings = file.contents.toString('utf8').split(/(?=%YAML)/);
@@ -89,6 +112,8 @@ function splitYAML(cwd, config){
     if (strings.length>1){
       var data = yaml.safeLoad(strings[1])
       var mdpath = file.path;
+      data.preview = data.hasOwnProperty("preview") ? data.preview : getFirstParagraph(mdpath);
+      data.imageURL = data.hasOwnProperty("imageURL") ? data.imageURL : getFirstImageURL(mdpath);
       data.updated = data.hasOwnProperty("updated") ? data.updated : new Date(child_process.execSync('git log -1 --pretty="format:%ci" '+mdpath));
       data.updated = isNaN(data.updated) ? new Date() : data.updated;
       data.created = data.hasOwnProperty("created") ? data.created : new Date(child_process.execSync('git log --pretty="format:%ci" '+mdpath+' | tail -1'))
@@ -264,6 +289,9 @@ var builder = function(config){
             creationDate = isNaN(creationDate) ? modDate : creationDate;
             var status = data.hasOwnProperty("status") ? data.status : "published";
             var published = status!="unpublished"
+            var tags = data.tags;
+            var preview = data.preview;
+            var imageURL = data.imageURL
             if (data.hasOwnProperty("tags")){
               data.tags.unshift("all")
               for (var i = 0; i < data.tags.length; i++) {
@@ -277,7 +305,10 @@ var builder = function(config){
                     title: data.title || getDefaultTitle(file, ".yaml"),
                     updated: modDate,
                     created: creationDate,
-                    status: status
+                    status: status,
+                    preview: preview,
+                    imageURL: imageURL,
+                    tags: tags
                   });
                   memo[tag] = memo[tag].sort((a,b)=>{
                     return new Date(b.created) - new Date(a.created);

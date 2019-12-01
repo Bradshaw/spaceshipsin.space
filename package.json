@@ -47,6 +47,7 @@
     "gutil": "^1.6.4",
     "handlebars": "^4.0.11",
     "js-yaml": "^3.12.2",
+    "jsdom": "^15.2.1",
     "jstransformer-markdown-it": "^2.1.0",
     "jstransformer-marked": "^1.0.3",
     "markdown-it": "^8.4.2",
