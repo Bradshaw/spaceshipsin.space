@@ -142,7 +142,6 @@ var builder = function(config){
         .split(/[ -]/)
         .map(s=>s.charAt(0).toUpperCase() + s.slice(1))
         .join(" ")
-        + " - " + config.title;
     } else {
       return config.title
     }
@@ -179,7 +178,7 @@ var builder = function(config){
           if (!data.hasOwnProperty("title")){
             data.title = getDefaultTitle(file);
           }
-          data.title = data.title + " - " + config.title
+          data.title = data.title
           return data;
         } else {
           return {
