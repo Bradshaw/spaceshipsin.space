@@ -119,7 +119,7 @@ function splitYAML(cwd, config){
       data.created = data.hasOwnProperty("created") ? data.created : new Date(child_process.execSync('git log --pretty="format:%ci" '+mdpath+' | tail -1'))
       data.created = isNaN(data.created) ? data.updated : data.created;
       data.status = data.hasOwnProperty("status") ? data.status : "published";      
-      data.url = "/"+path.relative(path.join(config.root,config.markdown),file.path).replace(".md",".html");
+      data.url = "/"+path.relative(path.join(config.root,config.markdown),file.path).replace(".md","");
       var yamlob = new vinyl({
         cwd: cwd,
   			path: path.join(base,path.basename(file.path,".md")+".yaml"),
@@ -301,7 +301,7 @@ var builder = function(config){
                 }
                 if (true || published){
                   memo[tag].push({
-                    url: "/"+path.relative(config.temp,file.path).replace(".yaml",".html"),
+                    url: "/"+path.relative(config.temp,file.path).replace(".yaml",""),
                     title: data.title || getDefaultTitle(file, ".yaml"),
                     updated: modDate,
                     created: creationDate,
