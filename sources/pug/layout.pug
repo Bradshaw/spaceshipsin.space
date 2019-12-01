@@ -10,6 +10,7 @@ html(lang="en")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     link(rel='stylesheet', href='/style.css')
     if (created)
+      // OpenGraph & Twitter tags
       meta(property="og:site_name" content="Spaceships in Space")
       meta(property="og:title" content=title)
       meta(property="og:url" content="https://spaceshipsin.space"+url)
@@ -49,14 +50,11 @@ html(lang="en")
       // Main article
       #article
         include:marked [[markdown]]
-
-      br
-      br
-      hr
     #footer
+      hr
       // Tags
-      h4 Related tags
       if tags
+        h4 Related tags
         ul
           - tags.unshift('all')            
           each tag in tags
@@ -64,14 +62,16 @@ html(lang="en")
               span
                 a(href="/tag/"+tag.replace(" ","-")+".html")= tag
                 a.rss(href="/tag/"+tag.replace(" ","-")+"/rss.xml") (rss.xml)
+      // Build text
+      include:marked [[dots]]/sources/markdown/footer.md
       // Metadata
       if created
-        p
-          | Created: #{formatDate(new Date(created))} - #{formatTime(new Date(created))}
-          br
-          unless datesEqual
-            | Updated: #{formatDate(new Date(updated))} - #{formatTime(new Date(updated))}
+        hr
+        .publishing-info
+          p
+            | Created: #{formatDate(new Date(created))} - #{formatTime(new Date(created))}
             br
-          | Last built: #{formatDate(new Date())} - #{formatTime(new Date())}
-          br
-      include:marked [[dots]]/sources/markdown/footer.md
+            unless datesEqual
+              | Updated: #{formatDate(new Date(updated))} - #{formatTime(new Date(updated))}
+              br
+            | Last built: #{formatDate(new Date())} - #{formatTime(new Date())}
