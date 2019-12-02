@@ -41,12 +41,9 @@ You can try The Paper Sail [here](https://papersail.lab.arte.tv/), I recommend p
 E-Mail
   * [gaeel@spaceshipsin.space](mailto:gaeel@spaceshipsin.space)
   
-Mastodon:
-  * <a rel="me" href="https://stream.void.garden/@gaeel">@gaeel@stream.void.garden</a>
-  * <a rel="me" href="https://merveilles.town/@gaeel">@gaeel@merveilles.town</a>
-  
-Twitter:
-  * <a rel="me" href="https://twitter.com/_gaeel_">@\_gaeel\_</a>
+Social:
+  * Mastodon: <a rel="me" href="https://stream.void.garden/@gaeel">@gaeel@stream.void.garden</a>
+  * Twitter: <a rel="me" href="https://twitter.com/_gaeel_">@\_gaeel\_</a>
 
 Other identities:
   * [Itch.io](https://gaeel.itch.io/)
