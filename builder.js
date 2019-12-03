@@ -168,7 +168,7 @@ var builder = function(config){
           var dirname = path.join("..","..","..","..","..","..",path.dirname(file.path))
           var tryPath = path.join("..","temp",dirname,path.basename(file.path))
           return pugLayout
-            .replace('[[markdown]]', tryPath)
+            .replace(/\[\[markdown\]\]/g, tryPath)
             .replace(/\[\[dots\]\]/g, dots);
         }
       }))
@@ -391,7 +391,7 @@ var builder = function(config){
           }
           var folderpath = path.join(config.dest,"tag",tag);
           var filepath = path.join(folderpath, "rss.xml");
-          fs.mkdirSync(folderpath)
+          fs.mkdirSync(folderpath, {recursive : true})
           fs.writeFileSync(filepath, feed.xml({indent: true}));
         }
       }
