@@ -48,8 +48,17 @@ html(lang="en")
       hr
 
       // Main article
-      #article
-        include:marked [[markdown]]
+      article#article.h-entry
+        .e-content
+          include:marked [[markdown]]
+        if created
+          #indieweb.hidden
+            .p-name= title
+            time.dt-published= (new Date(updated)).toString()
+            p.p-summary= preview
+            a.p-author.h-card(href="https://spaceshipsin.space") Gaeel
+              img(src="/favicon.png")
+            
     #footer
       hr
       // Tags
