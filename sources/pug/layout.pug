@@ -48,24 +48,28 @@ html(lang="en")
       hr
 
       // Main article
-      article#article.h-entry
-        .e-content
-          include:marked [[markdown]]
-        if created
+      if created
+        article#article.h-entry
           #indieweb.hidden
             .p-name= title
-            time.dt-published= (new Date(updated)).toString()
+          #indieweb.e-content
+            include:marked [[markdown]]
+          #indieweb.hidden
             p.p-summary= preview
-            a.p-author.h-card(href="https://spaceshipsin.space") Gaeel
+            a.u-url(href="https://spaceshipsin.space"+url)
+              time.dt-published= (new Date(updated)).toString()
+            a.p-author.h-card(rel="author" href="https://spaceshipsin.space") Gaeel
               img(src="/favicon.png")
-            
+      else
+        #article
+          include:marked [[markdown]]    
     #footer
       hr
       // Tags
       if tags
         h4 Related tags
         ul
-          - tags.unshift('all')            
+          - tags.unshift('all')
           each tag in tags
             li
               span
