@@ -50,14 +50,14 @@ html(lang="en")
       // Main article
       if created
         article#article.h-entry
-          #indieweb.hidden
+          .indieweb.hidden
             .p-name= title
-          #indieweb.e-content
+          .indieweb.e-content
             include:marked [[markdown]]
-          #indieweb.hidden
+          .indieweb.hidden
             p.p-summary= preview
             a.u-url(href="https://spaceshipsin.space"+url)
-              time.dt-published= (new Date(updated)).toString()
+              time.dt-published= update
             a.p-author.h-card(rel="author" href="https://spaceshipsin.space") Gaeel
               img(src="/favicon.png")
       else
