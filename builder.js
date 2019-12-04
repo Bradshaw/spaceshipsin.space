@@ -160,16 +160,8 @@ var builder = function(config){
       .pipe(modify({
         fileModifier: function(file, contents){
           var pugLayout = fs.readFileSync(path.join(config.root, config.pugLayout),'utf8');
-          var depth = (file.path.split("/").length - 7);
-          var dots = "..";
-          for (var i = 0; i<depth; i++){
-            dots = path.join("..",dots);
-          }
-          var dirname = path.join("..","..","..","..","..","..",path.dirname(file.path))
-          var tryPath = path.join("..","temp",dirname,path.basename(file.path))
           return pugLayout
-            .replace(/\[\[markdown\]\]/g, tryPath)
-            .replace(/\[\[dots\]\]/g, dots);
+            .replace(/\[\[markdown\]\]/g, path.basename(file.path));
         }
       }))
       .pipe(data(file=>{
