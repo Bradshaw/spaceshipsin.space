@@ -1,4 +1,4 @@
-include [[dots]]/sources/pug/utils
+include /utils
 doctype html
 if (created)
   - var datesEqual = new Date(updated).getTime() == new Date(created).getTime();
@@ -76,7 +76,7 @@ html(lang="en")
                 a(href="/tag/"+tag.replace(" ","-")+".html")= tag
                 a.rss(href="/tag/"+tag.replace(" ","-")+"/rss.xml") (rss.xml)
       // Build text
-      include:marked [[dots]]/sources/markdown/footer.md
+      include:marked /../markdown/footer.md
       // Metadata
       if created
         hr
