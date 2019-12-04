@@ -253,6 +253,7 @@ var builder = function(config){
   gulp.task('clean', function(done) {
     del([path.join(config.dest, '*')]).then(paths => {
       console.log('Deleted files and folders:\n\t'+ paths.join('\n\t'));
+      fs.mkdirSync(path.join(config.dest,"tag"), {recursive : true})
       done();
     });
   });
@@ -349,7 +350,7 @@ var builder = function(config){
       if (tags.hasOwnProperty(tag)) {
         if (tags[tag].filter(t=>t.status!="unpublished").length>0){
           tagstr+="* ["+tag+"](/tag/"+tag.replace(" ","-")+".html)"
-          tagstr+=" <a class=\"rss\" href=\"/tag/"+tag.replace(" ","-")+"/rss.xml)\">(rss.xml)</a>\n"
+          tagstr+=" <a class=\"rss\" href=\"/tag/"+tag.replace(" ","-")+"/rss.xml\">(rss.xml)</a>\n"
         }
         for (var i = 0; i < tags[tag].length; i++) {
           if (tags[tag][i].status!="unpublished"){
@@ -414,7 +415,7 @@ var builder = function(config){
     done();
   })
   
-  gulp.task('cleanbuild', gulp.series('clean', 'cleantemp', 'preprocess', 'collecttags', 'mapandtag', 'build', 'generate-rss', 'reload'));
+  gulp.task('cleanbuild', gulp.series('clean', 'cleantemp', 'preprocess', 'collecttags', 'mapandtag', 'generate-rss', 'build', 'reload'));
   var watcher = gulp.watch(path.join(config.root, config.all), gulp.series('cleanbuild'))
   setTimeout(()=>{
     touch(path.join(config.root, config.pugLayout));
