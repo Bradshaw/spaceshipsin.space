@@ -390,13 +390,16 @@ var builder = function(config){
     done();
   })
   
-  gulp.task('build', gulp.parallel('markdown', 'css', 'public' ));
+  
+  gulp.task('tag-to-site', gulp.series('preprocess', 'collecttags', gulp.parallel('mapandtag', 'generate-rss' )));
+  gulp.task('generate', gulp.parallel('public', 'css', gulp.series('tag-to-site', 'markdown')));
   
   gulp.task('clearscreen', function(done) {
     console.clear();
     console.log("Building...");
     done();
   })
+  gulp.task('prepare', gulp.series('clearscreen', gulp.parallel('clean', 'cleantemp')))
   
   gulp.task('reload', function(done) {
     console.log("Build done, calling \"done\" callback");
@@ -404,7 +407,8 @@ var builder = function(config){
     done();
   })
   
-  gulp.task('cleanbuild', gulp.series('clean', 'cleantemp', 'preprocess', 'collecttags', 'mapandtag', 'generate-rss', 'build', 'reload'));
+  
+  gulp.task('cleanbuild', gulp.series('prepare', 'generate', 'reload'));
   var watcher = gulp.watch(path.join(config.root, config.all), gulp.series('cleanbuild'))
   setTimeout(()=>{
     touch(path.join(config.root, config.pugLayout));
