@@ -67,7 +67,7 @@ function htmlBuilder(htmlpath) {
       .pipe(errorHandler())
       .pipe(pug())
       .pipe(gulp.dest('build'))
-      .pipe(print(filepath => `generated: ${filepath}`))
+      //.pipe(print(filepath => `generated: ${filepath}`))
   }
 }
 
@@ -155,7 +155,7 @@ var builder = function(config){
   gulp.task('markdown', function(){
     var all = []
     return gulp.src(path.join(config.temp+"/**/*.md"))
-      .pipe(print(filepath => `working: ${filepath}`))
+      //.pipe(print(filepath => `working: ${filepath}`))
       .pipe(errorHandler())
       .pipe(modify({
         fileModifier: function(file, contents){
@@ -193,11 +193,11 @@ var builder = function(config){
         p = path.join(config.root, config.pugLayout);
       }))
       .pipe(pug({
-        basedir: '/Users/Gaeel/dev/newSpaceships/sources/pug/',
+        basedir: path.join(config.root, config.pug),
         pretty: true
       }))
       .pipe(gulp.dest(config.dest))
-      .pipe(print(filepath => `generated: ${filepath}`))
+      //.pipe(print(filepath => `generated: ${filepath}`))
   })
 
   gulp.task('css', function(){
@@ -206,7 +206,7 @@ var builder = function(config){
       .pipe(sass())
       //.pipe(minifyCSS())
       .pipe(gulp.dest(config.dest))
-      .pipe(print(filepath => `generated: ${filepath}`))
+      //.pipe(print(filepath => `generated: ${filepath}`))
   });
 
   gulp.task('js', function () {
@@ -247,19 +247,16 @@ var builder = function(config){
         return [".jpg",".jpeg",".png"].includes(path.extname(file.path));
       }, scale()))
       .pipe(gulp.dest(config.dest))
-      .pipe(print(filepath => `copied: ${filepath}`))
+      //.pipe(print(filepath => `copied: ${filepath}`))
   });
 
   gulp.task('clean', function(done) {
     del([path.join(config.dest, '*')]).then(paths => {
-      console.log('Deleted files and folders:\n\t'+ paths.join('\n\t'));
-      fs.mkdirSync(path.join(config.dest,"tag"), {recursive : true})
       done();
     });
   });
   gulp.task('cleantemp', function(done) {
     del([path.join(config.temp, '*')]).then(paths => {
-      console.log('Deleted files and folders:\n\t'+ paths.join('\n\t'));
       done();
     });
   });
@@ -277,7 +274,7 @@ var builder = function(config){
   
   gulp.task('collecttags', function(){
     return gulp.src(config.temp+"/**/*.yaml")
-      .pipe(debug({title: 'unicorn:'}))
+      //.pipe(debug({title: 'unicorn:'}))
       //.pipe(yamlMerge('tags.yaml'))
       .pipe(doMerge(
         "tags.yaml",
