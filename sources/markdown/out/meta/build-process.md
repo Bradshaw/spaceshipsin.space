@@ -39,7 +39,7 @@ Either way, it does actually work. Now I can write articles such as this one, re
 
 <hr>
 
-If you have any questions about all of this, feel free to [get in touch](/contact.html). I'm probably not the best person to talk to about modern web software, but I feel like I've learnt a few things along the way.  
+If you have any questions about all of this, feel free to [get in touch](/#contact). I'm probably not the best person to talk to about modern web software, but I feel like I've learnt a few things along the way.  
 If you have the know-how (or want to use [this system](https://drydock.spaceshipsin.space/gaeel/spaceshipsin-space)), I recommend doing something like this. Updating my website is now super easy, and I don't have to fiddle with a CMS or authentication or anything.
 
 

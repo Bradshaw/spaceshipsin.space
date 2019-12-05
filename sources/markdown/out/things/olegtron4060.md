@@ -19,7 +19,7 @@ You can connect up to 4 stereo 2.5" jacks, so the 4060 is also a fun social expe
 The flashing lights and weird look makes it great nerd bait. I brought the 4060 to FOSDEM and was sat at the cafeteria playing with a friend, other people were curious and wanted to have a go. It was a pleasant experience, jamming with strangers, that I will attempt to recreate at other events I go to.
 
 ### Using with other gear
-Because the 4060 accepts anything from 3v to 15v for power, and has some flexibility regarding its output voltages, it's easy to connect it to other devices or synths, and respect their expected values. I connected it to [my AE Modular](/things/ae-modular.html) a few times, and the 4060 turned it into a rowdy little machine. [Listen to some of the weirdness: killdest.ogg](/audiogear/killdest.ogg)
+Because the 4060 accepts anything from 3v to 15v for power, and has some flexibility regarding its output voltages, it's easy to connect it to other devices or synths, and respect their expected values. I connected it to [my AE Modular](/things/ae-modular) a few times, and the 4060 turned it into a rowdy little machine. [Listen to some of the weirdness: killdest.ogg](/audiogear/killdest.ogg)
 
 
 %YAML 1.2
