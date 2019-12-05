@@ -338,7 +338,7 @@ var builder = function(config){
       str += "[Get these pages as an RSS feed](/tag/"+tag+"/rss.xml)\n\n";
       if (tags.hasOwnProperty(tag)) {
         if (tags[tag].filter(t=>t.status!="unpublished").length>0){
-          tagstr+="* ["+tag+"](/tag/"+tag.replace(" ","-")+".html)"
+          tagstr+="* ["+tag+"](/tag/"+tag.replace(" ","-")+")"
           tagstr+=" <a class=\"rss\" href=\"/tag/"+tag.replace(" ","-")+"/rss.xml\">(rss.xml)</a>\n"
         }
         for (var i = 0; i < tags[tag].length; i++) {
@@ -347,7 +347,7 @@ var builder = function(config){
           }
         }
       }
-      str+="\n[View all available tags](/tags.html)";
+      str+="\n[View all available tags](/tags)";
       fs.writeFileSync(path.join(config.temp,"tag",tag.replace(" ","-")+".md"), str);
     }
     fs.writeFileSync(path.join(config.temp,"tags.md"), tagstr);

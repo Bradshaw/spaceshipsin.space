@@ -1,6 +1,6 @@
 Hello, my name is __Gaeel&nbsp;Bradshaw‑Rodriguez__  
 I am a designer and programmer, particularly interested in videogames, interactivity, and technology   
-If you're working on something weird, fun, thoughtful, or rebellious, please [get in touch](contact.html). I'd like to help you make that thing happen!   
+If you're working on something weird, fun, thoughtful, or rebellious, please [get in touch](/#contact). I'd like to help you make that thing happen!   
 
 ## Things
 Some things I'm particularly proud of being involved with
