@@ -1,15 +1,15 @@
 // SERVER
+var fs = require('fs')
 var path = require('path');
 var express = require('express');
 var serveStatic = require('serve-static');
+var mime = require('mime-types')
 var argv = require('yargs').argv;
 var dest = './build'
 if (argv.dest){
   dest = argv.dest
 }
-var app = express().use(serveStatic(dest));
 var reload = require('reload')
-var reloader = reload(app);
 
 // BUILDER
 var config = {
@@ -47,9 +47,50 @@ console.log(config);
 builder(config);
 
 if (!argv.b){
+  var app = express();
+  app.use(function(req, res, next) {
+    if (req.path.substr(-1) == '/' && req.path.length > 1) {
+        let query = req.url.slice(req.path.length);
+        res.redirect(301, req.path.slice(0, -1) + query);
+    } else {
+        next();
+    }
+  });
+  app.get('/', (req, res, next)=>{
+    fs.readFile(path.join(dest, "index.html"), (err, data)=>{
+      if (err){
+        next();
+      } else {
+        res.set('Content-Type', 'text/html');
+        res.send(data);
+      }
+    })
+  })
+  app.get(/.*/, (req, res, next)=>{
+    fs.readFile(path.join(dest, req.path), (err, data)=>{
+      if (err){
+        next();
+      } else {
+        var mtype = mime.lookup(req.path);
+        res.set('Content-Type', mtype ? mtype : 'text/plain');
+        res.send(data);
+      }
+    })
+  })
+  app.get(/.*/, (req, res, next)=>{
+    fs.readFile(path.join(dest, req.path+".html"), (err, data)=>{
+      if (err){
+        next();
+      } else {
+        res.set('Content-Type', 'text/html');
+        res.send(data);
+      }
+    })
+  })
   app.listen(3000, function(){
     console.log('Server running on 3000...');
   });
+  var reloader = reload(app);
 }
 
 //builder(reload, libconfig);
