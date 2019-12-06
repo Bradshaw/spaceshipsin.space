@@ -348,7 +348,7 @@ var builder = function(config){
     for (var tag in tags) {
       //if (tag=="all") continue;
       var str = "## Pages tagged with _"+tag+"_\n";
-      str += "[Get these pages as an RSS feed](/tag/"+tag+"/rss.xml)\n\n";
+      str += "[Get this tag as an RSS feed](/tag/"+tag+"/rss.xml)\n\n";
       if (tags.hasOwnProperty(tag)) {
         if (tags[tag].filter(t=>t.status!="unpublished").length>0){
           tagstr+="* ["+tag+"](/posts/"+tag.replace(" ","-")+")"
@@ -376,7 +376,7 @@ var builder = function(config){
       //if (tag=="all") continue;
       var str = "# Posts tagged with _"+tag+"_\n";
       str += "\n[View all available tags](/tags)<br />";
-      str += "[Get these pages as an RSS feed](/tag/"+tag+"/rss.xml)\n\n";
+      str += "[Get this feed as RSS](/tag/"+tag+"/rss.xml)\n\n";
       if (tags.hasOwnProperty(tag)) {
         for (var i = 0; i < tags[tag].length; i++) {
           if (tag=="all") {
