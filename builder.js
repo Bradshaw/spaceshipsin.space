@@ -188,19 +188,19 @@ var builder = function(config){
         basedir: path.join(config.root, config.pug),
         pretty: true
       }))
-      .pipe(modify({
-          fileModifier: (file, contents)=>{
-            const dom = new JSDOM(contents);
-            Array.from(dom.window.document.querySelectorAll( 'a' ) )
-            .forEach( a => {
-              if (dom.window.location.hostname !== a.hostname && a.hostname.length) {
-                a.classList.add('external');
-                a.target = '_blank';
-              }
-            });
-            return dom.serialize();
-          }
-      }))
+      // .pipe(modify({
+      //     fileModifier: (file, contents)=>{
+      //       const dom = new JSDOM(contents);
+      //       Array.from(dom.window.document.querySelectorAll( 'a' ) )
+      //       .forEach( a => {
+      //         if (dom.window.location.hostname !== a.hostname && a.hostname.length) {
+      //           a.classList.add('external');
+      //           a.target = '_blank';
+      //         }
+      //       });
+      //       return dom.serialize();
+      //     }
+      // }))
       .pipe(gulp.dest(config.dest))
       //.pipe(print(filepath => `generated: ${filepath}`))
   })
