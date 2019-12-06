@@ -350,13 +350,15 @@ var builder = function(config){
       var str = "## Pages tagged with _"+tag+"_\n";
       str += "[Get this tag as an RSS feed](/tag/"+tag+"/rss.xml)\n\n";
       if (tags.hasOwnProperty(tag)) {
-        if (tags[tag].filter(t=>t.status!="unpublished").length>0){
-          tagstr+="* ["+tag+"](/posts/"+tag.replace(" ","-")+")"
+        var pub = tags[tag].filter(t=>t.status!="unpublished");
+        if (pub.length>0){
+          var count = pub.length;
+          tagstr+="* [**"+tag+"** ("+count+"post"+(count==1?"":"s")+")](/posts/"+tag.replace(" ","-")+")"
           tagstr+=" <a class=\"rss\" href=\"/tag/"+tag.replace(" ","-")+"/rss.xml\">(rss.xml)</a>\n"
         }
-        for (var i = 0; i < tags[tag].length; i++) {
-          if (tags[tag][i].status!="unpublished"){
-            str+="* ["+tags[tag][i].title+" - "+dateFormat(new Date(tags[tag][i].updated), "mmmm dS, yyyy")+"]("+tags[tag][i].url+")\n";
+        for (var i = 0; i < pub.length; i++) {
+          if (pub[i].status!="unpublished"){
+            str+="* ["+pub[i].title+" - "+dateFormat(new Date(pub[i].updated), "mmmm dS, yyyy")+"]("+pub[i].url+")\n";
           }
         }
       }
@@ -371,7 +373,8 @@ var builder = function(config){
     fs.mkdirSync(path.join(config.temp,"posts"))
     var tags = yaml.safeLoad(fs.readFileSync(path.join(config.temp,"tags.yaml")).toString('utf8'))
     var tagstr = "# All posts\n"
-    tagstr+="\n[Filter by tag](/tags)\n";
+    tagstr += "\n[Filter by tag](/tags)<br />";
+    tagstr += "[Get this feed as RSS](/tag/"+tag+"/rss.xml)\n\n";
     for (var tag in tags) {
       //if (tag=="all") continue;
       var str = "# Posts tagged with _"+tag+"_\n";
@@ -386,17 +389,19 @@ var builder = function(config){
               tagstr+=tags[tag][i].preview+"<br />"
               tagstr+="[Read more...]("+tags[tag][i].url+")<br /><br />\n";
             }
-          }
-          if (tags[tag][i].status!="unpublished"){
-            str+="## "+tags[tag][i].title+"\n";
-            //str+="<span>_"+dateFormat(new Date(tags[tag][i].updated), "mmmm dS, yyyy")+"_</span>\n"
-            str+=tags[tag][i].preview+"<br />"
-            str+="[Read more...]("+tags[tag][i].url+")<br /><br />\n";
+          } else {
+            if (tags[tag][i].status!="unpublished"){
+              str+="## "+tags[tag][i].title+"\n";
+              //str+="<span>_"+dateFormat(new Date(tags[tag][i].updated), "mmmm dS, yyyy")+"_</span>\n"
+              str+=tags[tag][i].preview+"<br />"
+              str+="[Read more...]("+tags[tag][i].url+")<br /><br />\n";
+            }
           }
         }
       }
       fs.writeFileSync(path.join(config.temp,"posts",tag.replace(" ","-")+".md"), str);
     }
+    fs.writeFileSync(path.join(config.temp,"posts", "all.md"), tagstr);
     fs.writeFileSync(path.join(config.temp,"posts.md"), tagstr);
     done();
   })
