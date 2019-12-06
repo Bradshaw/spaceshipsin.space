@@ -344,14 +344,14 @@ var builder = function(config){
   gulp.task('mapandtag', function(done){
     fs.mkdirSync(path.join(config.temp,"tag"))
     var tags = yaml.safeLoad(fs.readFileSync(path.join(config.temp,"tags.yaml")).toString('utf8'))
-    var tagstr = "## All tags: \n"
+    var tagstr = "## All tags\n"
     for (var tag in tags) {
       //if (tag=="all") continue;
-      var str = "## Pages tagged with: "+tag+"\n";
+      var str = "## Pages tagged with _"+tag+"_\n";
       str += "[Get these pages as an RSS feed](/tag/"+tag+"/rss.xml)\n\n";
       if (tags.hasOwnProperty(tag)) {
         if (tags[tag].filter(t=>t.status!="unpublished").length>0){
-          tagstr+="* ["+tag+"](/tag/"+tag.replace(" ","-")+")"
+          tagstr+="* ["+tag+"](/posts/"+tag.replace(" ","-")+")"
           tagstr+=" <a class=\"rss\" href=\"/tag/"+tag.replace(" ","-")+"/rss.xml\">(rss.xml)</a>\n"
         }
         for (var i = 0; i < tags[tag].length; i++) {
@@ -364,6 +364,40 @@ var builder = function(config){
       fs.writeFileSync(path.join(config.temp,"tag",tag.replace(" ","-")+".md"), str);
     }
     fs.writeFileSync(path.join(config.temp,"tags.md"), tagstr);
+    done();
+  })
+  
+  gulp.task('generate-posts', function(done){
+    fs.mkdirSync(path.join(config.temp,"posts"))
+    var tags = yaml.safeLoad(fs.readFileSync(path.join(config.temp,"tags.yaml")).toString('utf8'))
+    var tagstr = "# All posts\n"
+    tagstr+="\n[Filter by tag](/tags)\n";
+    for (var tag in tags) {
+      //if (tag=="all") continue;
+      var str = "# Posts tagged with _"+tag+"_\n";
+      str += "\n[View all available tags](/tags)<br />";
+      str += "[Get these pages as an RSS feed](/tag/"+tag+"/rss.xml)\n\n";
+      if (tags.hasOwnProperty(tag)) {
+        for (var i = 0; i < tags[tag].length; i++) {
+          if (tag=="all") {
+            if (tags[tag][i].status!="unpublished"){
+              tagstr+="## "+tags[tag][i].title+"\n";
+              //str+="<span>_"+dateFormat(new Date(tags[tag][i].updated), "mmmm dS, yyyy")+"_</span>\n"
+              tagstr+=tags[tag][i].preview+"<br />"
+              tagstr+="[Read more...]("+tags[tag][i].url+")<br /><br />\n";
+            }
+          }
+          if (tags[tag][i].status!="unpublished"){
+            str+="## "+tags[tag][i].title+"\n";
+            //str+="<span>_"+dateFormat(new Date(tags[tag][i].updated), "mmmm dS, yyyy")+"_</span>\n"
+            str+=tags[tag][i].preview+"<br />"
+            str+="[Read more...]("+tags[tag][i].url+")<br /><br />\n";
+          }
+        }
+      }
+      fs.writeFileSync(path.join(config.temp,"posts",tag.replace(" ","-")+".md"), str);
+    }
+    fs.writeFileSync(path.join(config.temp,"posts.md"), tagstr);
     done();
   })
   
@@ -404,7 +438,7 @@ var builder = function(config){
   })
   
   
-  gulp.task('tag-to-site', gulp.series('preprocess', 'collecttags', gulp.parallel('mapandtag', 'generate-rss' )));
+  gulp.task('tag-to-site', gulp.series('preprocess', 'collecttags', gulp.parallel('mapandtag', 'generate-rss', 'generate-posts')));
   gulp.task('generate', gulp.parallel('public', 'css', gulp.series('tag-to-site', 'markdown')));
   
   gulp.task('clearscreen', function(done) {
