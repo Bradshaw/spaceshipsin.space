@@ -73,7 +73,7 @@ html(lang="en")
           each tag in tags
             li
               span
-                a(href="/tag/"+tag.replace(" ","-"))= tag
+                a(href="/posts/"+tag.replace(" ","-"))= tag
                 a.rss(href="/tag/"+tag.replace(" ","-")+"/rss.xml") (rss.xml)
       // Build text
       include:marked /../markdown/footer.md
