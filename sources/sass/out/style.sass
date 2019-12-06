@@ -52,6 +52,15 @@ a
   color: $link-color
   @media (prefers-color-scheme: dark)
     color: $dark-link-color
+    
+a.external:after
+  display: inline-block
+  text-decoration: none
+  position: relative
+  content: "﻿→"
+  margin-left: -0em
+  font-size: 50%
+  top: -1em
 
 a:hover
   color: $hover-color
