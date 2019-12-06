@@ -5,16 +5,16 @@ If you're working on something weird, fun, thoughtful, or rebellious, please [ge
 ## Things
 Some things I'm particularly proud of being involved with
 
-### void.garden [→](https://voidgarden.itch.io/)
+### void.garden
 ![void.garden logo](voidgarden.700w.jpg)
-[void.garden](http://void.garden/) is a project/collective that aims to develop art, events, media and stuff, all tangential to video games.
+void.garden is a project/collective that aims to develop art, events, media and stuff, all tangential to video games.
 
 The event we're proudest of is [L'indécadence](https://voidgarden.itch.io/lindecadence). This was an indie games & art party taking place during IndieCade Europe in Paris. Nine games and four musicians were on the lineup. We featured colourful and unconventional projects from around the world. You can relive the event through [Anna-Céléstine's](https://twitter.com/lafilledct) photo gallery [on Facebook](https://www.facebook.com/pg/lafilledct/photos/?tab=album&album_id=1471957822887747).
 
 As part of void.garden, I'm running a social network based on [Darius Kazemi](http://tinysubversions.com/)'s article "[runyourown.social](https://runyourown.social)". It's a micro-scale community, serving as a home to a small handful of creative people. Because it's built upon [Mastodon](https://joinmastodon.org/), this small network is connected to and can interact with the wider [fediverse](https://en.wikipedia.org/wiki/Fediverse)   
 
 
-### .lazr. [→](https://gaeel.itch.io/lazr)
+### .lazr.
 ![".lazr." text on a dark CRT screen](lazr.700w.jpg)
 .lazr. is a local multiplayer arena shooter with deliciously glitchy visuals. Up to four players using standard XBox controllers face off in a number of game modes.
 
@@ -25,7 +25,7 @@ If you'd like to learn to play .lazr., I recommend finding a friend who is about
 [Download here](https://gaeel.itch.io/lazr)
 
 
-### The Paper Sail [→](https://papersail.lab.arte.tv/)
+### The Paper Sail
 ![A paper boat on a screen](papersail.700w.jpg)
 A collaboration with [Cosmografik](http://cosmografik.fr/), The Paper Sail is a meditative experience where the user places a small paper sail on their touch-capable device (phone, tablet, Cintiq, etc…), and then explores a quiet archipelago. They'll meet insects, fish, and occasionally, another traveller.   
 This project went through quite a few design iterations, and ended up being a very small and peaceful space
