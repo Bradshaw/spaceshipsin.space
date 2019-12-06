@@ -1,23 +1,29 @@
 *
   // outline: solid 1px red !important
   // transition: none !important
-
+  
 $bhue: 180
 $background-color: hsl($bhue, 0, 99%)  
 $text-color: hsl($bhue+180, 0, 5%)
 $link-color: hsl($bhue+180, 100, 25%)
 $title-color: hsl($bhue+180, 0, 50%)
 $hover-color: hsl($bhue+180, 100, 50%)
-$page-width: 15cm
+$page-width: 15cm  
+
+$dark-background-color: hsl($bhue, 0, 7%)  
+$dark-text-color: hsl($bhue+180, 0, 90%)
+$dark-link-color: hsl($bhue+180, 90, 65%)
 
 body
   margin: 0
   font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,'Helvetica Neue',Arial,sans-serif
   background: $background-color
   color: $text-color
+  @media (prefers-color-scheme: dark)
+    background: $dark-background-color
+    color: $dark-text-color
 
 p
-  //text-align: justify
   font-size: 13pt
   line-height: 1.3
 
@@ -26,7 +32,6 @@ hr
   border-bottom: 0
 
 #thepage, #footer, #header
-  //background-color: $panel-color
   max-width: $page-width
   margin: auto
   
@@ -46,20 +51,8 @@ img
 a
   text-decoration: underline
   color: $link-color
-
-// p > a:after
-//     position: relative
-//     content: "﻿°"
-//     margin-left: -0.05em
-//     font-size: 75%
-//     top: -0.3em
-
-    
-// p a:last-child::after
-//     content: unset
-
-.linkheader a::after
-  content: unset
+  @media (prefers-color-scheme: dark)
+    color: $dark-link-color
 
 a:hover
   color: $hover-color
@@ -87,15 +80,6 @@ h4, h5, h6
 h5, h6
   margin-left: 1.5em
   font-size: 15px
-  
-  
-.name
-  text-indent: 0em
-  font-weight: 800
-  display: inline-block
-
-.spaceship
-  display: inline-block
 
 .links
   color: $title-color
@@ -103,15 +87,6 @@ h5, h6
 
 .hlink
   padding: 0 3px
-  
-.webring > img
-  width: 1em
-  height: 1em
-  margin: -0.15em
-  filter: brightness(20%) sepia(100%) hue-rotate(-50deg) saturate(500%)
-
-.webring:hover > img
-  filter: brightness(35%) sepia(100%) hue-rotate(-50deg) saturate(500%)
   
 @media (max-width: 18cm)
   p
