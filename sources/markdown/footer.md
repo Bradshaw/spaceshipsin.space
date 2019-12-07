@@ -1,1 +1,5 @@
-Built with [Markdown](https://daringfireball.net/projects/markdown/syntax), [Pug](https://pugjs.org), and [Sass](https://sass-lang.com/). No Javascript is needed to view this website, but a __shit-ton__ was used to create it. [Learn more about how this website was built](/meta/build-process)
+Respecting privacy doesn't mean collecting data and promising not to analyse or sell it. To respect privacy is to limit one's access to visitors data as much as possible in the first place.   
+   
+This website actually respects your privacy. There are no cookies or user preferences stored or sent. No scripts are ran by your browser, and all content is statically served over HTTPS. For debugging purposes, the server keeps a log of what resources were requested, but does not keep information such as IP addresses or user-agent strings. This website uses no third-party resources, and strips any social media tracker query strings before serving you content, to ensure your privacy when using links to this website on other platforms.   
+   
+[Learn about how this website was built](/meta/build-process)
