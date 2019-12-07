@@ -15,6 +15,8 @@ $dark-text-color: hsl($bhue+180, 0, 90%)
 $dark-link-color: hsl($bhue+180, 90, 65%)
 
 body
+  padding: 1cm
+  padding-top: 2cm
   margin: 0
   font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,'Helvetica Neue',Arial,sans-serif
   background: $background-color
@@ -31,14 +33,11 @@ hr
   height: 0
   border-bottom: 0
 
-#thepage, #footer, #header
+main, footer, header
   max-width: $page-width
   margin: auto
   
-#thepage
-  padding: 1cm 
-  padding-top: 2cm 
-#footer
+footer
   p
     font-size: 11pt
   
@@ -111,7 +110,7 @@ h5, h6
     width: 1em
     height: 1em
       
-  #thepage, #footer, #header
+  body, main, footer, header
     padding: 0 0
     margin: auto
     width: 90%
