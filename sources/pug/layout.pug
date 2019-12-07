@@ -51,11 +51,11 @@ html(lang="en")
     main
       if created
         article#article.h-entry
-          .indieweb.hidden
+          .indieweb.hidden(aria-hidden="true")
             .p-name= title
           .indieweb.e-content
             include:marked [[markdown]]
-          .indieweb.hidden
+          .indieweb.hidden(aria-hidden="true")
             p.p-summary= preview
             a.u-url(href="https://spaceshipsin.space"+url)
               time.dt-published= update
