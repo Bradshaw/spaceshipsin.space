@@ -37,7 +37,7 @@ These fleeting, non-verbal interactions with strangers is something I've been in
 
 You can try The Paper Sail [here](https://papersail.lab.arte.tv/), I recommend playing on a large tablet device in a dark room with a tiny paper sail cut out of cigarette paper for the best effect
 
-## Get in touch <a name="contact"></a>
+## Get in touch <a name="contact" aria-hidden="true"></a>
 E-Mail
   * [gaeel@spaceshipsin.space](mailto:gaeel@spaceshipsin.space)
   
