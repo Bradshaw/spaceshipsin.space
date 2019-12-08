@@ -31,6 +31,7 @@ var PluginError = require('plugin-error');
 var touch = require('touch');
 
 var xml = require('xml');
+const Feed = require('feed').Feed;
 var dateFormat = require('dateformat');
 var child_process = require('child_process');
 const jsdom = require("jsdom");
@@ -91,6 +92,18 @@ function getFirstParagraph(mdpath){
   var first = i<paragraphs.length ? paragraphs[i].textContent : "No preview";
   return first;
 }
+function getAbsoluteHTML(mdpath, config){
+  var mdstr = fs.readFileSync(mdpath, 'utf8');
+  var htmlstr = md.render(mdstr);
+  const dom = new JSDOM(htmlstr);
+  dom.window.document.querySelectorAll('img').forEach((img)=>{
+    if (img.src.startsWith('/')){
+      img.src = img.src.substr(1)
+    }
+    img.src = config.siteURL + img.src;
+  })
+  return dom.serialize();
+}
 function getFirstImageURL(mdpath){
   var mdstr = fs.readFileSync(mdpath, 'utf8');
   var htmlstr = md.render(mdstr);
@@ -117,6 +130,7 @@ function splitYAML(cwd, config){
       var data = yaml.safeLoad(strings[1])
       var mdpath = file.path;
       data.preview = data.hasOwnProperty("preview") ? data.preview : getFirstParagraph(mdpath);
+      data.content = getAbsoluteHTML(mdpath, config);
       data.imageURL = data.hasOwnProperty("imageURL") ? data.imageURL : getFirstImageURL(mdpath);
       data.updated = data.hasOwnProperty("updated") ? data.updated : new Date(child_process.execSync('git log -1 --pretty="format:%ci" '+mdpath));
       data.updated = isNaN(data.updated) ? new Date() : data.updated;
@@ -297,6 +311,7 @@ var builder = function(config){
             var published = status!="unpublished"
             var tags = data.tags;
             var preview = data.preview;
+            var content = data.content;
             var imageURL = data.imageURL
             if (data.hasOwnProperty("tags")){
               data.tags.unshift("all")
@@ -313,6 +328,7 @@ var builder = function(config){
                     created: creationDate,
                     status: status,
                     preview: preview,
+                    content: content,
                     imageURL: imageURL,
                     tags: tags
                   });
@@ -375,7 +391,7 @@ var builder = function(config){
     var tags = yaml.safeLoad(fs.readFileSync(path.join(config.temp,"tags.yaml")).toString('utf8'))
     var tagstr = "# All posts\n"
     tagstr += "\n[Filter by tag](/tags)<br />";
-    tagstr += "[Get this feed as RSS](/tag/"+tag+"/rss.xml)\n\n";
+    tagstr += "[Get this feed as RSS](/tag/all/rss.xml)\n\n";
     for (var tag in tags) {
       //if (tag=="all") continue;
       var str = "# Posts tagged with _"+tag+"_\n";
@@ -412,30 +428,35 @@ var builder = function(config){
     for (var tag in tags) {
       if (tags.hasOwnProperty(tag)) {
         if (tags[tag].filter(t=>t.status!="unpublished").length>0){
-          var feed = new RSS({
+          var feed = new Feed({
             title: tag+" @ "+config.title,
+            id: config.siteURL+'tag/'+tag,
+            link: config.siteURL+'tag/'+tag,
+            image: urljoin(config.siteURL,"favicon.png"),
+            favicon: urljoin(config.siteURL,"favicon.ico"),
             description: "Articles tagged with \""+tag+"\" on "+config.title,
-            feed_url: config.siteURL+'tag/'+tag+"/rss.xml",
-            site_url: config.siteURL+'tag/'+tag,
-            generator: "spaceshipsin-space",
-            categories: [tag]
+            feedLinks: {
+              atom: config.siteURL+'tag/'+tag+"/rss.xml"
+            },
+            generator: "spaceshipsin-space"
           })
           for (var i = 0; i < tags[tag].length; i++) {
             if (tags[tag][i].status!="unpublished"){
               var item = tags[tag][i];
-              feed.item({
+              feed.addItem({
                 title: item.title,
                 description: item.preview,
-                url: urljoin(config.siteURL,item.url),
-                categories: item.tags,
+                id: urljoin(config.siteURL,item.url),
+                link: urljoin(config.siteURL,item.url),
                 date: new Date(item.updated),
+                content: item.content
               })
             }
           }
           var folderpath = path.join(config.dest,"tag",tag);
           var filepath = path.join(folderpath, "rss.xml");
           fs.mkdirSync(folderpath, {recursive : true})
-          fs.writeFileSync(filepath, feed.xml({indent: true}));
+          fs.writeFileSync(filepath, feed.atom1({indent: true}));
         }
       }
     }
