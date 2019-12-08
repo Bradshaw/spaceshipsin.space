@@ -80,8 +80,7 @@ function markdownBuilder(){
   })
 }
 
-function getFirstParagraph(mdpath){
-  var mdstr = fs.readFileSync(mdpath, 'utf8');
+function getFirstParagraph(mdstr){
   var htmlstr = md.render(mdstr);
   const dom = new JSDOM(htmlstr);
   var paragraphs = dom.window.document.getElementsByTagName("p")
@@ -92,8 +91,7 @@ function getFirstParagraph(mdpath){
   var first = i<paragraphs.length ? paragraphs[i].textContent : "No preview";
   return first;
 }
-function getAbsoluteHTML(mdpath, config){
-  var mdstr = fs.readFileSync(mdpath, 'utf8');
+function getAbsoluteHTML(mdstr, config){
   var htmlstr = md.render(mdstr);
   const dom = new JSDOM(htmlstr);
   dom.window.document.querySelectorAll('img').forEach((img)=>{
@@ -104,8 +102,7 @@ function getAbsoluteHTML(mdpath, config){
   })
   return dom.serialize();
 }
-function getFirstImageURL(mdpath){
-  var mdstr = fs.readFileSync(mdpath, 'utf8');
+function getFirstImageURL(mdstr){
   var htmlstr = md.render(mdstr);
   const dom = new JSDOM(htmlstr);
   var firstP = dom.window.document.querySelector("p")
@@ -129,9 +126,9 @@ function splitYAML(cwd, config){
     if (strings.length>1){
       var data = yaml.safeLoad(strings[1])
       var mdpath = file.path;
-      data.preview = data.hasOwnProperty("preview") ? data.preview : getFirstParagraph(mdpath);
-      data.content = getAbsoluteHTML(mdpath, config);
-      data.imageURL = data.hasOwnProperty("imageURL") ? data.imageURL : getFirstImageURL(mdpath);
+      data.preview = data.hasOwnProperty("preview") ? data.preview : getFirstParagraph(strings[0]);
+      data.content = getAbsoluteHTML(strings[0], config);
+      data.imageURL = data.hasOwnProperty("imageURL") ? data.imageURL : getFirstImageURL(strings[0]);
       data.updated = data.hasOwnProperty("updated") ? data.updated : new Date(child_process.execSync('git log -1 --pretty="format:%ci" '+mdpath));
       data.updated = isNaN(data.updated) ? new Date() : data.updated;
       data.created = data.hasOwnProperty("created") ? data.created : new Date(child_process.execSync('git log --pretty="format:%ci" '+mdpath+' | tail -1'))
