@@ -30,6 +30,7 @@ var debug = require('gulp-debug');
 var PluginError = require('plugin-error');
 var touch = require('touch');
 
+var xml = require('xml');
 var dateFormat = require('dateformat');
 var child_process = require('child_process');
 const jsdom = require("jsdom");
@@ -441,9 +442,38 @@ var builder = function(config){
     //fs.writeFileSync(path.join(config.temp,"tags.md"), tagstr);
     done();
   })
+  gulp.task('generate-sitemap', function(done){
+    var tags = yaml.safeLoad(fs.readFileSync(path.join(config.temp,"tags.yaml")).toString('utf8'))
+    var map = {
+      urlset: []
+    }
+    map.urlset._attr = {xmlns: "http://www.sitemaps.org/schemas/sitemap/0.9"};
+    for (var tag in tags) {
+      if (tags.hasOwnProperty(tag)) {
+        if (tags[tag].filter(t=>t.status!="unpublished").length>0){
+          for (var i = 0; i < tags[tag].length; i++) {
+            if (tags[tag][i].status!="unpublished"){
+              var item = tags[tag][i];
+              var urlitem = [
+                {loc: urljoin(config.siteURL,item.url)},
+                {lastmod: item.updated.toUTCString()},
+                {changefreq: "monthly"}
+              ]
+              map.urlset.push({
+                url: urlitem
+              })
+            }
+          }
+        }
+      }
+    }
+    var xmlenc = '<?xml version="1.0" encoding="UTF-8"?>\n\n'
+    fs.writeFileSync(path.join(config.dest,"sitemap.xml"), xmlenc+xml(map, {indent: '\t'}));
+    done();
+  })
   
   
-  gulp.task('tag-to-site', gulp.series('preprocess', 'collecttags', gulp.parallel('mapandtag', 'generate-rss', 'generate-posts')));
+  gulp.task('tag-to-site', gulp.series('preprocess', 'collecttags', gulp.parallel('mapandtag', 'generate-rss', 'generate-posts', 'generate-sitemap')));
   gulp.task('generate', gulp.parallel('public', 'css', gulp.series('tag-to-site', 'markdown')));
   
   gulp.task('clearscreen', function(done) {
