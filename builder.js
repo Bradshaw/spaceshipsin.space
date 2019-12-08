@@ -426,7 +426,7 @@ var builder = function(config){
       if (tags.hasOwnProperty(tag)) {
         if (tags[tag].filter(t=>t.status!="unpublished").length>0){
           var feed = new Feed({
-            title: tag+" @ "+config.title,
+            title: (tag=='all' ? "" :tag+" @ ")+config.title,
             id: config.siteURL+'tag/'+tag,
             link: config.siteURL+'tag/'+tag,
             image: urljoin(config.siteURL,"favicon.png"),
