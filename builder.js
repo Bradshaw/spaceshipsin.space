@@ -111,42 +111,52 @@ function getFirstImageURL(mdstr){
   return first;
 }
 
-function splitYAML(cwd, config){
+function yamlGrabber(cwd, config){
   return through.obj(function(file, enc, next){
-    var strings = file.contents.toString('utf8').split(/(?=%YAML)/);
+    var split = splitYAML(file.contents, file.path, config);
     var base = path.join(file.path, '..');
-    if (strings.length>0){
+    if (split.markdown.length>0){
       var markdown = new vinyl({
         cwd: cwd,
-  			path: path.join(base,path.basename(file.path)),
-  			contents: Buffer.from(strings[0])
-  		})
+        path: path.join(base,path.basename(file.path)),
+        contents: Buffer.from(split.markdown)
+      });
       this.push(markdown)
     }
-    if (strings.length>1){
-      var data = yaml.safeLoad(strings[1])
-      var mdpath = file.path;
-      data.preview = data.hasOwnProperty("preview") ? data.preview : getFirstParagraph(strings[0]);
-      data.content = getAbsoluteHTML(strings[0], config);
-      data.imageURL = data.hasOwnProperty("imageURL") ? data.imageURL : getFirstImageURL(strings[0]);
-      data.updated = data.hasOwnProperty("updated") ? data.updated : new Date(child_process.execSync('git log -1 --pretty="format:%ci" '+mdpath));
-      data.updated = isNaN(data.updated) ? new Date() : data.updated;
-      data.created = data.hasOwnProperty("created") ? data.created : new Date(child_process.execSync('git log --pretty="format:%ci" '+mdpath+' | tail -1'))
-      data.created = isNaN(data.created) ? data.updated : data.created;
-      data.status = data.hasOwnProperty("status") ? data.status : "published";      
-      data.url = "/"+path.relative(path.join(config.root,config.markdown),file.path).replace(".md","");
+    if (split.data){
       var yamlob = new vinyl({
         cwd: cwd,
-  			path: path.join(base,path.basename(file.path,".md")+".yaml"),
-  			contents: Buffer.from(yaml.safeDump(data))
-  		})
-      this.push(yamlob)
+        path: path.join(base,path.basename(file.path,".md")+".yaml"),
+        contents: Buffer.from(yaml.safeDump(split.data))
+      })
+      this.push(yamlob);
     }
     next();
   })
 }
 
-
+function splitYAML(contents, mdpath, config){
+  var strings = contents.toString('utf8').split(/(?=%YAML)/);
+  var markdown = strings.length>0 ? strings[0] : "";
+  var data = false;
+  if (strings.length>1){
+    var data = yaml.safeLoad(strings[1])
+    data.preview = data.hasOwnProperty("preview") ? data.preview : getFirstParagraph(strings[0]);
+    data.content = getAbsoluteHTML(strings[0], config);
+    data.imageURL = data.hasOwnProperty("imageURL") ? data.imageURL : getFirstImageURL(strings[0]);
+    data.updated = data.hasOwnProperty("updated") ? data.updated : new Date(child_process.execSync('git log -1 --pretty="format:%ci" '+mdpath));
+    data.updated = isNaN(data.updated) ? new Date() : data.updated;
+    data.created = data.hasOwnProperty("created") ? data.created : new Date(child_process.execSync('git log --pretty="format:%ci" '+mdpath+' | tail -1'))
+    data.created = isNaN(data.created) ? data.updated : data.created;
+    data.status = data.hasOwnProperty("status") ? data.status : "published";    
+    data.layout = data.hasOwnProperty("layout") ? data.layout : config.pugLayout;      
+    data.url = "/"+path.relative(path.join(config.root,config.markdown),mdpath).replace(".md","");
+  }
+  return {
+    markdown: markdown,
+    data: data
+  }
+}
 
 var builder = function(config){
   function getDefaultTitle(file, ext){
@@ -171,7 +181,17 @@ var builder = function(config){
       .pipe(errorHandler())
       .pipe(modify({
         fileModifier: function(file, contents){
-          var pugLayout = fs.readFileSync(path.join(config.root, config.pugLayout),'utf8');
+          var layout = config.pugLayout;
+          var dir = path.dirname(file.path);
+          var filename = path.basename(file.path,".md");
+          var yamlPath = path.join(dir,filename+".yaml");
+          if (fs.existsSync(yamlPath)){
+            var data = yaml.safeLoad(fs.readFileSync(yamlPath, 'utf8'));
+            if (data.hasOwnProperty("layout")){
+              layout = data.layout;
+            }
+          }
+          var pugLayout = fs.readFileSync(path.join(config.root, layout),'utf8');
           return pugLayout
             .replace(/\[\[markdown\]\]/g, path.basename(file.path));
         }
@@ -282,7 +302,7 @@ var builder = function(config){
     try {
       return gulp.src(path.join(config.root, config.markdown+config.markglob))
         .pipe(errorHandler())
-        .pipe(splitYAML(path.join(config.root,  "markdown", "out"), config))
+        .pipe(yamlGrabber(path.join(config.root,  "markdown", "out"), config))
         .pipe(gulp.dest(config.temp))
     } catch (e) {
       console.error(e)
@@ -309,7 +329,8 @@ var builder = function(config){
             var tags = data.tags;
             var preview = data.preview;
             var content = data.content;
-            var imageURL = data.imageURL
+            var imageURL = data.imageURL;
+            var layout = data.layout;
             if (data.hasOwnProperty("tags")){
               data.tags.unshift("all")
               for (var i = 0; i < data.tags.length; i++) {
@@ -327,6 +348,7 @@ var builder = function(config){
                     preview: preview,
                     content: content,
                     imageURL: imageURL,
+                    layout: layout,
                     tags: tags
                   });
                   memo[tag] = memo[tag].sort((a,b)=>{
