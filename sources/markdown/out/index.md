@@ -42,16 +42,15 @@ E-Mail
   * [gaeel@spaceshipsin.space](mailto:gaeel@spaceshipsin.space)
   
 Social:
-  * Mastodon: <a rel="me" href="https://stream.void.garden/@gaeel">@gaeel@stream.void.garden</a>
+  * Fediverse: <a rel="me" href="https://pings.spaceshipsin.space">@gaeel@pings.spaceshipsin.space</a>
   * Twitter: <a rel="me" href="https://twitter.com/_gaeel_">@\_gaeel\_</a>
 
 Other identities:
   * [Itch.io](https://gaeel.itch.io/)
-  * [FramaGit](https://framagit.org/Bradshaw1)
-  * [GitLab](https://gitlab.com/Bradshaw1)
   * [GitHub](https://github.com/Bradshaw)
   * [SoundCloud](https://soundcloud.com/freelancer-epic)
   * [Peer Tube](https://diode.zone/video-channels/hyperwires/videos)
+  * [YouTube](https://www.youtube.com/channel/UCHY1DlIho8kNykWSpDHL7qQ)
   * [Keybase](https://keybase.io/gaeel)
   
 %YAML 1.2
