@@ -1,6 +1,10 @@
-Hello, my name is __Gaeel&nbsp;Bradshaw‑Rodriguez__  
-I am a designer and programmer, particularly interested in videogames, interactivity, and technology   
+Hello, my name is __Gaeel&nbsp;Bradshaw‑Rodriguez__    
+  
+I am a designer and programmer, primarily interested in interactivity, digital art, and computer-enabled experiences   
 If you're working on something weird, fun, thoughtful, or rebellious, please [get in touch](/#contact). I'd like to help you make that thing happen!   
+   
+These days I like to think and experiment with the ways we exist together online. We're used to multiplayer video games, social media websites, and chat apps, but I feel there are many things yet to explore or that we've long forgotten.   
+This leads to me making [games](https://twitter.com/_Gaeel_/status/1105939396442972160), [shared computers](https://tilde.rocks), and other harder-to-define [things](https://arobase.computer) that play with ways to have people together in an online space.   
 
 ## Things
 Some things I'm particularly proud of being involved with
@@ -42,10 +46,11 @@ E-Mail
   * [gaeel@spaceshipsin.space](mailto:gaeel@spaceshipsin.space)
   
 Social:
-  * Fediverse: <a rel="me" href="https://pings.spaceshipsin.space">@gaeel@pings.spaceshipsin.space</a>
-  * Twitter: <a rel="me" href="https://twitter.com/_gaeel_">@\_gaeel\_</a>
+  * <a rel="me" href="https://pings.spaceshipsin.space">@gaeel@pings.spaceshipsin.space</a>
+  * <a rel="me" href="https://twitter.com/_gaeel_">@\_gaeel\_</a>
 
 Other identities:
+  * [Glitch](https://glitch.com/@gaeel)
   * [Itch.io](https://gaeel.itch.io/)
   * [GitHub](https://github.com/Bradshaw)
   * [SoundCloud](https://soundcloud.com/freelancer-epic)

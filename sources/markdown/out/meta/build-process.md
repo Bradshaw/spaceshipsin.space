@@ -1,5 +1,5 @@
 #### Code   
-The code that generates this website is hosted on my [Git drydock repo](https://drydock.spaceshipsin.space/gaeel/spaceshipsin-space)   
+The code that generates this website is hosted on my [Git pier repo](https://pier.spaceshipsin.space/gaeel/spaceshipsin-space)   
 I cannot guarantee that it is fit for your purpose, nor that it is anywhere near the best way to achieve what I've done. This is simply the tool I've built for the dual purpose of having a website that I enjoy using, and learning to use node.js and its ecosystem.
 
 ## Build process
@@ -40,7 +40,7 @@ Either way, it does actually work. Now I can write articles such as this one, re
 <hr>
 
 If you have any questions about all of this, feel free to [get in touch](/#contact). I'm probably not the best person to talk to about modern web software, but I feel like I've learnt a few things along the way.  
-If you have the know-how (or want to use [this system](https://drydock.spaceshipsin.space/gaeel/spaceshipsin-space)), I recommend doing something like this. Updating my website is now super easy, and I don't have to fiddle with a CMS or authentication or anything.
+If you have the know-how (or want to use [this system](https://pier.spaceshipsin.space/gaeel/spaceshipsin-space)), I recommend doing something like this. Updating my website is now super easy, and I don't have to fiddle with a CMS or authentication or anything.
 
 
 %YAML 1.2

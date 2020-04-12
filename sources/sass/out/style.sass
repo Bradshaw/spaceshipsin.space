@@ -13,6 +13,7 @@ $page-width: 15cm
 $dark-background-color: hsl($bhue, 0, 7%)  
 $dark-text-color: hsl($bhue+180, 0, 90%)
 $dark-link-color: hsl($bhue+180, 90, 65%)
+$dark-title-color: hsl($bhue+180, 0, 65%)
 
 body
   padding: 1cm
@@ -25,7 +26,7 @@ body
     background: $dark-background-color
     color: $dark-text-color
 
-p
+p, ul
   font-size: 13pt
   line-height: 1.3
 
@@ -48,11 +49,13 @@ img
   max-width: 100%
 
 a
+  white-space: nowrap
   color: $link-color
   @media (prefers-color-scheme: dark)
     color: $dark-link-color
 
 a[href^="//"]:after,    
+a[href^="irc://"]:after, 
 a[href^="http://"]:after, 
 a[href^="https://"]:after,
   display: inline-block
@@ -69,6 +72,8 @@ a:hover
 
 h1, h2, h3, h4, h5, h6
   color: $title-color
+  @media (prefers-color-scheme: dark)
+    color: $dark-title-color
   
 h1, h2,
   font-weight: 800
@@ -90,8 +95,21 @@ h5, h6
   margin-left: 1.5em
   font-size: 15px
 
+.linkheader
+  ul
+    margin-top: 0
+    margin-bottom: 0
+    list-style: none
+    padding-left: 1.5em
+
+#article
+  ul
+    margin-top: -1em
+
 .links
   color: $title-color
+  @media (prefers-color-scheme: dark)
+    color: $dark-title-color
   margin: 0px
 
 .hlink
