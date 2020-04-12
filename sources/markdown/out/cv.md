@@ -1,14 +1,28 @@
-# Gaeel Bradshaw-Rodriguez
+<div class="head">
+<h1> Gaeel Bradshaw-Rodriguez </h1>
+<h3> <center><strong><code><--code—design—noise--></code></strong></center> </h3>
+</div>
 
-### <center>**`<--code—design—noise-->`**</center>
+![Avatar, Gaeel smiling](/images/avatar-smile.jpg)
 
-## Contact
-*	📞 +33 6 18 95 96 38
-*	🖥 [gaeel@spaceshipsin.space](mailto:gaeel@spaceshipsin.space)
-*	🌍 [spaceshipsin.space](/)
+<p class="spacer"></p>
+
+<div class="contacth">
+
+<div class="intro">
 
 *Hello!*   
 *I am a designer and programmer, primarily interested in interactivity, digital art, and computer-enabled experiences. If you're working on something weird, fun, thoughtful, or rebellious, I'd like to help you make that thing happen!* 
+
+</div>
+
+<h3> Contact </h3>
+☎️ +33 6 18 95 96 38 (france)   
+💌 <a href="mailto:gaeel@spaceshipsin.space">gaeel@spaceshipsin.space</a>   
+🚀 <a href="/">spaceshipsin.space</a>  
+</div>
+
+<p class="spacer"></p>
 
 ## Company Experiences
 ### *2016 -> Ongoing* · Teacher · [**E-Artsup**](https://www.e-artsup.net/ecole-graphisme-design-infographie-lille.aspx)
@@ -44,9 +58,9 @@ Workshop coach and jury member
 *Motion-based games built in collaboration with physical therapists to assist in functional rehabilitation*   
 Web service configuration and software development   
 Prototypes and games intended for physical therapy and/or use in a hospital setting:
-**Zether**, **Plume**, along with a dozen other prototypes   
-**Plume** is used in physical therapy sessions, a [gameplay video is available on Youtube](https://www.youtube.com/watch?v=hfr0D9UwcJg)   
-**Zether** later went through reskinning and redesigns, and was also [released in November 2018 on Steam](https://store.steampowered.com/app/924830/Zether/) for non-medical play
+Zether, Plume, along with a dozen other prototypes   
+Plume is used in physical therapy sessions, a [gameplay video is available on Youtube](https://www.youtube.com/watch?v=hfr0D9UwcJg)   
+Zether later went through reskinning and redesigns, and was also [released in November 2018 on Steam](https://store.steampowered.com/app/924830/Zether/) for non-medical play
 
 
 ### *2012 -> 2015* · Co-Founder / Secretary · **Baptême du Jeu**
@@ -54,6 +68,7 @@ Prototypes and games intended for physical therapy and/or use in a hospital sett
 Organisation and management of video game events: Game Jams, Parties, Expositions   
 Documentation, coaching and communication for events, technology and general information in the field of video game development
 
+<p class="spacer break"></p>
 
 ## Selected Projects
 

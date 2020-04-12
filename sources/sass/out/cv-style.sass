@@ -1,15 +1,91 @@
-@font-face 
-  font-family: 'Roboto'
-  font-style: normal
-  font-weight: 300
-  src: local('Roboto Light'), local('Roboto-Light'), url('/Roboto-Light.ttf') format('truetype')
-
-  @font-face 
-  font-family: 'Roboto'
-  font-style: normal
-  font-weight: 700
-  src: local('Roboto Bold'), local('Roboto-Bold'), url('/Roboto-Bold.ttf') format('truetype')
+$page-width: 550pt
   
+body
+  font-size: medium
+h1
+  font-size: xx-large
+
+h2
+  font-size: x-large
+
+h3
+  font-size: larger
+
+img
+  height: 100px
+  margin-left: 5em
+  border-radius: 100%
+
+.head
+  float: right
+  width: 70%
+
+
+
+$page-background: #112
+$text-color: #DDD
+$main-background: #334
+$header-color: #FFF
+$h-highlight-color: #E64
+$highlight-color: #AAE7FF
+$h-highlight2-color: #3EB
+$a-selected: #BAE
+
+$print-page-background: #FFF
+$print-text-color: #222
+$print-main-background: #FFF
+$print-header-color: #444
+$print-h-highlight-color: #ad2503
+$print-highlight-color: #074c66
+$print-h-highlight2-color: #006146
+$print-a-selected: #BAE
+
+.spacer
+  margin-top: 4em
+
+@media print
+
+  @page
+    margin-left: 0.5cm
+    margin-right: 1.5cm
+
+  img
+    height: 75px
+    //filter: #{"grayscale()"}
+
+  .spacer
+    margin-top: 0
+  
+  .break
+    page-break-before: always
+    height: 8em
+
+  body
+    font-size: x-small
+  h1
+    font-size: x-large
+
+  h2
+    font-size: large
+
+  h3
+    font-size: small
+    margin-bottom: 0.25em
+
+  h3 + p 
+    margin-top: 0.25em
+
+  p em
+    font-style: italic
+
+  a
+    text-decoration: none !important
+  // .intro
+  //   font-size: smaller
+
+  // #curriculum-vitae
+  //   width: 500pt !important
+
 @font-face
   font-family: 'Fira Code'
   src: url('/FiraCode-Light.eot')
@@ -33,69 +109,65 @@
   src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(/fira-sans-latin.woff2) format('woff2')
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
 
-
 body 
   font-family: "fira sans"
-  background-color: #223
-  color: #DDD
-  background-color: #112
-
-a 
-  color: #DDD
-
-a:active 
-  color: #DDD
-
-a:selected 
-  color: #DDD
-
-#menu 
-  cursor: default
+  color: $text-color
+  background-color: $page-background
+  @media print
+    color: $print-text-color
+    background-color: $print-page-background
 
 #curriculum-vitae 
-  background-color: #334
+  background-color: $main-background
+  @media print
+    background-color: $print-main-background
   margin: 0 auto
-  padding: 20px
-  max-width: 600pt
+  padding: 50pt
+  max-width: $page-width
 
+a 
+  color: $text-color
+  @media print
+    color: $print-text-color
+  
 
 h1, h2, h3, h4, h5, .code 
-  color: #FFF
+  color: $header-color
+  @media print
+    color: $print-header-color
   font-family: "fira code"
   font-weight: 100
 
 h1, h2 
   text-align: center
 
+.contacth
+  margin: 0 50pt
 
-em 
+.contacth h3
+  text-align: left
+  margin-bottom: 0
+  
+em
   font-style: unset
-  color: #E64
+  color: $highlight-color  
+  @media print
+    color: $print-highlight-color
 
-
-p > em 
+h3 > em
   font-style: unset
-  color: #AAE7FF
+  color: $h-highlight-color
+  @media print
+    color: $print-h-highlight-color
 
 
 strong 
   font-style: unset
-  color: #3EB
+  color: $h-highlight2-color
+  @media print
+    color: $print-h-highlight2-color
 
 
 code 
   font-family: unset
 
-
-li > strong 
-  font-family: "Roboto"
-  font-weight: 700
-  color: #DDD
-
-li > em 
-  font-family: "Roboto"
-  font-weight: 300
-  color: #DDD
-
-#switchlang 
-  cursor: pointer
