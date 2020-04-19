@@ -1,4 +1,9 @@
 $page-width: 550pt
+
+.print-button
+  position: relative
+  top: -40pt
+  left: 50pt
   
 body
   font-size: medium
@@ -44,6 +49,9 @@ $print-a-selected: #BAE
   margin-top: 4em
 
 @media print
+
+  .print-button
+    display: none
 
   @page
     margin-left: 0.5cm
