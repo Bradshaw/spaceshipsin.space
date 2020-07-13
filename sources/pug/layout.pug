@@ -42,27 +42,15 @@ html(lang="en")
             a.hlink(href="/cv") cv
             |·
             a.hlink(href="/#contact") contact
-        p.links
-          span hyperdrive
-            ul
-              li
-                | code 
-                | 
-                a.hlink(href="https://pier.spaceshipsin.space/") git repo
-                | 
-                a.hlink(href="https://pier.spaceshipsin.space/gaeel/spaceshipsin-space") this website
-                | 
-                a.hlink(href="https://pier.spaceshipsin.space/hyperteach/") teaching stuff
-              li
-                a.hlink(href="https://tilde.rocks") tilde.rocks
-                | 
-                a.hlink(href="irc://irc.tilde.rocks") irc
-                | 
-                a.hlink(href="https://irc.tilde.rocks") webchat
-              li
-                a.hlink(href="https://lost.spaceshipsin.space") lost spaceships in space
-              li
-                a.hlink(href="https://arobase.computer") @.cpu
+        //- p.links
+        //-   span hyperdrive
+        //-     ul
+        //-       li
+        //-         a.hlink(href="https://pier.spaceshipsin.space/") git repository
+        //-       li
+        //-         a.hlink(href="https://pier.spaceshipsin.space/gaeel/spaceshipsin-space") sources for this website
+        //-       li
+        //-         a.hlink(href="https://lost.spaceshipsin.space") lost spaceships in space
       hr
 
     // Main article
@@ -86,16 +74,19 @@ html(lang="en")
       hr
       // Tags
       if tags
-        h4 Related tags
-        ul
-          - tags.unshift('all')
-          each tag in tags
-            li
-              span
-                a(href="/posts/"+tag.replace(" ","-"))= tag
-                a.rss(href="/tag/"+tag.replace(" ","-")+"/rss.xml") (rss.xml)
+        details
+          summary Related tags
+          ul
+            - tags.unshift('all')
+            each tag in tags
+              li
+                span
+                  a(href="/posts/"+tag.replace(" ","-"))= tag
+                  a.rss(href="/tag/"+tag.replace(" ","-")+"/rss.xml") (rss.xml)
       // Build text
-      include:marked /../markdown/footer.md
+      details
+        summary About this website
+        include:marked /../markdown/footer.md
       // Metadata
       if created
         hr
