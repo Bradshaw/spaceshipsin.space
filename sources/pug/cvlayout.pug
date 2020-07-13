@@ -29,5 +29,8 @@ html(lang="en")
       meta(property="twitter:creator" content="@_gaeel_")
   body
     #curriculum-vitae
-      a.print-button(href="?" onclick="window.print();return false;") Print me!
-      include:marked [[markdown]]
+      p.print-button
+        a(href="/") home
+        |  
+        a(href="?" onclick="window.print();return false;") print this document
+        include:marked [[markdown]]
