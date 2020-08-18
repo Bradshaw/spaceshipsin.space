@@ -220,19 +220,19 @@ var builder = function(config){
         basedir: path.join(config.root, config.pug),
         pretty: true
       }))
-      // .pipe(modify({
-      //     fileModifier: (file, contents)=>{
-      //       const dom = new JSDOM(contents);
-      //       Array.from(dom.window.document.querySelectorAll( 'a' ) )
-      //       .forEach( a => {
-      //         if (dom.window.location.hostname !== a.hostname && a.hostname.length) {
-      //           a.classList.add('external');
-      //           a.target = '_blank';
-      //         }
-      //       });
-      //       return dom.serialize();
-      //     }
-      // }))
+      .pipe(modify({
+          fileModifier: (file, contents)=>{
+            const dom = new JSDOM(contents);
+            Array.from(dom.window.document.querySelectorAll( 'a' ) )
+            .forEach( a => {
+              if (dom.window.location.hostname !== a.hostname && a.hostname.length) {
+                // a.classList.add('external');
+                a.target = '_blank';
+              }
+            });
+            return dom.serialize();
+          }
+      }))
       .pipe(gulp.dest(config.dest))
       //.pipe(print(filepath => `generated: ${filepath}`))
   })
@@ -272,7 +272,17 @@ var builder = function(config){
   });
   var scaleParameters = (file, cb)=>{
     const jpegFile = file.clone()
-    jpegFile.scale = {maxWidth: 700, format: 'jpg'}
+    jpegFile.scale = {
+      maxWidth: 700,
+      format: 'jpg',
+      formatOptions: {
+        quality: 65,
+        chromaSubsampling: '4:4:4',
+        progressive: true,
+        overshootDeringing: true,
+        optimiseScans: true
+      }
+    }
     cb(null, [jpegFile])
   }
   gulp.task('public', function(){
@@ -420,14 +430,14 @@ var builder = function(config){
         for (var i = 0; i < tags[tag].length; i++) {
           if (tag=="all") {
             if (tags[tag][i].status!="unpublished"){
-              tagstr+="## "+tags[tag][i].title+"\n";
+              tagstr+="## ["+tags[tag][i].title+"]("+tags[tag][i].url+")\n";
               //str+="<span>_"+dateFormat(new Date(tags[tag][i].updated), "mmmm dS, yyyy")+"_</span>\n"
               tagstr+=tags[tag][i].preview+"<br />"
               tagstr+="[Read more...]("+tags[tag][i].url+")<br /><br />\n";
             }
           } else {
             if (tags[tag][i].status!="unpublished"){
-              str+="## "+tags[tag][i].title+"\n";
+              str+="## ["+tags[tag][i].title+"]("+tags[tag][i].url+")\n";
               //str+="<span>_"+dateFormat(new Date(tags[tag][i].updated), "mmmm dS, yyyy")+"_</span>\n"
               str+=tags[tag][i].preview+"<br />"
               str+="[Read more...]("+tags[tag][i].url+")<br /><br />\n";
@@ -521,7 +531,8 @@ var builder = function(config){
     console.log("Building...");
     done();
   })
-  gulp.task('prepare', gulp.series('clearscreen', gulp.parallel('clean', 'cleantemp')))
+  //gulp.task('prepare', gulp.series('clearscreen', gulp.parallel('clean', 'cleantemp')))
+  gulp.task('prepare', gulp.series('clearscreen', gulp.parallel('cleantemp')))
   
   gulp.task('reload', function(done) {
     console.log("Build done, calling \"done\" callback");
