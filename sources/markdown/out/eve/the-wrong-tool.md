@@ -1,5 +1,5 @@
-## The Wrong Tool
-### An EVE Online story
+# The Wrong Tool
+## An EVE Online story
 
 Gang's bored™️, we're sitting in a standing fleet that hasn't seen any action in a while, and besides, there aren't that many industrialists online, so we're not really defending much, so someone volunteers as a fleet commander. We figure we might run into some good fights if we punch out into the weird no-man's land left after last month's war.   
 
@@ -46,4 +46,4 @@ We killed a Nyx
 ---
 title: The Wrong Tool
 tags:
-  - eve stories
+  - stories

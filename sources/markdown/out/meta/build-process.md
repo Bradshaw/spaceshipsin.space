@@ -1,12 +1,11 @@
-#### Code   
 The code that generates this website is hosted on my [Git pier repo](https://pier.spaceshipsin.space/gaeel/spaceshipsin-space)   
 I cannot guarantee that it is fit for your purpose, nor that it is anywhere near the best way to achieve what I've done. This is simply the tool I've built for the dual purpose of having a website that I enjoy using, and learning to use node.js and its ecosystem.
 
 ## Build process
-As the footer of this website says, everything you see here rests on the shoulders of giants standing on mountains of Javascript. I'm using [Markdown](https://daringfireball.net/projects/markdown/syntax), [Pug](https://pugjs.org), and [Sass](https://sass-lang.com/) to create all of the content. And then a stack of over a million lines of Javascript, mostly in the form of [Gulp](https://gulpjs.com/) plugins, interprets these files to generate the HTML and CSS that I serve to you, the reader.
+As the footer of this website used to say, everything you see here rests on the shoulders of giants standing on mountains of Javascript. I'm using [Markdown](https://daringfireball.net/projects/markdown/syntax), [Pug](https://pugjs.org), and [Sass](https://sass-lang.com/) to create all of the content. And then a stack of over a million lines of Javascript, mostly in the form of [Gulp](https://gulpjs.com/) plugins, interprets these files to generate the HTML and CSS that I serve to you, the reader.
 
 My goal when setting up this process was to have the ease of use of an easy content creation mechanism, with the flexibility of a dynamic website that modern web tools allow.  
-Meanwhile, I want to keep the site lightweight (for you), and to be as widely compatible as possible. At the time of writing [the main page](/), with all the images, is a 66.8KB download. It's possible to do better, maybe, but I feel like it's quick enough, even on my bad 3G connection.  
+Meanwhile, I want to keep the site lightweight (for you), and to be as widely compatible as possible. At the time of writing [the main page](/), with all the images, is a 82.3KB download. It's possible to do better, maybe, but I feel like it's quick enough, even on my bad 3G connection.  
 
 
 ### Writing
@@ -20,7 +19,7 @@ I dump all images I use into a folder, where they get copied to the server, unco
 In parallel, there's a filter that rescales images to 700px wide, compresses them as JPEG, and saves them alongside the original.  
 #### Compare
 * [thief.jpg (125KB)](/thief.jpg)
-* [thief.700w.jpg (25.3KB)](/thief.700w.jpg)
+* [thief.700w.jpg (11KB)](/thief.700w.jpg)
 
 This means I don't have to worry about converting images manually, but still allows me to use the full, uncompressed data if I want to show off high-resolution images. The extra storage space isn't an issue for me, and this allows me to pick and choose when and where more bandwidth usage is necessary.
 
@@ -47,4 +46,5 @@ If you have the know-how (or want to use [this system](https://pier.spaceshipsin
 ---
 title: Build Process
 tags:
+  - technology
   - meta

@@ -30,71 +30,78 @@ html(lang="en")
     
   body  
     // Header
-    header
-      h1 🚀 Spaceships in Space
-      nav.linkheader
-        p.links
-          span warp&nbsp;
+    .container
+      header
+        //- h1 Spaceships in Space
+        svg(viewBox="0 0 50 8" preserveAspectRatio="none")
+          text(x="0" textLength="50px" y="3.75" lengthAdjust="spacingAndGlyphs") SPACESHIPS
+          text(x="0" textLength="50px" y="7.75" lengthAdjust="spacingAndGlyphs") IN SPACE
+        nav
+          span
             a.hlink(href="/") home
             |·
             a.hlink(href="/posts") posts
             |·
+            a.hlink(href="/portfolio") portfolio
+            |·
             a.hlink(href="/cv") cv
             |·
             a.hlink(href="/#contact") contact
-        //- p.links
-        //-   span hyperdrive
-        //-     ul
-        //-       li
-        //-         a.hlink(href="https://pier.spaceshipsin.space/") git repository
-        //-       li
-        //-         a.hlink(href="https://pier.spaceshipsin.space/gaeel/spaceshipsin-space") sources for this website
-        //-       li
-        //-         a.hlink(href="https://lost.spaceshipsin.space") lost spaceships in space
-      hr
+            //- p.links
+            //-   span hyperdrive
+            //-     ul
+            //-       li
+            //-         a.hlink(href="https://pier.spaceshipsin.space/") git repository
+            //-       li
+            //-         a.hlink(href="https://pier.spaceshipsin.space/gaeel/spaceshipsin-space") sources for this website
+            //-       li
+            //-         a.hlink(href="https://lost.spaceshipsin.space") lost spaceships in space
 
-    // Main article
-    main
-      if created
-        article#article.h-entry
-          .indieweb.hidden(aria-hidden="true")
-            .p-name= title
-          .indieweb.e-content
-            include:marked [[markdown]]
-          .indieweb.hidden(aria-hidden="true")
-            p.p-summary= preview
-            a.u-url(href="https://spaceshipsin.space"+url)
-              time.dt-published= update
-            a.p-author.h-card(rel="author" href="https://spaceshipsin.space") Gaeel
-              img(src="/favicon.png" alt="Gaeel's avatar")
-      else
-        #article
-          include:marked [[markdown]]    
+      // Main article
+      main
+        if created
+          article#article.h-entry
+            .indieweb.hidden(aria-hidden="true")
+              .p-name= title
+            .indieweb.e-content
+              include:markdown-it(html=true plugins=['markdown-it-collapsible']) [[markdown]]
+            .indieweb.hidden(aria-hidden="true")
+              p.p-summary= preview
+              a.u-url(href="https://spaceshipsin.space"+url)
+                time.dt-published= update
+              a.p-author.h-card(rel="author" href="https://spaceshipsin.space") Gaeel
+                img(src="/favicon.png" alt="Gaeel's avatar")
+        else
+          #article
+            include:markdown-it(html=true plugins=['markdown-it-collapsible']) [[markdown]]
+        if created
+          br
+          br
+          if datesEqual
+            .date Posted #{formatDate(new Date(updated))}
+          else
+            .date Updated #{formatDate(new Date(updated))}
     footer
-      hr
-      // Tags
-      if tags
-        details
-          summary Related tags
-          ul
-            - tags.unshift('all')
-            each tag in tags
-              li
-                span
-                  a(href="/posts/"+tag.replace(" ","-"))= tag
-                  a.rss(href="/tag/"+tag.replace(" ","-")+"/rss.xml") (rss.xml)
-      // Build text
-      details
-        summary About this website
+      div.footercontent
+        // Tags
+        if tags
+          p Related tags
+            ul
+              - tags.unshift('all')
+              each tag in tags
+                li
+                  span
+                    a(href="/posts/"+tag.replace(" ","-"))= tag
+                    a.rss(href="/tag/"+tag.replace(" ","-")+"/rss.xml") (rss.xml)
+        // Build text
         include:marked /../markdown/footer.md
-      // Metadata
-      if created
-        hr
-        .publishing-info
-          p
-            | Created: #{formatDate(new Date(created))} - #{formatTime(new Date(created))}
-            br
-            unless datesEqual
-              | Updated: #{formatDate(new Date(updated))} - #{formatTime(new Date(updated))}
-              br
-            | Last built: #{formatDate(new Date())} - #{formatTime(new Date())}
+        // Metadata
+        //- if created
+        //-   .publishing-info
+        //-     p
+        //-       | Created: #{formatDate(new Date(created))} - #{formatTime(new Date(created))}
+        //-       br
+        //-       unless datesEqual
+        //-         | Updated: #{formatDate(new Date(updated))} - #{formatTime(new Date(updated))}
+        //-         br
+        //-       | Last built: #{formatDate(new Date())} - #{formatTime(new Date())}

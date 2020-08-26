@@ -78,7 +78,6 @@ I think I'm going to bite the bullet and sell off this unit if I find someone wh
 ---
 title: AE Modular
 tags:
-  - modular
   - gear
   - audio
   - review

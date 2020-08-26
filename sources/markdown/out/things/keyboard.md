@@ -32,6 +32,5 @@ The open "sandwich" design does mean the case doesn't directly prevent dust or o
 ---
 title: Keyboard
 tags:
-  - keyboard
+  - review
   - gear
-  - lucky lab

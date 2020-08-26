@@ -1,4 +1,4 @@
-## In search of an *ethical software license*
+# In search of an *ethical software license*
 
 
 
@@ -6,6 +6,5 @@
 ---
 title: Ethical Software
 tags:
-  - ethics
   - blog
 status: unpublished

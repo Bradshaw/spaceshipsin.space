@@ -1,5 +1,8 @@
 var fs= require('fs');
-var md = require('markdown-it')();
+const markdown_it = require("markdown-it");
+const markdown_it_collapsible = require("markdown-it-collapsible");
+const md = markdown_it().use(markdown_it_collapsible);
+
 var del = require('del');
 var path = require('path');
 var through = require('through2');
@@ -276,7 +279,7 @@ var builder = function(config){
       maxWidth: 700,
       format: 'jpg',
       formatOptions: {
-        quality: 65,
+        //quality: 75,
         chromaSubsampling: '4:4:4',
         progressive: true,
         overshootDeringing: true,
@@ -390,16 +393,23 @@ var builder = function(config){
   gulp.task('mapandtag', function(done){
     fs.mkdirSync(path.join(config.temp,"tag"))
     var tags = yaml.safeLoad(fs.readFileSync(path.join(config.temp,"tags.yaml")).toString('utf8'))
-    var tagstr = "## All tags\n"
-    for (var tag in tags) {
-      //if (tag=="all") continue;
-      var str = "## Pages tagged with _"+tag+"_\n";
+    var keys = Object.keys(tags);
+    keys.forEach(k => tags[k]=tags[k].filter(t=>t.status!="unpublished"))
+    //keys = keys.filter(k => tags[k].length>1);
+    keys = keys.sort((a, b)=>{
+      return tags[b].length - tags[a].length
+    })
+    var tagstr = "# All tags\n"
+    for (var ki = 0; ki<keys.length; ki++) {
+      var tag = keys[ki];
+      if (tag=="all") continue;
+      var str = "# Pages tagged with _"+tag+"_\n";
       str += "[Get this tag as an RSS feed](/tag/"+tag+"/rss.xml)\n\n";
       if (tags.hasOwnProperty(tag)) {
-        var pub = tags[tag].filter(t=>t.status!="unpublished");
+        var pub = tags[tag];//.filter(t=>t.status!="unpublished");
         if (pub.length>0){
           var count = pub.length;
-          tagstr+="* [**"+tag+"** ("+count+"post"+(count==1?"":"s")+")](/posts/"+tag.replace(" ","-")+")"
+          tagstr+="* [**"+tag+"** ("+count+" post"+(count==1?"":"s")+")](/posts/"+tag.replace(" ","-")+")"
           tagstr+=" <a class=\"rss\" href=\"/tag/"+tag.replace(" ","-")+"/rss.xml\">(rss.xml)</a>\n"
         }
         for (var i = 0; i < pub.length; i++) {
@@ -418,29 +428,29 @@ var builder = function(config){
   gulp.task('generate-posts', function(done){
     fs.mkdirSync(path.join(config.temp,"posts"))
     var tags = yaml.safeLoad(fs.readFileSync(path.join(config.temp,"tags.yaml")).toString('utf8'))
-    var tagstr = "# All posts\n"
+    var tagstr = ""
     tagstr += "\n[Filter by tag](/tags)<br />";
     tagstr += "[Get this feed as RSS](/tag/all/rss.xml)\n\n";
     for (var tag in tags) {
       //if (tag=="all") continue;
-      var str = "# Posts tagged with _"+tag+"_\n";
+      var str = "# Posts tagged with **"+tag+"**\n";
       str += "\n[View all available tags](/tags)<br />";
       str += "[Get this feed as RSS](/tag/"+tag+"/rss.xml)\n\n";
       if (tags.hasOwnProperty(tag)) {
         for (var i = 0; i < tags[tag].length; i++) {
           if (tag=="all") {
             if (tags[tag][i].status!="unpublished"){
-              tagstr+="## ["+tags[tag][i].title+"]("+tags[tag][i].url+")\n";
-              //str+="<span>_"+dateFormat(new Date(tags[tag][i].updated), "mmmm dS, yyyy")+"_</span>\n"
+              tagstr+="# ["+tags[tag][i].title+"]("+tags[tag][i].url+")\n";
               tagstr+=tags[tag][i].preview+"<br />"
-              tagstr+="[Read more...]("+tags[tag][i].url+")<br /><br />\n";
+              tagstr+="<span class='date'>"+dateFormat(new Date(tags[tag][i].updated), "mmmm dS, yyyy")+"</span>\n\n"
+              //tagstr+="[Read more...]("+tags[tag][i].url+")<br /><br />\n";
             }
           } else {
             if (tags[tag][i].status!="unpublished"){
-              str+="## ["+tags[tag][i].title+"]("+tags[tag][i].url+")\n";
-              //str+="<span>_"+dateFormat(new Date(tags[tag][i].updated), "mmmm dS, yyyy")+"_</span>\n"
+              str+="# ["+tags[tag][i].title+"]("+tags[tag][i].url+")\n";
               str+=tags[tag][i].preview+"<br />"
-              str+="[Read more...]("+tags[tag][i].url+")<br /><br />\n";
+              str+="<span class='date'>"+dateFormat(new Date(tags[tag][i].updated), "mmmm dS, yyyy")+"</span>\n\n"
+              //str+="[Read more...]("+tags[tag][i].url+")<br /><br />\n";
             }
           }
         }
@@ -524,22 +534,31 @@ var builder = function(config){
   
   
   gulp.task('tag-to-site', gulp.series('preprocess', 'collecttags', gulp.parallel('mapandtag', 'generate-rss', 'generate-posts', 'generate-sitemap')));
-  gulp.task('generate', gulp.parallel('public', 'css', gulp.series('tag-to-site', 'markdown')));
+
+  if (config.quickbuild>=2){
+    console.log("Skipping public folder");
+    gulp.task('generate', gulp.parallel('css', gulp.series('tag-to-site', 'markdown')));
+  } else {
+    gulp.task('generate', gulp.parallel('public', 'css', gulp.series('tag-to-site', 'markdown')));
+  }
   
   gulp.task('clearscreen', function(done) {
-    console.clear();
+    //console.clear();
     console.log("Building...");
     done();
   })
-  //gulp.task('prepare', gulp.series('clearscreen', gulp.parallel('clean', 'cleantemp')))
-  gulp.task('prepare', gulp.series('clearscreen', gulp.parallel('cleantemp')))
+  if (config.quickbuild>=1){
+    console.log("Skipping clean step");
+    gulp.task('prepare', gulp.series('clearscreen', gulp.parallel('cleantemp')))
+  } else {
+    gulp.task('prepare', gulp.series('clearscreen', gulp.parallel('clean', 'cleantemp')))
+  }
   
   gulp.task('reload', function(done) {
     console.log("Build done, calling \"done\" callback");
     config.done();
     done();
   })
-  
   
   gulp.task('cleanbuild', gulp.series('prepare', 'generate', 'reload'));
   var watcher = gulp.watch(path.join(config.root, config.all), gulp.series('cleanbuild'))

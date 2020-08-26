@@ -64,4 +64,4 @@ You can click on the images to see higher resolution scans.
 ---
 title: Thanet Storm Damage
 tags:
-  - random
+  - visual
