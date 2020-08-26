@@ -13,5 +13,5 @@ Finally, because the slew rate limiter is based on a physical fader, the musicia
 ---
 title: "Noisy Boys"
 tags:
-  - modular
+  - audio
 status: unpublished

@@ -9,6 +9,7 @@ var dest = './build'
 if (argv.dest){
   dest = argv.dest
 }
+console.log(argv)
 var reload = require('reload')
 
 // BUILDER
@@ -28,7 +29,8 @@ var config = {
   markdown: 'markdown/out',
   markglob: '/**/*.md',
   all: '**',
-  done: argv.b ? ()=>{process.exit(0)} : ()=>{console.log("Done building")}
+  done: argv.b ? ()=>{process.exit(0)} : ()=>{console.log("Done building")},
+  quickbuild: argv.q ? argv.q : 0
 }
 // var libconfig = {
 //   dest: './build',

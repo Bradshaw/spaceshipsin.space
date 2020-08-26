@@ -27,6 +27,5 @@ Because the 4060 accepts anything from 3v to 15v for power, and has some flexibi
 title: Olegtron 4060 MK2
 tags:
   - gear
-  - modular
   - audio
   - review

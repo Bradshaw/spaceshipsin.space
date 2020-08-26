@@ -11,5 +11,4 @@ As I write these words, we've both completed the main campaign three times and w
 title: Path of Exile is GOOD
 tags:
   - review
-  - path of exile
 status: unpublished

@@ -26,6 +26,5 @@ I'm looking to produce posters of these, I have a print of [the Nebulabrot from 
 ---
 title: Nebulae
 tags:
-  - nebulae
-  - fractals
+  - visual
   
