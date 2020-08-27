@@ -33,7 +33,7 @@ html(lang="en")
     .container
       header
         //- h1 Spaceships in Space
-        svg(viewBox="0 0 50 8" preserveAspectRatio="none")
+        svg(alt="Spaceships in Space logo" viewBox="0 0 50 8" preserveAspectRatio="none")
           text(x="0" textLength="50px" y="3.75" lengthAdjust="spacingAndGlyphs") SPACESHIPS
           text(x="0" textLength="50px" y="7.75" lengthAdjust="spacingAndGlyphs") IN SPACE
         nav
@@ -64,7 +64,7 @@ html(lang="en")
             .indieweb.hidden(aria-hidden="true")
               .p-name= title
             .indieweb.e-content
-              include:markdown-it(html=true plugins=['markdown-it-collapsible']) [[markdown]]
+              include:markdown-it(html=true plugins=['markdown-it-collapsible','markdown-it-anchor']) [[markdown]]
             .indieweb.hidden(aria-hidden="true")
               p.p-summary= preview
               a.u-url(href="https://spaceshipsin.space"+url)

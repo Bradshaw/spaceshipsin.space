@@ -1,5 +1,5 @@
 # Check it out!
-Here's (almost) everything I've worked on (in no particular order)
+Here's some stuff I've worked on (in no particular order)
 
 ## Joli Signal
 ![Gaeel on stage, looking at a laptop.](/portfolio/jolisignal.700w.jpg)   

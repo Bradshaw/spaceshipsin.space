@@ -1,34 +1,48 @@
+@use "sass:string"
 *
   // outline: solid 1px red !important
   // transition: none !important
   
 $bhue: 180
 $body-color: hsl($bhue, 0, 95%)  
+$stripe-color: hsl($bhue, 10, 90%)  
+$stripe-color-code: str-slice(quote($stripe-color),2)
 $background-color: hsl($bhue, 0, 99%)  
 $text-color: hsl($bhue+180, 0, 5%)
 $link-color: hsl($bhue+180, 100, 25%)
+$header-link-color: hsl($bhue+180, 100, 70%)
 $title-color: hsl($bhue+180, 0, 30%)
 $hover-color: hsl($bhue+180, 100, 50%)
-$page-width: 16cm  
+$page-width: 16cm
+$corner-size: 40px
+$corner-clip: polygon(0% 0%, 100% 0%, 100% calc( 100% - #{$corner-size} ), calc( 100% - #{$corner-size} ) 100%, 0% 100%)
 
-$dark-body-color: hsl($bhue, 0, 7%)  
+$dark-body-color: hsl($bhue, 0, 15%)  
+$dark-stripe-color: hsl($bhue, 10, 20%)  
+$dark-stripe-color-code: str-slice(quote($dark-stripe-color),2)
 $dark-background-color: hsl($bhue, 0, 1%)  
 $dark-text-color: hsl($bhue+180, 0, 90%)
 $dark-link-color: hsl($bhue+180, 90, 65%)
 $dark-title-color: hsl($bhue+180, 0, 65%)
 $dark-hover-color: hsl($bhue, 80, 50%)
 
+$body-stripes: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 16 16'%3E%3Cg %3E%3Cpolygon fill='%23#{$stripe-color-code}' points='0 8 8 0 16 0 0 16'/%3E%3Cpolygon fill='%23#{$stripe-color-code}' points='16 8 16 16 8 16'/%3E%3C/g%3E%3C/svg%3E")
+$dark-body-stripes: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 16 16'%3E%3Cg %3E%3Cpolygon fill='%23#{$dark-stripe-color-code}' points='0 8 8 0 16 0 0 16'/%3E%3Cpolygon fill='%23#{$dark-stripe-color-code}' points='16 8 16 16 8 16'/%3E%3C/g%3E%3C/svg%3E")
+
 body
   padding: 1cm 1cm 0 1cm
   margin: 0
   font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,'Helvetica Neue',Arial,sans-serif
   background: $body-color
+  background-image: $body-stripes
   color: $text-color
   @media (prefers-color-scheme: dark)
     background: $dark-body-color
     color: $dark-text-color
+    background-image: $dark-body-stripes
 
 .container
+  clip-path: $corner-clip
   max-width: $page-width
   margin: auto
   background: $background-color
@@ -43,12 +57,17 @@ hr
   height: 0
   border-bottom: 0
 
+main
+  padding: 20px
+
 main, footer
   max-width: $page-width
   margin: auto
-  padding: 20px
   
 footer
+  background: $body-color
+  @media (prefers-color-scheme: dark)
+    background: $dark-body-color
   margin-top: 5em
   p, ul, summary
     font-size: 10pt
@@ -119,17 +138,18 @@ h6
   font-size: 17pt
 
 header
-  clip-path: polygon(0% 0%, 100% 0%, 100% calc( 100% - 40px ), calc( 100% - 40px ) 100%, 0% 100%)
+  clip-path: $corner-clip
   max-width: calc(#{$page-width} - 40px)
   margin: auto
-  padding: 20px
+  padding: 20px 20px 15px 20px
   background-color: $title-color
   nav
-    font-size: 16pt
-    font-weight: lighter
+    margin-top: 5px
+    font-size: 18pt
+    font-weight: 200
     color: $background-color
     a
-      color: $dark-link-color
+      color: $header-link-color
   svg
     width: 100%
     text
@@ -175,23 +195,6 @@ a.hlink:hover
   //   background-color: $link-color
 
   
-@media (max-width: 18cm)
-  header nav
-    font-size: 12pt
-  img
-    max-width: 100%
-    width: 100%
-      
-  main, footer
-    padding: 20px 0
-    margin: auto
-    width: 90%
-    max-width: unset
-  
-  body
-    margin: 0
-    padding: 0
-  
 .math
   font-size: larger
   font-family: serif
@@ -209,12 +212,6 @@ a.hlink:hover
 .hidden
   display: none
 
-// details > summary:first-of-type
-// 	list-style-type: none
-
-// ::-webkit-details-marker
-// 	display: none
-
 summary
 	outline: none
 	-webkit-user-select: none
@@ -223,11 +220,20 @@ summary
 	-ms-user-select: none
 	cursor: pointer
 
-// details > summary .details-marker:before
-// 	content: "\25BA"
-
-// details[open] > summary .details-marker:before
-// 	content: "\25BC"
-
-// details > *:not(summary)
-// 	padding-left: 1.25em
+  
+@media (max-width: 18cm)
+  header nav
+    font-size: 12pt
+  img
+    max-width: 100%
+    width: 100%
+      
+  main
+    padding: 20px 0
+    margin: auto
+    width: 90%
+    max-width: unset
+  
+  body
+    margin: 0
+    padding: 0
