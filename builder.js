@@ -442,14 +442,14 @@ var builder = function(config){
             if (tags[tag][i].status!="unpublished"){
               tagstr+="# ["+tags[tag][i].title+"]("+tags[tag][i].url+")\n";
               tagstr+=tags[tag][i].preview+"<br />"
-              tagstr+="<span class='date'>"+dateFormat(new Date(tags[tag][i].updated), "mmmm dS, yyyy")+"</span>\n\n"
+              tagstr+="<span class='date'>"+dateFormat(new Date(tags[tag][i].created), "mmmm dS, yyyy")+"</span>\n\n"
               //tagstr+="[Read more...]("+tags[tag][i].url+")<br /><br />\n";
             }
           } else {
             if (tags[tag][i].status!="unpublished"){
               str+="# ["+tags[tag][i].title+"]("+tags[tag][i].url+")\n";
               str+=tags[tag][i].preview+"<br />"
-              str+="<span class='date'>"+dateFormat(new Date(tags[tag][i].updated), "mmmm dS, yyyy")+"</span>\n\n"
+              str+="<span class='date'>"+dateFormat(new Date(tags[tag][i].created), "mmmm dS, yyyy")+"</span>\n\n"
               //str+="[Read more...]("+tags[tag][i].url+")<br /><br />\n";
             }
           }
