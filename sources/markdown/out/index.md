@@ -55,7 +55,6 @@ Other identities:
   * [Itch.io](https://gaeel.itch.io/)
   * [GitHub](https://github.com/Bradshaw)
   * [SoundCloud](https://soundcloud.com/freelancer-epic)
-  * [Peer Tube](https://diode.zone/video-channels/hyperwires/videos)
   * [YouTube](https://www.youtube.com/channel/UCHY1DlIho8kNykWSpDHL7qQ)
   * [Keybase](https://keybase.io/gaeel)
   
