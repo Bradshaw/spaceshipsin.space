@@ -11,6 +11,7 @@ if (argv.dest){
 }
 console.log(argv)
 var reload = require('reload')
+reloader = ()=>{console.log("reload not initialised yet")}
 
 // BUILDER
 var config = {
@@ -29,7 +30,7 @@ var config = {
   markdown: 'markdown/out',
   markglob: '/**/*.md',
   all: '**',
-  done: argv.b ? ()=>{process.exit(0)} : ()=>{console.log("Done building")},
+  done: argv.b ? ()=>{process.exit(0)} : ()=>{reloader()},
   quickbuild: argv.q ? argv.q : 0
 }
 // var libconfig = {
@@ -92,7 +93,7 @@ if (!argv.b){
   app.listen(3000, function(){
     console.log('Server running on 3000...');
   });
-  var reloader = reload(app);
+  reloader = reload(app).reload;
 }
 
 //builder(reload, libconfig);

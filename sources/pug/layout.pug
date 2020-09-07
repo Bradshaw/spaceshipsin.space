@@ -73,7 +73,7 @@ html(lang="en")
                 img(src="/favicon.png" alt="Gaeel's avatar")
         else
           #article
-            include:markdown-it(html=true plugins=['markdown-it-collapsible']) [[markdown]]
+            include:markdown-it(html=true plugins=['markdown-it-collapsible','markdown-it-anchor']) [[markdown]]
         if created
           br
           br
@@ -105,3 +105,4 @@ html(lang="en")
         //-         | Updated: #{formatDate(new Date(updated))} - #{formatTime(new Date(updated))}
         //-         br
         //-       | Last built: #{formatDate(new Date())} - #{formatTime(new Date())}
+    //- script(src="/reload/reload.js")
