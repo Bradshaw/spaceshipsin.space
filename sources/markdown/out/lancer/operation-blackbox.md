@@ -69,13 +69,15 @@ Grampie is one of the orignal crew of the USO Gudrun Hearth and founders of the 
 Feeling betrayed, she joined the fledgling colony, and put her logistical management skills to good use, helping coordinate the construction of a new home in this otherwise inhospitable region.  
 She's one of the few who have seen Arkab-Goodun grow since the beginning, and while she's retired from her duties to the *Admiral*, her opinion and wisdom are often sought out.  
   
-Her long, greying hair is braided by the children she likes to tell stories to. She wears her trusty flight jacket, patched up with colourful pieces of fabric, a simple white t-shirt bearing the logo of her favourite eatery, and the bottom half of an engineer's jumpsuit, held up with a pair of red suspenders. Half way up one of the suspender straps is a USO first officer's insignia, belonging to an old friend, maybe?
+Her long, greying hair is braided by the children she likes to tell stories to. She wears her trusty flight jacket, patched up with colourful pieces of fabric, on top of her blue overalls. Half way up one of the overall straps is a USO first officer's insignia, belonging to an old friend, maybe?
 
 ### Mieke
-A subaltern, controlled by an NHP simulating the consciousness of the human being once called Mieke.  
-They were a scientist, and came across some information about an artifact designed by an NHP. During their research, they attracted the attention of a mysterious group that sent mercenaries to kill them.  
+A scientist who came across some information about an artifact designed by an NHP. During their research on this artifact, they attracted the attention of a mysterious group that sent mercenaries to kill them.  
 They escaped by uploading their consciousness to their NHP and taking control of a Bridgegap Automation subaltern.  
-Their current body is a BA *Craftsman* subaltern, a unit designed for building and repairing bespoke equipment, outfitted with four high-precision arms and an array of tools.
+They stand tall and lanky, head and shoulders above most people they meet, their thin frame punctuating the space in which they stand. When they're not wearing a lab coat, they like to wear long, floral robes in firey colours.  
+#### Subaltern Form
+A subaltern, controlled by an NHP simulating the consciousness of the human being once called Mieke.  
+Their current body is a BA *Craftsman* subaltern, a unit designed for building and repairing bespoke equipment, outfitted with four high-precision arms and an array of tools. This unit bears a Clark & Western livery in signature blue and yellow, the company they were originally destined for.
 
 ## Places
 ### Jindal IV (Station)
@@ -95,3 +97,7 @@ Homeplace of [Otmar](#otmar), [Bauer](#bauer) and [Grampie](#grampie)
 Aleph Due is a moonless planet, orbiting a star, opposite to a sister planet, Aleph Unn.  
 While Aleph Unn is completely barren, Aleph Due is surprisingly full of life. An acid rain falls constantly at and around the poles while the sweltering heat evaporates the lakes and seas around the equator. A thick, sticky, acrid atmosphere supports a flurry of life forms, mostly plant-like. Some of the larger flora have evolved a startling "catch, bash and dissolve" tactic for preying on the few animal species that roam around.  
 The akward terrain, acid rain, hostile fauna and flora, and thick atmosphere all make this planet exceedingly unworthwhile to settle or industrialise.
+
+%YAML 1.2
+---
+status: unpublished

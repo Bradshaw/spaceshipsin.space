@@ -72,3 +72,5 @@ A quick reference sheet for the [Lancer](https://massif-press.itch.io/corebook-p
 title: Lancer Reference
 tags:
   - junk
+
+status: unpublished

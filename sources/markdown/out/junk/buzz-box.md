@@ -67,3 +67,4 @@ This was my shopping list before diving in:
 title: Buzz box parts
 tags:
   - junk
+status: unpublished

@@ -16,3 +16,8 @@ An explorable and modifiable world set inside the memory of a globally shared, i
 ## [lost.spaceshipsin.space](https://lost.spaceshipsin.space)
 
 A game about 
+
+
+%YAML 1.2
+---
+status: unpublished
