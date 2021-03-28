@@ -47,7 +47,7 @@
     "gulp-wrap": "^0.14.0",
     "gulp-yaml-merge": "^2.0.0",
     "gutil": "^1.6.4",
-    "handlebars": "^4.0.11",
+    "handlebars": "^4.7.7",
     "js-yaml": "^3.12.2",
     "jsdom": "^15.2.1",
     "jstransformer-markdown-it": "^2.1.0",
