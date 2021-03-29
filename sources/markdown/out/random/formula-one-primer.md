@@ -1,7 +1,24 @@
-# Formula One Primer 2020
+# Formula One Primer 2021
 
 Want to watch Formula One and don't know what it's about? Want to know who the drivers and teams are?  
 Basically, if you want to have quick idea of *what the heck is going on*, here's a quick run down.
+
+## Contents
+- [Teams and drivers](#teams-and-drivers)
+    - Find out who's racing this year
+- [Rules and tactics](#rules-and-tactics)
+    - [The point system](#points)
+    - [The different tyres](#tyres)
+    - [The "drag reduction system"](#drag-reduction-system)
+    - [Racing rules](#overtaking%2C-track-limits%2C-and-%22space%22)
+    - [The coloured flags](#flags)
+    - [Safety cars](#safety-cars)
+- [Race weekend](#race-weekend)
+    - A run down of the sessions leading up to the race  
+    [Free practice](#free-practice) and [qualifying](#qualifying)
+    - What to look out for when the [race is on](#race)
+- [Extra resources](#some-extra-resources)
+    - Where to watch, race calendar, and links to some more in-depth information
 
 # Teams and drivers
 
@@ -261,7 +278,10 @@ Teams and drivers use these sessions to fine-tune the car, learn the track, and 
 
 ## Qualifying
 Qualifying takes place on Saturday, after Free Practice 3, and determines the starting order of the drivers.   
-It's cut into three parts, Q1, Q2, and Q3. In Q1 and Q2, the drivers take their cars around the track and try to set a good timed lap. The five slowest drivers of Q1 are eliminated and placed into the 16th to 20th positions.  
+It's cut into three parts, Q1, Q2, and Q3. In Q1 and Q2, the drivers take their cars around the track and try to set a good timed lap.   
+   
+Q1 and Q2 are "elimination rounds".   
+The five slowest drivers of Q1 are eliminated and placed into the 16th to 20th positions.  
 The five slowest drivers of Q2 are eliminated and placed into the 11th to 15th positions.  
   
 The drivers that make it into Q3 will start the race on the tyres they used in Q2, which adds a layer of strategy, since the best qualifying tyres aren't always the best tyres to start the race on. Is it better to guarantee entry into Q3, or risk it but start the race on a more advantageous tyre?  
@@ -295,6 +315,8 @@ If you want to have a look at the technology that makes F1 cars so impressive, h
 ## F1 Calendar
 
 [f1calendar.com](https://f1calendar.com/) is the best place to get the dates and times of all of the races and other sessions, converted to your local time zone.
+
+## 
 
 ## Where to watch
 
