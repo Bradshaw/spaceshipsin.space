@@ -308,3 +308,5 @@ You can also [shop around](https://www.reddit.com/r/motorsportsstreams/) for "al
 %YAML 1.2
 ---
 title: Formula One Primer
+tags:
+    - random
