@@ -1,6 +1,6 @@
 # Hello!
 My name is __Gaeel&nbsp;Bradshaw‑Rodriguez__    
-  
+
 I am a designer and programmer, primarily interested in interactivity, digital art, and computer-enabled experiences   
 
 
@@ -22,7 +22,7 @@ As part of void.garden, I'm running a social network based on [Darius Kazemi](ht
 
 I made this game while living in a friend's spare room after dropping out of college. There were often people at the house, and we'd play a lot of local multiplayer games, like Samurai Gunn and Towerfall. I started making this game in a weird attempt to try and mix this newfound love of local competitive play with some of the experiences I had online playing Warsow and Quake 2.   
 Because of this context, .lazr. became a game that can be weirdly intense and cerebral when played by people who already know how to play, but also very weird and opaque for people who don't.
- 
+
 If you'd like to learn to play .lazr., I recommend finding a friend who is about as competitive as you and spending an evening figuring out the movement mechanics. (Pro-tip, all of the weapons affect your movement in some way, and you're "slippery" as long as the trigger is held down)   
 [Download here](https://gaeel.itch.io/lazr)
 
@@ -42,7 +42,7 @@ You can try The Paper Sail [here](https://papersail.lab.arte.tv/), I recommend p
 # Get in touch <a name="contact" aria-hidden="true"></a>
 E-Mail
   * [gaeel@spaceshipsin.space](mailto:gaeel@spaceshipsin.space)
-  
+
 Social:
   * <a rel="me" href="https://pings.spaceshipsin.space">@gaeel@pings.spaceshipsin.space</a>
   * <a rel="me" href="https://twitter.com/_gaeel_">@\_gaeel\_</a>
@@ -54,8 +54,9 @@ Other identities:
   * [SoundCloud](https://soundcloud.com/freelancer-epic)
   * [YouTube](https://www.youtube.com/channel/UCHY1DlIho8kNykWSpDHL7qQ)
   * [Keybase](https://keybase.io/gaeel)
-  
+
 %YAML 1.2
 ---
 status: unpublished
-  
+created: 2019-10-17T09:58:17.000Z
+updated: 2021-03-29T07:53:39.000Z

@@ -12,7 +12,7 @@
 <div class="intro">
 
 *Hello!*   
-*I am a designer and programmer, primarily interested in interactivity, digital art, and computer-enabled experiences. If you're working on something weird, fun, thoughtful, or rebellious, I'd like to help you make that thing happen!* 
+*I am a designer and programmer, primarily interested in interactivity, digital art, and computer-enabled experiences. If you're working on something weird, fun, thoughtful, or rebellious, I'd like to help you make that thing happen!*
 
 </div>
 
@@ -44,7 +44,7 @@ Creation of a prototype for a video game adaptation of the Blacksad visual novel
 Story, cutscene, investigation and dialogue systems and mechanics  
 Story editing and asset integration tools     
 Custom shader set for a watercolour effect    
-The game was released in November 2019 as [Blacksad: Under the Skin](https://www.mobygames.com/game/windows/blacksad-under-the-skin) 
+The game was released in November 2019 as [Blacksad: Under the Skin](https://www.mobygames.com/game/windows/blacksad-under-the-skin)
 
 ### *2014 -> 2016* · Teacher · [**Supinfogame Rubika**](https://rubika-edu.com/)
 *Game design and management school*   
@@ -120,3 +120,5 @@ Ported game code the company had purchased to work on the large touch screen tec
 layout: pug/cvlayout.pug
 title: Gaeel Bradshaw-Rodriguez
 status: unpublished
+created: 2020-04-10T14:45:28.000Z
+updated: 2020-04-12T15:39:52.000Z

@@ -2,14 +2,14 @@
 ## A quick explainer
 You've probably already read a one-liner like "Mastodon is a federated social network", and most of it makes sense, except that one word "federated" that seems both needlessly pompous and confusingly opaque.  
 Most of the misunderstandings and confusion comes down to what federation means, why it's desirable, and what it offers to users of a service like Mastodon.   
-  
+
 ## Federation
 Really, all that "federation" means is that Mastodon isn't running on one big server, but rather a collection of smaller, separately-owned servers, and that these servers talk to each other to provide the full Mastodon experience.  
 This isn't unlike email. You can sign up for an email address with any number of providers, like GMail, Hotmail, ProtonMail, and many others. But no matter what provider you're using, you can send and receive emails with people on any other provider. The reason this works is because email providers all agree to use a set of technical protocols, which allows them to deal with emails to and from any other provider.  
-  
+
 Mastodon works in pretty much the same way. There are plenty of different providers, called instances, and you can create your account with any of them. And like email, your full identity contains both your chosen user name and the name of the instance your account is with. So on Mastodon, I am [@gaeel@stream.void.garden](https://stream.void.garden/@gaeel). The first part (@gaeel) is my username, and the second part (@stream.void.garden) is the instance that I'm hosted at.  
 I can talk to people on other instances as if they were on mine, because our instances will sync up and share the information. [This is what that looks like](https://stream.void.garden/@gaeel/103041608240830953). If you click that link, you'll see that I was able to comment on a post by a user from a separate instance to mine, and they replied to my comment.  
-  
+
 ## So what's the point?
 There are a few advantages to this, some of them are arguably political/philosophical, but others are more tangible, so let me start with those.
 
@@ -20,9 +20,9 @@ Your view of the rest of the federation depends on who you follow, and how your 
 ### Varying software & rules
 Some instances run the vanilla [Tootsuite Mastodon](https://github.com/tootsuite/mastodon) software. But there are other options available. My instance runs [Hometown](https://github.com/hometown-fork/hometown), which is close to a vanilla Mastodon, but with a few extras, like local-only posting (posts that can only be seen by members of my instance). There's also the delightfully experimental [glitch-soc](https://github.com/glitch-soc/mastodon/) that seems to be popular and brings a whole swathe of fun features for the users of instances that run on it.  
 Beyond that, some instances run completely different server software, like [Pleroma](https://git.pleroma.social/pleroma/pleroma)  
-  
+
 Also, each instance will have its own rules & moderation policy.  
-  
+
 So whether you're looking for certain features, or the ability to post or avoid certain types of content, then you can pick a server ran by people who are looking to provide that experience for you.
 
 <br>
@@ -48,7 +48,7 @@ Porn is a good example of this. Hosting porn is touchy, some users don't want to
 On Mastodon, a sex worker can choose an instance that is porn-friendly, or set up their own instance, and they can go about posting any content they like. The moderators of their sex-positive instance won't oppose it.  
 An instance for children, or who's users don't want to be exposed to sexual imagery might block porn-friendly instances, but that doesn't stop the blocked instances from reaching the communities who *do* want to view their content.  
 Similarly, the cliché that "there are no Nazis on Mastodon" is, flatly, false. But instance administrators look out for each other, and warn each other of instances that welcome fascists, harassers, or illegal content. An administrator who pays some attention to these disruptive communities can keep their users safe simply by blocking entire instances as they pop up.  
-  
+
 ### Ownership & monetisation
 Mainstream social networks are designed to make money, they do this by feeding you ads and selling access to the data you generate. This means their intentions are at odds with your wants and needs.  
 Some federated instances might be out to make some money, but most are ran by enthusiasts who just want somewhere to hang out online. This completely flips the script. A Mastodon admin is trying to create a friendly space for themself and their friends, and the hosting costs are usually paid for either by the admin or with a donation box. This kind of financial arrangement doesn't scale well, but is perfect for the micro-scale communities that Mastodon is based on.  
@@ -64,7 +64,7 @@ All of these are built with ActivityPub. This means they're all part of the same
 
 Mastodon, ActivityPub and the Fediverse bring me hope for a future where our online lives aren't completely owned by a few companies, and they're a lovely combination of the forums I used to run for my mates, and the more modern style of social interaction. They're a sign that we don't *need* Twitter & co to have an online presence. They make the internet simultaneously smaller and bigger than before. Tiny communities with their weird inside jokes, but all tied together in a network that can healthily grow as large as it needs to be.  
 I don't believe this mechanism is the be-all and end-all of social networking. Notably, I'd like to see a move away from [DNS](https://en.wikipedia.org/wiki/Domain_Name_System)-based identification, so that users can fully own their online identity. But Mastodon is a user-friendly way to experience the web as it could be, and for those of us who use it on a regular basis, already is...  
-  
+
 If you'd like to make yourself an account on the fediverse, [this instance list](https://instances.noct.zone) is a good place to look for an instance that'll suit you.
 +++
 
@@ -74,3 +74,5 @@ title: What is Mastodon?
 tags:
   - technology
   - blog
+created: 2019-11-08T18:15:33.000Z
+updated: 2020-08-26T14:26:34.000Z

@@ -5,8 +5,10 @@ Players connect through an basic text interface and can see the chunk of memory 
 
 Status:
 The [deployed version](https://spaceshipsin.space) implements some test interactions and networking features. Notably players can join, move around, see each other, and broadcast a message.   
-The in-development version has 
+The in-development version has
 
 %YAML 1.2
 ---
 status: unpublished
+created: 2020-04-19T08:55:04.000Z
+updated: 2021-03-13T15:51:55.000Z

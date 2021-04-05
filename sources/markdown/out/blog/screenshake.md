@@ -4,15 +4,15 @@ We can (sincerely) thank Martin Jonasson & Petri Purho for [making "Juice" a thi
 However, I think we're applying the letter of their message, rather than the spirit of their message.  
 Video games run on screens, that update high-resolution pictures at a high refresh rate in reaction to player input. This might seem a little reductive, but it's really important, because it's one of the strongest things that video games have.   
 Martin, Petri and JW were arguing for people to **use** that power. As a game programming teacher, I often see student projects where things are static and move in the most uninspired ways possible, and often, all it takes is a nudge for the student to understand just how much power they have. So those two talks are incredibly useful, for that first step.   
-   
+
 ## Game feel as cooking
 If you boil some pasta, and eat it. It's boring as hell. Add some salt and store-bought tomato paste and you've got the beginnings of a meal. So if all you're eating is plain pasta, my advice to you is *"add salt and sauce, and your meal will be tastier!"*. But that doesn't mean adding salt and sauce makes all meals tastier, and it doesn't mean that adding **even more** salt and sauce will continue to make you meal tastier.  
 Salt tends to make most things tastier, within limits. Some food, like potato chips, *relies* on salt to be any good at all. But there are so many other things you can add to different meals and snacks. Spices, cheeses, herbs, oils, grains. You can also prepare all the ingredients in different ways, frying, baking, dicing, basting, marinating, and all different kinds of fermenting.   
 So the first step in becoming a good cook, is taking that first step of adding salt and sauce. And then you keep going.   
-   
+
 ## Why I'm being an elitist gatekeepey prick today
 I saw another young dev post a trailer of a game with so much screenshake that I couldn't see what was happening. I see this *all the time*, and it makes me so sad. Vlambeer made a company off of screenshake, but that's their style, in the same way that french fries are usually very salty. But you're not Vlambeer, and not all games are french fries, and everything is super salty now and I don't think it's good for my health.   
-   
+
 Please use other spices, I assure you, they're delicious!
 
 ## Other things you can do
@@ -42,3 +42,5 @@ title: Screenshake and french fries
 tags:
   - blog
 status: unpublished
+created: 2019-10-17T09:58:17.000Z
+updated: 2020-08-26T14:26:34.000Z

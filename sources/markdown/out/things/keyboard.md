@@ -14,8 +14,8 @@ The Preonic is a DIY build, you need to source keycaps and switches yourself. Yo
 The Preonic kit has a top plate, which stabilises the switches, a PCB that the switches are soldered to and that contains all the logic and connectivity, and a bottom plate that protects the underside of the keyboard and features a lovely plant illustration by [Katie Doodles](http://katiedoodles.com).  
 
 Because the main components are plastic or PCB, the finished build is very lightweight, easy to pop into a sleeve and travel with.  
-The open "sandwich" design does mean the case doesn't directly prevent dust or other contaminants from getting into the keyboard, it's not been an issue for me yet, and it's easy enough to take apart and clean should that become a problem in the future. 
-   
+The open "sandwich" design does mean the case doesn't directly prevent dust or other contaminants from getting into the keyboard, it's not been an issue for me yet, and it's easy enough to take apart and clean should that become a problem in the future.
+
 *[![Katie Doodles' illustration in gold on black on the underside of the keyboard](/keyboard/illustration.700w.jpg)](/keyboard/illustration.jpg)*
 *Katie Doodles' illustration on the underside of the keyboard*
 
@@ -34,3 +34,5 @@ title: Keyboard
 tags:
   - review
   - gear
+created: 2019-10-17T09:58:17.000Z
+updated: 2020-08-26T14:26:34.000Z

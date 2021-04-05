@@ -2,13 +2,13 @@
 
 *[![Nebulabrot](/nebulae/neb.700w.jpg)](/nebulae/neb.png)*   
 *One of my first batch of Nebulabrot renders*   
-  
+
 A while ago, I learnt about an interesting way to picture the Mandelbrot fractal. The *traditional* way is to colour each point of the plane depending on whether or not the number associated with that point escapes, and how many steps it takes to escape.   
 This method instead looks at what *path* the steps take to escape, producing a sort of heat map of what paths are the most common.   
-   
+
 The result is a quite striking display of clouds and stars as the chaotic nature of complex maths are revealed.   
 *Side note: I detest the term "complex maths", it scares away my students, confuses hobbyists, and makes things seem harder than they really are. Really all it means is 2D maths...*   
-   
+
 The Mandelbrot fractal is defined by the function <span class="math">z²+c</span>, but other functions exist, and in fact, it's also possible to use multiple functions in a loop.
 
 *[![MMMP](/nebulae/mmmp1200.700w.jpg)](/nebulae/mmmp1200.png)*   
@@ -27,4 +27,5 @@ I'm looking to produce posters of these, I have a print of [the Nebulabrot from 
 title: Nebulae
 tags:
   - visual
-  
+created: 2019-10-17T09:58:17.000Z
+updated: 2020-08-26T14:26:34.000Z

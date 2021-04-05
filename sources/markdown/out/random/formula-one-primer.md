@@ -52,7 +52,7 @@ A talented driver with championship potential. He's got raw pace, talent, and am
 His Formula One career almost came to a close last year. His seat at Racing Point (now Aston Martin) was given to Sebastian Vettel, and there weren't any open seats up for grabs. But after another solid performance and even a race win, he was offered the seat of Alexander Albon, a rookie who didn't quite live up to expectations.
 
 
-### McLaren 
+### McLaren
 
 ![McLaren livery](/formula-one/mclaren.png)
 
@@ -148,7 +148,7 @@ Fuck Mazepin.
 +++
 
 
-## Williams 
+## Williams
 
 ![Williams livery](/formula-one/williams.png)
 
@@ -219,9 +219,9 @@ Drivers are also not allowed to make any unexpected moves when entering "the bra
 
 Track limits are sometimes a bit fuzzy too. You'd expect the white line to mark off the "no-go zone", but the limits are usually only enforced at certain corners where going out of the track is considered unfair.  
 Where the limits are enforced the rule is that at least two wheels need to be on the track.
-   
+
 It's a little bit fiddly trying to understand what is or isn't allowed as a new viewer, and there are a lot of grey areas, with incidents being investigated and referreed on a case-by-case basis by the stewards who will apply penalties if they deem a move too dangerous or unacceptable.   
-   
+
 ## Flags
 
 Flags are used to tell the drivers about racing incidents, rules applications and other important information
@@ -264,7 +264,7 @@ If there is an incident that needs some cleaning up, a safety car or virtual saf
 If it's a regular safety car, drivers must queue up behind the safety car and follow the pace until the green flag is shown.   
 If it's a *virtual* safety car, the drivers must simply slow down to a pre-determined timing (you'll hear drivers and engineers talk about "driving to the delta").  
 In both cases, overtaking is forbidden, and drivers are required to be careful to avoid marshalls who might be around the track cleaning up debris.   
-   
+
 Safety cars are often used by drivers to make a "cheap" pit stop, since a pit stop takes the same amount of time as normal, but the race pace is much slower.
 
 
@@ -279,13 +279,13 @@ Teams and drivers use these sessions to fine-tune the car, learn the track, and 
 ## Qualifying
 Qualifying takes place on Saturday, after Free Practice 3, and determines the starting order of the drivers.   
 It's cut into three parts, Q1, Q2, and Q3. In Q1 and Q2, the drivers take their cars around the track and try to set a good timed lap.   
-   
+
 Q1 and Q2 are "elimination rounds".   
 The five slowest drivers of Q1 are eliminated and placed into the 16th to 20th positions.  
 The five slowest drivers of Q2 are eliminated and placed into the 11th to 15th positions.  
-  
+
 The drivers that make it into Q3 will start the race on the tyres they used in Q2, which adds a layer of strategy, since the best qualifying tyres aren't always the best tyres to start the race on. Is it better to guarantee entry into Q3, or risk it but start the race on a more advantageous tyre?  
-  
+
 Q3, AKA *super shootout* is a pure time-attack, and will decide the order of the 1st (AKA *pole*) to 10th positions.
 
 ## Race
@@ -293,7 +293,7 @@ The race starts with all the cars on the grid, with their engineers making last-
 The cars will then drive a "formation lap" around the track, while the engineers and marshalls remove all of their tools and equipment from the grid and return to the garages.  
 Once the cars are lined up in their positions, five red lights will turn on one by one, and after a short, semi-random pause, turn off again.  
 The commentator will shout "Lights out and away we go!" and the race has begun.  
-  
+
 The first few laps are often very eventful, but don't worry if you miss a few things. Generally the race will settle down a bit, and the TV director will show replays of key moments.  
 Some important phases of the race and things to look out for:  
 * DRS enabled: The driver can use [DRS](#drag-reduction-system) and go for more aggressive overtakes
@@ -316,12 +316,12 @@ If you want to have a look at the technology that makes F1 cars so impressive, h
 
 [f1calendar.com](https://f1calendar.com/) is the best place to get the dates and times of all of the races and other sessions, converted to your local time zone.
 
-## 
+##
 
 ## Where to watch
 
 If you have a good satellite or cable TV deal, check to see if they broadcast the races.   
-   
+
 An [F1TV Pro](https://f1tv.formula1.com/) subscription gets you access to all of the live races and sessions, along with some other stuff, like live timings and replays.
 
 You can also [shop around](https://www.reddit.com/r/motorsportsstreams/) for "alternative" streams.
@@ -331,4 +331,6 @@ You can also [shop around](https://www.reddit.com/r/motorsportsstreams/) for "al
 ---
 title: Formula One Primer
 tags:
-    - random
+  - random
+created: 2021-03-29T07:51:22.000Z
+updated: 2021-03-29T08:19:38.000Z

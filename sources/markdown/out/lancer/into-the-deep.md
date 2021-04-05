@@ -7,12 +7,12 @@ In an effort to clear his name, he began to track down the HORUS operatives who 
 Still seeking to clear his reputation, he set out to investigate this plot and bring the evidence to UNION.  
 A key element of this plot is an artifact, called the Oniridon. A sort of device that NHPs occasionally dream of. Only one NHP can dream of the Oniridon at a time, while they are cascading. As long as the dream continues, the Oniridon becomes tangible in real space.  
 The plot involves provoking an NHP into a cascade in just the right conditions, and artificially stabilising this cascade state, allowing enough time to track down and retrieve the Oniridon.  
-  
+
 Coreli has successfully cascaded an NHP, and is attempting to track down the Oniridon.  
 
 Mieke is a scientist, working for Eden Prime Engineering. Their work involved studying how NHPs use blinkspace as part of their thought processes. They had an assistant NHP, Phasma, to help, and they would regularly communicate and study NHPs.  
 Eventually, they began picking up signals coming from within the Long Rim. A voice, speaking in a strange language, that is somehow vaguely understandable to Mieke. It is the Oniridon, trying to understand its own existence.  
-  
+
 Coreli eventually discovers Mieke's research, and sends Steelwater Armory mercenaries to capture them. But the plan goes awry.  
 Warned by a panicked message from the Oniridon, Mieke uploads their mind to Phasma, essentially committing physical suicide so their mind can live on in blinkspace.  
 Phasma is taken back to Coreli who attempts to "crack" them, while Mieke scours the OMNINET to find a new body.
@@ -22,12 +22,12 @@ The subaltern and tender they stole belong to Bridgegap Automation, a company th
 
 ## Session One
 Bridgegap Automation believe they have been hacked by a rival company, and hire a group of Lancers to retrieve the subaltern.  
-  
+
 Mieke bolted into the Long Rim, towards the source of the signal. Unfortunately for them, a brand-new tender flying through the Rim raised the suspicion of Missing Delivery, a free company / pirate outfit. Missing Delivery track Mieke's trajectory to the Aleph system, and shoot them down, forcing them to crash on Aleph Due.
 
 Missing Delivery drop out of nearlight and begin a sweep of the system. They eventually spot Mieke's crash site and land nearby to investigate.  
 At this point, the Lancers hired by Bridgegap drop out of nearlight in the lower atmosphere and drop their mechs straight onto the field.  
-  
+
 After a short fight, the Lancers have captured Mieke and escaped, leaving Missing Delivery to lick their wounds.
 
 ## Session Two
@@ -51,3 +51,5 @@ Coreli understands that Mieke and Phasma have outplayed him, he is using Steelwa
 %YAML 1.2
 ---
 status: unpublished
+created: 2021-03-13T15:51:55.000Z
+updated: 2021-03-13T15:51:55.000Z
