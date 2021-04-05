@@ -143,9 +143,7 @@ function splitYAML(contents, mdpath, config){
   var markdown = strings.length>0 ? strings[0] : "";
   var data = false;
   if (strings.length>1){
-    console.log(child_process.execSync('echo '+mdpath).toString());
-    console.log(child_process.execSync('pwd').toString());
-    console.log(child_process.execSync('ls').toString());
+    console.log('git log -1 --pretty="format:%ci" '+mdpath);
     console.log(new Date(child_process.execSync('git log -1 --pretty="format:%ci" '+mdpath)));
     var data = yaml.safeLoad(strings[1])
     data.preview = data.hasOwnProperty("preview") ? data.preview : getFirstParagraph(strings[0]);
