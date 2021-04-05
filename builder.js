@@ -151,9 +151,10 @@ function splitYAML(contents, mdpath, config){
     data.updated = isNaN(data.updated) ? new Date() : data.updated;
     data.created = data.hasOwnProperty("created") ? data.created : new Date(child_process.execSync('git log --pretty="format:%ci" '+mdpath+' | tail -1'))
     data.created = isNaN(data.created) ? data.updated : data.created;
-    data.status = data.hasOwnProperty("status") ? data.status : "published";    
-    data.layout = data.hasOwnProperty("layout") ? data.layout : config.pugLayout;      
+    data.status = data.hasOwnProperty("status") ? data.status : "published";
+    data.layout = data.hasOwnProperty("layout") ? data.layout : config.pugLayout;
     data.url = "/"+path.relative(path.join(config.root,config.markdown),mdpath).replace(".md","");
+    data.prod = config.prod;
   }
   return {
     markdown: markdown,
@@ -174,9 +175,9 @@ var builder = function(config){
       return config.title
     }
   }
-  
+
   gulp.task('html', htmlBuilder(path.join(config.root, config.html)));
-  
+
   gulp.task('markdown', function(){
     var all = []
     return gulp.src(path.join(config.temp+"/**/*.md"))
@@ -310,7 +311,7 @@ var builder = function(config){
       done();
     });
   });
-  
+
   gulp.task('preprocess', function(){
     try {
       return gulp.src(path.join(config.root, config.markdown+config.markglob))
@@ -321,7 +322,7 @@ var builder = function(config){
       console.error(e)
     }
   });
-  
+
   gulp.task('collecttags', function(){
     return gulp.src(config.temp+"/**/*.yaml")
       //.pipe(debug({title: 'unicorn:'}))
@@ -371,7 +372,7 @@ var builder = function(config){
                   })
                 }
               }
-            }  
+            }
           } catch (e) {
             console.log("This is file: "+file)
             console.error(e)
@@ -389,7 +390,7 @@ var builder = function(config){
       ).on('error',console.log))
       .pipe(gulp.dest(config.temp))
   })
-  
+
   gulp.task('mapandtag', function(done){
     fs.mkdirSync(path.join(config.temp,"tag"))
     var tags = yaml.safeLoad(fs.readFileSync(path.join(config.temp,"tags.yaml")).toString('utf8'))
@@ -424,7 +425,7 @@ var builder = function(config){
     fs.writeFileSync(path.join(config.temp,"tags.md"), tagstr);
     done();
   })
-  
+
   gulp.task('generate-posts', function(done){
     fs.mkdirSync(path.join(config.temp,"posts"))
     var tags = yaml.safeLoad(fs.readFileSync(path.join(config.temp,"tags.yaml")).toString('utf8'))
@@ -461,7 +462,7 @@ var builder = function(config){
     fs.writeFileSync(path.join(config.temp,"posts.md"), tagstr);
     done();
   })
-  
+
   gulp.task('generate-rss', function(done){
     var tags = yaml.safeLoad(fs.readFileSync(path.join(config.temp,"tags.yaml")).toString('utf8'))
     for (var tag in tags) {
@@ -531,8 +532,8 @@ var builder = function(config){
     fs.writeFileSync(path.join(config.dest,"sitemap.xml"), xmlenc+xml(map, {indent: '\t'}));
     done();
   })
-  
-  
+
+
   gulp.task('tag-to-site', gulp.series('preprocess', 'collecttags', gulp.parallel('mapandtag', 'generate-rss', 'generate-posts', 'generate-sitemap')));
 
   if (config.quickbuild>=2){
@@ -541,7 +542,7 @@ var builder = function(config){
   } else {
     gulp.task('generate', gulp.parallel('public', 'css', gulp.series('tag-to-site', 'markdown')));
   }
-  
+
   gulp.task('clearscreen', function(done) {
     //console.clear();
     console.log("Building...");
@@ -553,13 +554,13 @@ var builder = function(config){
   } else {
     gulp.task('prepare', gulp.series('clearscreen', gulp.parallel('clean', 'cleantemp')))
   }
-  
+
   gulp.task('reload', function(done) {
     console.log("Build done, calling \"done\" callback");
     config.done();
     done();
   })
-  
+
   gulp.task('cleanbuild', gulp.series('prepare', 'generate', 'reload'));
   var watcher = gulp.watch(path.join(config.root, config.all), gulp.series('cleanbuild'))
   setTimeout(()=>{
