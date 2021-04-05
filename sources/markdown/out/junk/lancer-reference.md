@@ -40,7 +40,7 @@ A quick reference sheet for the [Lancer](https://massif-press.itch.io/corebook-p
 ### Immobilized
 * Cannot make voluntary movements
 
-### 
+###
 
 
 ## Cover
@@ -74,3 +74,5 @@ tags:
   - junk
 
 status: unpublished
+created: 2020-08-26T14:26:34.000Z
+updated: 2021-03-13T15:51:55.000Z

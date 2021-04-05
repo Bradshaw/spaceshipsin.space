@@ -12,7 +12,7 @@ This format uses patchwire cables (like the ones you use in Arduino prototyping 
 Everything runs on a simple 0→5v system, audio is centered at 2.5v and oscillators have around 2v of throw.  
 A bus carries GND, 5v power and a few signals through the rack and to each module.  
 The rack is powered from a **MASTER&nbsp;I/O** module that also sends MIDI signals across the bus.  
-  
+
 ### The positives
 1. It's cheap
 2. It's small
@@ -43,7 +43,7 @@ The **2OSC** oscillators have 4 outputs each:
 * Two pulses (labeled as square)
 * A sawtooth
 * A nothing (labeled as pulse)
- 
+
 The pulsewidth has a very tight range on both the **2OSC** and the **VCO**, using the full 0→5v input will cause silence on either end, so you'll need to attenuate any voltage to those inputs.
 
 #### The filters
@@ -81,3 +81,5 @@ tags:
   - gear
   - audio
   - review
+created: 2019-10-17T09:58:17.000Z
+updated: 2020-08-26T14:26:34.000Z

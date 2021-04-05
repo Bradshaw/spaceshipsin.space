@@ -47,7 +47,7 @@ This was my shopping list before diving in:
 + 4.7K
 + 1.8k
 + 220
-	
+
 ### OpAmps
 + CA3080 (Needed for original MS20 filter, couldn't find on mouser, will look elsewhere)
 + TL074
@@ -68,3 +68,5 @@ title: Buzz box parts
 tags:
   - junk
 status: unpublished
+created: 2019-10-17T09:58:17.000Z
+updated: 2021-03-13T15:51:55.000Z

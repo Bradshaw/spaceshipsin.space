@@ -2,9 +2,9 @@
 
 The British side of my family is mostly based in Thanet, and I picked up this photobook when visiting as a child.  
 I stumbled on it while going through some of my old stuff the other day, and I figured other people might be interested.   
-   
+
 This photobook documents the extent of the damage due to a storm in 1978, damaging infrastructure and property in the towns of Margate, Ramsgate and Broadstairs.   
-   
+
 You can click on the images to see higher resolution scans.
 
 *[![Front Cover](/thanet/thanet01.700w.jpg)](/thanet/thanet01.png)*
@@ -57,7 +57,7 @@ You can click on the images to see higher resolution scans.
 *Cameramen:*
 * *John Wilson*
 * *Brian Green*
-  
+
 *Thanet Printing Works, Church Hill, Ramsgate.*
 
 %YAML 1.2
@@ -65,3 +65,5 @@ You can click on the images to see higher resolution scans.
 title: Thanet Storm Damage
 tags:
   - visual
+created: 2019-10-17T09:58:17.000Z
+updated: 2020-08-26T14:26:34.000Z
