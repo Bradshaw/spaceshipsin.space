@@ -31,7 +31,8 @@ var config = {
   markglob: '/**/*.md',
   all: '**',
   done: argv.b ? ()=>{process.exit(0)} : ()=>{reloader()},
-  quickbuild: argv.q ? argv.q : 0
+  quickbuild: argv.q ? argv.q : 0,
+  prod: argv.b ? argv.b : false
 }
 // var libconfig = {
 //   dest: './build',
