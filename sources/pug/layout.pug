@@ -105,5 +105,5 @@ html(lang="en")
         //-         | Updated: #{formatDate(new Date(updated))} - #{formatTime(new Date(updated))}
         //-         br
         //-       | Last built: #{formatDate(new Date())} - #{formatTime(new Date())}
-    if !prod
+    if dev
       script(src="/reload/reload.js")
