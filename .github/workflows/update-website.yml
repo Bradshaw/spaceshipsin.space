@@ -37,4 +37,4 @@ jobs:
         known_hosts: ${{ secrets.KNOWN_HOSTS }}
         if_key_exists: fail # replace / ignore / fail; optional (defaults to fail)
     - name: rsync over ssh
-      run: rsync ./build/ ${{ secrets.SSH_USER }}:${{ secrets.SITE_DIRECTORY }}
+      run: rsync -r ./build/ ${{ secrets.SSH_USER }}:${{ secrets.SITE_DIRECTORY }}
