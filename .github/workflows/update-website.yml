@@ -22,9 +22,19 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12'
-    - run: npm ci
-    - run: npm start -- -b
-    - uses: actions/upload-artifact@v2
+    - name: Install Node.js modules
+      run: npm ci
+    - name: Build Website
+      run: npm start -- -b
+    # - uses: actions/upload-artifact@v2
+    #   with:
+    #       name: Build
+    #       path: build
+    - name: Install SSH key
+      uses: shimataro/ssh-key-action@v2
       with:
-          name: Build
-          path: build
+        key: ${{ secrets.SSH_KEY }}
+        known_hosts: ${{ secrets.KNOWN_HOSTS }}
+        if_key_exists: fail # replace / ignore / fail; optional (defaults to fail)
+    - name: rsync over ssh
+      run: rsync ./build/ ${{ secrets.SSH_USER }}:${{ secrets.SITE_DIRECTORY }}
