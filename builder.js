@@ -154,7 +154,7 @@ function splitYAML(contents, mdpath, config){
     data.status = data.hasOwnProperty("status") ? data.status : "published";
     data.layout = data.hasOwnProperty("layout") ? data.layout : config.pugLayout;
     data.url = "/"+path.relative(path.join(config.root,config.markdown),mdpath).replace(".md","");
-    data.prod = config.prod;
+    data.dev = !config.prod;
   }
   return {
     markdown: markdown,
