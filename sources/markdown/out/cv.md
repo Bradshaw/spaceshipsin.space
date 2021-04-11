@@ -3,7 +3,7 @@
 <h3> <center><strong><code><--code—design—noise--></code></strong></center> </h3>
 </div>
 
-![Avatar, Gaeel smiling](/images/avatar-smile.jpg)
+![Avatar, Gaeel smiling](/images/avatar-coffee.png)
 
 <p class="spacer"></p>
 
@@ -25,7 +25,18 @@
 <p class="spacer"></p>
 
 ## Company Experiences
-### *2016 -> Ongoing* · Teacher · [**E-Artsup**](https://www.e-artsup.net/ecole-graphisme-design-infographie-lille.aspx)
+### *2020 -> Ongoing* · Software Developer · [**52 Entertainment**](https://www.52-entertainment.com/)
+*Bridge games and products*   
+Technical design and development of a new Online Bridge client in Unity
+ - Multi-platform video chatting
+ - Integration with legacy systems
+
+Continuous integration and deployment pipelines for internal Unity projects
+ - Test, build and deploy apps for web, mobile and desktop
+ - Compile and publish technical documentation
+
+
+### *2016 -> 2021* · Teacher · [**E-Artsup**](https://www.e-artsup.net/ecole-graphisme-design-infographie-lille.aspx)
 *Game design and digital art school*   
 Unity3D-based courses   
 Gameplay programming and introduction to programming   
@@ -79,7 +90,7 @@ Created fire and flare effects that are used throughout the game to indicate pro
 Optimised elements for better performance on lower spec devices   
 
 
-### *2018 -> Ongoing* · Activist SysAdmin · stream.void.garden & [tilde.rocks](https://tilde.rocks)
+### *2018 -> 2021* · Activist SysAdmin · **stream.void.garden & tilde.rocks**
 
 *An attempt to put some ideas about community and internet freedom into practice*  
 Creation and administration of a micro-scale social network and shared computing   
