@@ -2,12 +2,15 @@
 *
   // outline: solid 1px red !important
   // transition: none !important
-  
+
+@function invert()
+  @return #{ "invert()" }
+
 $bhue: 180
-$body-color: hsl($bhue, 0, 95%)  
-$stripe-color: hsl($bhue, 10, 90%)  
+$body-color: hsl($bhue, 0, 95%)
+$stripe-color: hsl($bhue, 10, 90%)
 $stripe-color-code: str-slice(quote($stripe-color),2)
-$background-color: hsl($bhue, 0, 99%)  
+$background-color: hsl($bhue, 0, 99%)
 $text-color: hsl($bhue+180, 0, 5%)
 $link-color: hsl($bhue+180, 100, 25%)
 $header-link-color: hsl($bhue+180, 100, 70%)
@@ -17,10 +20,10 @@ $page-width: 16cm
 $corner-size: 40px
 $corner-clip: polygon(0% 0%, 100% 0%, 100% calc( 100% - #{$corner-size} ), calc( 100% - #{$corner-size} ) 100%, 0% 100%)
 
-$dark-body-color: hsl($bhue, 0, 15%)  
-$dark-stripe-color: hsl($bhue, 10, 20%)  
+$dark-body-color: hsl($bhue, 0, 15%)
+$dark-stripe-color: hsl($bhue, 10, 20%)
 $dark-stripe-color-code: str-slice(quote($dark-stripe-color),2)
-$dark-background-color: hsl($bhue, 0, 1%)  
+$dark-background-color: hsl($bhue, 0, 1%)
 $dark-text-color: hsl($bhue+180, 0, 90%)
 $dark-link-color: hsl($bhue+180, 90, 65%)
 $dark-title-color: hsl($bhue+180, 0, 65%)
@@ -50,6 +53,10 @@ body
   @media (prefers-color-scheme: dark)
     background: $dark-background-color
 
+.flip
+  @media (prefers-color-scheme: dark)
+    filter: invert() hue-rotate(180deg)
+
 p, ul, summary, pre
   font-size: 13pt
   line-height: 1.3
@@ -64,7 +71,7 @@ main
 main, footer
   max-width: $page-width
   margin: auto
-  
+
 footer
   background: $body-color
   @media (prefers-color-scheme: dark)
@@ -85,9 +92,9 @@ a
   @media (prefers-color-scheme: dark)
     color: $dark-link-color
 
-// a[href^="//"]:after,    
-// a[href^="irc://"]:after, 
-// a[href^="http://"]:after, 
+// a[href^="//"]:after,
+// a[href^="irc://"]:after,
+// a[href^="http://"]:after,
 // a[href^="https://"]:after,
 //   display: inline-block
 //   text-decoration: none
@@ -109,7 +116,7 @@ h1, h2, h3, h4, h5, h6
     color: $dark-title-color
   a
     text-decoration: none
-  
+
 .date
   font-size: 10pt
 
@@ -198,13 +205,13 @@ a.hlink:hover
   // @media (prefers-color-scheme: dark)
   //   background-color: $link-color
 
-  
+
 .math
   font-size: larger
   font-family: serif
   font-style: italic
   padding: 0 1px
-  
+
 .rss
   font-size: x-small
   margin-left: 20px
@@ -253,20 +260,20 @@ summary
 	-ms-user-select: none
 	cursor: pointer
 
-  
+
 @media (max-width: 18cm)
   header nav
     font-size: 12pt
   img
     max-width: 100%
     width: 100%
-      
+
   main
     padding: 20px 0
     margin: auto
     width: 90%
     max-width: unset
-  
+
   body
     margin: 0
     padding: 0

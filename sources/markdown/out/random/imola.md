@@ -15,7 +15,8 @@ In 2020, with the Coronavirus pandemic making a pig's breakfast of the regular c
 
 ## An exciting track
 
-![Imola Circuit map](/formula-one/Imola_2009.svg)
+
+<img src="/formula-one/Imola_2009.png" class="flip" alt="Imola Circuit Map" />
 *Circuit map after 2009 renovations*   
 *By [Sentoan](https://commons.wikimedia.org/wiki/User:Sentoan) - Own work, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), [Link](https://commons.wikimedia.org/w/index.php?curid=14323726)*   
 
