@@ -249,8 +249,35 @@ a.hlink:hover
   80%
     text-shadow: none
 
+blockquote
+  padding-left: 20px
+  margin-bottom: 30px
+  color: #555
+
+blockquote::before
+  content: "\201C"
+  font-size: 40pt
+  font-family: serif
+  color: #555
+  position: relative
+  top: 0
+  left: -35px
+  height: 0
+  width: 0
+  display: block
+
 .horus
   animation: distort-subtle 5s infinite
+
+p.julius
+  white-space: pre-wrap
+  font-family: monospace
+  font-stretch: condensed
+  background-color: #e8dbdf
+  padding: 30px
+  clip-path: $corner-clip
+  background-image: $body-stripes
+
 
 summary
 	outline: none
