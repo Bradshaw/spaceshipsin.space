@@ -253,6 +253,8 @@ blockquote
   padding-left: 20px
   margin-bottom: 30px
   color: #555
+  @media (prefers-color-scheme: dark)
+    color: darken($dark-text-color, 20%)
 
 blockquote::before
   content: "\201C"
@@ -265,6 +267,8 @@ blockquote::before
   height: 0
   width: 0
   display: block
+  @media (prefers-color-scheme: dark)
+    color: darken($dark-text-color, 20%)
 
 .horus
   animation: distort-subtle 5s infinite
@@ -277,6 +281,10 @@ p.julius
   padding: 30px
   clip-path: $corner-clip
   background-image: $body-stripes
+  @media (prefers-color-scheme: dark)
+    background: darken(#e8dbdf, 60%)
+    color: $dark-text-color
+    background-image: $dark-body-stripes
 
 
 summary
