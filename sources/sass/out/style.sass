@@ -222,8 +222,7 @@ a.hlink:hover
 
 .hidden
   display: none
-
-@keyframes distort-subtle
+@keyframes distort-horus
   25%
     text-shadow: none
   26%
@@ -249,6 +248,28 @@ a.hlink:hover
   80%
     text-shadow: none
 
+@function randcol($steps: 2, $offset: 0)
+  @return hsl(random($steps)*(360/$steps)+$offset,100,50)
+
+@function randoff($spread: 4)
+  @return #{-$spread+random()*2*$spread}px
+
+@keyframes distort-julius
+  @for $i from 0 to 10
+    @if random()>0.3
+      @for $p from $i*10 through $i*10+9
+        #{$p}%
+          @if random()>0.5
+            text-shadow: randoff(6) randoff(1) randcol(3, 180)
+          @else
+            text-shadow: none
+    @else
+      #{$i*10}%
+        text-shadow: none
+      #{$i*10+9}%
+        text-shadow: none
+
+
 blockquote
   padding-left: 20px
   margin-bottom: 30px
@@ -271,7 +292,16 @@ blockquote::before
     color: darken($dark-text-color, 20%)
 
 .horus
-  animation: distort-subtle 5s infinite
+  animation: distort-horus 5s infinite
+  @media (prefers-reduced-motion: reduce)
+    animation: none
+    text-shadow: -1px -1px #ff0000, 1px 1px #00ffff
+
+.julius .distort
+  animation: distort-julius 5s infinite
+  @media (prefers-reduced-motion: reduce)
+    animation: none
+    text-shadow: -1px 0px hsl(180,100,50)
 
 p.julius
   white-space: pre-wrap

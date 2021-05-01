@@ -11,7 +11,7 @@ Your personalised WAKE-ME-UP™ package:
   Methylphenidate: 60 mg
   Phenylpiracetam: 100 mg
                  ———
-"The <span class="horus">jitters</span> mean it's working time!"</p>
+"The <span class="distort">jitters</span> mean it's working time!"</p>
 
 Fuck Deepsleep...  
 Feels like someone is taking a sledgehammer right to the base of my skull, every time.
@@ -73,7 +73,7 @@ Atmosphere:
     Retrograde, 6km
     ΔV for intercept: 3065 m/s
                  ———
-        &lt; <span class="horus">Approve</span> / Reject ? &gt;
+        &lt; <span class="distort">Approve</span> / Reject ? &gt;
 </p>
 
 Retrograde?  
@@ -95,7 +95,7 @@ Atmosphere:
   Nitrogen/Sulphuric acid/Argon mix
                  ———
 &lt; Continue retrograde burn ? &gt;
-&lt; <span class="horus">Stabilise systems ?</span> &gt;
+&lt; <span class="distort">Stabilise systems ?</span> &gt;
 </p>
 
 > Let's chill here for a bit.  
@@ -123,7 +123,7 @@ ADVISORY: HR has been notified
     Prograde, 45km
     ΔV for intercept: 8216 m/s
                  ———
-        &lt; <span class="horus">Approve</span> / Reject ? &gt;
+        &lt; <span class="distort">Approve</span> / Reject ? &gt;
 </p>
 
 > Approve! Approve!
