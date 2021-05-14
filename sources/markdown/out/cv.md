@@ -128,7 +128,7 @@ Ported game code the company had purchased to work on the large touch screen tec
 
 %YAML 1.2
 ---
-layout: pug/cvlayout.pug
+layout: cvlayout
 title: Gaeel Bradshaw-Rodriguez
 status: unpublished
 created: 2020-04-10T14:45:28.000Z

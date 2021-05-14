@@ -27,7 +27,6 @@ html(lang="en")
       meta(property="twitter:card" content="summary")
       meta(property="twitter:site" content="@_gaeel_")
       meta(property="twitter:creator" content="@_gaeel_")
-    
   body  
     // Header
     .container
@@ -63,8 +62,7 @@ html(lang="en")
           article#article.h-entry
             .indieweb.hidden(aria-hidden="true")
               .p-name= title
-            .indieweb.e-content
-              include:markdown-it(html=true plugins=['markdown-it-collapsible','markdown-it-anchor']) [[markdown]]
+            .indieweb.e-content !{content}
             .indieweb.hidden(aria-hidden="true")
               p.p-summary= preview
               a.u-url(href="https://spaceshipsin.space"+url)
@@ -72,8 +70,7 @@ html(lang="en")
               a.p-author.h-card(rel="author" href="https://spaceshipsin.space") Gaeel
                 img(src="/favicon.png" alt="Gaeel's avatar")
         else
-          #article
-            include:markdown-it(html=true plugins=['markdown-it-collapsible','markdown-it-anchor']) [[markdown]]
+          #article !{content}
         if created
           br
           br
@@ -87,14 +84,21 @@ html(lang="en")
         if tags
           p Related tags
             ul
-              - tags.unshift('all')
+              li
+                span
+                  a(href="/posts") all
               each tag in tags
                 li
                   span
                     a(href="/posts/"+tag.replace(" ","-"))= tag
                     a.rss(href="/tag/"+tag.replace(" ","-")+"/rss.xml") (rss.xml)
         // Build text
-        include:marked /../markdown/footer.md
+        p Respecting privacy doesn't mean collecting data and promising not to analyse or sell it. To respect privacy is to limit one's access to visitors' data as much as possible in the first place.   
+        p This website actually respects your privacy. There are no cookies or user preferences stored or sent. No scripts are ran by your browser. This website uses no third-party resources, and strips any social media tracker query strings before serving you content, to ensure your privacy when using links to this website on other platforms.
+          br
+          a(href="/privacy") Full privacy policy & explanation
+          br
+          a(href="/meta/build-process") Learn about how this website is built
         // Metadata
         //- if created
         //-   .publishing-info
@@ -105,5 +109,5 @@ html(lang="en")
         //-         | Updated: #{formatDate(new Date(updated))} - #{formatTime(new Date(updated))}
         //-         br
         //-       | Last built: #{formatDate(new Date())} - #{formatTime(new Date())}
-    if dev
-      script(src="/reload/reload.js")
+    //if dev
+    //  script(src="/reload/reload.js")
