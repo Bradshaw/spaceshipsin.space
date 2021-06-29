@@ -44,8 +44,8 @@ E-Mail
   * [gaeel@spaceshipsin.space](mailto:gaeel@spaceshipsin.space)
 
 Social:
+  * <a rel="me" href="https://cybre.space/@gaeel">@gaeel@cybre.space</a>
   * <a rel="me" href="https://pings.spaceshipsin.space">@gaeel@pings.spaceshipsin.space</a>
-  * <a rel="me" href="https://twitter.com/_gaeel_">@\_gaeel\_</a>
 
 Other identities:
   * [Glitch](https://glitch.com/@gaeel)
