@@ -1,0 +1,166 @@
+# Burden
+
+Burden is a short-ish form roleplaying game about a dangerous journey.  
+
+The main quest, to reach the **Monument**, is known from the start, and while other events, goals, and detours may punctuate the journey, reaching the monument remains the beacon that guides the story, and marks the end of the campaign.  
+  
+## Playing Burden
+
+### Players and shared storytelling
+
+Like other conventional tabletop roleplaying games, a group of four to six people play together.  
+
+One of them, the **Guide**, is tasked with running the game.
+- Choosing and describing the events, challenges, and places the **Travellers** will encounter.
+- Acting out the lives and dialogues of people the **Travellers** will meet along the way.
+- And acting as the referee and final word on what happens in the story.
+  
+The others, the **Players**, each embody a **Traveller**. A character who has set out to carry their **Burden** to the **Monument**.  
+- Deciding and describing how their **Traveller** behaves in the events, challenges and places they go.
+- Acting out the life and dialogue of their **Traveller**.  
+- Working with the other **Players** to understand the relationships between the **Travellers**.  
+  
+The **Guide** and the **Players** all work together to weave a compelling story. While the **Travellers** may have their differences, and the **Guide** may put treacherous obstacles in their path, the **Guide** and the **Players** are not competitors or adversaries, rather co-authors of a shared story where arguments and setbacks are the spice that will hopefully make their fellowship and accomplishments all the more flavourful.
+   
+### Campaign length
+
+The goal is in sight from the beginning, and when reached, the campaign ends. Burden is intended to be a fairly short experience, around four sessions, no more than six.  
+  
+Each session will be a small self-contained story, resolving most or all of the stakes and tension by the end, but leaving the party changed.  
+  
+If your player group would prefer to play a shorter or longer campaign, be forewarned that the mechanical balance might be off. When running a shorter campaign or a one-shot, the **Guide** will probably want to throw more difficult challenges at the group, and choose harsher outcomes for failure. On the other hand, when running a longer campaign, it might be wise for the **Guide** to weave in some "lucky breaks" for the **Travellers** and maybe even give them a chance to reset their **Hurt**.
+
+## The end, the monument, and the party
+
+### The end
+
+The world is getting near to ending. Not today, perhaps not for a few more years, and it's not ending all at once. But it is ending. Reality itself is fraying at the edges, other dying worlds intersect with ours. Time has been stretched thin and long, there's almost nothing left to hold everything together any more.  
+
+This fact is not shocking nor distressing to those who are witnessing it. This has all been known for lifetimes. After all, if there was a beginning, then there must be an end.  
+
+### The monument
+
+You are headed to a monument where you will leave something of importance.   
+Perhaps the gods have instructed you to bring the souls of the fallen so they can pass to a promised afterlife.  
+Maybe you've been entrusted with texts containing hard-earned knowledge, and you hope that the monument might keep them safe.  
+You might be carrying the ashes of a long-lost lover, the monument itself is an arbitrary choice, all you want is to honour their memory.  
+Whatever it is, that thing is your Burden, and you have set out on an arduous journey through salted deserts, splintered mountains and poisoned forests to carry it to the monument.  
+  
+### The party
+
+In hopes of improving your chances, through obligation, or maybe just for companionship, you will be travelling as a group. A party of travellers who, like you, intend to visit the monument.  
+  
+While you have a shared destination, your cultures, personalities, and morals may clash. How will you navigate these relationships, and build enough trust and fellowship to take on the challenges you'll face together?
+
+
+## The rules of Burden
+
+### Creating a character
+  
+Your **Traveller** has five **Core** stats, **Brawn**, **Grind**, **Poise**, **Oracle**, and **Tremor**.  
+Start with 2 in each of these, and distribute 8 points between them, with a maximum of 6 in any stat.  
+Pick a **Modifier** to apply to a **Core** stat. The modifiers are: **Guarded**, **Cursed**, **Skilled**, or **Forced**.
+  
+Your **Traveller** starts the game with 12 **Vitality** and 0 **Hurt**.  
+   
+If you like, you can represent these numbers with six-faced dice.  
+  
+You have access to all of the **Base Talent**s.  
+Pick an **Archetype**, you will have access to all of their **Talent**s.  
+You may swap out up to two of your **Archetype**'s **Talent**s with **Talent**s from other **Archetype**s.
+  
+#### Core stats
+  
+**Core** stats represent the skills and abilities that your **Traveller** will rely on to make their way to the monument.
+  
+**Brawn** represents the core strength and athleticism of your **Traveller**, their ability to run fast, climb high, move weights and break things. A **Traveller** with high **Brawn** can pull off incredible feats of physical prowess, win fights against wild beasts, and literally carry their allies out of danger.  
+  
+**Grind** represents the temerity, relentlessness, endurance, and sheer force of will of your **Traveller**, abilty to resist pain & hunger, to push their mind and body through to the bitter end. A **Traveller** with high **Grind** can keep trekking despite broken bones, stand defiant in the face of threats, and help their allies resist the sweet temptation of abandon.  
+  
+**Poise** represents the mindfulness, wisdom, and wit of your **Traveller**. A **Traveller** with high **Poise** can outsmart opponents, recognise danger before anyone else, understand the subtle mechanisms of the world around them, and use their knowledge to navigate desperate situations.  
+  
+**Oracle** represents a strange connection your **Traveller** has to the spirits, higher powers, gods, or however else they explain their twists of fate. A **Traveller** with high **Oracle** can peek beyond the veil of the future, turn the odds in their favour, and benefit from supernatural protection.   
+   
+**Tremor** represents your **Traveller**'s attunement to the distortions of reality caused by the ending of the world. A **Traveller** with high **Tremor** can create minor rifts in the fabric of spacetime, disappear or move objects, phase through solid matter, and create pockets of frozen time.
+
+#### Modifiers
+
+**Modifier**s are a way for you to personalise your **Traveller**. You can pick one that will apply to one of your **Core** stats, changing the way your **Traveller** will rely and manage that ability.
+  
+A **Guarded** stat lessens the cost of failure, while making success more difficult. **Traveller**s with a **Guarded** stat have an aversion to loss, and accept a certain level of hardship as a compromise.  
+  
+A **Cursed** stat is remarkably powerful, but is fickle and dangerous. **Traveller**s with a **Cursed** stat can perform outstanding feats, but tend to hurt themselves doing so, or lose all confidence at the slightest provocation.  
+
+A **Skilled** stat is precise and calculated, but overconfidence leads to grave mistakes. **Traveller**s with a **Skilled** stat are efficient, using no more energy than necessary to succeed, but when they miscalculate, they suffer grave consequences.  
+  
+A **Forced** stat can be pushed far beyond expectations, for a price. **Traveller**s with a **Forced** stat stop at nothing to achieve their goals, even if it means carrying permanent scars and letting a part of their soul die.
+
+#### Vitality and Hurt
+
+**Vitality** represents a **Traveller**'s current ability to continue on their journey. Wounds, hunger, poison, dehydration, and despair all cut into a **Traveller**'s **Vitality**. If their **Vitality** runs out, their journey is over. Perhaps they have succumbed to their wounds, or no longer have the health and energy they need to make another step.  
+A **Traveller** can rest in a safe place with abundent food and drink to regain **Vitality**.  
+  
+**Hurt** represents the indelible trauma, both physical and mental, that a **Traveller** has accumulated. When resting, a **Traveller**'s **Hurt** prevents them from being able to fully recuperate. Perhaps their **Hurt** will dissipate in the years following our story, but for now, they have a journey to complete.
+
+### Rolls
+
+During the game, some actions and moves a **Traveller** will make will be risky or challenging. In order to determine whether or not they are successful, the **Guide** will ask for a dice roll.  
+The roll will have a specified **Difficulty** and a related **Core** stat.  
+  
+To perform the roll, the player chooses how many points to spend from the related **Core** stat.  
+  
+Roll two six-faced dice, subtract **Difficulty**, and add the spent points.  
+  
+Spent points are removed from the stat pool.  
+
+#### Interpreting the roll
+
+- 6 or less: **Failure** - A setback befalls you.
+- 7 - 9: **Partial success** - You succeed, but there is a cost or a setback.
+- 10 or more: **Success**
+
+#### Using modifiers:
+
+- **Guarded**: On a **Failure** roll, regain the spent points. A 12+ is required for a full **Success**.
+- **Cursed**: Spent points are worth double. On a **Failure**, lose all remaining points. On a 15+, gain **Hurt** equal to spent points.
+- **Skilled**: Spend points *after* rolling. On a **Failure**, consequences will be *harsh*.
+- **Forced**: Spend up to 3 **Vitality** points, worth double, on the roll.
+
+### Resting
+
+When a **Traveller** finds themself in a safe place, with food, drink, and shelter, they will rest. Resting is a passive activity, a **Traveller** can continue to go on about their business, as long as they're out of harm's way. Resting for a day or so allows the **Traveller** to regain lost **Core** stat points and some **Vitality**.
+
+1. Regain any spent **Core** stat points.
+2. Divide your missing **Vitality** by 2, rounded up.
+3. If that number is greater than your **Hurt**, update **Hurt** to this new number.
+4. Regain **Vitality** up to 12 minus **Hurt**.
+
+### Archetypes
+   
+**Archetype**s are broad categories of the sort of people **Traveller**s might be. The descriptions provided are there to serve as inspiration or flavour. Your **Traveller** may use an **Archetype** without fitting the description.  
+Your **Traveller**'s **Archetype** gives them access to a set of **Talent**s that set them apart from ordinary folk.  
+  
+#### Paragon
+Their body moves efficiently as they leap from rock to rock. Their motions are snappy, yet fluid as they climb the cliff face faster than most can run on flat ground. They reach the summit and 
+
+
+#### Pathfinder
+Their wounds are caulked with salt. A blindfold protects their eyes against the toxic spores hanging in the air. They step, making no sound except for the short, calculated puffs of their filtered breathing technique.   
+The **Pathfinder** survives. Their body is but a vessel for their soul, their mind is simply the device they must control to keep moving on. To others they seem to be acting on instinct, but pathfinding is anything but; only a complete mastery of flesh and spirit can ensure the survival of the soul.   
+Pathfinding is the art of staying alive and in complete control of one's body and mind. Pain and fear are the tools of the lost. When travelling the shifting lands, lost is as good as dead...  
+  
+The **Pathfinder** is calm and determined, not by nature, but by necessity. A good **Pathfinder** is constantly aware of all threats and opportunities, surviving the worse through sheer spite.
+
+
+#### Adept
+
+
+#### Blessed Soul
+
+
+#### Splitter  
+The air crackles around them, charged particles springing into existence and collapsing. Gravel and sand shift around as if whipped up by thousands of little storms. The smell of petrichor follows them wherever they go.  
+The **Splitter** takes advantage of the rifts that have been forming throughout the world. Splitting is a constantly changing art, the nature of the distortions change too quickly now for any meaningful knowledge to have value. Instead, splitting is a skill, an intuitive feel for the eddies and currents of spacetime itself.   
+Splitting is terrifyingly dangerous. When twisting the fundamental forces, unpredictable phenomena can occur, and random changes to the nature of matter, energy and time tend to produce catastrophic results.   
+   
+The **Splitter** wields immense power, but their control over it is limited. A wise **Splitter** will reserve the use of their skills for otherwise desperate situations.
