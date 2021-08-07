@@ -8,14 +8,7 @@ The game starts after they have set off, and ends when they arrive. Burden is ab
 There is no rush to arrive, but the direction is always clear. The party may take a detour or make an extended stop, but they will keep the destination in mind.  
   
 A campaign of Burden should last *around four sessions*. Any less and we might not have the time to get to know our characters. Any more and we risk forgetting why we left off in the first place.  
-If the group wants to continue the story beyond Burden's bounded campaign, that will be a different story, a different campaign, and probably ought to be played with a different system.   
-   
-## The end of the world
-  
-Burden takes place in the dying moments of the world. The dying moments of *all* worlds, in fact.  
-This end is not catastrophic or sudden. There is no cataclysmic event. No evil plot. No consequences of our hubris. Simply the natural unravelling of time, space, energy, and matter.  
-The end has been happening for lifetimes, and may yet last lifetimes more.  
-To most, this fact is not distressing or sad, our story simply takes place at the other end of time and space.   
+If the group wants to continue the story beyond Burden's bounded campaign, that will be a different story, a different campaign, and probably ought to be played with a different system.    
   
 ## Evil does not exist
   
