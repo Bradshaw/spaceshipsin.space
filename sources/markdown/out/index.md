@@ -5,7 +5,7 @@ I am a designer and programmer, interested in interactivity, digital art, and co
 
 I like to [make digital art](/nebulae), [write stories](/random/spacefarer), and [play with electronic music](/things/olegtron4060).
 
-I also like playing, running, and designing table-top roleplaying games. I'm currently working on **Burden**, a short-ish form roleplaying game about a world at the end of time and a fateful journey to a monument.
+I also like playing, running, and designing table-top roleplaying games. I'm currently working on [**Burden**](/burden), a short-ish form roleplaying game about a world at the end of time and a fateful journey to a monument.
 
 # Get in touch <a name="contact" aria-hidden="true"></a>
 E-Mail
