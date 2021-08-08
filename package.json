@@ -7,6 +7,6 @@
   },
   "author": "Gaeel Bradshaw-Rodriguez <gaeel@nanoleptic.net> (https://gaeel.spaceshipsin.space)",
   "dependencies": {
-    "superstructure": "^1.0.1"
+    "superstructure": "^1.1.0"
   }
 }
