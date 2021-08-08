@@ -4,7 +4,10 @@ if (created)
   - var datesEqual = new Date(updated).getTime() == new Date(created).getTime();
 html(lang="en")
   head
-    title #{title} - Spaceships in Space
+    if (title!='Index')
+      title #{title} - #{name}
+    else
+      title #{name}
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
     meta(name="viewport" content="width=device-width, initial-scale=1")
@@ -13,7 +16,10 @@ html(lang="en")
     if (created)
       // OpenGraph & Twitter tags
       meta(property="og:site_name" content="Spaceships in Space")
-      meta(property="og:title" content=title)
+      if (title!='Index')
+        meta(property="og:title" content=title)
+      else
+        meta(property="og:title" content=name)
       meta(property="og:url" content="https://spaceshipsin.space"+url)
       meta(property="og:description" content=preview)
       meta(property="og:image" content="https://spaceshipsin.space"+imageURL)
