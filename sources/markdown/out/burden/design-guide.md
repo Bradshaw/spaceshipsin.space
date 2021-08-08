@@ -43,3 +43,11 @@ No village is a monolith, even in the friendliest place there will be those who 
    
 ### Roamers
 Outside of settlements, there may be other people roaming around. Traders, hunters, travellers, and 
+
+
+%YAML 1.2
+---
+title: "Burden: Design and Writing Guide"
+tags:
+  - burden
+sort-order: 5

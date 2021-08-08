@@ -4,3 +4,13 @@ The **Pathfinder** survives. Their body is but a vessel for their soul, their mi
 Pathfinding is the art of staying alive and in complete control of one's body and mind. Pain and fear are the tools of the lost. When travelling the shifting lands, lost is as good as dead...  
   
 The **Pathfinder** is calm and determined, not by nature, but by necessity. A good **Pathfinder** is constantly aware of all threats and opportunities, surviving the worse through sheer spite.
+
+
+
+%YAML 1.2
+---
+title: The Pathfinder
+tags:
+  - burden
+  - burden-archetype
+sort-order: 10
