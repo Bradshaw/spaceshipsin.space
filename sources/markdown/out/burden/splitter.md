@@ -4,3 +4,12 @@ The **Splitter** takes advantage of the rifts that have been forming throughout 
 Splitting is terrifyingly dangerous. When twisting the fundamental forces, unpredictable phenomena can occur, and random changes to the nature of matter, energy and time tend to produce catastrophic results.   
    
 The **Splitter** wields immense power, but their control over it is limited. A wise **Splitter** will reserve the use of their skills for otherwise desperate situations.
+
+
+%YAML 1.2
+---
+title: The Splitter
+tags:
+  - burden
+  - burden-archetype
+sort-order: 10

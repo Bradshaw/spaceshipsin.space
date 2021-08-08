@@ -27,3 +27,11 @@ While you have a shared destination, your cultures, personalities, and morals ma
 
 [Read the rules for Burden here](/burden/rules)
 [Read the design guide](/burden/design-guide)
+
+
+%YAML 1.2
+---
+title: Burden
+tags:
+  - burden
+sort-order: 0
