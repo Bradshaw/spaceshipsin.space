@@ -1,6 +1,6 @@
-# Burden RPG
+# Burden TTRPG
 
-Burden is a short-ish form roleplaying game about a world at the end of time and a fateful journey to a monument.
+Burden is a short-ish form tabletop roleplaying game about a world at the end of time and a fateful journey to a monument.
 
 ## The end, the monument, and the party
 
