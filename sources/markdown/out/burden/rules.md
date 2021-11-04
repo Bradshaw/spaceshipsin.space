@@ -29,7 +29,7 @@ If your player group would prefer to play a shorter or longer campaign, be forew
 
 ## Creating a character
   
-Your **Traveller** has five **Core** stats, **Brawn**, **Grind**, **Poise**, **Oracle**, and **Tremor**.  
+Your **Traveller** has three **Core** stats, **Brawn**, **Grind**, and **Tremor**.  
 Start with 2 in each of these, and distribute 8 points between them, with a maximum of 6 in any stat.  
 Pick a **Modifier** to apply to a **Core** stat. The modifiers are: **Guarded**, **Cursed**, **Skilled**, or **Forced**.
   
@@ -49,9 +49,9 @@ You may swap out up to two of your **Archetype**'s **Talent**s with **Talent**s 
   
 **Grind** represents the temerity, relentlessness, endurance, and sheer force of will of your **Traveller**, abilty to resist pain & hunger, to push their mind and body through to the bitter end. A **Traveller** with high **Grind** can keep trekking despite broken bones, stand defiant in the face of threats, and help their allies resist the sweet temptation of abandon.  
   
-**Poise** represents the mindfulness, wisdom, and wit of your **Traveller**. A **Traveller** with high **Poise** can outsmart opponents, recognise danger before anyone else, understand the subtle mechanisms of the world around them, and use their knowledge to navigate desperate situations.  
+<!-- **Poise** represents the mindfulness, wisdom, and wit of your **Traveller**. A **Traveller** with high **Poise** can outsmart opponents, recognise danger before anyone else, understand the subtle mechanisms of the world around them, and use their knowledge to navigate desperate situations.   -->
   
-**Oracle** represents a strange connection your **Traveller** has to the spirits, higher powers, gods, or however else they explain their twists of fate. A **Traveller** with high **Oracle** can peek beyond the veil of the future, turn the odds in their favour, and benefit from supernatural protection.   
+<!-- **Oracle** represents a strange connection your **Traveller** has to the spirits, higher powers, gods, or however else they explain their twists of fate. A **Traveller** with high **Oracle** can peek beyond the veil of the future, turn the odds in their favour, and benefit from supernatural protection.    -->
    
 **Tremor** represents your **Traveller**'s attunement to the distortions of reality caused by the ending of the world. A **Traveller** with high **Tremor** can create minor rifts in the fabric of spacetime, disappear or move objects, phase through solid matter, and create pockets of frozen time.
 
@@ -113,29 +113,12 @@ When a **Traveller** finds themself in a safe place, with food, drink, and shelt
 Your **Traveller**'s **Archetype** gives them access to a set of **Talent**s that set them apart from ordinary folk.  
   
 ### [The Paragon](/burden/paragon)
-Their body moves efficiently as they leap from rock to rock. Their motions are snappy, yet fluid as they climb the cliff face faster than most can run on flat ground. They reach the summit and 
 
 
 ### [The Pathfinder](/burden/pathfinder)
-Their wounds are caulked with salt. A blindfold protects their eyes against the toxic spores hanging in the air. They step, making no sound except for the short, calculated puffs of their filtered breathing technique.   
-The **Pathfinder** survives. Their body is but a vessel for their soul, their mind is simply the device they must control to keep moving on. To others they seem to be acting on instinct, but pathfinding is anything but; only a complete mastery of flesh and spirit can ensure the survival of the soul.   
-Pathfinding is the art of staying alive and in complete control of one's body and mind. Pain and fear are the tools of the lost. When travelling the shifting lands, lost is as good as dead...  
-  
-The **Pathfinder** is calm and determined, not by nature, but by necessity. A good **Pathfinder** is constantly aware of all threats and opportunities, surviving the worse through sheer spite.
-
-
-### [The Adept](/burden/adept)
-
-
-### [The Blessed Soul](/burden/blessed-soul)
 
 
 ### [The Splitter](/burden/splitter)
-The air crackles around them, charged particles springing into existence and collapsing. Gravel and sand shift around as if whipped up by thousands of little storms. The smell of petrichor follows them wherever they go.  
-The **Splitter** takes advantage of the rifts that have been forming throughout the world. Splitting is a constantly changing art, the nature of the distortions change too quickly now for any meaningful knowledge to have value. Instead, splitting is a skill, an intuitive feel for the eddies and currents of spacetime itself.   
-Splitting is terrifyingly dangerous. When twisting the fundamental forces, unpredictable phenomena can occur, and random changes to the nature of matter, energy and time tend to produce catastrophic results.   
-   
-The **Splitter** wields immense power, but their control over it is limited. A wise **Splitter** will reserve the use of their skills for otherwise desperate situations.
 
 %YAML 1.2
 ---
