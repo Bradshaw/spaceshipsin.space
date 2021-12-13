@@ -33,6 +33,6 @@ html(lang="en")
         a(href="/") home
         |  
         a(href="?" onclick="window.print();return false;") print this document
-        #{content}
+        #article !{content}
     if dev
       script(src="/reload/reload.js")
