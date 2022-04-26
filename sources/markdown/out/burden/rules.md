@@ -29,18 +29,18 @@ If your player group would prefer to play a shorter or longer campaign, be forew
 
 ## Creating a character
   
-Your **Traveller** has three **Core** stats, **Brawn**, **Grind**, and **Tremor**.  
-Start with 2 in each of these, and distribute 8 points between them, with a maximum of 6 in any stat.  
-Pick a **Modifier** to apply to a **Core** stat. The modifiers are: **Guarded**, **Cursed**, **Skilled**, or **Forced**.
-  
-Your **Traveller** starts the game with 12 **Vitality** and 0 **Hurt**.  
-   
-If you like, you can represent these numbers with six-faced dice.  
-  
+Your **Traveller** has six **Core** stats, **Brawn**, **Grind**, **Poise**, **Oracle**, **Tremor**, and **Weave**
+Start with 2 in each of these, and distribute 12 points between them, with a maximum of 8 in any stat.
+Pick a **Modifier** to apply to one of your **Core** stats. The modifiers are: **Guarded**, **Cursed**, **Skilled**, **Forced**, **Reliable**, or **Fickle**.
+
+Your **Traveller** starts the game with 12 **Vitality** and 0 **Hurt**.
+
+
+<!--
 You have access to all of the **Base Talent**s.  
 Pick an **Archetype**, you will have access to all of their **Talent**s.  
 You may swap out up to two of your **Archetype**'s **Talent**s with **Talent**s from other **Archetype**s.
-  
+-->
 ### Core stats
   
 **Core** stats represent the skills and abilities that your **Traveller** will rely on to make their way to the monument.
@@ -49,11 +49,13 @@ You may swap out up to two of your **Archetype**'s **Talent**s with **Talent**s 
   
 **Grind** represents the temerity, relentlessness, endurance, and sheer force of will of your **Traveller**, abilty to resist pain & hunger, to push their mind and body through to the bitter end. A **Traveller** with high **Grind** can keep trekking despite broken bones, stand defiant in the face of threats, and help their allies resist the sweet temptation of abandon.  
   
-<!-- **Poise** represents the mindfulness, wisdom, and wit of your **Traveller**. A **Traveller** with high **Poise** can outsmart opponents, recognise danger before anyone else, understand the subtle mechanisms of the world around them, and use their knowledge to navigate desperate situations.   -->
+**Poise** represents the mindfulness, wisdom, and wit of your **Traveller**. A **Traveller** with high **Poise** can outsmart opponents, recognise danger before anyone else, understand the subtle mechanisms of the world around them, and use their knowledge to navigate desperate situations.
   
-<!-- **Oracle** represents a strange connection your **Traveller** has to the spirits, higher powers, gods, or however else they explain their twists of fate. A **Traveller** with high **Oracle** can peek beyond the veil of the future, turn the odds in their favour, and benefit from supernatural protection.    -->
+**Oracle** represents a strange connection your **Traveller** has to the spirits, higher powers, gods, or however else they explain their twists of fate. A **Traveller** with high **Oracle** can peek beyond the veil of the future, turn the odds in their favour, and benefit from supernatural protection.
    
 **Tremor** represents your **Traveller**'s attunement to the distortions of reality caused by the ending of the world. A **Traveller** with high **Tremor** can create minor rifts in the fabric of spacetime, disappear or move objects, phase through solid matter, and create pockets of frozen time.
+  
+**Weave** represents your **Traveller**'s sensitivity to the energy fields that flow through themself and others. A **Traveller** with high **Weave** can sense and cure internal wounds, change the physical properties of their body, and manipulate the inner functions of life itself.
 
 ### Modifiers
 
@@ -67,6 +69,10 @@ A **Skilled** stat is precise and calculated, but overconfidence leads to grave 
   
 A **Forced** stat can be pushed far beyond expectations, for a price. **Traveller**s with a **Forced** stat stop at nothing to achieve their goals, even if it means carrying permanent scars and letting a part of their soul die.
 
+A **Reliable** stat is blah blah blah
+
+A **Fickle** stat is blah blah blah
+
 ### Vitality and Hurt
 
 **Vitality** represents a **Traveller**'s current ability to continue on their journey. Wounds, hunger, poison, dehydration, and despair all cut into a **Traveller**'s **Vitality**. If their **Vitality** runs out, their journey is over. Perhaps they have succumbed to their wounds, or no longer have the health and energy they need to make another step.  
@@ -78,36 +84,47 @@ A **Traveller** can rest in a safe place with abundent food and drink to regain 
 
 During the game, some actions and moves a **Traveller** will make will be risky or challenging. In order to determine whether or not they are successful, the **Guide** will ask for a dice roll.  
 The roll will have a specified **Difficulty** and a related **Core** stat.  
+The **Guide** may also declare the roll to be *Critical**, which adds a layer of risk in the case of extreme.results.
   
 To perform the roll, the player chooses how many points to spend from the related **Core** stat.  
   
 Roll two six-faced dice, subtract **Difficulty**, and add the spent points.  
   
-Spent points are removed from the stat pool.  
+Spent points are removed from the stat pool.
+
+Finally, the player can spend any number of *Adversity Tokens** to increase or reduce their result.
+
+_**Important:**_ **Core** stats are spent *before* rolling the dice (except if the stat is **Skilled**), and **Adversity Tokens** are spent *after* the dice are rolled.
+
 
 ### Interpreting the roll
 
 - 6 or less: **Failure** - A setback befalls you.
 - 7 - 9: **Partial success** - You succeed, but there is a cost or a setback.
 - 10 or more: **Success**
+- 13 or more, if the roll is **Critical**: **Blunder** You have acted over-zealously, you fail and will suffer unintended consequences.
+
+In the cases of **Failure** and **Blunder**, your **Traveller** learns from their mistakes: gain an **Adversity Token**.
 
 ### Using modifiers:
 
-- **Guarded**: On a **Failure** roll, regain the spent points. A 12+ is required for a full **Success**.
-- **Cursed**: Spent points are worth double. On a **Failure**, lose all remaining points. On a 15+, gain **Hurt** equal to spent points.
-- **Skilled**: Spend points *after* rolling. On a **Failure**, consequences will be *harsh*.
+- **Guarded**: On a **Failure** roll, regain the spent points. A 12 is required for a full **Success**. **Blunder**s count as **Partial Success**.
+- **Cursed**: Spent points are worth double. On a **Failure**, lose all remaining points. On a **Blunder**, gain one **Hurt**.
+- **Skilled**: Spend points *after* rolling. On a **Failure**, consequences will be *harsh* and no **Adversity Tokens** are awarded.
 - **Forced**: Spend up to 3 **Vitality** points, worth double, on the roll.
+- **Reliable**: When **Adversity Tokens** are awarded for any roll, instead gain 2 points in this stat, up to twice the maximum.
+- **Fickle**: Swap this stat's point pool with your **Adversity Token** pool.
 
 ## Resting
 
-When a **Traveller** finds themself in a safe place, with food, drink, and shelter, they will rest. Resting is a passive activity, a **Traveller** can continue to go on about their business, as long as they're out of harm's way. Resting for a day or so allows the **Traveller** to regain lost **Core** stat points and some **Vitality**.
+When a **Traveller** finds themself in a safe place, with food, drink, and shelter, they will rest. Resting is a passive activity, a **Traveller** can continue to go on about their business, as long as they're out of harm's way and not overly exerting themself. Resting for a day or so allows the **Traveller** to regain lost **Core** stat points and some **Vitality**.
 
 1. Regain any spent **Core** stat points.
 2. Divide your missing **Vitality** by 2, rounded up.
 3. If that number is greater than your **Hurt**, update **Hurt** to this new number.
 4. Regain **Vitality** up to 12 minus **Hurt**.
 
-## Archetypes
+<!--## Archetypes
    
 **Archetype**s are broad categories of the sort of people **Traveller**s might be. The descriptions provided are there to serve as inspiration or flavour. Your **Traveller** may use an **Archetype** without fitting the description.  
 Your **Traveller**'s **Archetype** gives them access to a set of **Talent**s that set them apart from ordinary folk.  
@@ -119,6 +136,7 @@ Your **Traveller**'s **Archetype** gives them access to a set of **Talent**s tha
 
 
 ### [The Splitter](/burden/splitter)
+-->
 
 %YAML 1.2
 ---
