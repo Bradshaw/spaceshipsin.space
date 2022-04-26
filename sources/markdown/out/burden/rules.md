@@ -92,7 +92,7 @@ Roll two six-faced dice, subtract **Difficulty**, and add the spent points.
   
 Spent points are removed from the stat pool.
 
-Finally, the player can spend any number of *Adversity Tokens** to increase or reduce their result.
+Finally, the player can spend any number of **Adversity Tokens** to increase or reduce their result.
 
 _**Important:**_ **Core** stats are spent *before* rolling the dice (except if the stat is **Skilled**), and **Adversity Tokens** are spent *after* the dice are rolled.
 
