@@ -84,7 +84,7 @@ A **Traveller** can rest in a safe place with abundent food and drink to regain 
 
 During the game, some actions and moves a **Traveller** will make will be risky or challenging. In order to determine whether or not they are successful, the **Guide** will ask for a dice roll.  
 The roll will have a specified **Difficulty** and a related **Core** stat.  
-The **Guide** may also declare the roll to be *Critical**, which adds a layer of risk in the case of extreme.results.
+The **Guide** may also declare the roll to be **Critical**, which adds a layer of risk in the case of extreme results.
   
 To perform the roll, the player chooses how many points to spend from the related **Core** stat.  
   
