@@ -29,12 +29,15 @@
 *Bridge games and products*   
 Technical design and development of a new Online Bridge client in Unity
  - Multi-platform video chatting
- - Integration with legacy systems
+ - Integration with legacy backend
 
 Continuous integration and deployment pipelines for internal Unity projects
  - Test, build and deploy apps for web, mobile and desktop
  - Compile and publish technical documentation
 
+Maintenance and upgrades on other card games and Virtual Regatta Offshore, a sailing game
+ - Updates and redesigns of legacy code and systems
+ - Port external libraries to Unity
 
 ### *2016 -> 2021* · Teacher · [**E-Artsup**](https://www.e-artsup.net/ecole-graphisme-design-infographie-lille.aspx)
 *Game design and digital art school*   
