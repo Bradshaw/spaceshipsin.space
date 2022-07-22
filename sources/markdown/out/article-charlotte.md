@@ -6,7 +6,7 @@ Check l'insta de Charlotte: [ici](https://www.instagram.com/charlotteall)
 
 %YAML 1.2
 ---
-title: What is Mastodon?
+title: Salut Charlotte
 tags:
   - technology
   - blog
