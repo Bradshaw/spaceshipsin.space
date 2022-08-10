@@ -24,6 +24,8 @@ Each session will be a small self-contained story, resolving most or all of the 
   
 If your player group would prefer to play a shorter or longer campaign, be forewarned that the mechanical balance might be off. When running a shorter campaign or a one-shot, the **Guide** will probably want to throw more difficult challenges at the group, and choose harsher outcomes for failure. On the other hand, when running a longer campaign, it might be wise for the **Guide** to weave in some "lucky breaks" for the **Travellers** and maybe even give them a chance to reset their **Hurt**.
 
+The first session of the campaign uses [special rules](/burden/session-zero).
+
 
 # The rules of Burden
 

@@ -10,6 +10,7 @@ A sound **Paragon** maintains their body in perfect condition, after all, the bo
 %YAML 1.2
 ---
 title: The Paragon
+status: unpublished
 tags:
   - burden
   - burden-archetype

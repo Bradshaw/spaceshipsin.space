@@ -11,6 +11,7 @@ The **Pathfinder** is calm and determined, not by nature, but by necessity. A go
 %YAML 1.2
 ---
 title: The Pathfinder
+status: unpublished
 tags:
   - burden
   - burden-archetype
