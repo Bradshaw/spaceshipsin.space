@@ -5,6 +5,7 @@ The **Adept** can focus their mind to an infinitesimal point, or expand their th
 %YAML 1.2
 ---
 title: The Adept
+status: unpublished
 no-tags:
   - burden
   - burden-archetype

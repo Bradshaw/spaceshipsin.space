@@ -4,6 +4,7 @@
 %YAML 1.2
 ---
 title: The Augur
+status: unpublished
 no-tags:
   - burden
   - burden-archetype
