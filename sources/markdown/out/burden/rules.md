@@ -38,18 +38,13 @@ Pick a **Modifier** to apply to one of your **Core** stats. The modifiers are: *
 Your **Traveller** starts the game with 12 **Vitality** and 0 **Hurt**.
 
 
-<!--
-You have access to all of the **Base Talent**s.  
-Pick an **Archetype**, you will have access to all of their **Talent**s.  
-You may swap out up to two of your **Archetype**'s **Talent**s with **Talent**s from other **Archetype**s.
--->
 ### Core stats
   
 **Core** stats represent the skills and abilities that your **Traveller** will rely on to make their way to the monument.
   
 **Brawn** represents the core strength and athleticism of your **Traveller**, their ability to run fast, climb high, move weights and break things. A **Traveller** with high **Brawn** can pull off incredible feats of physical prowess, win fights against wild beasts, and literally carry their allies out of danger.  
   
-**Grind** represents the temerity, relentlessness, endurance, and sheer force of will of your **Traveller**, abilty to resist pain & hunger, to push their mind and body through to the bitter end. A **Traveller** with high **Grind** can keep trekking despite broken bones, stand defiant in the face of threats, and help their allies resist the sweet temptation of abandon.  
+**Grind** represents the temerity, relentlessness, endurance, and sheer force of will of your **Traveller**, ability to resist pain & hunger, to push their mind and body through to the bitter end. A **Traveller** with high **Grind** can keep trekking despite broken bones, stand defiant in the face of threats, and help their allies resist the sweet temptation of abandon.  
   
 **Poise** represents the mindfulness, wisdom, and wit of your **Traveller**. A **Traveller** with high **Poise** can outsmart opponents, recognise danger before anyone else, understand the subtle mechanisms of the world around them, and use their knowledge to navigate desperate situations.
   
@@ -61,7 +56,7 @@ You may swap out up to two of your **Archetype**'s **Talent**s with **Talent**s 
 
 ### Modifiers
 
-**Modifier**s are a way for you to personalise your **Traveller**. You can pick one that will apply to one of your **Core** stats, changing the way your **Traveller** will rely and manage that ability.
+**Modifier**s are a way for you to personalise your **Traveller**. Pick one that will apply to one of your **Core** stats, changing the way your **Traveller** will rely on and manage that ability.
   
 A **Guarded** stat lessens the cost of failure, while making success more difficult. **Traveller**s with a **Guarded** stat have an aversion to loss, and accept a certain level of hardship as a compromise.  
   
@@ -71,9 +66,9 @@ A **Skilled** stat is precise and calculated, but overconfidence leads to grave 
   
 A **Forced** stat can be pushed far beyond expectations, for a price. **Traveller**s with a **Forced** stat stop at nothing to achieve their goals, even if it means carrying permanent scars and letting a part of their soul die.
 
-A **Reliable** stat is blah blah blah
+A **Reliable** stat can be counted on when everything else fails. **Traveller**s with a **Reliable** stat can turn the tide, regaining momentum when everything seems lost.
 
-A **Fickle** stat is blah blah blah
+A **Fickle** stat can avoid the worst of fates, but rarely yields heroic outcomes. **Traveller**s with a **Fickle** stat escape the twists and turns of the shifting lands, by the skin of their teeth.
 
 ### Vitality and Hurt
 
@@ -87,6 +82,9 @@ A **Traveller** can rest in a safe place with abundent food and drink to regain 
 During the game, some actions and moves a **Traveller** will make will be risky or challenging. In order to determine whether or not they are successful, the **Guide** will ask for a dice roll.  
 The roll will have a specified **Difficulty** and a related **Core** stat.  
 The **Guide** may also declare the roll to be **Critical**, which adds a layer of risk in the case of extreme results.
+
+
+#### Rolling
   
 To perform the roll, the player chooses how many points to spend from the related **Core** stat.  
   
@@ -98,8 +96,7 @@ Finally, the player can spend any number of **Adversity Tokens** to increase or 
 
 _**Important:**_ **Core** stats are spent *before* rolling the dice (except if the stat is **Skilled**), and **Adversity Tokens** are spent *after* the dice are rolled.
 
-
-### Interpreting the roll
+#### Interpreting the roll
 
 - 6 or less: **Failure** - A setback befalls you.
 - 7 - 9: **Partial success** - You succeed, but there is a cost or a setback.
@@ -108,14 +105,14 @@ _**Important:**_ **Core** stats are spent *before* rolling the dice (except if t
 
 In the cases of **Failure** and **Blunder**, your **Traveller** learns from their mistakes: gain an **Adversity Token**.
 
-### Using modifiers:
+#### Using modifiers
 
 - **Guarded**: On a **Failure** roll, regain the spent points. A 12 is required for a full **Success**. **Blunder**s count as **Partial Success**.
 - **Cursed**: Spent points are worth double. On a **Failure**, lose all remaining points. On a **Blunder**, gain one **Hurt**.
-- **Skilled**: Spend points *after* rolling. On a **Failure**, consequences will be *harsh* and no **Adversity Tokens** are awarded.
+- **Skilled**: Spend points *after* rolling. All rolls are **Critical**, and no **Adversity Tokens** are awarded for **Failure**.
 - **Forced**: Spend up to 3 **Vitality** points, worth double, on the roll.
 - **Reliable**: When **Adversity Tokens** are awarded for any roll, instead gain 2 points in this stat, up to twice the maximum.
-- **Fickle**: Swap this stat's point pool with your **Adversity Token** pool.
+- **Fickle**: Points cannot be spent to increase the result. Instead, spend points to roll again. You must keep the the newest roll.
 
 ## Resting
 
@@ -126,18 +123,33 @@ When a **Traveller** finds themself in a safe place, with food, drink, and shelt
 3. If that number is greater than your **Hurt**, update **Hurt** to this new number.
 4. Regain **Vitality** up to 12 minus **Hurt**.
 
+### Short Rest
+
+When stranded in the shifting lands, it is sometimes possible to set up a temporary camp to recuperate. If a **Traveller** is able to find a pocket of safety for a few hours, they may take a **Short Rest**.
+
+1. Regain up to **6** spent **Core** stat points.
+2. Spend **Adversity Tokens**
+    - Regain one **Vitality** and gain one **Hurt** for each token spent.
+    - **Vitality** can not be increased beyond 12 minus **Hurt**.
+
 <!--## Archetypes
    
 **Archetype**s are broad categories of the sort of people **Traveller**s might be. The descriptions provided are there to serve as inspiration or flavour. Your **Traveller** may use an **Archetype** without fitting the description.  
 Your **Traveller**'s **Archetype** gives them access to a set of **Talent**s that set them apart from ordinary folk.  
+
+### [The Adept](/burden/archetypes/adept)
+
+
+### [The Augur](/burden/archetypes/augur)
+
   
-### [The Paragon](/burden/paragon)
+### [The Paragon](/burden/archetypes/paragon)
 
 
-### [The Pathfinder](/burden/pathfinder)
+### [The Pathfinder](/burden/archetypes/pathfinder)
 
 
-### [The Splitter](/burden/splitter)
+### [The Splitter](/burden/archetypes/splitter)
 -->
 
 %YAML 1.2
