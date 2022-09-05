@@ -13,7 +13,8 @@ E-Mail
 
 Social:
   * <a rel="me" href="https://twitter.com/_gaeel_">Twitter - @\_gaeel\_</a>
-  * <a rel="me" href="https://cybre.space/@gaeel">Fediverse - @gaeel@cybre.space</a>
+  * <a rel="me" href="https://tilde.zone/@gaeel">Fediverse - @gaeel@tilde.zone</a>
+    * <a rel="me" href="https://cybre.space/@gaeel">Formerly @gaeel@cybre.space</a>
   * [Discord - Gaeel#8548](https://discord.com/users/213329240052072458)
 
 Other identities:
