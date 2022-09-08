@@ -25,19 +25,13 @@
 <p class="spacer"></p>
 
 ## Company Experiences
-### *2020 -> Ongoing* · Software Developer · [**52 Entertainment**](https://www.52-entertainment.com/)
+### *2020 -> 2022* · Software Developer · [**52 Entertainment**](https://www.52-entertainment.com/)
 *Bridge games and products*   
-Technical design and development of a new Online Bridge client in Unity
- - Multi-platform video chatting
- - Integration with legacy backend
-
-Continuous integration and deployment pipelines for internal Unity projects
- - Test, build and deploy apps for web, mobile and desktop
- - Compile and publish technical documentation
-
-Maintenance and upgrades on other card games and Virtual Regatta Offshore, a sailing game
- - Updates and redesigns of legacy code and systems
- - Port external libraries to Unity
+Technical design and development of a new Online Bridge client in Unity  
+Maintenance and upgrades on other card games and Virtual Regatta Offshore  
+Continuous integration and deployment pipelines for internal Unity projects  
+Reverse-engineering and technical documentation of legacy systems and projects  
+ 
 
 ### *2016 -> 2021* · Teacher · [**E-Artsup**](https://www.e-artsup.net/ecole-graphisme-design-infographie-lille.aspx)
 *Game design and digital art school*   
