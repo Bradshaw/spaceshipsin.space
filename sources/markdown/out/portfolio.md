@@ -134,7 +134,7 @@ You can [download it from itch.io](https://gaeel.itch.io/a-lovely-little-fire), 
 ## Zweinflugger!
 ![A pixelated picture of two sci-fi aircraft in a shmup game](/portfolio/zweinflugger.700w.jpg)   
 +++ A two-player, single-screen bullet-hell shmup  
-Made during `f(unky|ture)`, a game jam about multi-player games I co-organised as part of Baptême du Jeu.   
+Made during `fu(nky|ture)`, a game jam about multi-player games I co-organised as part of Baptême du Jeu.   
 It's a fairly bog-standard score-attack shmup, with two aircraft, one controlled with WASD keys and the other with arrow keys. There are three ways to play. Competitively, by trying to score more than your opponent. Cooperatively by trying to survive as long as possible and get a high combined score. And solo, by controlling both aircraft at the same time.   
 You can [download it from itch.io](https://gaeel.itch.io/zweinflugger). The soundtrack is [really good too!](https://soundcloud.com/freelancer-epic/zweinflugger)   
 +++
