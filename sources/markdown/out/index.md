@@ -16,6 +16,7 @@ Social:
   * <a rel="me" href="https://tilde.zone/@gaeel">Fediverse - @gaeel@tilde.zone</a>
     * <a rel="me" href="https://cybre.space/@gaeel">Formerly @gaeel@cybre.space</a>
   * [Discord - Gaeel#8548](https://discord.com/users/213329240052072458)
+  * <a rel="me" href="https://cohost.org/gaeel">Cohost - @gaeel</a>
 
 Other identities:
   * [Glitch](https://glitch.com/@gaeel)
