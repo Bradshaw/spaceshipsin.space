@@ -1,7 +1,7 @@
 # Hello!
 My name is __Gaeel&nbsp;Bradshaw‑Rodriguez__
 
-I am a designer and programmer, interested in interactivity, digital art, and computer-enabled experiences.
+I am a designer and programmer, interested in interactivity, digital art, and computer-enabled experiences. If you're working on something weird, fun, thoughtful, or rebellious, I'd like to help you make that thing happen!
 
 I like to [make digital art](/nebulae), [write stories](/random/spacefarer), and [play with electronic music](/things/olegtron4060).
 
