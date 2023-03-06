@@ -171,6 +171,7 @@ A typical character sheet might look something like this:
 <aside>
 
 **Skedaddle**
+**Machinist** on the **Behemoth**
 Background: *A worker looking to make enough money to someday go home and make it all better.*
 I grew up in a farming village when a blight hit us. I'm looking to make enough money to buy a cure, if one even exists...
 I look older than I am, my skin is leathered by the sun and acid rains I worked under. I wear thick layered clothes. When I'm working on the rig I'm completely covered from head to toe, even wearing goggles and a respirator to protect myself.
