@@ -1,9 +1,53 @@
 # Rust, Fuel & Flesh
 
-A loud and dirty table-top role-playing game about grease monkeys with fuel to burn and an axle to grind.
-This game is intended for four players and a guide.
-The players are the grimy, driven crew of a rig, running away from a grimy past, towards a future of opportunity.
+A loud and dirty table-top role-playing game about grease monkeys with fuel to burn and an axle to grind, driving a powerful hauler away from their grimy past, towards a future of opportunity.
+
 They'll race in cut-throat rallies, carry deliveries across dangerous terrain, and somehow seem to have an ever-growing horde of enemies chasing them down.
+
+This game is intended for four players and a guide.
+
+<aside>
+
+## Content, tone, and safety
+
+### Content notes
+
+This game involves some potentially difficult or distressing themes that are built-in, if they don't work for you, feel free to hack them out, or find another game to play.
+
+- Environmental collapse
+  - The game takes place in an endless wasteland
+  - Food, water, and other natural resources are scarce
+  - It's implied that this wasteland spans the entire planet
+- Violence
+  - Gangs and warlords are fighting for power and resources
+  - Raiders and bandits ambush vulnerable convoys
+  - Dangerous people threaten and bully their way around
+- Vehicles
+  - Vehicles of all shapes and sizes crash and ram into each other, often with devastating consequences
+  - Most of the vehicles are dangerous, driving fast and recklessly with people climbing and jumping around in and on top of them
+  - Engines are big and loud, burning fuel, spewing out flames and smoke
+- Stress
+  - Characters are put into stressful, potentially life-threatening situations
+  - Resources are limited, time is short, and there are often multiple sources of danger and pressure
+
+### Tone and TTRPG Safety
+
+This game is intended to be quite flexible in how its tone is approached.
+We're here to see roamers and misfits with studded leather jackets and grimy faces, we want to watch massive metal machines ram and scrape against each other as they tear their way through the wastes. Heavy metal is playing loud and furious, fire bursts from exhaust pipes, the air is dense with diesel fumes and dust clouds torn from the ground.
+
+This can be played dark and grimy, but it can equally be a fun cartoon romp. I like to play it somewhere in between.
+Before you start, have a conversation about what kind of tone you're aiming for, and make sure you know what everyone around the table would like. In doubt, err on the safer side; sometimes a scene might not hit as hard as you may have liked, but it's important that everyone can enjoy the experience and feel safe throughout.
+
+A simple tool could be to reference film ratings.
+Your session could be G-rated, with violence remaining mostly implied. PG-13 with some punching and bashing, and the odd swear word thrown around. Or if everyone agrees, you might want to go R-rated, with more graphic violence and foul language abound.
+
+Another useful tool is [Lines and Veils](https://rpg.stackexchange.com/questions/30906/what-do-the-terms-lines-and-veils-mean). Discuss in advanc what themes and concepts are hard limits and will never be a part of your sessions, and what themes and concepts can be included in the story, but will stay "off-screen".
+For instance, for me: Torture is a **line**. I do not want to play in a story that contains torture. Sex is a **veil**, I'm perfectly fine with sex happening in the story, but I don't want to play out those scenes.
+
+Golden Lasso Games have published [an excellent resource](https://goldenlassogames.com/tools) about TTRPG safety tools, I highly recommend taking some time to read it.
+
+The goal is to create an environment where everyone trusts that their safety is respected, so that it becomes possible to build an experience that is powerful and engaging.
+</aside>
 
 ## Let's burn some fuel
 
@@ -12,16 +56,16 @@ Twin sixteen-cylinder quad-turbo engines.
 Forty-four tons of rusted metal, fuel and flesh.
 A machine made of fire and rage, tearing through the dirt at eighty knots.
 
-| 🎲  | Your opening scene                                                                                |
-|:---:|:--------------------------------------------------------------------------------------------------|
-|  1  | The rig's rightful owner isn't far behind, they want it back, and you dead                        |
-|  2  | The last round of repairs cost more than you could afford, the creditor expects payment this week |
-|  3  | You made a promise to a local Baron, and you have no idea how to fulfill it                       |
-|  4  | You've made a lot of people angry, it's time to find a way out of this turf                       |
-|  5  | You're carrying contraband, it would be wise to offload it soon                                   |
-|  6  | There's a bounty on your heads, your only choice is to keep moving, for now                       |
-
 *Roll a die to choose your opening scene, or discuss with your group what greasy situation you're tied up in at the start of your story.*
+
+|  🎲   | Your opening scene                                                                                |
+|:-----:|:--------------------------------------------------------------------------------------------------|
+| **1** | The rig's rightful owner isn't far behind, they want it back, and you dead                        |
+| **2** | The last round of repairs cost more than you could afford, the creditor expects payment this week |
+| **3** | You made a promise to a local Baron, and you have no idea how to fulfill it                       |
+| **4** | You've made a lot of people angry, it's time to find a way out of this turf                       |
+| **5** | You're carrying contraband, it would be wise to offload it soon                                   |
+| **6** | There's a bounty on your heads, your only choice is to keep moving, for now                       |
 
 ## Who are you?
 
@@ -36,28 +80,48 @@ You are machine parts, not unlike the wheels, engines, and pumps, powering your 
 Choose your background.
 *(Roll a die, pick from the table, or come up with your own. Write it down.)*
 
-| 🎲  | Background                                                                          |
-|:---:|:------------------------------------------------------------------------------------|
-|  1  | A criminal on the run. The long arm of "the law" will catch up to you one day.      |
-|  2  | A wanderer travelling for no reason at all. You've never had companions before.     |
-|  3  | A worker looking to make enough money to someday go home and make it all better.    |
-|  4  | A daredevil seeking thrills. Anything that's loud enough to drown out the pain.     |
-|  5  | A nerd with a deep understanding of machines. So much easier than *people*.         |
-|  6  | A hero making the world a better place. It's easier to fix the world than yourself. |
+|  🎲   | Background                                                                          |
+|:-----:|:------------------------------------------------------------------------------------|
+| **1** | A criminal on the run. The long arm of "the law" will catch up to you one day.      |
+| **2** | A wanderer travelling for no reason at all. You've never had companions before.     |
+| **3** | A worker looking to make enough money to someday go home and make it all better.    |
+| **4** | A daredevil seeking thrills. Anything that's loud enough to drown out the pain.     |
+| **5** | A nerd with a deep understanding of machines. So much easier than *people*.         |
+| **6** | A hero making the world a better place. It's easier to fix the world than yourself. |
 
+Figure out who you are.
 What do you look like?
-Were you once wealthy?
-Are you grizzled and worn, but wise with experience, or an inexperienced child, full of energy and hope?
+Are you grizzled and worn, but wise with experience? Or are you an inexperienced child, full of energy and hope?
 How much of your body is still made of flesh and bone?
 What do you carry with you? How much of it is replaceable?
+Where are you from? Does that place still exist? Could you return there if you wanted to?
+Who or what have you left behind? Do you regret it?
 Do you have scars or tattoos? Do they have stories? Do you remember those stories? Who would you be willing to tell them to?
 *(You can write the answers down if you like. Ask yourself more questions, maybe?)*
 
 When fate comes knocking and everything is against you, what skill can you rely upon? What single thing can you honestly claim to be your best quality?
 *(Write it down, and tag it with **Skill**.)*
++++ **Skill** ideas
+> I stay cool under pressure
+
+> When I punch someone, they stay down
+
+> I can sense when foul play is afoot
+
+> I can talk my way out of dangerous situation
++++
 
 What is the flaw that will almost certainly spell your doom? What is the crack in glass that will cause everything to shatter?
 *(Write it down, and tag it with **Flaw**.)*
++++ **Flaw** ideas
+> I crumble under pressure
+
+> I couldn't throw a punch to save my life
+
+> I'm terribly naive and trust too easily
+
+> When I open my mouth, it always makes things worse
++++
 
 ### As comrades
 
@@ -77,6 +141,13 @@ When this is all done and dusted, will you stick around?
 Choose another member of the crew, and write down something you hope for them. It can be positive or negative.
 Maybe you'd like to see them open up and enjoy life, or maybe you think they ought to face *some* justice for what they've done.
 *(Write it down, and tag it with **Bond**.)*
++++ **Bond** ideas
+> I want Jesse to track down their childhood friend
+
+> I want Quinn to see how brutal life can be in the wastes
+
+> I want Avery to make amends for their treacherous past
++++
 
 ### As machine parts
 
@@ -88,3 +159,24 @@ Everyone on the crew knows how to do all the jobs, in a pinch, but you have your
 - **Machinist**: Deep in the guts of the rig, metal, fuel and oil churn away relentlessly. To most, it's a dirty cacophony, but to you, this is an orchestra, and you're the maestro. You know how to push the engine to its limits. Its *actual* limits, not the ones written in the manual.
 - **Wrench**: You make broken things fixed and fixed things broken. "Tool" kit in hand, you dash around the rig mending damage and fighting off intruders. Occasionally, you might even hop onto your pursuers' rigs for some light sabotage and intimidation.
 *(Decide together who does what, write it down, and tag it with **Job**.)*
+
+### Your character sheet
+
+Your character sheet is a document that tracks gameplay and story information that will be important while you play. It should include the character's name, the things you picked out above, and some room for notes.
+It can be on a piece of paper, in a notebook, or in a digital document. Ideally, you should be able to share it easily with the guide and the other players.
+If you're playing more than a one-shot, your character will gain new **Skills**, **Flaws**, and **Bonds**, leave some room to add them later. Sometimes you'll lose some of these attributes, so either use a pencil or erasable pen, or embrace the grime and get ready to do a lot of crossing-out.
+
+A typical character sheet might look something like this:
+
+<aside>
+
+**Skedaddle**
+Background: *A worker looking to make enough money to someday go home and make it all better.*
+I grew up in a farming village when a blight hit us. I'm looking to make enough money to buy a cure, if one even exists...
+I look older than I am, my skin is leathered by the sun and acid rains I worked under. I wear thick layered clothes. When I'm working on the rig I'm completely covered from head to toe, even wearing goggles and a respirator to protect myself.
+
+**(Skill)** I am indefatigable. If I'm starving, parched, and haven't slept for days, I can just... keep... going...
+**(Flaw)** I am terrified of conflict. In a fight, I will usually just freeze up or flee.
+**(Bond)** I want Goldbrick to get revenge on the Mudlark Barony.
+
+</aside>

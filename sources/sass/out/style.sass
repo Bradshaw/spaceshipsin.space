@@ -40,9 +40,7 @@ body
   padding: 1cm 1cm 0 1cm
   margin: 0
   font-family: "Atkinson"
-  background: $body-color
-  background-image: $body-stripes
-  background-attachment: fixed
+  background: $body-stripes fixed
   color: $text-color
   @media (prefers-color-scheme: dark)
     background-color: $dark-body-color
@@ -114,9 +112,6 @@ h1, h2, h3, h4, h5, h6
 h1
   font-size: #{$size-base + $size-scale * 7}pt
   font-weight: 800
-  // background-color: $title-color
-  // color: $background-color
-  // clip-path: polygon(0% 0%, calc(100% - 60px) 0%, 100% 60px, 100% 100%, 0 100%)
 
 h2
   font-size: #{$size-base + $size-scale * 5}pt
@@ -136,6 +131,16 @@ h5
 h6
   font-size: #{$size-base + $size-scale}pt
 
+aside
+  clip-path: $corner-clip
+  margin: 5px 5px 60px 5px
+  padding: 10px 20px
+  background-color: $title-color
+  p, h1, h2, h3, h4, h5, h6, ul, ol, li
+    color: $background-color
+  a
+    color: $header-link-color
+
 header
   clip-path: $corner-clip
   max-width: calc(#{$page-width} - 40px)
@@ -151,13 +156,6 @@ header
     color: $background-color
     a
       color: $header-link-color
-  svg
-    width: 100%
-    text
-      fill: $background-color
-      font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,'Helvetica Neue',Arial,sans-serif
-      font-weight: 800
-      font-size: 5px
   ul
     margin-top: 0
     margin-bottom: 0
@@ -166,27 +164,6 @@ header
 
 blockquote
   font-style: italic
-
-// header
-//   padding: 5px
-//   color: $background-color
-//   background-color: $text-color
-//   h1
-//     font-size: 25.5vw;
-//   h1, p, nav
-//     padding: 0
-//     margin: 0
-//     color: $background-color
-
-// #article
-//   ul
-//     margin-top: -1em
-
-// .links
-//   color: $title-color
-//   @media (prefers-color-scheme: dark)
-//     color: $dark-title-color
-//   margin: 0px
 
 a.hlink
   padding: 0 3px
