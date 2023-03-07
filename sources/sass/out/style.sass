@@ -1,5 +1,5 @@
 @use "sass:string"
-*
+//*
   // outline: solid 1px red !important
   // transition: none !important
 
@@ -16,6 +16,7 @@ $bhue: 180
 $body-color: hsl($bhue, 10, 95%)
 $background-color: hsl($bhue, 0, 99%)
 $text-color: hsl($bhue+180, 0, 5%)
+$strong-color: hsl($bhue, 100%, 30%)
 $link-color: hsl($bhue+180, 100, 25%)
 $header-link-color: hsl($bhue+180, 100, 70%)
 $title-color: hsl($bhue+180, 5, 30%)
@@ -30,6 +31,7 @@ $small-corner-clip: polygon(0% 0%, 100% 0%, 100% calc( 100% - #{$small-corner-si
 $dark-body-color: hsl($bhue, 10, 15%)
 $dark-background-color: hsl($bhue+180, 5, 15%)
 $dark-text-color: hsl($bhue, 15, 80%)
+$dark-strong-color: hsl($bhue, 100%, 80%)
 $dark-link-color: hsl($bhue+180, 90, 65%)
 $dark-title-color: hsl($bhue, 15, 75%)
 $dark-hover-color: hsl($bhue, 80, 50%)
@@ -39,7 +41,7 @@ $body-stripes: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'
 body
   padding: 1cm 1cm 0 1cm
   margin: 0
-  font-family: "Atkinson"
+  font-family: "Atkinson", serif
   background: $body-stripes fixed
   color: $text-color
   @media (prefers-color-scheme: dark)
@@ -100,7 +102,7 @@ a:hover
 
 h1, h2, h3, h4, h5, h6
   color: $title-color
-  margin: 10px 0 0 0
+  margin: 30px 0 0 0
   @media (prefers-color-scheme: dark)
     color: $dark-title-color
   a
@@ -131,15 +133,23 @@ h5
 h6
   font-size: #{$size-base + $size-scale}pt
 
+strong
+  color: $strong-color
+  @media (prefers-color-scheme: dark)
+    color: $dark-strong-color
+
+
 aside
   clip-path: $corner-clip
   margin: 5px 5px 60px 5px
   padding: 10px 20px
   background-color: $title-color
-  p, h1, h2, h3, h4, h5, h6, ul, ol, li
+  p, h1, h2, h3, h4, h5, h6, ul, ol, li, summary
     color: $background-color
   a
     color: $header-link-color
+  strong
+    color: $dark-strong-color
 
 header
   clip-path: $corner-clip

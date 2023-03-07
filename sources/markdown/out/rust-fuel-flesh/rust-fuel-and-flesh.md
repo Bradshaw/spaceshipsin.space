@@ -6,14 +6,28 @@ They'll race in cut-throat rallies, carry deliveries across dangerous terrain, a
 
 This game is intended for four players and a guide.
 
-<aside>
+## About this document
 
-## Content, tone, and safety
+### Table of contents
+
+- [Content notes](#content-notes) - Some notes about the themes this game includes
+- [Let's burn some fuel](#lets-burn-some-fuel) - Kick-start your story
+- [Who are you?](#who-are-you) - Character creation
+  - [As individuals](#as-individuals) - Your background
+  - [As comrades](#as-comrades) - Your relationships with your crew
+  - [As machine parts](#as-machine-parts) - Your job aboard the rib
+  - [Your character sheet](#your-character-sheet) - An example character sheet
 
 ### Content notes
 
-This game involves some potentially difficult or distressing themes that are built-in, if they don't work for you, feel free to hack them out, or find another game to play.
+This game involves some potentially difficult or distressing themes. These themes are somewhat core to the intended experience: Angry misfits riding dangerous machines through a blighted wasteland.
+While this is the *intended* experience, if you play this game, it's your game, your story, your rules. My *true* intended experience is for you and your friends to have a good time and weave a story that you will love.
 
+If the themes I built into this game don't work for you, feel free to hack them out. Make the game yours!
+
+<aside>
+
++++ Click here for details
 - Environmental collapse
   - The game takes place in an endless wasteland
   - Food, water, and other natural resources are scarce
@@ -22,31 +36,14 @@ This game involves some potentially difficult or distressing themes that are bui
   - Gangs and warlords are fighting for power and resources
   - Raiders and bandits ambush vulnerable convoys
   - Dangerous people threaten and bully their way around
-- Vehicles
+- Vehicular violence and crashing
   - Vehicles of all shapes and sizes crash and ram into each other, often with devastating consequences
   - Most of the vehicles are dangerous, driving fast and recklessly with people climbing and jumping around in and on top of them
   - Engines are big and loud, burning fuel, spewing out flames and smoke
 - Stress
   - Characters are put into stressful, potentially life-threatening situations
-  - Resources are limited, time is short, and there are often multiple sources of danger and pressure
-
-### Tone and TTRPG Safety
-
-This game is intended to be quite flexible in how its tone is approached.
-We're here to see roamers and misfits with studded leather jackets and grimy faces, we want to watch massive metal machines ram and scrape against each other as they tear their way through the wastes. Heavy metal is playing loud and furious, fire bursts from exhaust pipes, the air is dense with diesel fumes and dust clouds torn from the ground.
-
-This can be played dark and grimy, but it can equally be a fun cartoon romp. I like to play it somewhere in between.
-Before you start, have a conversation about what kind of tone you're aiming for, and make sure you know what everyone around the table would like. In doubt, err on the safer side; sometimes a scene might not hit as hard as you may have liked, but it's important that everyone can enjoy the experience and feel safe throughout.
-
-A simple tool could be to reference film ratings.
-Your session could be G-rated, with violence remaining mostly implied. PG-13 with some punching and bashing, and the odd swear word thrown around. Or if everyone agrees, you might want to go R-rated, with more graphic violence and foul language abound.
-
-Another useful tool is [Lines and Veils](https://rpg.stackexchange.com/questions/30906/what-do-the-terms-lines-and-veils-mean). Discuss in advanc what themes and concepts are hard limits and will never be a part of your sessions, and what themes and concepts can be included in the story, but will stay "off-screen".
-For instance, for me: Torture is a **line**. I do not want to play in a story that contains torture. Sex is a **veil**, I'm perfectly fine with sex happening in the story, but I don't want to play out those scenes.
-
-Golden Lasso Games have published [an excellent resource](https://goldenlassogames.com/tools) about TTRPG safety tools, I highly recommend taking some time to read it.
-
-The goal is to create an environment where everyone trusts that their safety is respected, so that it becomes possible to build an experience that is powerful and engaging.
+  - Resources are limited, time is short, there are multiple sources of danger, and pressure is building at all times
++++
 </aside>
 
 ## Let's burn some fuel
@@ -181,3 +178,55 @@ I look older than I am, my skin is leathered by the sun and acid rains I worked 
 **(Bond)** I want Goldbrick to get revenge on the Mudlark Barony.
 
 </aside>
+
+Your character sheet is yours, have fun with it!
+Draw your character on it.
+Make it look like an in-world laissez-passer that your character has forged.
+Scribble notes and theories about the story.
+Keep a record of your character's thoughts.
+Format it like a letter that your character will send home when they can.
+
+As long as it contains your **Job**, **Skills**, **Flaws**, and **Bonds**, it's good to go! 
+
+## How to play
+
+The game is *more or less* split into two modes of play: **Unstructured** play and **Rig Running**.
+
+**Rig Running** is for when you're in your rig, hurtling across the landscape, racing and battling. These are the *action scenes*, this is when you play your loudest and fastest heavy metal playlists, and *get down to business*!
+
+**Unstructured** play is everything else:
+Lazily rolling though the foothills, reflecting on what just went down.
+Planning your next move.
+Negotiating with a parts dealer to get much-needed upgrades for the rig.
+Getting into a tavern brawl over a petty squabble.
+Making friends.
+Making enemies.
+Making promises.
+Breaking them...
+
+Sometimes **Unstructured** can bleed into **Rig Running**. In these cases, anime rules apply:
+Entire conversations can happen in the middle of an action scene, characters will taunt and provoke each other, minor disputes will be settled, camaraderie will be forged in the cacophony of dust, fumes, and fire.
+
+### Unstructured Play
+
+### Rig Running
+
+## Notes for the guide
+
+### Tone and TTRPG Safety
+
+This game is intended to be quite flexible in how its tone is approached.
+We're here to see roamers and misfits with studded leather jackets and grimy faces, we want to watch massive metal machines ram and scrape against each other as they tear their way through the wastes. Heavy metal is playing loud and furious, fire bursts from exhaust pipes, the air is dense with diesel fumes and dust clouds torn from the ground.
+
+This can be played dark and grimy, but it can equally be a fun cartoon romp. I like to play it somewhere in between.
+Before you start, have a conversation about what kind of tone you're aiming for, and make sure you know what everyone around the table would like. In doubt, err on the safer side; sometimes a scene might not hit as hard as you may have liked, but it's important that everyone can enjoy the experience and feel safe throughout.
+
+A simple tool could be to reference film ratings.
+Your session could be G-rated, with violence remaining mostly implied. PG-13 with some punching and bashing, and the odd swear word thrown around. Or if everyone agrees, you might want to go R-rated, with more graphic violence and foul language abound.
+
+Another useful tool is [Lines and Veils](https://rpg.stackexchange.com/questions/30906/what-do-the-terms-lines-and-veils-mean). Discuss in advanc what themes and concepts are hard limits and will never be a part of your sessions, and what themes and concepts can be included in the story, but will stay "off-screen".
+For instance, for me: Torture is a **line**. I do not want to play in a story that contains torture. Sex is a **veil**, I'm perfectly fine with sex happening in the story, but I don't want to play out those scenes.
+
+Golden Lasso Games have published [an excellent resource](https://goldenlassogames.com/tools) about TTRPG safety tools, I highly recommend taking some time to read it.
+
+The goal is to create an environment where everyone trusts that their safety is respected, so that it becomes possible to build an experience that is powerful and engaging.
