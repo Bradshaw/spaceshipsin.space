@@ -28,7 +28,7 @@ I was brought in by [Cosmografik](https://cosmografik.fr/) during his stay at [T
 
 ## L'indécadence
 ![Dried leaves on a table near a laptop, all under moody lighting](/portfolio/indecadence.700w.jpg)  
-*Photo: La Fille d'à Côté - [Full album](https://www.facebook.com/pg/lafilledct/photos/?tab=album&album_id=1471957822887747) - [Website](http://filledacote.com/)*   
+*Photo: Anna-Célestine - [Website](https://annacelestine.com/)*   
 +++ An indie games & art party
 L'indécadence took place during IndieCade Europe 2017 in Paris  
 Following the popularity of 2016's La Petite Indécadence, [Adriel](https://adriel.xyz) set up L'indécadence. I helped coordinate the event, working with the brewery that provided drinks, and helping procure games and hardware for the exhibit.
