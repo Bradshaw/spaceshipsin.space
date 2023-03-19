@@ -1,22 +1,19 @@
-# Rust, Fuel & Flesh
+# Rust Skunks
 
-A loud and dirty table-top role-playing game about grease monkeys with fuel to burn and an axle to grind, driving a powerful hauler away from their grimy past, towards a future of opportunity.
+A loud and dirty table-top role-playing game about grease monkeys with fuel to burn and *an axle to grind*, driving a powerful hauler away from their grimy past, towards a future of opportunity.
 
 They'll race in cut-throat rallies, carry deliveries across dangerous terrain, and somehow seem to have an ever-growing horde of enemies chasing them down.
 
-This game is intended for four players and a guide.
+This game is intended for four **players** and a **machinist**.
+Before you start, decide who will be the machinist. Typically, the machinist is whoever happens to have gathered a bunch of friends to "play this cool TTRPG I just found". If you're unable to decide, pick whoever would be most likely to set fire to a car in an outburst of fury.
+
+<aside>
+
++++ Table of contents
+[[toc]]
+</aside>
 
 ## About this document
-
-### Table of contents
-
-- [Content notes](#content-notes) - Some notes about the themes this game includes
-- [Let's burn some fuel](#lets-burn-some-fuel) - Kick-start your story
-- [Who are you?](#who-are-you) - Character creation
-  - [As individuals](#as-individuals) - Your background
-  - [As comrades](#as-comrades) - Your relationships with your crew
-  - [As machine parts](#as-machine-parts) - Your job aboard the rib
-  - [Your character sheet](#your-character-sheet) - An example character sheet
 
 ### Content notes
 
@@ -24,6 +21,8 @@ This game involves some potentially difficult or distressing themes. These theme
 While this is the *intended* experience, if you play this game, it's your game, your story, your rules. My *true* intended experience is for you and your friends to have a good time and weave a story that you will love.
 
 If the themes I built into this game don't work for you, feel free to hack them out. Make the game yours!
+
+Also, to keep the game fun and safe for everyone, please read the [TTRPG Safety](#tone-and-ttrpg-safety) section before playing.
 
 <aside>
 
@@ -148,27 +147,77 @@ Maybe you'd like to see them open up and enjoy life, or maybe you think they oug
 
 ### As machine parts
 
+#### Jobs
+
 A rig needs a crew.
 Everyone on the crew knows how to do all the jobs, in a pinch, but you have your specialty, your role.
 
 - **Driver**: Hands on the wheel, feet on the pedals, head in the game. You can feel the momentum of your rig. Your seat connects you to the chassis, to the suspension, to the wheels, to the ground. Every stone, bump, and patch of loose soil translates to micro-corrections in the steering.
-- **Spotter**: Crawling up on the roof, binoculars in hand. Swinging around the hull checking for damage and intruders. Smelling the fumes blown your way by the wind and figuring out what kinds of vehicle are up ahead. You sniff out opportunities and dangers alike.
+- **Spotter**: Crawling up on the roof, binoculars dangling off your belt. Swinging around the hull checking for damage and intruders. Smelling the fumes blown your way by the wind and figuring out what kinds of vehicle are up ahead. You sniff out opportunities and dangers alike.
 - **Machinist**: Deep in the guts of the rig, metal, fuel and oil churn away relentlessly. To most, it's a dirty cacophony, but to you, this is an orchestra, and you're the maestro. You know how to push the engine to its limits. Its *actual* limits, not the ones written in the manual.
 - **Wrench**: You make broken things fixed and fixed things broken. "Tool" kit in hand, you dash around the rig mending damage and fighting off intruders. Occasionally, you might even hop onto your pursuers' rigs for some light sabotage and intimidation.
+
 *(Decide together who does what, write it down, and tag it with **Job**.)*
 
-### Your character sheet
+#### The rig
+
+A crew needs a rig.
+The rig is your home. It's also your means of transportation, your workplace, a weapon, and a character in its own right.
+
+When running the rig full-speed through the dirt, the **Machinist** and the **Wrench** are tasked with engineering duties. But at rest, you're all responsible for repairing and upgrading it.
+
+Is the rig a machine that was slowly modified over time, or was it designed the way it is?
+Could an expert recognise the original chassis?
+How many crews has it had? Has the crew evolved over time, or was it passed from crew to crew?
+Is it painted? Decorated?
+It is flying a flag? What does it look like, and what does it mean?
+
+What **Class** is the rig?
+- **Bullet**: Speed
+- **Juggernaut**: Robustness
+- **Mauler**: Combat
+- **Cutter**: Maneuverability
+
+*(Write this down and tag it with **Class**.)*
+
+What modifications have been made to the rig?
+*(Each player describes a modification, write them down, and tag them with **Mod**.)*
+
++++ **Mod** ideas
+- **Boudica wheel spikes** that stick out and can cut or mangle vehicles we side-swipe.
+- **Expanded living quarters** with a working kitchen and medical supplies. 
+- **Carapace cladding** that can protect us from projectiles.
+- **Over-tuned fuel pumps** that lets us run the engine much harder when we need more "oomph".
++++
+
+Finally, decide on a name for your rig. Something appropriate for a gnarly machine. Your home. Your ticket to a better life.
+
+### Character sheet and rig sheet
 
 Your character sheet is a document that tracks gameplay and story information that will be important while you play. It should include the character's name, the things you picked out above, and some room for notes.
 It can be on a piece of paper, in a notebook, or in a digital document. Ideally, you should be able to share it easily with the guide and the other players.
 If you're playing more than a one-shot, your character will gain new **Skills**, **Flaws**, and **Bonds**, leave some room to add them later. Sometimes you'll lose some of these attributes, so either use a pencil or erasable pen, or embrace the grime and get ready to do a lot of crossing-out.
 
+Your character sheet is yours, have fun with it!
+Draw your character on it.
+Make it look like an in-world laissez-passer that your character has forged.
+Scribble notes and theories about the story.
+Keep a record of your character's thoughts.
+Format it like a letter that your character will send home when they can.
+
+As long as it contains your **Job**, **Skills**, **Flaws**, and **Bonds**, it's good to go!
+
+The players also share a "rig sheet", with information about their rig.
+Like the character sheet, 
+
+
+#### Character sheet example
 A typical character sheet might look something like this:
 
 <aside>
 
 **Skedaddle**
-**Machinist** on the **Behemoth**
+**Machinist** on the **Big Beautiful Bastard**
 Background: *A worker looking to make enough money to someday go home and make it all better.*
 I grew up in a farming village when a blight hit us. I'm looking to make enough money to buy a cure, if one even exists...
 I look older than I am, my skin is leathered by the sun and acid rains I worked under. I wear thick layered clothes. When I'm working on the rig I'm completely covered from head to toe, even wearing goggles and a respirator to protect myself.
@@ -179,22 +228,58 @@ I look older than I am, my skin is leathered by the sun and acid rains I worked 
 
 </aside>
 
-Your character sheet is yours, have fun with it!
-Draw your character on it.
-Make it look like an in-world laissez-passer that your character has forged.
-Scribble notes and theories about the story.
-Keep a record of your character's thoughts.
-Format it like a letter that your character will send home when they can.
+#### Rig sheet example
+A typical rig sheet might look something like this:
 
-As long as it contains your **Job**, **Skills**, **Flaws**, and **Bonds**, it's good to go! 
+<aside>
 
-## How to play
+**Big Beautiful Bastard**
+**Juggernaut-Class**
 
-The game is *more or less* split into two modes of play: **Unstructured** play and **Rig Running**.
+The chassis of a *Beckham-Hutch BH-80 hauler* and the frame of an *Arkab Designs "Valkyrie" blockade-runner*, haphazardly welded together. The front of the "Bastard" is fitted with a rotary snowplow painted to look like a big angry face.
 
-**Rig Running** is for when you're in your rig, hurtling across the landscape, racing and battling. These are the *action scenes*, this is when you play your loudest and fastest heavy metal playlists, and *get down to business*!
+**Mods**
+- **Rotary snowplow** to mess up anyone we ram into.
+- **Low center of gravity** improving maneuverability and stability.
+- **A functional air-con** to keep us cool in the hot desert sun.
+- **Flares** to disorient and perhaps even set fire to pursuers.
 
-**Unstructured** play is everything else:
+</aside>
+
+## How to play 
+
+### Skills, flaws, and grit
+
+When a player undertakes an activity or action with an uncertain outcome, they will be asked to roll dice.
+The machinist will state a difficulty target:
+- **Risky**: 4
+- **Rash**: 5
+- **Reckless**: 6
+
+The player can then invoke their background, skills, or other factors to convince the machinist 
+
+### Tallies
+
+During play, the machinist will keep track of certain things, like time, resources, mounting conflict, and whatever other somewhat quantifiable *things* might have influence on the story.
+They're can be represented by a die, tally marks on paper, plastic beads in bowls, or anything else that is easy to use to count.
+Tallies *usually* count up to six, but sometimes they might count to four or eight if the machinist has *a very good reason*.
+
+Tallies are an abstraction of the actual *thing* they're tracking, they don't have units, they're just meant as a easy way to track the shape of the situation.
+For instance, things like money, favours, and valuables might all be bundled up into a tally called "Assets".
+
+There are two kinds of tally, **counters** and **clocks**.
+
+**Counters** are used to track things like resources. When they reach their maximum, they won't count any higher, and the machinist will explain that *"six means a lot, okay?"*
+
+**Clocks** are used to track a developing situation, something will happen if they fill all the way up.
+
+### Modes of play
+
+The game is *more or less* split into two modes of play: **free play** and **rig running**.
+
+**Rig running** is for when you're in your rig, hurtling across the landscape, racing and battling. These are the *action scenes*, this is when you play your loudest and fastest heavy metal playlists, and *get down to business*!
+
+**Free play** is everything else:
 Lazily rolling though the foothills, reflecting on what just went down.
 Planning your next move.
 Negotiating with a parts dealer to get much-needed upgrades for the rig.
@@ -204,12 +289,12 @@ Making enemies.
 Making promises.
 Breaking them...
 
-Sometimes **Unstructured** can bleed into **Rig Running**. In these cases, anime rules apply:
+#### Unstructured Play
+
+#### Rig Running
+
+In these cases, anime rules apply:
 Entire conversations can happen in the middle of an action scene, characters will taunt and provoke each other, minor disputes will be settled, camaraderie will be forged in the cacophony of dust, fumes, and fire.
-
-### Unstructured Play
-
-### Rig Running
 
 ## Notes for the guide
 
@@ -218,15 +303,38 @@ Entire conversations can happen in the middle of an action scene, characters wil
 This game is intended to be quite flexible in how its tone is approached.
 We're here to see roamers and misfits with studded leather jackets and grimy faces, we want to watch massive metal machines ram and scrape against each other as they tear their way through the wastes. Heavy metal is playing loud and furious, fire bursts from exhaust pipes, the air is dense with diesel fumes and dust clouds torn from the ground.
 
-This can be played dark and grimy, but it can equally be a fun cartoon romp. I like to play it somewhere in between.
+This can be played dark and gritty, but it can equally be a fun cartoon romp. I like to aim somewhere in between.
 Before you start, have a conversation about what kind of tone you're aiming for, and make sure you know what everyone around the table would like. In doubt, err on the safer side; sometimes a scene might not hit as hard as you may have liked, but it's important that everyone can enjoy the experience and feel safe throughout.
 
 A simple tool could be to reference film ratings.
 Your session could be G-rated, with violence remaining mostly implied. PG-13 with some punching and bashing, and the odd swear word thrown around. Or if everyone agrees, you might want to go R-rated, with more graphic violence and foul language abound.
 
-Another useful tool is [Lines and Veils](https://rpg.stackexchange.com/questions/30906/what-do-the-terms-lines-and-veils-mean). Discuss in advanc what themes and concepts are hard limits and will never be a part of your sessions, and what themes and concepts can be included in the story, but will stay "off-screen".
-For instance, for me: Torture is a **line**. I do not want to play in a story that contains torture. Sex is a **veil**, I'm perfectly fine with sex happening in the story, but I don't want to play out those scenes.
+#### Lines and Veils
+
+A useful tool is [Lines and Veils](https://rpg.stackexchange.com/questions/30906/what-do-the-terms-lines-and-veils-mean). Encourage your players to share their **lines** and **veils** with you before the game. You can do this privately and/or as a group.
+**Lines** are subjects or themes that will be kept entirely off-limits. These subjects will never appear in your story, directly or even by allusion.
+**Veils** are subjects or themes that will be kept "off-screen". These subjects may appear in the story, but won't be played out in detail. Instead, you "fade to black", and continue with the story afterwards.
+
+For example, here are mine:
+- Torture is a **line**. I do not want to play in a story that contains torture. I never include it in my story, and refuse for it to be introduced.
+- Sex is a **veil**, I'm perfectly fine with sex happening in the story, but I don't want to play out those scenes. Characters may get intimate, but we'll fade to black and skip to morning.
+
+Lines and veils can be added as the game progresses. Just because you didn't think of something while preparing to play doesn't mean it's too late.
+
+#### More tools and reading
 
 Golden Lasso Games have published [an excellent resource](https://goldenlassogames.com/tools) about TTRPG safety tools, I highly recommend taking some time to read it.
 
 The goal is to create an environment where everyone trusts that their safety is respected, so that it becomes possible to build an experience that is powerful and engaging.
+
+## Credits and usage
+
+**Rust Skunks** is designed and written by Gaeel&nbsp;Bradshaw‑Rodriguez.
+
+**Rust Skunks** is free to use as-is for non-commercial tabletop role-playing sessions. You may make copies of this document, in part or in whole, for personal use or to distribute with other members of a non-commercial play session, provided that a link to this page is included ([spaceshipsin.space/rust-skunks](https://spaceshipsin.space/rust-skunks)).
+
+Non-commercial "hacks", or other substantially modified versions of this game may be redistributed publicly, provided that they are shared under these same conditions.
+
+For commercial use or redistribution [please get in touch](/#contact).
+
+Basically, I made and provided this for free, so that people can have fun playing with their friends. I would like to keep it that way.
