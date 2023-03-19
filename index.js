@@ -26,7 +26,11 @@ const config = {
 };
 
 
-superstructure.build(config)
+superstructure
+	.use_md(require("markdown-it-table-of-contents"), {
+		includeLevel: [2,3,4]
+	})
+	.build(config)
 	.then(()=>{
 		// Code you want to run when the build is done
 		console.log("Launched!");
