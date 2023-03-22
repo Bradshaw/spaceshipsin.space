@@ -26,7 +26,7 @@ Also, to keep the game fun and safe for everyone, please read the [TTRPG Safety]
 
 <aside>
 
-+++ Click here for details
++++ Click here for detailed content notes
 - Environmental collapse
   - The game takes place in an endless wasteland
   - Food, water, and other natural resources are scarce
@@ -154,7 +154,7 @@ Everyone on the crew knows how to do all the jobs, in a pinch, but you have your
 
 - **Driver**: Hands on the wheel, feet on the pedals, head in the game. You can feel the momentum of your rig. Your seat connects you to the chassis, to the suspension, to the wheels, to the ground. Every stone, bump, and patch of loose soil translates to micro-corrections in the steering.
 - **Spotter**: Crawling up on the roof, binoculars dangling off your belt. Swinging around the hull checking for damage and intruders. Smelling the fumes blown your way by the wind and figuring out what kinds of vehicle are up ahead. You sniff out opportunities and dangers alike.
-- **Machinist**: Deep in the guts of the rig, metal, fuel and oil churn away relentlessly. To most, it's a dirty cacophony, but to you, this is an orchestra, and you're the maestro. You know how to push the engine to its limits. Its *actual* limits, not the ones written in the manual.
+- **Gearsmith**: Deep in the guts of the rig, metal, fuel and oil churn away relentlessly. To most, it's a dirty cacophony, but to you, this is an orchestra, and you're the maestro. You know how to push the engine to its limits. Its *actual* limits, not the ones written in the manual.
 - **Wrench**: You make broken things fixed and fixed things broken. "Tool" kit in hand, you dash around the rig mending damage and fighting off intruders. Occasionally, you might even hop onto your pursuers' rigs for some light sabotage and intimidation.
 
 *(Decide together who does what, write it down, and tag it with **Job**.)*
@@ -164,7 +164,7 @@ Everyone on the crew knows how to do all the jobs, in a pinch, but you have your
 A crew needs a rig.
 The rig is your home. It's also your means of transportation, your workplace, a weapon, and a character in its own right.
 
-When running the rig full-speed through the dirt, the **Machinist** and the **Wrench** are tasked with engineering duties. But at rest, you're all responsible for repairing and upgrading it.
+When running the rig full-speed through the dirt, the **Gearsmith** and the **Wrench** are tasked with engineering duties. But at rest, you're all responsible for repairing and upgrading it.
 
 Is the rig a machine that was slowly modified over time, or was it designed the way it is?
 Could an expert recognise the original chassis?
@@ -217,13 +217,13 @@ A typical character sheet might look something like this:
 <aside>
 
 **Skedaddle**
-**Machinist** on the **Big Beautiful Bastard**
+**Gearsmith** on the **Big Beautiful Bastard**
 Background: *A worker looking to make enough money to someday go home and make it all better.*
 I grew up in a farming village when a blight hit us. I'm looking to make enough money to buy a cure, if one even exists...
 I look older than I am, my skin is leathered by the sun and acid rains I worked under. I wear thick layered clothes. When I'm working on the rig I'm completely covered from head to toe, even wearing goggles and a respirator to protect myself.
 
 **(Skill)** I am indefatigable. If I'm starving, parched, and haven't slept for days, I can just... keep... going...
-**(Flaw)** I am terrified of conflict. In a fight, I will usually just freeze up or flee.
+**(Flaw)** I'm clumsy. I either need to move and work slowly, or risk making mistakes.
 **(Bond)** I want Goldbrick to get revenge on the Mudlark Barony.
 
 </aside>
@@ -250,18 +250,47 @@ The chassis of a *Beckham-Hutch BH-80 hauler* and the frame of an *Arkab Designs
 
 ### Skills, flaws, and grit
 
-When a player undertakes an activity or action with an uncertain outcome, they will be asked to roll dice.
-The machinist will state a difficulty target:
-- **Risky**: 4
-- **Rash**: 5
-- **Reckless**: 6
+When attempting an action with an uncertain outcome, follow these steps to determine the result:
 
-The player can then invoke their background, skills, or other factors to convince the machinist 
+1. The machinist assigns a difficulty rating to the action:
+   - Normal: 1
+   - Risky: 2
+   - Reckless: 3
+   - ⚠️ Impossible ⚠️: 4 to 6
+2. The player may use their background, skills, or other factors to gain proficiency, which lowers their target number:
+   - None: 6
+   - Amateur: 5
+   - Skilled: 4
+   - Expert: 3
+3. The player can choose one of these options (not both):
+   - Invoke their flaws for a gritty roll and gain a grit token
+   - Spend grit tokens to increase proficiency (up to Expert)
+4. Other players can offer help, sharing the risk of negative consequences. They can use their backgrounds to gain proficiency, but cannot spend grit tokens.
+5. Dice rolling:
+   - The main player rolls three six-sided dice (d6). Each die equal to or greater than their proficiency target adds 1 point to the score.
+   - Helping players roll one d6 each. Each die equal to or greater than their proficiency target adds 1 point to the score.
+   - If the roll is gritty, subtract 1 point for each 1 rolled.
+6. Compare the final score to the difficulty rating:
+   - Greater than rating: Success
+   - Equal to rating: Partial success
+   - Lower than rating: Failure
+
+Results:
+- **Failure** - The action is unsuccessful, and there are negative consequences
+- **Partial success** - The action is successful, but there are setbacks
+- **Success** - The action is successful!
+
+<aside>
+
+WARNING!
+⚠️ The **impossible** target is *literally* impossible without help. A difficulty of 6 has a less than 10% success rate even with full help and maximum bonuses.
+The **impossible** target is meant for *absolutely desperate* circumstances.
+</aside>
 
 ### Tallies
 
 During play, the machinist will keep track of certain things, like time, resources, mounting conflict, and whatever other somewhat quantifiable *things* might have influence on the story.
-They're can be represented by a die, tally marks on paper, plastic beads in bowls, or anything else that is easy to use to count.
+They can be represented by a die, tally marks on paper, plastic beads in bowls, or anything else that is easy to use to count.
 Tallies *usually* count up to six, but sometimes they might count to four or eight if the machinist has *a very good reason*.
 
 Tallies are an abstraction of the actual *thing* they're tracking, they don't have units, they're just meant as a easy way to track the shape of the situation.
@@ -289,9 +318,38 @@ Making enemies.
 Making promises.
 Breaking them...
 
-#### Unstructured Play
+#### Free play
+
+During free play, the action should mostly be driven by the players, decide on a plan, and take actions.
+The machinist sets the scene and the stakes, and then lets the players move the story forwards. The machinist's main tool for progressing the story are clocks.
+
+For instance, if the situation is that the Ruined Ravine Rally is taking place soon, and the players need to beat a rival gang as part of a bet, the machinist might first set up a "Rally Day" clock. That clock will tick up whenever the players spend time on their actions.
+Other clocks can be added, for instance, if the players have decided to cheat and need to avoid detection, then a "Busted for cheating" clock can be added, with that clock ticking when they fail to remain discreet.
+
+When clocks fill up completely, their consequences are triggered, which typically results in a significant modification to the situation and the stakes.
+The players should always know about all the clocks and their status, even if their characters do not.
+
+Free play should be about preparing for and building up an upcoming rig run.
+The overarching goals and stakes should always be clear to the players, along with any potential areas of interest and opportunities.
+Sometimes the goal will be to prepare for the rig run itself, but not always. If the goal *doesn't* involve the rig run, there should certainly be some pressure to *get a move on*. It's never good for a skunk to hang around in one place for too long. 
 
 #### Rig Running
+
+When the rig run starts, the players' goal should already be set. We've hit the point of no return, and all that matters is carrying out the task.
+
+The run is laid out in **beats**.
+A normal run will be made of four beats, an epic run is made of six beats.
+Each beat represents a major step or scene along the run. They can be geographical, or can represent a specific challenge, like a fight with a rival rig or dealing with some environmental effect.
+Depending on the situation, the beats can be known in advance, or may be revealed to the players one by one.
+
+To succeed on the run, the players must complete each beat in the run in succession.
+Beats use clocks to determine how well the players are doing, and are played in **rounds** where the players try to manipulate the clocks.
+How the clocks are used depend on the objective:
+- **Dash**: Two clocks, a "success" clock and a "fail" clock. The players must fill the "success" clock before the "fail" clock is filled.
+- **Tug o' war**: A single clock that starts half-filled. The players must fill it and prevent it from emptying.
+- **Chase**: A single clock that must be filled within a given number of rounds.
+
+Each round, the players are given something that they need to deal with.
 
 In these cases, anime rules apply:
 Entire conversations can happen in the middle of an action scene, characters will taunt and provoke each other, minor disputes will be settled, camaraderie will be forged in the cacophony of dust, fumes, and fire.
