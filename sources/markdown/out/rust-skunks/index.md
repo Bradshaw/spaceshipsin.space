@@ -208,7 +208,7 @@ Format it like a letter that your character will send home when they can.
 As long as it contains your **Job**, **Skills**, **Flaws**, and **Bonds**, it's good to go!
 
 The players also share a "rig sheet", with information about their rig.
-Like the character sheet, 
+Like the character sheet, as long as it contains the **Class** and **Mods**, it's good to go! Feel free to dress it up like a mechanic's gripe sheet or a makeshift owner's manual.
 
 
 #### Character sheet example
@@ -290,7 +290,7 @@ The **impossible** target is meant for *absolutely desperate* circumstances.
 ### Tallies
 
 During play, the machinist will keep track of certain things, like time, resources, mounting conflict, and whatever other somewhat quantifiable *things* might have influence on the story.
-They can be represented by a die, tally marks on paper, plastic beads in bowls, or anything else that is easy to use to count.
+They can be represented by a die, tally marks on paper, beads in bowls, or anything else that is easy to use to count.
 Tallies *usually* count up to six, but sometimes they might count to four or eight if the machinist has *a very good reason*.
 
 Tallies are an abstraction of the actual *thing* they're tracking, they don't have units, they're just meant as a easy way to track the shape of the situation.
@@ -304,7 +304,7 @@ There are two kinds of tally, **counters** and **clocks**.
 
 ### Modes of play
 
-The game is *more or less* split into two modes of play: **free play** and **rig running**.
+The game is *more or less* split into two modes of play: **rig running** and **free play**.
 
 **Rig running** is for when you're in your rig, hurtling across the landscape, racing and battling. These are the *action scenes*, this is when you play your loudest and fastest heavy metal playlists, and *get down to business*!
 
@@ -349,12 +349,12 @@ How the clocks are used depend on the objective:
 - **Tug o' war**: A single clock that starts half-filled. The players must fill it and prevent it from emptying.
 - **Chase**: A single clock that must be filled within a given number of rounds.
 
-Each round, the players are given something that they need to deal with.
+Each round, the players are given something that they need to deal with, and must come up with a plan. They may ask the 
 
 In these cases, anime rules apply:
 Entire conversations can happen in the middle of an action scene, characters will taunt and provoke each other, minor disputes will be settled, camaraderie will be forged in the cacophony of dust, fumes, and fire.
 
-## Notes for the guide
+## Notes for the machinist
 
 ### Tone and TTRPG Safety
 
@@ -388,6 +388,7 @@ The goal is to create an environment where everyone trusts that their safety is 
 ## Credits and usage
 
 **Rust Skunks** is designed and written by Gaeel&nbsp;Bradshaw‑Rodriguez.
+Thanks to [Adriel](https://adriel.xyz/) for help with translation into French and proofreading.
 
 **Rust Skunks** is free to use as-is for non-commercial tabletop role-playing sessions. You may make copies of this document, in part or in whole, for personal use or to distribute with other members of a non-commercial play session, provided that a link to this page is included ([spaceshipsin.space/rust-skunks](https://spaceshipsin.space/rust-skunks)).
 
