@@ -5,7 +5,7 @@ I am a designer and programmer, interested in interactivity, digital art, and co
 
 I like to [make digital art](/nebulae), [write stories](/random/spacefarer), and [play with electronic music](/things/olegtron4060).
 
-I also like playing, running, and designing table-top roleplaying games. I'm currently working on [**Burden**](/burden), a short-ish form roleplaying game about a world at the end of time and a fateful journey to a monument.
+I also like playing, running, and designing table-top roleplaying games. I'm currently working on [**Veil Runners**](/veil-runners), a rules-light roleplaying game that takes place in a galaxy scarred by a mysterious anomaly known as "The Veil".
 
 # Get in touch <a name="contact" aria-hidden="true"></a>
 E-Mail
@@ -15,7 +15,8 @@ Social:
   * <a rel="me" href="https://twitter.com/_gaeel_">Twitter - @\_gaeel\_</a>
   * <a rel="me" href="https://tilde.zone/@gaeel">Fediverse - @gaeel@tilde.zone</a>
     * <a rel="me" href="https://cybre.space/@gaeel">Formerly @gaeel@cybre.space</a>
-  * [Discord - Gaeel#8548](https://discord.com/users/213329240052072458)
+  * Discord - `gaeel`
+    * [Join the Veil Runners Discord](https://discord.gg/2hJbm7VnJa)
   * <a rel="me" href="https://cohost.org/gaeel">Cohost - @gaeel</a>
 
 Other identities:
