@@ -6,7 +6,7 @@ const config = {
 	// Name of your website
 	name: 'Spaceships in Space',
 	// What your website is about
-	description: "Gaeel Bradshaw spaceship",
+	description: "Gaeel' spaceship in space",
 	// Canonical URL for your website
 	siteUrl: 'https://spaceshipsin.space/',
 	// Where to put the generated website
