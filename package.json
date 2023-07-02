@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "serve": "npx serve build/",
+    "watch": "npx nodemon -i build/ -e js,json,html,pug,md,sass"
   },
   "author": "Gaeel Bradshaw-Rodriguez <gaeel@spaceshipsin.space> (https://gaeel.spaceshipsin.space)",
   "dependencies": {
