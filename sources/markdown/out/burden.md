@@ -32,6 +32,7 @@ While you have a shared destination, your cultures, personalities, and morals ma
 %YAML 1.2
 ---
 title: Burden
+status: unpublished
 tags:
   - burden
 sort-order: 0
