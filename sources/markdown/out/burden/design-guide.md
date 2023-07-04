@@ -48,6 +48,7 @@ Outside of settlements, there may be other people roaming around. Traders, hunte
 %YAML 1.2
 ---
 title: "Burden: Design and Writing Guide"
+status: unpublished
 tags:
   - burden
 sort-order: 5

@@ -66,25 +66,26 @@ html(lang="en")
                 img(src="/favicon.png" alt="Gaeel's avatar")
         else
           article#article !{content}
-        if created
+        if created || tagd
           br
           hr
           br
-          .date Posted: #{formatDate(new Date(created))}
-          unless datesEqual
-            .date Updated #{formatDate(new Date(updated))}
-        // Tags
-        if tags
-          .tags
-            p Related tags
-              ul
-                li
-                  span
-                    a(href="/posts") all
-                each tag in tags
+          if created
+            .date Posted: #{formatDate(new Date(created))}
+            unless datesEqual
+              .date Updated #{formatDate(new Date(updated))}
+          // Tags
+          if tags
+            .tags
+              p Related tags
+                ul
                   li
                     span
-                      a(href="/posts/"+tag.replace(" ","-"))= tag
+                      a(href="/posts") all
+                  each tag in tags
+                    li
+                      span
+                        a(href="/posts/"+tag.replace(" ","-"))= tag
     footer
       div.footercontent
         // Build text
@@ -94,15 +95,3 @@ html(lang="en")
           a(href="/privacy") Full privacy policy & explanation
           br
           a(href="/meta/build-process") Learn about how this website is built
-        // Metadata
-        //- if created
-        //-   .publishing-info
-        //-     p
-        //-       | Created: #{formatDate(new Date(created))} - #{formatTime(new Date(created))}
-        //-       br
-        //-       unless datesEqual
-        //-         | Updated: #{formatDate(new Date(updated))} - #{formatTime(new Date(updated))}
-        //-         br
-        //-       | Last built: #{formatDate(new Date())} - #{formatTime(new Date())}
-    //if dev
-    //  script(src="/reload/reload.js")

@@ -155,6 +155,7 @@ Your **Traveller**'s **Archetype** gives them access to a set of **Talent**s tha
 %YAML 1.2
 ---
 title: Playing Burden
+status: unpublished
 tags:
   - burden
 sort-order: 1
