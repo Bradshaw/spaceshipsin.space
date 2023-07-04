@@ -64,6 +64,10 @@ p, ul, ol, summary, pre
   font-size: #{$size-base}pt
   line-height: 1.5
 
+code
+  font-size: #{0.9 * $size-base}pt
+  font-weight: bold
+
 hr
   height: 0
   border-bottom: 0
@@ -74,6 +78,12 @@ main
 main, footer
   max-width: $page-width
   margin: auto
+
+.tags
+  p, ul, summary
+    font-size: #{$size-base - $size-scale}pt
+  ul
+    margin: 0
 
 footer
   background: $body-color
