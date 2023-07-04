@@ -13,26 +13,26 @@ html(lang="en")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     link(rel='stylesheet', href='/style.css')
     meta(name="description" content="Gaeel's spaceship in space")
-    if (created)
-      // OpenGraph & Twitter tags
-      meta(property="og:site_name" content="Spaceships in Space")
-      if (title!='Index')
-        meta(property="og:title" content=title)
-      else
-        meta(property="og:title" content=name)
-      meta(property="og:url" content="https://spaceshipsin.space"+url)
-      meta(property="og:description" content=preview)
-      meta(property="og:image" content="https://spaceshipsin.space"+imageURL)
-      meta(property="og:type" content="article")
+    // OpenGraph & Twitter tags
+    meta(property="og:site_name" content="Spaceships in Space")
+    if (title!='Index')
+      meta(property="og:title" content=title)
+    else
+      meta(property="og:title" content=name)
+    meta(property="og:url" content="https://spaceshipsin.space"+url)
+    meta(property="og:description" content=preview)
+    meta(property="og:image" content="https://spaceshipsin.space"+imageURL)
+    meta(property="og:type" content="article")
+    if created
       meta(property="article:published_time" content=created)
-      unless datesEqual
-        meta(property="article:modified_time" content=updated)
-      if tags
-        each tag in tags
-          meta(property="article:tag" content=tag)
-      meta(property="twitter:card" content="summary")
-      meta(property="twitter:site" content="@_gaeel_")
-      meta(property="twitter:creator" content="@_gaeel_")
+    unless datesEqual
+      meta(property="article:modified_time" content=updated)
+    if tags
+      each tag in tags
+        meta(property="article:tag" content=tag)
+    meta(property="twitter:card" content="summary")
+    meta(property="twitter:site" content="@_gaeel_")
+    meta(property="twitter:creator" content="@_gaeel_")
   body  
     // Header
     .container
@@ -51,16 +51,6 @@ html(lang="en")
             a.hlink(href="/cv") cv
             | ·
             a.hlink(href="/portfolio") portfolio
-            //- p.links
-            //-   span hyperdrive
-            //-     ul
-            //-       li
-            //-         a.hlink(href="https://pier.spaceshipsin.space/") git repository
-            //-       li
-            //-         a.hlink(href="https://pier.spaceshipsin.space/gaeel/spaceshipsin-space") sources for this website
-            //-       li
-            //-         a.hlink(href="https://lost.spaceshipsin.space") lost spaceships in space
-
       // Main article
       main
         if created
@@ -75,27 +65,28 @@ html(lang="en")
               a.p-author.h-card(rel="author" href="https://spaceshipsin.space") Gaeel
                 img(src="/favicon.png" alt="Gaeel's avatar")
         else
-          #article !{content}
+          article#article !{content}
         if created
           br
+          hr
           br
-          if datesEqual
-            .date Posted #{formatDate(new Date(updated))}
-          else
+          .date Posted: #{formatDate(new Date(created))}
+          unless datesEqual
             .date Updated #{formatDate(new Date(updated))}
-    footer
-      div.footercontent
         // Tags
         if tags
-          p Related tags
-            ul
-              li
-                span
-                  a(href="/posts") all
-              each tag in tags
+          .tags
+            p Related tags
+              ul
                 li
                   span
-                    a(href="/posts/"+tag.replace(" ","-"))= tag
+                    a(href="/posts") all
+                each tag in tags
+                  li
+                    span
+                      a(href="/posts/"+tag.replace(" ","-"))= tag
+    footer
+      div.footercontent
         // Build text
         p Respecting privacy doesn't mean collecting data and promising not to analyse or sell it. To respect privacy is to limit one's access to visitors' data as much as possible in the first place.   
         p This website actually respects your privacy. There are no cookies or user preferences stored or sent. No scripts are ran by your browser. This website uses no third-party resources, and strips any social media tracker query strings before serving you content, to ensure your privacy when using links to this website on other platforms.
