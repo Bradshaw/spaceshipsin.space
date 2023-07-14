@@ -5,10 +5,11 @@ If you're the **wayfinder**, you might want to print this page out to hand to yo
 
 ## The Veil, your ship, and you
 
-You are a crew member, aboard a light starship. The ship is your home, your workplace, your means of transportation, and in many ways, an extension of yourself.
-You share this ship with your crew mates. You and your mates are also, in many ways, part of your ship; not unlike the machines, reactors, and computers that power it.
+You are a "Veil Runner". One a select few who venture into the dangerous skies deep in the Veil.
+Your ship is your home, your workplace, your means of transportation, an extension of yourself.
 
-Your ship is a "Veil Runner". It is small and agile. It is kitted out with powerful sensors and computers. It has special hardening against the volatile hazards of The Veil.
+You share this ship with your crew mates. You and your mates are parts of your ship; not unlike the machines, reactors, and computers that power it.
+A specialised vessel, worthy of the prestigious "Veilship" designation. Small and agile. Kitted out with powerful sensors and thrusters. Hardened against the volatile hazards of The Veil.
 
 The Veil is an unstable region of space that has torn through the Orion arm of the galaxy. During your adventures, you will explore this anomalous space, you will encounter inexplicable phenomena. You might learn a little about the nature of the Veil, or at the very least, about yourself.
 
@@ -20,7 +21,10 @@ Your **wayfinder** will guide you through this process at the start of your firs
 You and your fellow players should discuss, and work together to create a ship that fits the expectations and wishes of everyone in the group.   
 1. Determine the ship's role
     - This will play a big part in setting the tone of your adventure.
-    - Typical roles include: Science Expedition, Search & Rescue, Blockade Running, Piracy, Artifact Retrieval.
+    - Typical roles include:
+      - Science Expedition / Artifact Retrieval
+      - Search & Rescue / Deep Veil Navigation
+      - Blockade Running / Smuggling.
 2. Retrace the ship's history
    - When and why was it built? How has it changed over the years?
    - Are you its first crew? Has it changed ownership?
@@ -43,5 +47,8 @@ Keep in mind that your character is a part of the ship and the crew. Pay attenti
    - What is keeping them aboard now?
    - Where are they from?
    - Are they biological, artificial, neither?
-2. Pick a **quality**
-   - A **quality** is something your character is good at
+2. Pick a **skill**
+   - A **skill** is something your character is good at.
+   - It can be a situation or domain they excel in.
+   - It needs to be somewhat specific, for instance "Computers" is too vague, but "Debugging" would be good.
+   - 

@@ -12,7 +12,7 @@ I also like playing, running, and designing table-top roleplaying games. I'm cur
   * E-Mail
     * [gaeel@spaceshipsin.space](mailto:gaeel@spaceshipsin.space)
   * Discord - `gaeel`
-    * [Join the Veil Runners Discord](https://discord.gg/2hJbm7VnJa)
+    * Join the [Veil Runners Discord](https://discord.gg/2hJbm7VnJa) if you want to join in on some [Veil Runners](/veil-runners) playtests
 
 Other identities:
   * [Glitch](https://glitch.com/@gaeel)
