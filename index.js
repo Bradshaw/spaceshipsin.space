@@ -8,6 +8,10 @@ const config = {
 	// What your website is about
 	description: "Gaeel's spaceship in space",
 	// Canonical URL for your website
+	author: {
+		name: "Gaeel Bradshaw-Rodriguez",
+		email: "gaeel@spaceshipsin.space",
+	},
 	siteUrl: 'https://spaceshipsin.space/',
 	// Where to put the generated website
 	dest: './build',

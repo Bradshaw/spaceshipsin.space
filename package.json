@@ -10,6 +10,6 @@
   "author": "Gaeel Bradshaw-Rodriguez <gaeel@spaceshipsin.space> (https://gaeel.spaceshipsin.space)",
   "dependencies": {
     "markdown-it-table-of-contents": "^0.6.0",
-    "superstructure": "^2.1.0"
+    "superstructure": "^2.2.2"
   }
 }
