@@ -12,7 +12,7 @@ const config = {
 		name: "Gaeel Bradshaw-Rodriguez",
 		email: "gaeel@spaceshipsin.space",
 	},
-	siteUrl: 'https://spaceshipsin.space/',
+	siteUrl: 'https://spaceshipsin.space',
 	// Where to put the generated website
 	dest: './build',
 	// Where all your content is
@@ -27,6 +27,19 @@ const config = {
 	articles: 'markdown/out',
 	// Images types to make compressed versions of 
 	crunch: [".jpg",".png"],
+	// Feed formats to generate
+	feeds: [
+		{
+			template: "atom",
+			target: "atom.xml",
+			type: "application:atom+xml"
+		},
+		{
+			template: "rss",
+			target: "rss.xml",
+			type: "application:rss+xml"
+		}
+	],
 };
 
 

@@ -19,9 +19,9 @@ html(lang="en")
       meta(property="og:title" content=title)
     else
       meta(property="og:title" content=name)
-    meta(property="og:url" content="https://spaceshipsin.space"+url)
+    meta(property="og:url" content=siteUrl+url)
     meta(property="og:description" content=preview)
-    meta(property="og:image" content="https://spaceshipsin.space"+imageURL)
+    meta(property="og:image" content=siteUrl+imageURL)
     meta(property="og:type" content="article")
     if created
       meta(property="article:published_time" content=created)
@@ -33,6 +33,9 @@ html(lang="en")
     meta(property="twitter:card" content="summary")
     meta(property="twitter:site" content="@_gaeel_")
     meta(property="twitter:creator" content="@_gaeel_")
+    if feeds
+      each feed in feeds
+        link(rel="alternate" type=feed.type title=name href=siteUrl+'/'+feed.target)
   body  
     // Header
     .container
@@ -60,9 +63,9 @@ html(lang="en")
             .indieweb.e-content !{content}
             .indieweb.hidden(aria-hidden="true")
               p.p-summary= preview
-              a.u-url(href="https://spaceshipsin.space"+url)
+              a.u-url(href=siteUrl+url)
                 time.dt-published= updated
-              a.p-author.h-card(rel="author" href="https://spaceshipsin.space") Gaeel
+              a.p-author.h-card(rel="author" href=siteUrl) Gaeel
                 img(src="/favicon.png" alt="Gaeel's avatar")
         else
           article#article !{content}
