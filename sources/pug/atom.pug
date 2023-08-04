@@ -21,15 +21,15 @@ feed(xmlns="http://www.w3.org/2005/Atom")
     icon #{siteUrl}/favicon.png
     logo #{siteUrl}/favicon.png
     subtitle #{description}
-    id #{siteUrl}
+    id #{siteUrl}/
     each article in articles
         entry
             title #{article.title}
-            id #{article.url}
+            id #{siteUrl}/#{article.url}
             published #{article.created}
             updated #{article.updated}
             summary #{article.preview}
-            link #{siteUrl}#{article.url}
+            link(href=siteUrl+"/"+article.url rel="alternate")
             if article.tags
                 each tag in article.tags
                     category(term=tag label=tag)
