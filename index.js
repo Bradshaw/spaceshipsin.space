@@ -32,12 +32,12 @@ const config = {
 		{
 			template: "atom",
 			target: "atom.xml",
-			type: "application:atom+xml"
+			type: "application/atom+xml"
 		},
 		{
 			template: "rss",
 			target: "rss.xml",
-			type: "application:rss+xml"
+			type: "application/rss+xml"
 		}
 	],
 };
