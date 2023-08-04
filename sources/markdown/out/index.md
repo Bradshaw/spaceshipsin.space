@@ -7,7 +7,7 @@ I like to [make digital art](/nebulae), [write stories](/random/spacefarer), and
 
 I also like playing, running, and designing table-top roleplaying games. I'm currently working on [**Veil Runners**](/veil-runners), a rules-light roleplaying game that takes place in a galaxy scarred by a mysterious anomaly known as "The Veil".
 
-# Get in touch <a name="contact" aria-hidden="true"></a>
+# Get in touch <a idrss="contact" aria-hidden="true"></a>
 
   * E-Mail
     * [gaeel@spaceshipsin.space](mailto:gaeel@spaceshipsin.space)
