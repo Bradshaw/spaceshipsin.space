@@ -33,7 +33,7 @@ feed(xmlns="http://www.w3.org/2005/Atom")
             if article.tags
                 each tag in article.tags
                     category(term=tag label=tag)
-            content(type="html") <![CDATA[#{article.content}]]>
+            content(type="html") <![CDATA[!{article.content}]]>
             if article.author
                 author
                     name #{article.author.name}
