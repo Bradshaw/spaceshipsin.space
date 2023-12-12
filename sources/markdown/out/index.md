@@ -5,7 +5,9 @@ I am a designer and programmer, interested in interactivity, digital art, and co
 
 I like to [make digital art](/nebulae), [write stories](/random/spacefarer), and [play with electronic music](/things/olegtron4060).
 
-I also like playing, running, and designing table-top roleplaying games. I'm currently working on [**Veil Runners**](/veil-runners), a rules-light roleplaying game that takes place in a galaxy scarred by a mysterious anomaly known as "The Veil".
+I also like playing, running, and designing table-top roleplaying games.
+[**Veil Runners**](/veil-runners) is a rules-light roleplaying game that takes place in a galaxy scarred by a mysterious anomaly known as "The Veil".
+[**Wolfpack**](/wolfpack) is a vicious TTRPG about a brutal & angry squadron of experimental over-tuned fighter jets, dogfighting in the furious skies over a murdered planet.
 
 # Get in touch <a idrss="contact" aria-hidden="true"></a>
 
