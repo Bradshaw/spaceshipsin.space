@@ -26,6 +26,47 @@ If you're a player, you might prefer to read the [Player's Guide](/veil-runners/
 
 There are a wide range of themes and subjects that can appear in a Veil Runners adventure, some of which may be difficult or distressing. Very few of the sensitive themes are essential to the game, and it is your responsibility, as the **wayfinder** 
 
+## Basic rules
+
+### Rolling dice
+
+1. The wayfinder assigns a difficulty rating to the action:
+  - Normal: 1
+  - Risky: 2
+  - Reckless: 3
+  - ⚠️ Impossible ⚠️: 4 to 6
+2. The player may use their background, skills, grit tokens, ship modules,
+   or other factors to gain proficiency, which lowers their target:
+  - None: 6
+  - Amateur: 5
+  - Skilled: 4
+  - Expert: 3
+3. Other players can offer help, sharing the risk of negative consequences.
+   They can use their backgrounds and skills to gain proficiency, but cannot spend grit tokens.
+4. Dice rolling:
+  - If the roll is a systems roll, the player collects all of the dice from the relevant system.
+  - The player collects their personal dice.
+  - Roll the dice and count the dice that meet or beat the target.
+  - Helping players roll a single die each, counting any dice that meet or beat their own target.
+5. Compare the count to the difficulty rating:
+  - Greater than rating: Success
+  - Equal to rating: Partial success
+  - Lower than rating: Failure
+
+Character: Lars of the Stars
+
+A donut shop employee
+abducted from his home and
+lost in deep space.
+
+Skill: I inspire trust and
+command respect.
+
+Flaw: Confronting my 
+insecurities sends me into
+a tailspin.
+
+
 ## The ship
 
 ### Systems
@@ -124,7 +165,7 @@ From now on, further damage can be fatal.
 Mechanically, the first time the ship [takes damage](#taking-damage), it simply loses the **integrity token**.
 Subsequent damage runs the risk of destroying systems, and eventually, the ship itself.
 
-#### Engineering token
+### Engineering token
 
 When the ship has the **engineering token**, its systems are operating at peak efficiency. The crew can confidently rely on the ship's sensors, shields and engines.
 

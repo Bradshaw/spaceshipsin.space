@@ -24,7 +24,7 @@ You and your fellow players should discuss, and work together to create a ship t
     - Typical roles include:
       - Science Expedition / Artifact Retrieval
       - Search & Rescue / Deep Veil Navigation
-      - Blockade Running / Smuggling.
+      - Supply Runner / Smuggling.
 2. Retrace the ship's history
    - When and why was it built? How has it changed over the years?
    - Are you its first crew? Has it changed ownership?
