@@ -12,7 +12,7 @@
 <div class="intro">
 
 *Hello!*   
-*I am a designer and programmer, primarily interested in interactivity, digital art, and computer-enabled experiences. If you're working on something weird, fun, thoughtful, or rebellious, I'd like to help you make that thing happen!*
+*I am a designer and programmer, with a background in interactivity, digital art, and computer-enabled experiences. If you're working on something weird, fun, thoughtful, or rebellious, I'd like to help you make that thing happen!*
 
 </div>
 
