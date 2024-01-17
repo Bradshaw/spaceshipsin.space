@@ -6,7 +6,11 @@ $page-width: 550pt
   left: 50pt
   
 body
-  font-size: medium
+  font-size: 95%
+
+p
+  margin: 0
+
 h1
   font-size: xx-large
 
@@ -15,6 +19,8 @@ h2
 
 h3
   font-size: larger
+  margin-top: 1.75em
+  margin-bottom: 0.25em
 
 img
   height: 100px
@@ -48,7 +54,25 @@ $print-a-selected: #BAE
 .spacer
   margin-top: 4em
 
+.container
+  display: flex
+
+.segment *
+  margin: 0
+
+.description
+  flex: 0.76
+  margin-right: 0.5em
+  padding-right: 0.5em
+  border-right: 1px solid fade-out($highlight-color, 0.5)
+
+.skills
+  flex: 0.24
+
 @media print
+
+  .description
+    border-right: 1px solid gray
 
   .print-button
     display: none
@@ -66,10 +90,10 @@ $print-a-selected: #BAE
   
   .break
     page-break-before: always
-    height: 8em
+    height: 4em
 
   body
-    font-size: x-small
+    font-size: 75%;
   h1
     font-size: x-large
 
