@@ -1,9 +1,13 @@
 <div class="head">
+<div>
+
+![Avatar, Gaeel smiling](/images/avatar-coffee.png)
+</div>
+<div>
 <h1> Gaeel Bradshaw-Rodriguez </h1>
 <h3> <center><strong><code><--code—design—noise--></code></strong></center> </h3>
 </div>
-
-![Avatar, Gaeel smiling](/images/avatar-coffee.png)
+</div>
 
 <p class="spacer"></p>
 
@@ -222,7 +226,7 @@ HLSL Shaders
 <div class="container">
 <div class="segment description">
 
-*Large screen sliding block puzzle game for trade shows and other promotional events*   
+*Large screen sliding block puzzle game for trade shows and events*   
 Ported game code to work on Microsoft PixelSense
 Created tools for the art team to integrate new assets
 </div>
@@ -242,7 +246,7 @@ Documentation, coaching and communication for events, technology and general inf
 %YAML 1.2
 ---
 layout: cvlayout
-title: Gaeel Bradshaw-Rodriguez
+title: Gaeel Bradshaw-Rodriguez - CV
 status: unpublished
 created: 2020-04-10T14:45:28.000Z
 updated: 2020-04-12T15:39:52.000Z
