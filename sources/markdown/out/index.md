@@ -9,7 +9,7 @@ I also like playing, running, and designing table-top roleplaying games.
 [**Veil Runners**](/veil-runners) is a rules-light roleplaying game that takes place in a galaxy scarred by a mysterious anomaly known as "The Veil".
 [**Wolfpack**](/wolfpack) is a vicious TTRPG about a brutal & angry squadron of experimental over-tuned fighter jets, dogfighting in the furious skies over a murdered planet.
 
-# Get in touch <a idrss="contact" aria-hidden="true"></a>
+# Get in touch <a id="contact" aria-hidden="true"></a>
 
   * E-Mail
     * [gaeel@spaceshipsin.space](mailto:gaeel@spaceshipsin.space)
