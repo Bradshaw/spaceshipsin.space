@@ -1,15 +1,30 @@
 $page-width: 550pt
 
+// @for $i from 1 through 10
+//   @for $j from 1 through 10
+//     @for $k from 1 through 10
+//       *:nth-child(10n + #{$i}) > *:nth-child(10n + #{$j}) > *:nth-child(10n + #{$k})
+//           $hue: random(360)
+//           outline: 1px solid hsla($hue, 100, 50, 0.9)
+//           background-color: hsla($hue, 100, 50, 0.1)
+
 .print-button
   position: relative
   top: -40pt
   left: 50pt
+
+.nowrap
+  display: inline-block
+
+.intro
+  margin: auto
   
 body
   font-size: 95%
+  line-height: 1.1
 
-p
-  margin: 0
+p, li
+  margin: 4px
 
 h1
   font-size: xx-large
@@ -22,10 +37,14 @@ h3
   margin-top: 1.75em
   margin-bottom: 0.25em
 
-img
+img#avatar
   height: 100px
   width: 100px
   border-radius: 100%
+  position: relative
+  left: 50%
+  top: 50%
+  transform: translate(-25px, -50px)
 
 .head
   display: flex
@@ -38,8 +57,6 @@ img
   
   h3
     margin-top: 1em
-
-
 
 
 $page-background: #112
@@ -77,56 +94,6 @@ $print-a-selected: #BAE
 
 .skills
   flex: 0.24
-
-@media print
-
-  .description
-    border-right: 1px solid gray
-
-  .print-button
-    display: none
-
-  @page
-    margin-left: 0.5cm
-    margin-right: 1.5cm
-
-  img
-    height: 75px
-    width: 75px
-    //filter: #{"grayscale()"}
-
-  .spacer
-    margin-top: 0
-  
-  .break
-    page-break-before: always
-    height: 4em
-
-  body
-    font-size: 75%;
-  h1
-    font-size: x-large
-
-  h2
-    font-size: large
-
-  h3
-    font-size: small
-    margin-bottom: 0.25em
-
-  h3 + p 
-    margin-top: 0.25em
-
-  p em
-    font-style: italic
-
-  a
-    text-decoration: none !important
-  // .intro
-  //   font-size: smaller
-
-  // #curriculum-vitae
-  //   width: 500pt !important
 
 @font-face
   font-family: 'Fira Code'
@@ -183,8 +150,9 @@ h1, h2, h3, h4, h5, .code
 h1, h2 
   text-align: center
 
-.contacth
-  //margin: 0 50pt
+.contacth p
+    padding-left: 50px;
+    text-indent: -50px;
 
 .contacth h3
   text-align: left
@@ -213,3 +181,65 @@ strong
 code 
   font-family: unset
 
+@media print
+
+  .description
+    border-right: 1px solid gray
+
+  .print-button
+    display: none
+
+  @page
+    margin-left: 0.5cm
+    margin-right: 1.5cm
+
+  .head
+    gap: 4em
+
+  img#avatar
+    height: 70px
+    width: 70px
+    border-radius: 100%
+    position: relative
+    left: 50%
+    top: 50%
+    transform: translate(0, -35px)
+
+
+  .spacer
+    margin-top: 0
+  
+  .break
+    page-break-before: always
+    height: 4em
+  
+  #curriculum-vitae
+    margin: auto
+    padding-top: unset
+    padding-bottom: unset
+
+  body
+    font-size: 75%;
+  h1
+    font-size: x-large
+
+  h2
+    font-size: large
+
+  h3
+    font-size: small
+    margin-bottom: 0.25em
+
+  h3 + p 
+    margin-top: 0.25em
+
+  p em
+    font-style: italic
+
+  a
+    text-decoration: none !important
+  // .intro
+  //   font-size: smaller
+
+  // #curriculum-vitae
+  //   width: 500pt !important
