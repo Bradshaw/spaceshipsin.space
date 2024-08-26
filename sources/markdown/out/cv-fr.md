@@ -19,7 +19,7 @@
 
 <h3> Compétences </h3>
 
-Langages: **C#**, **Rust**, **TypeScript**, **JavaScript**, **Lua**
+Langages: **JavaScript**, **TypeScript**, **C#**, **Rust**, **Lua**
 
 Frameworks: **Node.js**, **Express.js**, **React.js**, **Actix**, **Unity**
 
