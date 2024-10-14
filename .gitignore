@@ -1,6 +1,7 @@
 # Manually added
 .idea
 build
+serve
 temp
 *drafts
 

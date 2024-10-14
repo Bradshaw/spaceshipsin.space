@@ -23,7 +23,7 @@ Communities forged in the fires of war, sharing and caring for each other, hasti
 ### Cultural touchstones
 
 
-- Video games
+- Video&hairsp;games
     +++ Ace Combat
     - “Ready to make metal bleed?”
     - Sci-fi over-the-top hyper-optimised fighter jets

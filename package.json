@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "start": "node index.js",
-    "serve": "npx serve build/",
-    "watch": "npx nodemon -i build/ -e js,json,html,pug,md,sass"
+    "serve": "npx reload -d serve/ -p 3000",
+    "watch": "npx nodemon -i build/ -i serve/ -e js,json,html,pug,md,sass"
   },
   "author": "Gaeel Bradshaw-Rodriguez <gaeel@spaceshipsin.space> (https://gaeel.spaceshipsin.space)",
   "dependencies": {
+    "markdown-it-highlightjs": "^4.1.0",
     "markdown-it-table-of-contents": "^0.6.0",
     "superstructure": "^3.0.1"
   }

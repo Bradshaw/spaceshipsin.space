@@ -74,7 +74,7 @@ Instructed students on applied game design, game tooling, and prototyping
 
 ### *2015 -> 2016* · Developer · [**Ys Interactive**](http://studioysinteractive.com/)
 
-Prototyped a video game adaptation of the Blacksad visual novels
+Prototyped a video&hairsp;game adaptation of the Blacksad visual novels
 
 Developed systems and mechanics for story, cutscene, investigation, and dialogue
 
@@ -108,7 +108,7 @@ Prototyped games for use in physical therapy sessions
 
 [Zether - released in November 2018 on Steam](https://store.steampowered.com/app/924830/Zether/)
 
-<!-- <p class="spacer break"></p>
+<p class="spacer break"></p>
 
 ## Freelance Work
 
@@ -134,7 +134,7 @@ Created a WebGL app displaying petitioners as a large crowd, each with a unique 
 
 Ported a large screen puzzle game for trade shows and events to function on Microsoft PixelSense
 
-Created tools for the art team to seamlessly integrate new assets -->
+Created tools for the art team to seamlessly integrate new assets
 
 
 %YAML 1.2
