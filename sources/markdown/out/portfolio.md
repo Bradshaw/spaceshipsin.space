@@ -12,7 +12,7 @@ This set was performed live at A MAZE./Berlin 2016.
 
 ## Blacksad
 ![John Blacksad, an anthropomorphised cat, reads a report at his desk in a dimly-lit office](/portfolio/blacksad.700w.jpg)   
-+++ Blacksad: Under the Skin is a video game adaptation of the Blacksad comic series
++++ Blacksad: Under the Skin is a video&hairsp;game adaptation of the Blacksad comic series
 I was brought on to build the first prototype of the game alongside three artists. The prototype was used to persuade the comic authors and other stakeholders to approve the concept.   
 Notably, I built a node-based sequencer to author dialogue and quick-time event action scenes.  
 A lot of work also went into shaders and materials, at first to reproduce the comic's waterpaint aesthetic, and then to allow lighting of night-time scenes with "impossible" highlights.

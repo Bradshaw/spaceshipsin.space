@@ -1,11 +1,17 @@
-@use "sass:string"
-//*
-  // outline: solid 1px red !important
-  // transition: none !important
 
-@font-face 
+
+
+@import "node_modules/highlight.js/styles/monokai-sublime"
+
+@use "sass:string"
+
+@font-face
   font-family: 'Atkinson'
   src: url(/Atkinson-Hyperlegible-Regular-102a.woff2) format('woff2')
+
+@font-face
+  font-family: 'Fira Code'
+  src: url(/FiraCode-Light.woff) format('woff2')
 
 @function invert()
   @return #{ "invert()" }
@@ -68,6 +74,12 @@ code
   font-size: #{0.9 * $size-base}pt
   font-weight: bold
 
+code.hljs
+  font-size: #{0.65 *  $size-base}pt
+  font-weight: unset
+  background-color: $dark-background-color
+  font-family: "Fira Code"
+
 hr
   height: 0
   border-bottom: 0
@@ -104,7 +116,7 @@ a
   color: $link-color
   @media (prefers-color-scheme: dark)
     color: $dark-link-color
-    
+
 a:hover
   color: $hover-color
   @media (prefers-color-scheme: dark)
@@ -238,26 +250,28 @@ a.hlink:hover
   80%
     text-shadow: none
 
+/* YOUR SEED HERE: */
+$seed: 369;
+
+@function getRandom($max)
+    //http://indiegamr.com/generate-repeatable-random-numbers-in-js/
+
+    //Note the "!global" flag:
+    //http://webdesign.tutsplus.com/articles/understanding-variable-scope-in-sass--cms-23498
+    $seed: ($seed * 9301 + 49297) % 233280 !global
+    @return ($seed / 233280) * $max
+
+@function randy($limit: null)
+  @if $limit
+    @return getRandom($limit)
+  @else
+    @return getRandom(9007199254740991)/9007199254740991
+    
 @function randcol($steps: 2, $offset: 0)
-  @return hsl(random($steps)*(360/$steps)+$offset,100,50)
+  @return hsl(randy($steps)*(360/$steps)+$offset,100,50)
 
 @function randoff($spread: 4)
-  @return #{-$spread+random()*2*$spread}px
-
-@keyframes distort-julius
-  @for $i from 0 to 10
-    @if random()>0.3
-      @for $p from $i*10 through $i*10+9
-        #{$p}%
-          @if random()>0.5
-            text-shadow: randoff(6) randoff(1) randcol(3, 180)
-          @else
-            text-shadow: none
-    @else
-      #{$i*10}%
-        text-shadow: none
-      #{$i*10+9}%
-        text-shadow: none
+  @return #{-$spread+randy()*2*$spread}px
 
 
 blockquote
@@ -307,21 +321,21 @@ p.julius
 
 
 summary
-	outline: none
-	-webkit-user-select: none
-	-moz-user-select: none
-	-khtml-user-select: none
-	-ms-user-select: none
-	cursor: pointer
+  outline: none
+  user-select: none
+  cursor: pointer
 
+
+[open] summary
+  user-select: text
 
 @media (max-width: 20cm)
   .container
     clip-path: $small-corner-clip
-  
+
   p.julius
     clip-path: $small-corner-clip
-    
+
   header
     clip-path: $small-corner-clip
     //span.title

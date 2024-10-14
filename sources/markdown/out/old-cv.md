@@ -80,7 +80,7 @@ Creation of a learning programme, recruitment of teachers, coaching and advice o
 <div class="segment description">
 
 *Video game studio*   
-Prototype for a video game adaptation of the Blacksad visual novels  
+Prototype for a video&hairsp;game adaptation of the Blacksad visual novels  
 Story, cutscene, investigation and dialogue systems and mechanics  
 Story editing and asset integration tools     
 Custom shader set for a watercolour effect    
@@ -242,8 +242,8 @@ Microsoft Surface 2.0 SDK
 
 ### *2012 -> 2015* · Co-Founder / Secretary · **Baptême du Jeu**
 *A society for uniting and celebrating small local game creators and digital artists*   
-Organisation and management of video game events: Game Jams, Parties, Expositions   
-Documentation, coaching and communication for events, technology and general information in the field of video game development -->
+Organisation and management of video&hairsp;game events: Game Jams, Parties, Expositions   
+Documentation, coaching and communication for events, technology and general information in the field of video&hairsp;game development -->
 
 
 %YAML 1.2

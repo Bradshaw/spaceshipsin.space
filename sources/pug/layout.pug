@@ -11,7 +11,10 @@ html(lang="en")
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
     meta(name="viewport" content="width=device-width, initial-scale=1")
-    link(rel='stylesheet', href='/style.css')
+    if stylesheet
+      link(rel='stylesheet', href='/'+stylesheet+'.css')
+    else
+      link(rel='stylesheet', href='/style.css')
     meta(name="description" content="Gaeel's spaceship in space")
     // OpenGraph & Twitter tags
     meta(property="og:site_name" content="Spaceships in Space")

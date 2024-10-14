@@ -10,7 +10,7 @@ When you read the code, you realise that everything is ad-hoc. Bug fixes are mos
 
 You were hired as a senior developer "to help us fix this mess", but they don't listen to any of your recommendations because "we don't have time to do that now, just push out the Halloween update first". You look at the roadmap to see "Christmas Update", "Lunar New Year Update", "Easter Update", "Summer Update", and your email about when to schedule a code audit has gone unanswered for three weeks.
 
-When you complain about this to your friends and family, they look at you funny. "Yeah, but you get to work on video games! That's your dream right?"
+When you complain about this to your friends and family, they look at you funny. "Yeah, but you get to work on video&hairsp;games! That's your dream right?"
 
 Remember dreams? It's been a while since you last had a nice one...
 

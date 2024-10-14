@@ -1,4 +1,4 @@
-# Better music loops in video games (easy mode)
+# Better music loops in video&hairsp;games (easy mode)
 
 This tutorial will feature screenshots, code, and methods specific to [Renoise](https://www.renoise.com/) and [Unity](https://unity.com/), but the overall technique should be applicable for any audio software and game engine pairing.   
 At the end of the article, there will be some notes for things you need to look out for if you're using other software.   
@@ -6,7 +6,7 @@ At the end of the article, there will be some notes for things you need to look 
    
 ## What we're making today
 
-Because the player is usually in control of what happens moment to moment in a video game, any music used in the game will typically be set to loop throughout any given scene. This often leads to a few awkward compromises.   
+Because the player is usually in control of what happens moment to moment in a video&hairsp;game, any music used in the game will typically be set to loop throughout any given scene. This often leads to a few awkward compromises.   
 Music usually features intro and outro segments, ramping the intensity and mood to and from the main parts, and when a piece of music has several main parts, there are sections between to flow gracefully from one to the next. But if we want to use simple looping sound files, we're very limited with how we deal with this.
 When the player moves from one scene to the next, we'll often just fade out whatever music was playing, and then fade in the next music. If we're feeling particularly fancy, we'll sync both of the loops up, but it still sounds a bit off. There's no "in between" part, we're just crossfading between two moods.   
    
