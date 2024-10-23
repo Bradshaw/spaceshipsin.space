@@ -56,11 +56,11 @@ Conception et mise en œuvre d'expériences numériques et transmédia dans dive
 
 ### *2020 -> 2022* · Développeur Senior · [**52 Entertainment**](https://www.52-entertainment.com/)
 
-Virtual Regatta Offshore, simulateur de voile en temps réel:
+Virtual Regatta Offshore, simulateur de voile en temps réel&#x202F;:
 - Création du nouveau système d'importation de données météorologiques, intégration de code C++ dans Unity sur Windows, macOS, Android, iOS, et WebAssembly, ainsi que WebAssembly pour Node.js
-- Centralisation et documentation des fonctionalités réseau en vue d'un changement vers un nouveau fournisseur de services.
+- Centralisation et documentation des fonctionalités réseau en vue d'un changement vers un nouveau fournisseur de services
 
-Développement d'un nouveau client de Bridge en ligne pour les plateformes web et mobiles avec Unity:
+Développement d'un nouveau client de Bridge en ligne pour les plateformes web et mobiles avec Unity&#x202F;:
 - Création d'un moteur de Bridge générique et modulaire
 - Intégration avec les services multi-joueurs, IA, et tableaux de scores pré-existants (Bridge Base Online et Funbridge)
 - Création d'une table de jeu graphique multi-plateforme Unity
