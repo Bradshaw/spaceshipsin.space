@@ -47,18 +47,23 @@ Autres : **Anglais et Français natifs**, **Game Design**, **Art technique**
 
 ### *2015 -> Présent* · Développeur Freelance · [**spaceshipsin.space**](https://spaceshipsin.space/)
 
-Prototypage rapide, design, développement logiciel et conseil
+<!-- Prototypage rapide, design, développement logiciel et conseil
 
-Jeux vidéo, projets transmédia, art interactif, installations physiques
+Jeux vidéo, projets transmédia, art interactif, installations physiques -->
 
 Conception et mise en œuvre d'expériences numériques et transmédia dans divers environnements techniques pour des clients allant des artistes individuels, à des entreprises plus importantes, en passant par des organisations à but non lucratif
 
 
 ### *2020 -> 2022* · Développeur Senior · [**52 Entertainment**](https://www.52-entertainment.com/)
 
-Développement d'un nouveau client de Bridge en ligne pour les plateformes web et mobiles avec Unity 
+Virtual Regatta Offshore, simulateur de voile en temps réel:
+- Création du nouveau système d'importation de données météorologiques, intégration de code C++ dans Unity sur Windows, macOS, Android, iOS, et WebAssembly, ainsi que WebAssembly pour Node.js
+- Centralisation et documentation des fonctionalités réseau en vue d'un changement vers un nouveau fournisseur de services.
 
-Maintenance et mise à jour de projets multiplateformes existants, dont d'autres jeux de cartes et Virtual Regatta, un simulateur de voile en temps réel
+Développement d'un nouveau client de Bridge en ligne pour les plateformes web et mobiles avec Unity:
+- Création d'un moteur de Bridge générique et modulaire
+- Intégration avec les services multi-joueurs, IA, et tableaux de scores pré-existants (Bridge Base Online et Funbridge)
+- Création d'une table de jeu graphique multi-plateforme Unity
 
 Mise en place de l'intégration et déploiement continus pour les projets Unity internes
 

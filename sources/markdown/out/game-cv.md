@@ -103,9 +103,9 @@ Held workshops and events on focused subjects and projects
 
 ### *2014 -> 2015* · Developer · [**NaturalPad**](http://www.naturalpad.fr/en/)
 
-Developed web services for the configuration of functional rehabilitation sessions
-
 Prototyped games for use in physical therapy sessions
+
+Developed web services for the configuration of functional rehabilitation sessions
 
 [Plume - used in physical therapy sessions]((https://www.youtube.com/watch?v=hfr0D9UwcJg))
 
@@ -255,9 +255,9 @@ Microsoft Surface 2.0 SDK
 
 *A society for uniting and celebrating small local game creators and digital artists*   
 
-Organised and managed video&hairsp;game events: Game Jams, Parties, Expositions   
+Organised and managed video&hairsp;game events: Game jams, parties, expositions   
 
-Wrote documentation, coached and handled communication for events, technology and general information in the field of video&hairsp;game development
+Wrote documentation, handled communication and coaching for events, technology and general information in the field of video&hairsp;game development
 
 
 %YAML 1.2
