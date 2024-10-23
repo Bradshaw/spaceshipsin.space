@@ -48,7 +48,7 @@ Other: **Native English and French**, **Game Design**, **Technical Art**
 
 Rapid prototyping, design, software development, and consulting
 
-Video&hairsp;games, transmedia projects, interactive art, physical installations
+Video&#x202F;games, transmedia projects, interactive art, physical installations
 
 Designed and implemented digital and transmedia experiences in a wide range of technical environments for clients ranging between individual artists, larger companies, and non-profit organisations
 
@@ -77,7 +77,7 @@ Delivered mobile, PC, and VR prototyping workshops
 
 ### *2015 -> 2016* · Developer · [**Ys Interactive**](http://studioysinteractive.com/)
 
-Prototyped a video&hairsp;game adaptation of the Blacksad visual novels in Unity3D
+Prototyped a video&#x202F;game adaptation of the Blacksad visual novels in Unity3D
 
 Developed systems and mechanics for story, cutscene, investigation, and dialogue
 
@@ -255,9 +255,9 @@ Microsoft Surface 2.0 SDK
 
 *A society for uniting and celebrating small local game creators and digital artists*   
 
-Organised and managed video&hairsp;game events: Game jams, parties, expositions   
+Organised and managed video&#x202F;game events: Game jams, parties, expositions   
 
-Wrote documentation, handled communication and coaching for events, technology and general information in the field of video&hairsp;game development
+Wrote documentation, handled communication and coaching for events, technology and general information in the field of video&#x202F;game development
 
 
 %YAML 1.2

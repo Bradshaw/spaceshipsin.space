@@ -2,7 +2,7 @@
 
 We can (sincerely) thank Martin Jonasson & Petri Purho for [making "Juice" a thing](https://www.youtube.com/watch?v=Fy0aCDmgnxg), and JW Nijman for [encouraging the use of screenshake](https://www.youtube.com/watch?v=AJdEqssNZ-U)   
 However, I think we're applying the letter of their message, rather than the spirit of their message.  
-Video&hairsp;games run on screens, that update high-resolution pictures at a high refresh rate in reaction to player input. This might seem a little reductive, but it's really important, because it's one of the strongest things that video&hairsp;games have.   
+Video&#x202F;games run on screens, that update high-resolution pictures at a high refresh rate in reaction to player input. This might seem a little reductive, but it's really important, because it's one of the strongest things that video&#x202F;games have.   
 Martin, Petri and JW were arguing for people to **use** that power. As a game programming teacher, I often see student projects where things are static and move in the most uninspired ways possible, and often, all it takes is a nudge for the student to understand just how much power they have. So those two talks are incredibly useful, for that first step.   
 
 ## Game feel as cooking

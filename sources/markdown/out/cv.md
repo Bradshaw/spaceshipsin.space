@@ -74,7 +74,7 @@ Instructed students on applied game design, game tooling, and prototyping
 
 ### *2015 -> 2016* · Developer · [**Ys Interactive**](http://studioysinteractive.com/)
 
-Prototyped a video&hairsp;game adaptation of the Blacksad visual novels
+Prototyped a video&#x202F;game adaptation of the Blacksad visual novels
 
 Developed systems and mechanics for story, cutscene, investigation, and dialogue
 

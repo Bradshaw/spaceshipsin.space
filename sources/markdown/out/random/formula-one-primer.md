@@ -59,7 +59,7 @@ His Formula One career almost came to a close last year. His seat at Racing Poin
 McLaren are a historic team, they've got two of the funniest drivers of all time, and they seriously surprised everyone with their recent rise to the top. Will they keep climbing?
 
 ### Lando Norris
-He streams video&hairsp;games on Twitch as a side-gig, and is the social media wizard and meme lord of the paddock. He's had two solid seasons at McLaren so far, and all signs point to a strong and impressive career.
+He streams video&#x202F;games on Twitch as a side-gig, and is the social media wizard and meme lord of the paddock. He's had two solid seasons at McLaren so far, and all signs point to a strong and impressive career.
 
 ### Daniel Ricciardo
 Known for his big smile, larger than life personality, and daring, to-the-millimetre, last-minute overtakes. He left Red Bull feeling disappointed with their focus on Verstappen, and had a short stint at Renault (now Alpine). He's hungry for a championship win, and feel like McLaren's recent rise through the ranks will give him the opportunity.
