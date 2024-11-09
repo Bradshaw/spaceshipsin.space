@@ -12,7 +12,7 @@ I also like playing, running, and designing table-top roleplaying games.
 # Get in touch <a id="contact" aria-hidden="true"></a>
 
   * E-Mail: [gaeel@spaceshipsin.space](mailto:gaeel@spaceshipsin.space)
-  * Mastodon: [@gaeel@in-in.space](https://im-in.space/@gaeel)<a rel="me" style="display: none;" href="https://im-in.space/@gaeel"></a>
+  * Mastodon: [@gaeel@im-in.space](https://im-in.space/@gaeel)<a rel="me" style="display: none;" href="https://im-in.space/@gaeel"></a>
   * Bluesky: [gaeel.spaceshipsin.space](https://bsky.app/profile/gaeel.spaceshipsin.space)
   * Threads: [@\_gaeel\_](https://www.threads.net/@_gaeel_)
   * Twitter: [@\_gaeel\_](https://twitter.com/_gaeel_)
