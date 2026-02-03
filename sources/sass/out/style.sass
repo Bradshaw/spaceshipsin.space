@@ -1,6 +1,4 @@
 
-
-
 @import "node_modules/highlight.js/styles/monokai-sublime"
 
 @use "sass:string"
@@ -30,6 +28,8 @@ $hover-color: hsl($bhue+180, 100, 50%)
 $page-width: 18cm
 $corner-size: 55px
 $corner-clip: polygon(0% 0%, 100% 0%, 100% calc( 100% - #{$corner-size} ), calc( 100% - #{$corner-size} ) 100%, 0% 100%)
+$corner-size-mini: 30px
+$corner-clip-mini: polygon(0% 0%, 100% 0%, 100% calc( 100% - #{$corner-size-mini} ), calc( 100% - #{$corner-size-mini} ) 100%, 0% 100%)
 
 $small-corner-size: 30px
 $small-corner-clip: polygon(0% 0%, 100% 0%, 100% calc( 100% - #{$small-corner-size} ), calc( 100% - #{$small-corner-size} ) 100%, 0% 100%)
@@ -66,7 +66,7 @@ body
   @media (prefers-color-scheme: dark)
     filter: invert() hue-rotate(180deg)
 
-p, ul, ol, summary, pre
+p, ul, ol, summary, pre, table
   font-size: #{$size-base}pt
   line-height: 1.5
 
@@ -75,7 +75,7 @@ code
   font-weight: bold
 
 code.hljs
-  font-size: #{0.65 *  $size-base}pt
+  font-size: #{0.65 * $size-base}pt
   font-weight: unset
   background-color: $dark-background-color
   font-family: "Fira Code"
@@ -101,7 +101,7 @@ footer
   background: $body-color
   @media (prefers-color-scheme: dark)
     background: $dark-body-color
-  margin-top: 5em
+    margin-top: 5em
   p, ul, summary
     font-size: #{$size-base - $size-scale}pt
   ul
@@ -160,11 +160,9 @@ strong
   @media (prefers-color-scheme: dark)
     color: $dark-strong-color
 
-
 aside
-  clip-path: $corner-clip
-  margin: 5px 5px 60px 5px
-  padding: 10px 20px
+  clip-path: $corner-clip-mini
+  padding: 1px 20px
   background-color: $title-color
   p, h1, h2, h3, h4, h5, h6, ul, ol, li, summary
     color: $background-color
@@ -197,6 +195,31 @@ header
 blockquote
   font-style: italic
 
+table
+  max-width: calc(#{$page-width} - 20px)
+  clip-path: $corner-clip-mini
+  margin: 0 auto 0 auto
+  background-color: $title-color
+  color: $background-color
+  border-spacing: 0
+  th
+    padding-top: 10px
+    padding-bottom: 10px
+  th, td
+    padding-left: 0.5em
+    padding-right: 0.5em
+    color: $background-color
+  th:last-child, td:last-child
+    padding-right: 40px
+  a
+    color: $header-link-color
+  strong
+    color: $dark-strong-color
+  th, tr:nth-child(even)
+    background-color: rgba(128, 128, 128, 0.2)
+  tr:last-child > td
+    padding-bottom: 5px
+
 a.hlink
   padding: 0 3px
   text-decoration: none
@@ -206,7 +229,6 @@ a.hlink:hover
   background-color: $dark-link-color
   // @media (prefers-color-scheme: dark)
   //   background-color: $link-color
-
 
 .math
   font-size: larger
@@ -251,28 +273,27 @@ a.hlink:hover
     text-shadow: none
 
 /* YOUR SEED HERE: */
-$seed: 369;
+$seed: 369
 
 @function getRandom($max)
-    //http://indiegamr.com/generate-repeatable-random-numbers-in-js/
+  //http://indiegamr.com/generate-repeatable-random-numbers-in-js/
 
-    //Note the "!global" flag:
-    //http://webdesign.tutsplus.com/articles/understanding-variable-scope-in-sass--cms-23498
-    $seed: ($seed * 9301 + 49297) % 233280 !global
-    @return ($seed / 233280) * $max
+  //Note the "!global" flag:
+  //http://webdesign.tutsplus.com/articles/understanding-variable-scope-in-sass--cms-23498
+  $seed: ($seed * 9301 + 49297) % 233280 !global
+  @return ($seed / 233280) * $max
 
 @function randy($limit: null)
   @if $limit
     @return getRandom($limit)
   @else
     @return getRandom(9007199254740991)/9007199254740991
-    
+
 @function randcol($steps: 2, $offset: 0)
   @return hsl(randy($steps)*(360/$steps)+$offset,100,50)
 
 @function randoff($spread: 4)
   @return #{-$spread+randy()*2*$spread}px
-
 
 blockquote
   padding-left: 20px
@@ -319,12 +340,10 @@ p.julius
     background-color: darken(#e8dbdf, 60%)
     color: $dark-text-color
 
-
 summary
   outline: none
   user-select: none
   cursor: pointer
-
 
 [open] summary
   user-select: text

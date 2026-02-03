@@ -397,3 +397,11 @@ Non-commercial "hacks", or other substantially modified versions of this game ma
 For commercial use or redistribution [please get in touch](/#contact).
 
 Basically, I made and provided this for free, so that people can have fun playing with their friends. I would like to keep it that way.
+
+%YAML 1.2
+---
+title: Rust Skunks
+status: unpublished
+tags:
+  - rust-skunks
+  - ttrpg

@@ -143,3 +143,11 @@ Positions are not tracked, instead we rely on tags and profiles, such as:
 Similarly, we do not track hitpoints. An aircraft will typically be immediately destroyed on hit. It’s possible to “damage” or “incapacitate” an aircraft, which leaves it vulnerable to being destroyed.
 
 Combat is about manoeuvring, putting the opponent at a disadvantage, forcing them to deal with petty attacks, bleeding off speed and moving them into a vulnerable posture, before landing a killing blow that they will be unable to avoid.
+
+%YAML 1.2
+---
+title: Wolfpack
+status: unpublished
+tags:
+  - wolfpack
+  - ttrpg

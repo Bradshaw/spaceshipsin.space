@@ -1,4 +1,4 @@
-# Main Gameplay Mechanics
+
 
 ## Focus Tokens
 
@@ -32,7 +32,7 @@ Systems can be shunted...
 ### Tokens
 - **Life Support**:  
   - When lost: Crew becomes Exposed
-  - Can be spent to heal the whole crew:
+  - Can be spent to heal all crew on board:
     - Down and Out crew members regain consciousness and return to 3 vitality
     - Other crew members can choose to return to 3 vitality or repair one of their suit systems
 - **Integrity**:  
@@ -253,6 +253,12 @@ Advances with time.
 
 # Advancement
 
+## Ship Advancement
+
+After a successful mission, the ship is allowed an upgrade.
+
+
+
 ## Crew Advancement
 
 After a mission, successful or not, crew members are allowed to advance.
@@ -261,8 +267,8 @@ After a mission, successful or not, crew members are allowed to advance.
 - Upgrade:
   - Choose quality or suit upgrade.
   - If you do not already have an item from that list, choose freely.
-  - If you have two items, choose one to lose.
   - Roll d6, if it lands on a new item, acquire it, otherwise, choose freely.
+  - If you now have more than two items, choose one to lose.
 - Mission Prep, choose one or roll twice (next mission only):
   1. 3 Focus Tokens (can go over maximum if rolled twice)
   2. Ingenuity Token, spend before rolling a Standard roll to automatically Succeed 

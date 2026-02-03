@@ -35,4 +35,5 @@ title: Burden
 status: unpublished
 tags:
   - burden
+  - ttrpg
 sort-order: 0
