@@ -1,4 +1,5 @@
 # Manually added
+.env
 .idea
 build
 serve

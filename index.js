@@ -1,5 +1,7 @@
 const fs = require("fs");
 const path = require("path");
+const { execSync } = require("child_process");
+require('dotenv').config({ quiet: true });
 
 // Require superstructure
 const superstructure = require("superstructure");
@@ -51,18 +53,18 @@ if (!fs.existsSync(config.serve)) {
   fs.mkdirSync(config.serve);
 }
 
-function walk(dir){
-	let files = [];
-	const elems = fs.readdirSync(dir);
-	for (const elem of elems) {
-		const stat = fs.statSync(path.join(dir,  elem));
-		if (stat.isDirectory()) {
-			files = files.concat(walk(path.join(dir,  elem)));
-		} else {
-			files.push(path.join(dir,  elem));
-		}
-	}
-	return files;
+function walk(dir) {
+  let files = [];
+  const elems = fs.readdirSync(dir);
+  for (const elem of elems) {
+    const stat = fs.statSync(path.join(dir, elem));
+    if (stat.isDirectory()) {
+      files = files.concat(walk(path.join(dir, elem)));
+    } else {
+      files.push(path.join(dir, elem));
+    }
+  }
+  return files;
 }
 
 function safe_copy(from, to) {
@@ -77,13 +79,14 @@ function safe_copy(from, to) {
   for (const file of files) {
     if (!fs.existsSync(path.dirname(file.to))) {
       console.log(`Making directory ${path.dirname(file.to)} for ${file.to}`);
-      fs.mkdirSync(path.dirname(file.to), {recursive: true});
+      fs.mkdirSync(path.dirname(file.to), { recursive: true });
     }
     if (!fs.existsSync(file.to) || !fs.readFileSync(file.from).equals(fs.readFileSync(file.to))) {
       console.log(`Copying ${file.from} to ${file.to}`);
       fs.cpSync(file.from, file.to);
     }
   }
+  console.log(`Copied ${from} to ${to}`);
 }
 
 superstructure
@@ -94,7 +97,7 @@ superstructure
   .build(config)
   .then(() => {
 
-    if (fs.existsSync(config.serve)) { 
+    if (fs.existsSync(config.serve)) {
       fs.rmSync(path.join(config.serve, '*'), {
         force: true,
         recursive: true,
@@ -105,6 +108,20 @@ superstructure
 
     safe_copy(config.dest, config.serve);
 
-    // Code you want to run when the build is done
+    if (process.env.POST_BUILD) {
+      console.log(`Running post build command: ${process.env.POST_BUILD}`);
+      execSync(process.env.POST_BUILD, (error, stdout, stderr) => {
+        if (error) {
+          console.log(`error: ${error.message}`);
+          return;
+        }
+        if (stderr) {
+          console.log(`stderr: ${stderr}`);
+          return;
+        }
+        console.log(`stdout: ${stdout}`);
+      });
+    }
+  }).finally(() => {
     console.log("Launched!");
   });
