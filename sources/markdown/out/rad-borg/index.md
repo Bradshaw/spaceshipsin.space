@@ -584,6 +584,7 @@ Räd Borg's creation was powered by a mind that has absorbed many things. Here a
 - L'Incal by Alejandro Jodorowsky and Mœbius
 - Nichijou by Keiichi Arawi
 - Scavenger's Reign by Joe Bennett and Charles Huettner
+- Gelatinous Cube by Thee Oh Sees (with the music video)
 
 Thanks to:
 - "The Brodie Appreciation Society", for reigniting my love for roleplaying games!
