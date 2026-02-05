@@ -67,6 +67,29 @@ function walk(dir) {
   return files;
 }
 
+function remove_deleted(from, to) {
+  const walked = walk(to);
+  const files = walked.map(file => {
+    const relative = file.split(path.sep).splice(1);
+    return {
+      from: path.join(...[from].concat(relative)),
+      to: path.join(...[to].concat(relative)),
+    };
+  });
+  for (const file of files) {
+    if (!fs.existsSync(path.dirname(file.from)) && fs.existsSync(path.dirname(file.to))) {
+      console.log(`Removing directory ${path.dirname(file.to)}`)
+      fs.rmdirSync(path.dirname(file.to), { recursive: true, force: true });
+    }
+  }
+  for (const file of files) {
+    if (!fs.existsSync(file.from) && fs.existsSync(file.to)) {
+      console.log(`Removing file ${file.to}`)
+      fs.rmSync(file.to);
+    }
+  }
+}
+
 function safe_copy(from, to) {
   const walked = walk(from);
   const files = walked.map(file => {
@@ -86,6 +109,7 @@ function safe_copy(from, to) {
       fs.cpSync(file.from, file.to);
     }
   }
+  remove_deleted(from, to);
   console.log(`Copied ${from} to ${to}`);
 }
 
@@ -96,13 +120,15 @@ superstructure
   .use_md(require("markdown-it-highlightjs"))
   .build(config)
   .then(() => {
-
+    console.log("deployment!");
     if (fs.existsSync(config.serve)) {
+      console.log(`Clear out ${config.serve}`);
       fs.rmSync(path.join(config.serve, '*'), {
         force: true,
         recursive: true,
       });
     } else {
+      console.log(`Create ${config.serve}`);
       fs.mkdirSync(config.serve);
     }
 
@@ -122,6 +148,6 @@ superstructure
         console.log(`stdout: ${stdout}`);
       });
     }
-  }).finally(() => {
-    console.log("Launched!");
+    console.log(`Deleting ${config.dest}`);
+    fs.rmSync(config.dest, { recursive: true, force: true });
   });

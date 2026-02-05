@@ -12,6 +12,6 @@
     "dotenv": "^17.2.3",
     "markdown-it-highlightjs": "^4.1.0",
     "markdown-it-table-of-contents": "^0.6.0",
-    "superstructure": "^3.0.1"
+    "superstructure": "^3.0.2"
   }
 }
