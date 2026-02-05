@@ -7,7 +7,7 @@
 
 *Je m'appelle Gaeel Bradshaw‑Rodriguez*
 
-*Je suis designer et programmeur, issu du monde de l'interactivité et des arts numériques*
+*Je suis designer, enseignant et programmeur, issu du monde de l'interactivité, de l'événementiel et des arts numériques*
 *Si vous avez un projet étrange, amusant, bienveillant ou rebelle, j'aimerais vous aider à le concrétiser!*
 </div>
 </div>
