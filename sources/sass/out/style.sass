@@ -1,5 +1,6 @@
-
-@import "node_modules/highlight.js/styles/monokai-sublime"
+@import "node_modules/highlight.js/styles/base16/atelier-cave-light"
+@media (prefers-color-scheme: dark)
+  @import "node_modules/highlight.js/styles/base16/brewer"
 
 @use "sass:string"
 
@@ -74,11 +75,12 @@ code
   font-size: #{0.9 * $size-base}pt
   font-weight: bold
 
-code.hljs
+pre code.hljs
   font-size: #{0.65 * $size-base}pt
-  font-weight: unset
-  background-color: $dark-background-color
+  // background-color: $dark-background-color
   font-family: "Fira Code"
+  padding-bottom: 2em
+  clip-path: $corner-clip-mini
 
 hr
   height: 0

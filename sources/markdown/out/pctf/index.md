@@ -114,7 +114,7 @@ For each element, roll a d6. If it is equal to or greater than the agent's curre
 *e.g:*
 Agent Hirsch has 4 Echelon, 2 Reprimand, and 3 Stress.
 An allied agent died during the case, and they later had visions of their own death in countless parallel universes.
-That adds up to two regulatory breaches (agent death), and two traumatic events (ally death and the visions).
+That's one regulatory breach (agent death), and two traumatic events (ally death and the visions).
 They gain one Echelon, increasing the level to 5. The administrator did not award a bonus.
 They roll one d6 for Reprimand, they roll a 4, which is greater than their current 2, so their Reprimand increases to 3.
 They roll a first d6 for Stress, they roll a 3, which is equal to their current 3, so their Stress increases to 4.
@@ -143,7 +143,7 @@ Occupational archetypes typically have a career path where Echelon can be spent 
 #### Absolution archetypes
 
 These archetypes represent a moment in an agent's career where they have to deal with consequences.
-Absolution archetypes are always available.ù
+Absolution archetypes are always available.
 They typically clear Reprimand, Stress, or both, either when taken, or as part of their "passage" trait.
 When choosing an archetype after an absolution, the agent may return to their previous occupational archetype at no cost, even if they do not meet the conditions. This does not count as a promotion.
 Otherwise, they may choose any available archetype as normal.

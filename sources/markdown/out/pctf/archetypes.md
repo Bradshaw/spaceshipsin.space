@@ -6,11 +6,11 @@ At any given time, agents embody a single archetype. They also carry "remnant" t
 
 Occupation archetypes are jobs, roles, and specialisations that an agent takes on. They provide access to the core skills and equipment required to carry out the duties that are expected of a PCTF agent.
 
-### Beyond
+### Domain: Beyond
 
 The PCTF seeks out people who have an affinity for the Beyond. Agents who specialise in the Beyond are essential to the task of investigating crimes that involve paranormal phenomena.
 
-#### Manipulator
+#### Archetype: [Manipulator](archetype/beyond/manipulator)
 
 Manipulators are trained in the art of projecting their will into or through the Beyond. They are taught how to shape paranormal phenomena and act within the Beyond in relative safety.
 
@@ -23,7 +23,7 @@ Manipulators are trained in the art of projecting their will into or through the
 ##### Warden
 
 
-#### Augur
+#### Archetype: [Augur](archetype/beyond/augur)
 
 Augurs learn to tune their senses to the Beyond, providing insight into, and protection from, paranormal phenomena.
 
@@ -36,15 +36,15 @@ Augurs learn to tune their senses to the Beyond, providing insight into, and pro
 ##### Host
 
 
-### Intelligence
+### Domain: Intelligence
 
-The central objective of the PCTF is to investigate. To uncover the truth. The shine light into the shadows. To discover the crimes that are being committed so that they may be stopped.
+The central objective of the PCTF is to uncover the truth. The shine light into the shadows. To discover the crimes that are being committed so that they may be stopped.
 
-#### Surveyor
+#### Archetype: [Investigator](archetype/intelligence/investigator)
 
-The purest form of investigation work. Observe, detect, dig into the mess, search for the needle in the haystack. Surveyors are the eyes and ears of the PCTF.
+The purest form of investigation work. Observe, detect, dig into the mess, search for the needle in the haystack. Investigators are the eyes and ears of the PCTF.
 
-##### Forensic Accountant (Bridge)
+##### Inspector (Bridge)
 
 ##### Auditor
 
@@ -53,11 +53,11 @@ The purest form of investigation work. Observe, detect, dig into the mess, searc
 ##### Interrogator
 
 
-#### Analyst
+#### Archetype: [Analyst](archetype/intelligence/analyst)
 
-Knowledge is nothing without analysis. The beating heart of the PCTF's investigation powers, connecting the dots, sorting the signal from the noise, making it all make sense.
+Knowledge is nothing without analysis. Analysts are the beating heart of the PCTF's investigation powers, connecting the dots, sorting the signal from the noise, making it all make sense.
 
-##### Forensic Accountant (Bridge)
+##### Inspector (Bridge)
 
 ##### Cryptographer
 
@@ -66,26 +66,26 @@ Knowledge is nothing without analysis. The beating heart of the PCTF's investiga
 ##### Actuary
 
 
-### Intervention
+### Domain: Intervention
 
-The long arm of the PCTF, bringing para-criminals to justice, preventing further harm, and protecting the lives of fellow agents and innocent civilians alike. 
+Facing dangerous people, groups, and entities, the PCTF relies on a specialised intervention branch. While all agents receive both conventional and paranormal combat training, some specialise in force projection, providing protection and muscle for their squad.
 
-#### Enforcer
+#### Archetype: [Enforcer](archetype/intervention/enforcer)
 
-
+Enforcers are long arm of the PCTF, bringing para-criminals to justice, preventing further harm, and protecting the lives of fellow agents and innocent civilians alike. 
 
 ##### Squad Leader (Bridge)
 
 ##### Escort
 
-##### Repo Agent
+##### Guard
 
-##### Cleaner
-
-
-#### Special Weapons
+##### Dog Handler
 
 
+#### Archetype: [Tactician](archetype/intervention/tactician)
+
+When all else fails and action needs to be taken, tacticians step in with high-impact active use of force. Invariably messy. A necessary evil. A stain on the PCTF's reputation.
 
 ##### Squad Leader (Bridge)
 
@@ -93,50 +93,65 @@ The long arm of the PCTF, bringing para-criminals to justice, preventing further
 
 ##### Breacher
 
-##### Dog Handler
+##### Cleaner
+
+## Non-standard
+
+### Domain: Contractor
+
+Contractors are external agents brought in to help with their unique expertise and independence from direct PCTF accountability.
+
+#### Archetype: [Consultant](archetype/contractor/consultant)
+
+#### Archetype: [Freelancer](archetype/contractor/freelancer)
+
+#### Archetype: [Whistleblower](archetype/contractor/whistleblower)
 
 
-### Contractor
+### Domain: Absolution
 
-#### Consultant
+The worst demons an agent will have to confront aren't from the beyond, but from within. A dark reality the PCTF reluctantly accepts as part of its operations.
 
-#### Freelancer
+#### Archetype: [Addict](archetype/absolution/addict)
 
-#### Whistleblower
+#### Archetype: [Liability](archetype/absolution/liability)
 
+#### Archetype: [Burnout](archetype/absolution/burnout)
 
-## Absolution
+#### Archetype: [Fall Guy](archetype/absolution/fall-guy)
 
-### Skeptic
+#### Archetype: [Haunted](archetype/absolution/haunted)
 
-### Conspiracy Theorist
+#### Archetype: [Wanderer](archetype/absolution/wanderer)
 
-### Addict
-
-### Liability
-
-### Burnout
-
-### Fall Guy
+#### Archetype: [Detached](archetype/absolution/detached)
 
 
-## Reset
+### Domain: Reset
 
-### Veteran
+Agents have an expiration date. Their talents, however, do not. The PCTF does not waste valuable assets.
 
-### Mentor
++++ Spoiler warning, for the administrator's eyes only
+#### Archetype: [Veteran](archetype/reset/veteran)
 
-### Evaporation
+#### Archetype: [Sleeper](archetype/reset/sleeper)
 
-### Ghoul
+#### Archetype: [Evaporation](archetype/reset/evaporation)
+
+#### Archetype: [Ghoul](archetype/reset/ghoul)
++++
 
 
-## Storyline Archetypes
+### Domain: Fate
 
-### Recruit
+The PCTF can plan and prepare as much as it likes, the beyond has ways of its own.
 
-### Fragment
++++ Spoiler warning, for the administrator's eyes only
+#### Archetype: [Fragment](archetype/fate/fragment)
 
-### Echo
+#### Archetype: [Echo](archetype/fate/echo)
 
-### Manifestation
+#### Archetype: [Manifestation](archetype/fate/manifestation)
+
+#### Archetype: [Vector](archetype/fate/vector)
++++

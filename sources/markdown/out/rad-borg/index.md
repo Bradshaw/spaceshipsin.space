@@ -1,17 +1,27 @@
 # Räd Borg
 
 Räd Borg is based upon, and compatible with Mörk Borg. See [legal](#legal) for more information.   
-This document is a work in progress, entire chunks are missing, some parts are incomplete, and none of it has been properly tested.
+This document is a work in progress, entire chunks are missing, some parts are incomplete, and it's being written and tweaked on the fly as I playtest it.
 
 About the name:
-- It happens to spell "Raid Fort" in broken Swedish, a happy coincidence
 - The player character are totally rädical adventurers in an irrädiated wasteland
+- It also happens to spell "Raid Fort" in broken Swedish, a happy coincidence
 
 About the tone:
 - Play it fast, loose, loud, and stupid
 - If Mörk Borg is doom metal, Räd Borg is skater punk
 - Take existential dread and cosmic horror, soak it in epic beast-slaying fantasy, add a healthy dash of graffiti and teenage recklessness, and run wild
 - If it makes sense while you're playing, but sounds ridiculous when you talk about it the next day, you're playing it right!
+
+About the intent:
+Mörk Borg is probably the most fun I've ever had running TTRPGs. I love how quick and easy it is to throw together a dungeon, roll up some characters, and spend an evening playing with TTRPG veterans and newbies alike. The book is *beautiful*, it's dripping with flavour, every time I open it, I'm flooded with ideas for the next session. The community is overflowing with creativity, there are so many cool addons and extras to keep things fresh and exciting.
+<MORE>
+
+See the [rädicalisations](/rad-borg/radicalisations) page for a quick rundown of the rule differences between Mörk Borg and Räd Borg
+
++++ Table of contents
+[[toc]]
++++
 
 ## Vibes
 
@@ -62,15 +72,14 @@ Bordering regions:
 
 #### The Crater
 
-A vast irradiated crater speckled with crystal debris and shattered artifacts. Lifeforms torn from the bowels of Meer have developed on the surface of this scar.
-The Cathedral of Loria stands tall at the center of the crater. Connecting the blighted ground to the swirling clouds, a white tower, every surface engraved with prayers. Within its walls, the Cult of Loria conducts its business, bringing offerings through a maze stairways and passages up to Loria's chambers at the tip of the spire. Her voice can be heard softly resonating from the walls, praying and offering guidance.
+A vast irradiated crater speckled with crystal debris and shattered artefacts. Lifeforms torn from the bowels of Meer have developed on the surface of this scar.
+From the blighted ground at the centre of the crater up to the swirling clouds stretches a white tower, every surface engraved with prayers: The Cathedral of Loria. Within its walls, the Cult of Loria conducts its business, bringing offerings through a maze of stairways and passages up to Loria's chambers at the tip of the spire. Her voice can be heard softly resonating from the walls, praying and offering guidance.
 
-The Cathedral's foundations dig deep into the wound in the ground, leading to a dark and twisted system of caves that once formed the sprawling city of Martite. Ancient automatons slowly toil away, rebuilding the secret metropolis. Pockets of life exist in the tunnels and caverns. Some surviving districts, disconnected from one another, have continued to live as though Martite never fell. Other settlements can also be found. The descendants of lost explorers, refugees from a long-forgotten war, idealists looking to create societies that match their principles far from the influence of the surface's monarchs.
+The Cathedral's foundations dig deep into the wound in the ground, leading to a dark and twisted system of caves that once formed the sprawling city of Martite. Ancient automatons slowly toil away, rebuilding the secret metropolis. Pockets of life exist in the tunnels and caverns. Some surviving districts, disconnected from one another, have continued to live as though Martite never fell. Other settlements can also be found: descendants of lost explorers, refugees from a long-forgotten war, idealists looking to create societies that align with their principles far from the influence of the surface's monarchs...
 
-Ancient dungeons, protecting crystal artifacts and forgotten technologies, can be found hidden in the walls if one knows what they are looking for. Entering these dungeons is a reckless affair. Automated defenses, forgotten spells, and immortal guardians lie in wait, ready to unleash arcane magicks and swift violence upon any intruder.
+Ancient dungeons, protecting crystal artefacts and forgotten technologies, can be found hidden in the walls if one knows what they are looking for. Entering these dungeons is a reckless affair. Automated defences, forgotten spells, and immortal guardians lie in wait, ready to unleash arcane magicks and swift violence upon any intruder.
 
 #### Mercurius
-
 
 
 #### Gríðarstór
@@ -95,9 +104,30 @@ A river flows from lake Barbaute, through N'Guara, and into Mirandali. Iphild ro
 
 #### Virbistok
 
+A vast desert, devoid of water. During the day the heat is unbearable, even mechanical beings begin to show signs of distress. At night the air grows cold, as if the heat was sucked into the ground. Does the sand... breathe?
+
+One lonely road traverses Virbistok, between Mercurius and Llanrhestinion, travelled by merchants, dotted with waystations, and threatened by bandits. Fresh faces are warned of Talisto Pass, a narrow gulch lined with sandstone walls. Expect to be ambushed if you show any sign of weakness or wealth. Circling around the pass is more dangerous still. You can at least negotiate with bandits.
+
+The few Cheiod structures that are easily accessible from the dusty road have all been opened. Pillaged, then either destroyed or put to use by Virbistoki peoples. None of those structures go deep. It seems like the Cheiod abandoned and closed off passages as the areas became more travelled.
+
+If one strays from the road, deeper Cheiod structures can sometimes be found hidden between dunes, usually abandoned, but occasionally still active. The Cheiod are a secretive society. They hide deep beneath the dunes. They lay traps inside their structures. Their "Immortals" patrol. It is not known what they are hiding, nor what they are hiding *from*.
+
 #### The Qharno Mountain Range
 
 ### Things
+
+#### Lifeforms
+
+The main classes of sentient lifeform are Mutant, Dirtling, Robot, and Cyborg.   
+   
+Mutants are the descendants of the animal kingdom, of flesh and bone. Most bear some ressemblance to their long lost ancestors. Eyes and ears. Skin, fur, feathers, or scales. Feet, hooves, hands, and paws.   
+   
+Dirtlings were once bound to the dirt. Jealous of the animals, they shed their roots and mycelium to walk the lands, and in the vacuum left by the animals' wars, they expanded and claimed their place in Wilderas.   
+   
+Mutants often believe their ancestors built the robots. That belief is true, in a purely technical sense. The robots the mutants built were machines. When the mutants grew tired of building robots, they ordered robots to build robots. When the mutants grew tired of designing new robots, they ordered the robots to design robots. When the mutants realised what they had done, they feared an uprising and prepared for war. The robots never attacked, and simply began to just... Exist.
+
+Cyborgs are an amalgamation of mutant and machine. When the robot war didn't happen, the peoples reunited. Robots enjoy tinkering, and with access to flesh, nerves, and other materials with interesting properties, some incorporated biology into their designs. Some mutants, aware of the limitations of their flesh, learnt from the robots' innovations and began to replace their flesh with metal. Where the line between mutant and robot is blurred, cyborgs were born.
+
 
 #### Pilgrims and Wizards
 
@@ -118,9 +148,29 @@ D̡̠̖̭̠́̒̀̏̾͋͟Ẹ̷̷̢̧̲̜͓ͨ̂̎̄͂̒̚͢͡V̯͙̣͓̝̽ͨ̀Oͥ
 ## Character creation
 
 Character creation:
+- d4 or choose Lifeform
+    - Mutant
+        - You need snacks and water
+        - You heal when resting
+    - Dirtling
+        - You need water
+        - d2
+            - Fungi: You heal over time in the dark
+            - Plant: You heal over time in the light
+    - Robot
+        - You need batteries
+        - You heal by being repaired
+        - You are immune to infection
+    - Cyborg
+        - You need water
+        - You can consume snacks or batteries
+        - You can heal by resting or being repaired
 - 2d6 × 10 Bits
-- Thermos
-- d4 days of snacks
+- Mutant, dirtling, and cyborg: Thermos
+- Robot: d4 spare parts
+- Choose:
+    - d4 snacks
+    - d4 batteries
 - d4 Bags (or one of the above)
     1. Satchel
     2. Backpack
@@ -130,7 +180,7 @@ Character creation:
     1. No wheels, just a sweet pair of shoes
     2. Roller shoes
     3. Skateboard
-    4. Fixie bike
+    4. BMX
 - d12 adventurer stuff
     1. Rope 10 metres
     2. Smarts+4 chemlights
@@ -213,20 +263,25 @@ Character creation:
     19. Not wearing it correctly
     20. Patches
 - Abilities
-    - Roll 4d6, drop lowest, and use the table to generate each ability
-        - 1-4: -3
-        - 5-6: -2
-        - 7-8: -1
-        - 9-12: ±0
-        - 13-14: +1
-        - 15-16: +2
-        - 17-20: +3
-- Flexes, d2 per day
-    - Deal mamximum damage with one attack
-    - Reroll a dice roll (yours or someone else's)
-    - Lower damage dealt to you by d6
-    - Neutralise a crit or fumble
-    - -4DR on one test
+    - Choose whether to roll for abilities, or pick a standard array.
+        - Note: the standard arrays give a total of +2, whereas rolling gives +2.56 on average
+        - Balanced array: +1 / +1 / ±0 / ±0
+        - Spicy array: +2 / +1 / ±0 / -1
+        - Random array: Roll 4d6, drop lowest, and use the table to generate an array
+            - 1-4: -3
+            - 5-6: -2
+            - 7-8: -1
+            - 9-12: ±0
+            - 13-14: +1
+            - 15-16: +2
+            - 17-20: +3
+    - Assign those four numbers as you like to Moves, Smarts, Muscles, and Guts
+- Hit Points (HP)
+    - Begin with Guts + d8
+    - Worst case 1HP, never less
+- Flexes
+    - Begin with Smarts + d2
+    - Worst case 2 flexes, never less
 
 ## Rules
 
@@ -235,8 +290,18 @@ Character creation:
     - Smarts: Spot, outwit, flirt, use magicks
     - Muscles: Dunk, wreck, wrestle, throw
     - Guts: Resist poison, punches, fear, and humiliation
+- Flexes - Use a flex to...
+    - Deal mamximum damage with one attack
+    - Reroll a dice roll (yours or someone else's)
+    - Lower damage dealt to you by d6
+    - Neutralise a crit or fumble into a success or fail
+    - Boost a success or fail into a crit or fumble
+    - -4DR on one test
+    - Add 2 to a test roll
 - Tests
     - Roll d20 ±ability **equal to or greater than DR** to succeed
+    - Natural 20 (the dice shows 20, regardless of ability) is always a crit (success with a bonus)
+    - Natural 1 is always a fumble (fail with a consequence)
     - Creatures don't add any ability, only roll an unmodified d20 against the DR
 - Difficulty ratings (DR)
     - 6: incredibly simple
@@ -246,6 +311,11 @@ Character creation:
     - 14: difficult
     - 16: really hard
     - 18: should not be possible
+- Carrying capacity
+    - You can carry Muscles+8 (but never less than 8) normal-sized items
+    - Items in a duffel bag count as half the weight
+    - Satchels and backpacks can be worn
+    - Items (not weapons) in satchels can be swapped with an item held in hand (if it's a weapon, drop it)
 - Adventuring
     - Reaction (2d6)
         - 2-3: "Jump these nerds!"
@@ -273,10 +343,45 @@ Character creation:
             1. light: -d2
             2. medium: -d4, +2 DR Moves tests
             3. heavy: -d6, +2 DR Defence, +4 DR other Moves tests
-    - Rest
-        - Take a breather: heal d4 HP
-        - Call it a day: heal d6 HP
+    - Rest, healing and repair
+        - Take a breather:
+            - An hour in a safe, or at least defensible location
+            - Restore one flex
+            - Fertilise (Dirtlings): eat a snack and restore 1 HP
+            - Cyborgs choose whether to heal or repair, not both
+            - Heal (Mutants and Cyborgs): restore d4 HP
+            - Repair (Robots and Cyborgs):
+                - Use spare parts and test Guts DR12: restore d6 HP
+                - Repair rolls can be performed by an ally who chooses not to heal or repair themself
+        - Call it a day:
+            - At least six uninterrupted hours in a safe place
+            - Restore d4 flexes
+            - Cyborgs choose whether to heal or repair, not both
+            - Fertilise (Dirtlings): eat a snack and restore d4 HP
+            - Heal (Mutants and Cyborgs): restore d6 HP
+            - Repair (Robots and Cyborgs) choose repair method:
+                - Percussive maintenance:
+                    - Use spare parts and test Guts DR10: Restore d6 HP
+                    - This choice can be repeated any number of times, spending spare parts each time
+                - Engineering: Smarts DR12:
+                    - Use spare parts and test Smarts DR12: Restore to maximum HP
+                - Repair rolls can be performed by an ally who chooses not to heal or repair themself
+        - Dirtlings heal over time when they are in their preferred environment
+            - In the dark, fungi heal 1 HP up to four times a day
+            - In the light, plants heal d2 HP up to four times a day, during daylight hours
+        - Sustenance:
+            - Robots consume one battery per day, or go into low-power mode:
+                - Cannot move by themselves or fight
+                - All rolls +4DR
+            - Mutants and Cyborgs consume water and snacks every day, or lose d4 HP per day and cannot rest
+                - Cyborgs can consume a battery instead of snacks
+            - Dirtlings consume water every day, or begin to wither:
+                - Cannot move by themselves, rest, or fight
+                - All rolls +4DR
+                - Lose d4 HP per day
         - **Infected/irradiated** No healing when resting, take d6 damage each day
+            - Robots do not suffer these effects
+            - Repairing an infected or irradiated Robot or Cyborg: Test Guts DR12 or become infected/irradiated
     - Morale (2d6)
         - If you roll over the creature's Morale, d6
             - 1-3: Flees
@@ -288,7 +393,8 @@ Character creation:
     - Whooped (0 HP) d4:
         1. Shook: Out for d4 rounds, come back with d4 HP
         2. Bashed: Roll on the sick scars table, out for d4 rounds, come back with d4 HP
-        3. Schooled: Total humiliation if you can't get your act together in d2 hours.
+        3. Schooled: Roll on the sick scars table, out for d4 rounds, come back with d4 HP
+            - If you get whooped again today, do not roll, you get Absolutely Dunked On
         4. Absolutely Dunked On: Totally humiliated, you're no longer cool enough to be an adventurer, go home...
     - Magick
         - Amount per day
@@ -399,6 +505,7 @@ Character creation:
 | Batteries (10-pack)    | 10b    |                                                           |
 | Bear trap              | 20b    | Smarts DR14 to spot, d8 damage                            |
 | Black slime            | 20b    | Toughness DR14 or d6 damage + blind for one hour, 3 doses |
+| BMX                    | 40b    |                                                           |
 | Boombox                | 45b    | Uses one battery per hour                                 |
 | Bubblegum              | 1b     |                                                           |
 | Can of spray paint     | 3b     |                                                           |
@@ -407,7 +514,6 @@ Character creation:
 | Crowbar                | 8b     |                                                           |
 | Duffel bag             | 3b     | 10 normal-sized items, they count half, held in hand      |
 | First-aid kit          | 15b    | Stops infection & radiation and heals d6 HP               |
-| Fixie bike             | 40b    |                                                           |
 | Flashlight             | 10b    | Uses one battery per hour                                 |
 | Grappling hook         | 12b    |                                                           |
 | Green slime            | 20b    | Toughness DR12 or d10 damage, 3 doses                     |
@@ -424,6 +530,7 @@ Character creation:
 | Multitool              | 15b    | Uses one battery per minute                               |
 | Portable games console | 60b    | Uses one battery per three hours                          |
 | Primo deodorant        | 25b    |                                                           |
+| Repair kit             | 20b    | Repair -4DR or max restore, single use                    |
 | Roller shoes           | 35b    |                                                           |
 | Rope                   | 4b     | 10 metres                                                 |
 | Salt                   | 4b     |                                                           |
@@ -432,6 +539,7 @@ Character creation:
 | Skateboard             | 20b    |                                                           |
 | Sleeping bag           | 4b     |                                                           |
 | Snacks                 | 1b     | 1 day                                                     |
+| Spare robot parts      | 10b    |                                                           |
 | Tent                   | 12b    |                                                           |
 | Thermos                | 4b     | 4 days of water                                           |
 | Toolbox                | 20b    | 10 nails, hammer, small saw, tongs                        |
@@ -479,7 +587,7 @@ Wormfolk
 
 Crystal Guardians
 
-Artifact Fiends
+Artefact Fiends
 
 ### Cathedral of Loria
 
