@@ -112,8 +112,6 @@ Contractors are external agents brought in to help with their unique expertise a
 
 The worst demons an agent will have to confront aren't from the beyond, but from within. A dark reality the PCTF reluctantly accepts as part of its operations.
 
-#### Archetype: [Addict](archetype/absolution/addict)
-
 #### Archetype: [Liability](archetype/absolution/liability)
 
 #### Archetype: [Burnout](archetype/absolution/burnout)

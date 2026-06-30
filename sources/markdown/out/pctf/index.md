@@ -79,8 +79,10 @@ Some archetypes may clear Reprimand, Stress, or both when taken.
 
 ### During each case
 
+#### Regulatory breaches
+
 Some archetypes may clear Reprimand, Stress, or both when their passage trait is invoked.
-The administrator takes note of significant regulatory breaches and trauma.
+The administrator takes note of significant regulatory breaches.
 
 Regulatory breaches include (but are not limited to):
 - Death of a PCTF agent
@@ -93,12 +95,16 @@ Regulatory breaches include (but are not limited to):
 - Inappropriate language
 - Attempting to dissumulate regulatory breaches from PCTF internal affairs
 
-Trauma includes (but is not limited to):
+#### Taking damage
+
+Upon taking damage, roll a d6.
+If it is equal to or greater than the agent's current stress, increase stress by one. If stress is already at 6 when it is increased, the agent is unable to continue.
+
+Damage includes (but is not limited to):
+- Physical injury
+- Exposure to paranormal phenomena
 - Death of an ally or friend
 - Witnessing gruesome death or injury
-- Significant personal injury
-- Exposure to certain paranormal phenomena
-- Possession and mind control
 - Catastrophic failure in dire circumstances
 
 ### After each case
@@ -106,10 +112,10 @@ Trauma includes (but is not limited to):
 Gain one Echelon, regardless of success or failure.
 If the administrator judges that the unit performed above and beyond the standard PCTF evaluation criteria, one more Echelon may exceptionally be awarded to each surviving member of the unit.
 
-While Echelon is awarded equally to each agent, Reprimand and Stress are tallied for each agent individually.
+While Echelon is awarded equally to each agent, Reprimand is tallied for each agent individually.
 
-Regulatory breaches and trauma work the same way, but affect Reprimand and Stress respectively.
-For each element, roll a d6. If it is equal to or greater than the agent's current level, increase the level by one. If the level is already at 6 when the level is increased, the agent is forced into retirement.
+For each regulatory breach, roll a d6.
+If it is equal to or greater than the agent's current reprimand, increase reprimand by one. If reprimand is already at 6 when it is increased, the agent is forced into retirement.
 
 *e.g:*
 Agent Hirsch has 4 Echelon, 2 Reprimand, and 3 Stress.

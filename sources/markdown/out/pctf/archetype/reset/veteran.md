@@ -5,7 +5,7 @@ You've seen it all. You've seen too much. It's time for someone else to take you
 Special equipment:
 - Lucky charm - *Resist +1*
   - A personal item that you religiously keep with you at all times ever since "the incident"
-- Optional: Manusomme MS77 Revolver - *Pressure +3 / Force +1*
+- Manusomme MS77 Revolver - *Pressure +3 / Force +1*
   - A fearsome-looking hunk of metal with a wooden grip that fits *just right* in your calloused hands
   - Heavy and unwieldy, but you know that the best shot is one you don't have to take
   - Replaces your Becker & Wolfe G909
