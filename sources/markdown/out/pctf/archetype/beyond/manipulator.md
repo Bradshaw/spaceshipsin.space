@@ -14,9 +14,9 @@ Automatically succeed on an action to make something impossible happen in your i
     - Open a locked door
     - Change your appearence
 
-## Remnant: Patching the holes
+## Remnant: Subjugated domain
 *Once per investigation*
-Take one stress and automatically succeed on an action to block paranormal phenomena from occuring in a small area around yourself for a up to one minute. You many move, and the area of effect follows you.
+Block paranormal phenomena from occuring in a small area around yourself for up to one minute. The area of effect follows you when you move.
 
 ### Anchor (Bridge)
 

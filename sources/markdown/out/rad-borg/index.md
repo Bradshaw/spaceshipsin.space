@@ -25,6 +25,7 @@ See the [rädicalisations](/rad-borg/radicalisations) page for a quick rundown o
 
 ## Vibes
 
+
 Colourful post-apocalypse. Riding the edge between gross-out and funny. 50/50 mix of medieval fantasy and post-collapse sci-fi.
 
 Räd Borg takes place on the Wilderas continent on planet Meer. It is known that other continents lie somewhere across the gunky seas, beyond the glowing fog, but their names have been lost to time and war, as has most Wilderan and Meeran history.
@@ -33,90 +34,7 @@ Wilderas is mostly composed of feudal-like fiefdoms ruled over by monarchs, baro
 
 Scattered around Wilderas are dungeons. These dungeons sometimes have historical reasons for their existence, but they can equally have been created or just randomly appeared just to challenge whatever band of plucky adventurers happen to stumble upon them.
 
-It is said that Voidmonger, the Hollow Space God, is on their way to Meer. Upon their arrival, they will smite all but the most righteously badass of the Meeran continents. The Prophesies of Gorâzoteth have began to come true. It is time for Wilderan adventurers to prove to Voidmonger that this continent is truly the most epic among the lands on Meer, perhaps even in the entire galaxy (if such a suggestion isn't blasphemous, of course).
-
-
-## Lore
-
-**Warning! Contains spoilers, skip to [character creation](#character-creation) if you're a player ;)**
-
-### Places
-
-- A big crater with a tower in the middle and an abandoned city underneath
-- Ur, a bustling city of trade, crime, and revelry
-- The Tower of Trials in the middle of the swamp-lake Barbaute
-- Mirandali, a thick forest that folds in upon itself, where space and time twists into fractal patterns
-- Virbistok, an arid desert that covers what was once the thriving Cheiod civilisation
-- The Qharno mountain range, where pilgrims go to complete their wizarding initiations
-- The six elemental fiefdoms and their rulers
-    - Mercurius (Fire) - Queen Maia
-    - Gríðarstór (Ice) - Queen Sif
-    - N'Guara (Nature) - Iphild, the Gardener
-    - Phthon (Undeath) - The Council of Glos
-    - Llanrhestinion (Cyborg) - Metamind Lzoroth-Follelliwig
-    - The Wigh (Fungi) - Baron Willon Volden
-
-Bordering regions:
-- Mercurius / Virbistok
-- Mercurius / Qharno
-- Gríðarstór / Qharno
-- N'Guara / Mirandali
-- N'Guara / Barbaute
-- Phthon / Barbaute
-- Llanrhestinion / Virbistok
-- The Wigh / Mirandali
-
-
-
-
-
-#### The Crater
-
-A vast irradiated crater speckled with crystal debris and shattered artefacts. Lifeforms torn from the bowels of Meer have developed on the surface of this scar.
-From the blighted ground at the centre of the crater up to the swirling clouds stretches a white tower, every surface engraved with prayers: The Cathedral of Loria. Within its walls, the Cult of Loria conducts its business, bringing offerings through a maze of stairways and passages up to Loria's chambers at the tip of the spire. Her voice can be heard softly resonating from the walls, praying and offering guidance.
-
-The Cathedral's foundations dig deep into the wound in the ground, leading to a dark and twisted system of caves that once formed the sprawling city of Martite. Ancient automatons slowly toil away, rebuilding the secret metropolis. Pockets of life exist in the tunnels and caverns. Some surviving districts, disconnected from one another, have continued to live as though Martite never fell. Other settlements can also be found: descendants of lost explorers, refugees from a long-forgotten war, idealists looking to create societies that align with their principles far from the influence of the surface's monarchs...
-
-Ancient dungeons, protecting crystal artefacts and forgotten technologies, can be found hidden in the walls if one knows what they are looking for. Entering these dungeons is a reckless affair. Automated defences, forgotten spells, and immortal guardians lie in wait, ready to unleash arcane magicks and swift violence upon any intruder.
-
-#### Mercurius
-
-
-#### Gríðarstór
-
-Set in the curve of the Qharno mountain range
-
-#### N'Guara
-
-A river flows from lake Barbaute, through N'Guara, and into Mirandali. Iphild roams the overgrowth, quietly tending to the plants.
-
-#### Phthon
-
-#### Llanrhestinion
-
-#### The Wigh
-
-#### Ur
-
-#### Barbaute
-
-#### Mirandali
-
-#### Virbistok
-
-A vast desert, devoid of water. During the day the heat is unbearable, even mechanical beings begin to show signs of distress. At night the air grows cold, as if the heat was sucked into the ground. Does the sand... breathe?
-
-One lonely road traverses Virbistok, between Mercurius and Llanrhestinion, travelled by merchants, dotted with waystations, and threatened by bandits. Fresh faces are warned of Talisto Pass, a narrow gulch lined with sandstone walls. Expect to be ambushed if you show any sign of weakness or wealth. Circling around the pass is more dangerous still. You can at least negotiate with bandits.
-
-The few Cheiod structures that are easily accessible from the dusty road have all been opened. Pillaged, then either destroyed or put to use by Virbistoki peoples. None of those structures go deep. It seems like the Cheiod abandoned and closed off passages as the areas became more travelled.
-
-If one strays from the road, deeper Cheiod structures can sometimes be found hidden between dunes, usually abandoned, but occasionally still active. The Cheiod are a secretive society. They hide deep beneath the dunes. They lay traps inside their structures. Their "Immortals" patrol. It is not known what they are hiding, nor what they are hiding *from*.
-
-#### The Qharno Mountain Range
-
-### Things
-
-#### Lifeforms
+## Lifeforms
 
 The main classes of sentient lifeform are Mutant, Dirtling, Robot, and Cyborg.   
    
@@ -127,23 +45,6 @@ Dirtlings were once bound to the dirt. Jealous of the animals, they shed their r
 Mutants often believe their ancestors built the robots. That belief is true, in a purely technical sense. The robots the mutants built were machines. When the mutants grew tired of building robots, they ordered robots to build robots. When the mutants grew tired of designing new robots, they ordered the robots to design robots. When the mutants realised what they had done, they feared an uprising and prepared for war. The robots never attacked, and simply began to just... Exist.
 
 Cyborgs are an amalgamation of mutant and machine. When the robot war didn't happen, the peoples reunited. Robots enjoy tinkering, and with access to flesh, nerves, and other materials with interesting properties, some incorporated biology into their designs. Some mutants, aware of the limitations of their flesh, learnt from the robots' innovations and began to replace their flesh with metal. Where the line between mutant and robot is blurred, cyborgs were born.
-
-
-#### Pilgrims and Wizards
-
-Occasionally, a strange sickness befalls someone, and they are overcome with a need to travel. They begin walking the world, seemingly at random, in a strange state of calm introspection. These people are referred to as "p̗̼il̊͌͞grȉͅm̈́̓s". Some pilgrims are friendly, willing to travel with strangers for a while.   
-Oth̥̃̐ers seem to fear strangers, fending them off with weapons and strange magicks. When a pilgrim's magi͏̵̀c̗̦̕ks grow strong enough, they find themself drawn to the Qharno Mountains, where they complete their pilgrimage, and become a "wizard".   
-Wi̺ͨz̸̗̊a͔̋r͞d͑̐s are driven only by the fluctuations of m͏agick, fickle, unpredictable, and unstable. On a good day, a wizard may bestow great riches and pow͓̼̻e̴r̠͐s upon travellers who cross their path, but it is just as likely that they'll unleash a storm of arcane spells that te͏ars r͔̼ͩe̊aḻity apart around whomever is ul̬ͣ͡ũ̧̹ͭc̤͔k̞̥̖̺̋̀͊ny enough to catch their attention.   
-People who dedicate their lives to the art of magick are not wizards. They call themselves mages, sorcerers, or casters. W͉ͥ̕į̴̛z̟a̡ͧ̋r̈ͪds are cͭ̂u̳r̵̰̺seͧd bȅ̾ͦin͇͐gͩs. The cu̅r̗͚ͨs̪͇̉͆͠ë̞̹̳͂ d̵͕̋̿͋̈́͡ę̜̼́͗͞͞vo̷͉̳̟͋͊u̢̬r̉̈s̎ͨ. W͇̾ỉ̜͐z̸̈́aͫ́͢r̶̷̮̥ds̚ ǎ̴͝r̤̻̻e̫̔̔ b͏̮e̷̱ͫin̼ͥg̬ d̴e͡v͍ȏu̷͈̺ŗ̴̽̎̾ḛ̺d̘̊̇.   
-T̸̖̬̻̊͆h̢e̳ d͖̃ͧ͠e̎vͯͨȯ̠͋ú̍̎̾̚͠ȓ̛̩̥ͣ̃͢ẹ̗̝̺͖́̕r̲̫̃ E͓̐X̘̫̺̄ͪ̆̉İ̸͎̤̂͒Ş̮̈́̐ṪS͙͖ͭ͒ͣ.̣͓ͥ̇̽ It E̤̯̔͠X͇Ị̰͓́̊͞ST̼Ŝ.̗͍̻̫̝̄͝  W̅͌͢͡h̝̽y̶̟ͯ̆͘ ď̯̭͉̂ô̡̘̙̦̜̹̈̆̇͡è͚͇͋̒ṡ̡̬̞̮̣͢ i̛͍̩͔̊̋ͦͧ͝t̛̼̗̒̈͌͞ É̷͞X͚͆ͯ̒͡Ǐ̥͙͔̮̔͡͡S̴̱̃̄ͦͅT̡͇̱ͥ?͙͎ͩͨͥͪ͗ͣͯ Iͭt̳̄ͭ s̘ͨ͛͘hǫ̦̺͔̺͓͒ͤ͑ͬ͠u͇͆l̻̩͆͑͂̈dn͋'̴͈͍̤̀̎͡͡t̢͍̲͙͈ͧͮ̒̍͢͠ E͂Xͯ͝I̵̵͕͍ͮͫ̍͌̉͞S̨͖͍̬̀͑̍ͨ̕͢T̸͎͛͆͒ͣ͘͝.   
-P̿l̆eaͪș̚e.̻̿ D̘͜o̘ͮͨ̀͑́ͤ n̹͖ͫ̔̿͘o̞̎t̞̯͐͋̐͠ E̡͔̻͗̐̑X̒̾I͈SṪ͇̤̗̯ͤ. D̨̨̛͉ͣ̽ͧͅồ̙̊͠ n͉_̴̿ͧͯot̙̘̭͛̌ͭͭ̈́̕ Ȩ̼͚ͥ̀͢XÍ̶Ș̫̖͋T͉͗͊.͔͚́ D̡̖͇̗̺̪ͬ͋̐͗́̃̑̚o͈͍̟ͮ̈́̓͗̚ n̵̵͚̺̭̉̇̐͗͘̚̚̕ǫ̴͇̜͉̈́̌̕ţ̶̼͍͛ͨͭ͌͊̔̀̔̔ͅ Ę̺̣̠̰̀̂̇ͫͯ̎̔̓͌X͉̲̰̥̥͔̭̋̃́̎ͯ͛̏Í͕̥̊ͨ͊S̩̲̲̽̔̄̅̐̍̀͜T̷̞͎͖͖̱̼̺͗̾.̉ͨ   
-   
-Pl̶͋̓eͫ̅as̔ͣ͡e̟.    
-   
-Do͖͈̟͐   
-n̫̹o̜ț   
-D̡̠̖̭̠́̒̀̏̾͋͟Ẹ̷̷̢̧̲̜͓ͨ̂̎̄͂̒̚͢͡V̯͙̣͓̝̽ͨ̀O̵̼̖̘͕̜̹ͥ͗́̚̕U̢̹̥͕͐̎ͩ̀̑̅̉R̵̬̥͙̗̃̽ͪ̀͂͘͡͡
-
 
 ## Character creation
 
@@ -207,7 +108,7 @@ Character creation:
     10. Crowbar
     11. A chunk of irradium
     12. Tent
-- d10 weapons (d6 if you start with a scroll)
+- Muscles + d10 weapons / Muscles + d6 if you start with a scroll / d10 if you're rolling again
     1. Pointed stick (d4)
     2. Cool wizard stick (d4)
     3. Slingshot (d4 / d6 if used with ball bearings)
@@ -218,7 +119,14 @@ Character creation:
     8. Big sword (d8)
     9. Blaster (d10, with Smarts+10 batteries)
     10. Big axe (d10)
+    11. Pipe wrench (d6), roll again
+    12. Big sword (d8), roll again
+    13. Big axe (d10), roll again
 - d4 Armor (d2 if you start with a scroll)
+  - 1. No armour
+  - 2. Tier 1
+  - 3. Tier 2
+  - 4. Tier 3
 - (optional) d20 Cool vibes (roll twice)
     1. Way too relaxed
     2. Overly self-confident
@@ -280,29 +188,53 @@ Character creation:
     - Begin with Guts + d8
     - Worst case 1HP, never less
 - Flexes
-    - Begin with Smarts + d2
+    - Begin with Moves + d2
     - Worst case 2 flexes, never less
+- Magicks
+    - Begin with Smarts + d4 
+    - worst case 1 magick, never less
 
 ## Rules
-
+- Progression
+    - Ability changes
+        - Roll four d6 dice
+        - Assign each dice to an ability
+            - Less than the ability, decrease it by 1 (minimum -3)
+            - Greater than the ability, increase it by 1 (maximum +6)
+            - Equal to the ability, roll d6 and find
+                - 1-3: nothing
+                - 4: 3d10 bits
+                - 5: a gnarly scroll
+                - 6: a fresh scroll
+    - Hitpoints: Set your maximum to Guts + d10 if it's better
+    - Flexes: Set your maximum to Moves + d4 if it's better
+    - Magicks: Set your maximum to Smarts + d6 if it's better
 - Abilities
     - Moves: Dodge, dance, kickflip, leg it
+        - (flexes & defense)
     - Smarts: Spot, outwit, flirt, use magicks
+        - (magicks & ranged attacks)
     - Muscles: Dunk, wreck, wrestle, throw
+        - (carrying & melee attacks)
     - Guts: Resist poison, punches, fear, and humiliation
+        - (hitpoints & resistances)
 - Flexes - Use a flex to...
     - Deal mamximum damage with one attack
     - Reroll a dice roll (yours or someone else's)
     - Lower damage dealt to you by d6
     - Neutralise a crit or fumble into a success or fail
     - Boost a success or fail into a crit or fumble
-    - -4DR on one test
+    - +4 on one test
     - Add 2 to a test roll
 - Tests
     - Roll d20 ±ability **equal to or greater than DR** to succeed
     - Natural 20 (the dice shows 20, regardless of ability) is always a crit (success with a bonus)
     - Natural 1 is always a fumble (fail with a consequence)
     - Creatures don't add any ability, only roll an unmodified d20 against the DR
+    - Power Through:
+        - On a failed active roll (not a fumble, not a defence or resistance), a PC can ask to power through
+        - If accepted, the PC suffers a consequence, then succeeds on the roll automatically
+        - Melee: nearby enemies attack the PC
 - Difficulty ratings (DR)
     - 6: incredibly simple
     - 8: routine
@@ -315,14 +247,14 @@ Character creation:
     - You can carry Muscles+8 (but never less than 8) normal-sized items
     - Items in a duffel bag count as half the weight
     - Satchels and backpacks can be worn
-    - Items (not weapons) in satchels can be swapped with an item held in hand (if it's a weapon, drop it)
+    - Items (not weapons) in satchels can be swapped with an item held in hand (if it's a a weapon or too large to fit, drop it)
 - Adventuring
     - Reaction (2d6)
-        - 2-3: "Jump these nerds!"
-        - 4-6: Torqued off
-        - 7-8: Just scopin' your vibe
-        - 9-10: Dialin' your frequency
-        - 11-12: Stoked by your 'tude!
+        - 2-3: Attack on sight
+        - 4-6: Hate your guts
+        - 7-8: Don't care
+        - 9-10: Chilling
+        - 11-12: Want to hang out
     - Combat
         - Initiative d6
             - 1-3 Enemies begin
@@ -338,11 +270,11 @@ Character creation:
             - Attack:
                 - Melee: Enemy gains a gree attack
                 - Ranged: Attack hits an ally
-            - Defence: ×2 damate, armour reduced one tier
+            - Defence: ×2 damage, armour reduced one tier
         - Armour tiers
             1. light: -d2
-            2. medium: -d4, +2 DR Moves tests
-            3. heavy: -d6, +2 DR Defence, +4 DR other Moves tests
+            2. medium: -d4, Moves -2
+            3. heavy: -d6, Moves -4 (Defence Moves -2)
     - Rest, healing and repair
         - Take a breather:
             - An hour in a safe, or at least defensible location
@@ -372,12 +304,12 @@ Character creation:
         - Sustenance:
             - Robots consume one battery per day, or go into low-power mode:
                 - Cannot move by themselves or fight
-                - All rolls +4DR
+                - All rolls -4
             - Mutants and Cyborgs consume water and snacks every day, or lose d4 HP per day and cannot rest
                 - Cyborgs can consume a battery instead of snacks
             - Dirtlings consume water every day, or begin to wither:
                 - Cannot move by themselves, rest, or fight
-                - All rolls +4DR
+                - All rolls -4
                 - Lose d4 HP per day
         - **Infected/irradiated** No healing when resting, take d6 damage each day
             - Robots do not suffer these effects
@@ -390,12 +322,11 @@ Character creation:
         - The leader is whooped
         - Half the group gets whooped
         - Lone enemy has 1/3 HP left
-    - Whooped (0 HP) d4:
-        1. Shook: Out for d4 rounds, come back with d4 HP
-        2. Bashed: Roll on the sick scars table, out for d4 rounds, come back with d4 HP
-        3. Schooled: Roll on the sick scars table, out for d4 rounds, come back with d4 HP
-            - If you get whooped again today, do not roll, you get Absolutely Dunked On
-        4. Absolutely Dunked On: Totally humiliated, you're no longer cool enough to be an adventurer, go home...
+    - Whooped (0 HP) - Roll d6, plus an extra d6 for each time you've been whooped before:
+        - 1-3: Shook: Come back next turn with d4 HP
+        - 4-5 Bashed: Out for d4 rounds, come back with d4 HP
+        - 6: Schooled: Roll on the sick scars table, out for d4 rounds, come back with d4 HP
+        - Multiple 6s: Absolutely Dunked On: Totally humiliated, you're no longer cool enough to be an adventurer, go home...
     - Magick
         - Amount per day
             - A PC can use their magicks a total of Smarts + d4 times per day.
@@ -453,97 +384,97 @@ Character creation:
 - d10 gnarly scrolls
     1. **Shards** Deal 2d6 damage, divided among any number of creature
     2. **Nurd-sez-watt** Confuse a creature for 10 minutes
-    3. **Yeet** Move an object up to d10*3 metres for d6 minutes
+    3. **Yeet** Levitate an object within d10+3 metres of you for up to d6 minutes or hurl it up to 30 metres
     4. **Infinite Kickflip** Hover for Smarts+d10 rounds
-    5. **Seeing Gray** One creature is made radioactive for d6 rounds, losing d4 HP per round
+    5. **Seeing Gray** One creature is made radioactive for d6 rounds, it glows faintly and loses d4 HP per round
     6. **Snicker-Snack** Produce d2 lightning bolts dealing d6 damage each
-    7. **Antimemetism** A creature becomes invisible for d6 rounds or until it is damaged, attacking/defending with DR6
-    8. **Arise ye, creepy crawlies!** Summon d4 mudlings
+    7. **Antimemetism** A creature becomes invisible for d6 rounds or until it is damaged, attacking/defending with +6 Muscles/Moves
+    8. **Arise ye, creepy crawlies!** Summon d4 mudlings (HP 4 / Morale 7 / Ram d4)
     9. **Power Word: Sleep** d4 creatures fall asleep for one hour unless they succeed a DR14 test
     10. **Power Word: Hollow** All creatures within 10 metres lose a total of 4d10 HP
 - d10 fresh scrolls
-    1. **My Love Undoes Pain** d2 creatures regain d10 HP each
+    1. **My Love Undoes Pain** A creature of your choice regains d10 HP
     2. **My Will Undoes Fear** A creature of your choice gets +d6 on one roll
     3. **Rest, Disturbed** Ask three questions to a ghost, disabled automaton, or other extinct mind
     4. **Tough like a Badass** A creature of your choice gains 2d6 extra HP for 10 rounds
     5. **Wo-Mona's Reprieve** One creature, who got absolutely dunked on within the last week, gets hype again but they're kinda messed up now
     6. **Yappin' with Beasties** You may speak with animals for d20 minutes
     7. **Cherenkov/False Vacuum** Light or pitch black for 3d10 minutes
-    8. **Déjà Mort** You find all traps in your path for 2d10 minutes
+    8. **Déjà Mort** You spot all traps and threats in your path for 2d10 minutes
     9. **A Storm, Unleashed** d4 creatures lose d8 HP each
-    10. **Absolute aura** One creature blindly obeys a single command
+    10. **Absolute Aura** One creature blindly obeys a single command
 
 ### Weapons
-| Item                   | Value  | Notes                                                     |
-|------------------------|--------|-----------------------------------------------------------|
-| d4 Pointed stick       | 0b     |                                                           |
-| d4 Cool wizard stick   | 10b    |                                                           |
-| d4 Baseball bat        | 5b     |                                                           |
-| d6 Sledgehammer        | 15b    |                                                           |
-| d6 Pipe wrench         | 25b    |                                                           |
-| d8 Big sword           | 35b    |                                                           |
-| d10 Big axe            | 60b    |                                                           |
-|                        |        |                                                           |
-| d6 Slingshot           | 8b     | Shoots bearings (or small stones for d4 damage)           |
-| d8 Bow                 | 40b    | Shoots arrows                                             |
-| d10 Blaster            | 65b    | Uses one battery per shot                                 |
-|                        |        |                                                           |
-| 20 Steel bearings      | 5b     |                                                           |
-| 20 Arrows              | 10b    |                                                           |
-|                        |        |                                                           |
-| d10 Hand grenade       | 10b    |                                                           |
-| Shield                 | 20b    | -1 damage, or break to ignore all damage from one attack  |
-|                        |        |                                                           |
-| -d2 Light Armour       | 20b    |                                                           |
-| -d4 Medium Armour      | 100b   | Moves +2DR                                                |
-| -d8 Heavy Armour       | 200b   | Defence +2DR, other Moves +4DR                            |
+| Item                 | Value | Notes                                                    |
+| -------------------- | ----- | -------------------------------------------------------- |
+| d4 Pointed stick     | 0b    |                                                          |
+| d4 Cool wizard stick | 10b   |                                                          |
+| d4 Baseball bat      | 5b    |                                                          |
+| d6 Sledgehammer      | 15b   |                                                          |
+| d6 Pipe wrench       | 25b   |                                                          |
+| d8 Big sword         | 35b   |                                                          |
+| d10 Big axe          | 60b   |                                                          |
+|                      |       |                                                          |
+| d6 Slingshot         | 8b    | Shoots bearings (or small stones for d4 damage)          |
+| d8 Bow               | 40b   | Shoots arrows                                            |
+| d10 Blaster          | 65b   | Uses one battery per shot                                |
+|                      |       |                                                          |
+| 20 Steel bearings    | 5b    |                                                          |
+| 20 Arrows            | 10b   |                                                          |
+|                      |       |                                                          |
+| d10 Hand grenade     | 10b   |                                                          |
+| Shield               | 20b   | -1 damage, or break to ignore all damage from one attack |
+|                      |       |                                                          |
+| -d2 Light Armour     | 20b   |                                                          |
+| -d4 Medium Armour    | 100b  | Moves -2                                                 |
+| -d8 Heavy Armour     | 200b  | Moves -4 (Defense Moves -2)                              |
 
 ### Items
-| Item                   | Value  | Notes                                                     |
-|------------------------|--------|-----------------------------------------------------------|
-| Backpack               | 6b     | 7 normal-sized items, worn                                |
-| Batteries (10-pack)    | 10b    |                                                           |
-| Bear trap              | 20b    | Smarts DR14 to spot, d8 damage                            |
-| Black slime            | 20b    | Toughness DR14 or d6 damage + blind for one hour, 3 doses |
-| BMX                    | 40b    |                                                           |
-| Boombox                | 45b    | Uses one battery per hour                                 |
-| Bubblegum              | 1b     |                                                           |
-| Can of spray paint     | 3b     |                                                           |
-| Chalk                  | 1b     |                                                           |
-| Chemlight              | 1b     | Glows for one hour                                        |
-| Crowbar                | 8b     |                                                           |
-| Duffel bag             | 3b     | 10 normal-sized items, they count half, held in hand      |
-| First-aid kit          | 15b    | Stops infection & radiation and heals d6 HP               |
-| Flashlight             | 10b    | Uses one battery per hour                                 |
-| Grappling hook         | 12b    |                                                           |
-| Green slime            | 20b    | Toughness DR12 or d10 damage, 3 doses                     |
-| Guitar                 | 6b     |                                                           |
-| Hammer                 | 8b     |                                                           |
-| Handheld 100-in-1 game | 8b     | Uses one battery per day                                  |
-| Heavy chain            | 10b    | 5 metres                                                  |
-| Iron nails             | 10b    | 10 nails                                                  |
-| Ladder                 | 7b     |                                                           |
-| Large iron hook        | 9b     |                                                           |
-| Lighter                | 4b     |                                                           |
-| Mattress               | 3b     |                                                           |
-| Mirror                 | 15b    |                                                           |
-| Multitool              | 15b    | Uses one battery per minute                               |
-| Portable games console | 60b    | Uses one battery per three hours                          |
-| Primo deodorant        | 25b    |                                                           |
-| Repair kit             | 20b    | Repair -4DR or max restore, single use                    |
-| Roller shoes           | 35b    |                                                           |
-| Rope                   | 4b     | 10 metres                                                 |
-| Salt                   | 4b     |                                                           |
-| Satchel                | 6b     | 3 normal-sized items, worn, available in combat           |
-| Scissors               | 9b     |                                                           |
-| Skateboard             | 20b    |                                                           |
-| Sleeping bag           | 4b     |                                                           |
-| Snacks                 | 1b     | 1 day                                                     |
-| Spare robot parts      | 10b    |                                                           |
-| Tent                   | 12b    |                                                           |
-| Thermos                | 4b     | 4 days of water                                           |
-| Toolbox                | 20b    | 10 nails, hammer, small saw, tongs                        |
-| Yo-yo                  | 2b     |                                                           | 
+| Item                   | Value | Notes                                                     |
+| ---------------------- | ----- | --------------------------------------------------------- |
+| Backpack               | 6b    | 7 normal-sized items, worn                                |
+| Batteries (10-pack)    | 10b   |                                                           |
+| Bear trap              | 20b   | Smarts DR14 to spot, d8 damage                            |
+| Black slime            | 20b   | Toughness DR14 or d6 damage + blind for one hour, 3 doses |
+| BMX                    | 40b   |                                                           |
+| Boombox                | 45b   | Uses one battery per hour                                 |
+| Bubblegum              | 1b    |                                                           |
+| Can of spray paint     | 3b    |                                                           |
+| Chalk                  | 1b    |                                                           |
+| Chemlight              | 1b    | Glows for one hour                                        |
+| Crowbar                | 8b    |                                                           |
+| Duffel bag             | 3b    | 10 normal-sized items, they count half, held in hand      |
+| First-aid kit          | 15b   | Stops infection & radiation and heals d6 HP               |
+| Flashlight             | 10b   | Uses one battery per hour                                 |
+| Grappling hook         | 12b   |                                                           |
+| Green slime            | 20b   | Toughness DR12 or d10 damage, 3 doses                     |
+| Guitar                 | 6b    |                                                           |
+| Hammer                 | 8b    |                                                           |
+| Handheld 100-in-1 game | 8b    | Uses one battery per day                                  |
+| Heavy chain            | 10b   | 5 metres                                                  |
+| Iron nails             | 10b   | 10 nails                                                  |
+| Ladder                 | 7b    |                                                           |
+| Large iron hook        | 9b    |                                                           |
+| Lighter                | 4b    |                                                           |
+| Mattress               | 3b    |                                                           |
+| Mirror                 | 15b   |                                                           |
+| Multitool              | 15b   | Uses one battery per minute                               |
+| Portable games console | 60b   | Uses one battery per three hours                          |
+| Primo deodorant        | 25b   |                                                           |
+| Repair kit             | 20b   | +4 to repair, or fully restore on a successful repair     |
+| Roller shoes           | 35b   |                                                           |
+| Rope                   | 4b    | 10 metres                                                 |
+| Salt                   | 4b    |                                                           |
+| Satchel                | 6b    | 3 normal-sized items, worn, available in combat           |
+| Scissors               | 9b    |                                                           |
+| Skateboard             | 20b   |                                                           |
+| Sleeping bag           | 4b    |                                                           |
+| Snacks                 | 1b    | 1 day                                                     |
+| Spare robot parts      | 10b   |                                                           |
+| Tent                   | 12b   |                                                           |
+| Thermos                | 4b    | 4 days of water                                           |
+| Toolbox                | 20b   | 10 nails, hammer, small saw, tongs                        |
+| Yo-yo                  | 2b    |                                                           |
 
 ## Creepy crawlies, monsters, and other things to fight or befriend
 

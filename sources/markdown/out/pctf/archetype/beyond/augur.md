@@ -1,6 +1,6 @@
 # Augur
 
-Augurs learn to tune their senses to the Beyond, providing insight into, and protection from, paranormal phenomena.
+Augurs learn to tune their senses to the Beyond, providing insight into paranormal phenomena.
 
 ## Special equipment: Critterbox
 *Beyond Resist +2 / Beyond Resist +1 for nearby allies*

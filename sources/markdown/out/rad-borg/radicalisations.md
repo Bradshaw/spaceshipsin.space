@@ -7,23 +7,30 @@ Use this document to...
 - rädicalise Mörk Borg to make it looser and stupider
 - mörkicalise Räd Borg to make it darker and heavier
 
-In general, Räd Borg characters are stronger and have more tools to survive danger. The rules changes allow the players to be a bit more reckless and hold on to their characters longer. Where Mörk Borg characters are disposable and their lives are cheap, Räd Borg characters are skater punk teens who are equally reckless and somehow manage to survive through sheer force of stupidity.
+In general, Räd Borg characters are stronger and have more tools to survive danger. The rules changes allow the players to be a bit more reckless and hold on to their characters longer. Where Mörk Borg characters are disposable and their lives are cheap, Räd Borg characters are skater punk teens who are equally reckless yet somehow manage to survive through sheer enthusiasm.
 
 ## Vocabulary
 
 Some things have been renamed for flavour, their rules might be slightly changed
 
-| Mörk Borg | Räd Borg |
-|-----------|----------|
-| Agility   | Moves    |
-| Presence  | Smarts   |
-| Strength  | Muscles  |
-| Toughness | Guts     |
-| Omens     | Flexes   |
-| Broken    | Whooped  |
-| Powers    | Magicks  |
-| Food      | Snacks   |
-| Silver    | Bits     |
+| Mörk Borg  | Räd Borg  |
+| ---------- | --------- |
+| Difficulty | Challenge |
+| Agility    | Moves     |
+| Presence   | Smarts    |
+| Strength   | Muscles   |
+| Toughness  | Guts      |
+| Omens      | Flexes    |
+| Broken     | Whooped   |
+| Powers     | Magicks   |
+| Food       | Snacks    |
+| Silver     | Bits      |
+
+## Difficulty Ratings
+
+Renamed to "Challenge".
+Isn't changed by character condition. Difficulty Rating modifiers are typically changed into ability score modifiers. 
+*e.g:* Medium armour inflicts **Moves -2**
 
 ## Character creation
 
@@ -67,7 +74,7 @@ Instead of rolling for ability scores, the player can choose to use one of the f
 
 #### Rolling
 
-Räd Borg uses the same table as Mörk Borg, but all four scores are rolled with 4d6 drop the lowest dice.
+Räd Borg uses the same table as Mörk Borg, but all four scores are rolled with 4d6 drop lowest.
 
 Roll 4d6, drop the lowest, and use the table to generate an ability score. Do this four times
 - 1-4: -3
@@ -85,7 +92,8 @@ To mörkicalise this step, shuffle the scores of a standard array or simply assi
 
 #### Flexes (Omens)
 
-Räd Borg characters begin with Smarts (Presence) + d4 Flexes, this becomes their maximum.
+This resource is affected by 
+Räd Borg characters begin with Moves (Agility) + d4 Flexes, this becomes their maximum.
 Flexes are restored when resting, up to the character's maximum.
 
 #### Bags and wheels
