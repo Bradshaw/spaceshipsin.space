@@ -96,18 +96,6 @@ Character creation:
     11. A bottle of red juice, d4 doses (heals d6 HP and removes infection and irradation)
     12. Portable games console with d4 batteries
 - d12 cool stuff
-    1. A bottle of green slime, d4 doses (Guts DR12 or d10 damage)
-    2. Random gnarly scroll
-    3. Minibot with a knife (d6+2 HP, stab d4, only obeys you)
-    4. d4 radrats that ignore but love you (d4+2HP, bite d4)
-    5. Primo deodorant worth 25 bits
-    6. Toolbox
-    7. Heavy chain, 5 metres
-    8. Grappling hook
-    9. Shield
-    10. Crowbar
-    11. A chunk of irradium
-    12. Tent
 - Muscles + d10 weapons / Muscles + d6 if you start with a scroll / d10 if you're rolling again
     1. Pointed stick (d4)
     2. Cool wizard stick (d4)
@@ -119,57 +107,14 @@ Character creation:
     8. Big sword (d8)
     9. Blaster (d10, with Smarts+10 batteries)
     10. Big axe (d10)
-    11. Pipe wrench (d6), roll again
-    12. Big sword (d8), roll again
-    13. Big axe (d10), roll again
+    11. Pipe wrench (d6) and shield
+    12. Big sword (d8), roll again with just d6
+    13. Big axe (d10), roll again with just d6
 - d4 Armor (d2 if you start with a scroll)
   - 1. No armour
   - 2. Tier 1
   - 3. Tier 2
   - 4. Tier 3
-- (optional) d20 Cool vibes (roll twice)
-    1. Way too relaxed
-    2. Overly self-confident
-    3. Talks back to authority
-    4. Crackin' jokes
-    5. Prankster
-    6. Too cool for school
-    7. Rebel without a cause
-    8. Always snacking
-    9. One-upper
-    10. Form over function
-    11. Dancing to an imaginary beat
-    12. Reckless
-    13. Lazy
-    14. Pickpocket
-    15. Over-enthusiastic
-    16. Loud mouth
-    17. Distracted
-    18. Keeps telling fibs
-    19. Always losing stuff
-    20. Bossy
-- (optional) d20 Fashion statements. Use the "Coco Chanel" rule: *"when putting on accessories, take off the last thing you've put on"* - Coco Chanel (apocryphal)   
-    Roll until something doesn't look right, remove that last thing
-    1. Popped collar
-    2. Clashing colours or all black (you choose)
-    3. Heavy makeup
-    4. Mohawk
-    5. Denim jacket
-    6. Platform shoes
-    7. Fishnets
-    8. Sunglasses
-    9. Studs
-    10. Face covering (mask, bandana)
-    11. Sneakers
-    12. Chains... so many chains...
-    13. Belts... so many belts...
-    14. Pierced nose, pierced ears, pierced ltips, etc...
-    15. Tattoos
-    16. Gloves
-    17. Ripped trousers/dress/shirt/something
-    18. Impractically loose/tight clothes
-    19. Not wearing it correctly
-    20. Patches
 - Abilities
     - Choose whether to roll for abilities, or pick a standard array.
         - Note: the standard arrays give a total of +2, whereas rolling gives +2.56 on average
@@ -287,7 +232,9 @@ Character creation:
                 - Repair rolls can be performed by an ally who chooses not to heal or repair themself
         - Call it a day:
             - At least six uninterrupted hours in a safe place
-            - Restore d4 flexes
+            - Restore all flexes
+            - Restore all magicks
+            - Clear whooped points, down to your number of sick scars
             - Cyborgs choose whether to heal or repair, not both
             - Fertilise (Dirtlings): eat a snack and restore d4 HP
             - Heal (Mutants and Cyborgs): restore d6 HP
@@ -298,7 +245,7 @@ Character creation:
                 - Engineering: Smarts DR12:
                     - Use spare parts and test Smarts DR12: Restore to maximum HP
                 - Repair rolls can be performed by an ally who chooses not to heal or repair themself
-        - Dirtlings heal over time when they are in their preferred environment
+        - Dirtlings heal over time when they are in their preferred environment (todo: remove this and make something better. This system is just annoying. It limits what dirtlings can do in a way that just isn't fun, especially if there are fungi and plants in the same party)
             - In the dark, fungi heal 1 HP up to four times a day
             - In the light, plants heal d2 HP up to four times a day, during daylight hours
         - Sustenance:
@@ -322,11 +269,11 @@ Character creation:
         - The leader is whooped
         - Half the group gets whooped
         - Lone enemy has 1/3 HP left
-    - Whooped (0 HP) - Roll d6, plus an extra d6 for each time you've been whooped before:
-        - 1-3: Shook: Come back next turn with d4 HP
-        - 4-5 Bashed: Out for d4 rounds, come back with d4 HP
-        - 6: Schooled: Roll on the sick scars table, out for d4 rounds, come back with d4 HP
-        - Multiple 6s: Absolutely Dunked On: Totally humiliated, you're no longer cool enough to be an adventurer, go home...
+    - Getting Whooped (0 HP) - Gain a whooped point, and roll as many d6 as you have whooped points:
+        - 4-6: Shook: Come back next turn with d4 HP
+        - 2-3 Bashed: Out for d4 rounds, come back with d4 HP
+        - 1: Schooled: Roll on the sick scars table, out for d4 rounds, come back with d4 HP
+        - Multiple 1s: Absolutely Dunked On: Totally humiliated, you're no longer cool enough to be an adventurer, go home...
     - Magick
         - Amount per day
             - A PC can use their magicks a total of Smarts + d4 times per day.
@@ -378,104 +325,6 @@ Character creation:
 - d20 Magickal Mishaps
     - WIP: For the time being, accidentally cast a randomly targeted random magick
 
-## Stuff
-
-### Scrolls
-- d10 gnarly scrolls
-    1. **Shards** Deal 2d6 damage, divided among any number of creature
-    2. **Nurd-sez-watt** Confuse a creature for 10 minutes
-    3. **Yeet** Levitate an object within d10+3 metres of you for up to d6 minutes or hurl it up to 30 metres
-    4. **Infinite Kickflip** Hover for Smarts+d10 rounds
-    5. **Seeing Gray** One creature is made radioactive for d6 rounds, it glows faintly and loses d4 HP per round
-    6. **Snicker-Snack** Produce d2 lightning bolts dealing d6 damage each
-    7. **Antimemetism** A creature becomes invisible for d6 rounds or until it is damaged, attacking/defending with +6 Muscles/Moves
-    8. **Arise ye, creepy crawlies!** Summon d4 mudlings (HP 4 / Morale 7 / Ram d4)
-    9. **Power Word: Sleep** d4 creatures fall asleep for one hour unless they succeed a DR14 test
-    10. **Power Word: Hollow** All creatures within 10 metres lose a total of 4d10 HP
-- d10 fresh scrolls
-    1. **My Love Undoes Pain** A creature of your choice regains d10 HP
-    2. **My Will Undoes Fear** A creature of your choice gets +d6 on one roll
-    3. **Rest, Disturbed** Ask three questions to a ghost, disabled automaton, or other extinct mind
-    4. **Tough like a Badass** A creature of your choice gains 2d6 extra HP for 10 rounds
-    5. **Wo-Mona's Reprieve** One creature, who got absolutely dunked on within the last week, gets hype again but they're kinda messed up now
-    6. **Yappin' with Beasties** You may speak with animals for d20 minutes
-    7. **Cherenkov/False Vacuum** Light or pitch black for 3d10 minutes
-    8. **Déjà Mort** You spot all traps and threats in your path for 2d10 minutes
-    9. **A Storm, Unleashed** d4 creatures lose d8 HP each
-    10. **Absolute Aura** One creature blindly obeys a single command
-
-### Weapons
-| Item                 | Value | Notes                                                    |
-| -------------------- | ----- | -------------------------------------------------------- |
-| d4 Pointed stick     | 0b    |                                                          |
-| d4 Cool wizard stick | 10b   |                                                          |
-| d4 Baseball bat      | 5b    |                                                          |
-| d6 Sledgehammer      | 15b   |                                                          |
-| d6 Pipe wrench       | 25b   |                                                          |
-| d8 Big sword         | 35b   |                                                          |
-| d10 Big axe          | 60b   |                                                          |
-|                      |       |                                                          |
-| d6 Slingshot         | 8b    | Shoots bearings (or small stones for d4 damage)          |
-| d8 Bow               | 40b   | Shoots arrows                                            |
-| d10 Blaster          | 65b   | Uses one battery per shot                                |
-|                      |       |                                                          |
-| 20 Steel bearings    | 5b    |                                                          |
-| 20 Arrows            | 10b   |                                                          |
-|                      |       |                                                          |
-| d10 Hand grenade     | 10b   |                                                          |
-| Shield               | 20b   | -1 damage, or break to ignore all damage from one attack |
-|                      |       |                                                          |
-| -d2 Light Armour     | 20b   |                                                          |
-| -d4 Medium Armour    | 100b  | Moves -2                                                 |
-| -d8 Heavy Armour     | 200b  | Moves -4 (Defense Moves -2)                              |
-
-### Items
-| Item                   | Value | Notes                                                     |
-| ---------------------- | ----- | --------------------------------------------------------- |
-| Backpack               | 6b    | 7 normal-sized items, worn                                |
-| Batteries (10-pack)    | 10b   |                                                           |
-| Bear trap              | 20b   | Smarts DR14 to spot, d8 damage                            |
-| Black slime            | 20b   | Toughness DR14 or d6 damage + blind for one hour, 3 doses |
-| BMX                    | 40b   |                                                           |
-| Boombox                | 45b   | Uses one battery per hour                                 |
-| Bubblegum              | 1b    |                                                           |
-| Can of spray paint     | 3b    |                                                           |
-| Chalk                  | 1b    |                                                           |
-| Chemlight              | 1b    | Glows for one hour                                        |
-| Crowbar                | 8b    |                                                           |
-| Duffel bag             | 3b    | 10 normal-sized items, they count half, held in hand      |
-| First-aid kit          | 15b   | Stops infection & radiation and heals d6 HP               |
-| Flashlight             | 10b   | Uses one battery per hour                                 |
-| Grappling hook         | 12b   |                                                           |
-| Green slime            | 20b   | Toughness DR12 or d10 damage, 3 doses                     |
-| Guitar                 | 6b    |                                                           |
-| Hammer                 | 8b    |                                                           |
-| Handheld 100-in-1 game | 8b    | Uses one battery per day                                  |
-| Heavy chain            | 10b   | 5 metres                                                  |
-| Iron nails             | 10b   | 10 nails                                                  |
-| Ladder                 | 7b    |                                                           |
-| Large iron hook        | 9b    |                                                           |
-| Lighter                | 4b    |                                                           |
-| Mattress               | 3b    |                                                           |
-| Mirror                 | 15b   |                                                           |
-| Multitool              | 15b   | Uses one battery per minute                               |
-| Portable games console | 60b   | Uses one battery per three hours                          |
-| Primo deodorant        | 25b   |                                                           |
-| Repair kit             | 20b   | +4 to repair, or fully restore on a successful repair     |
-| Roller shoes           | 35b   |                                                           |
-| Rope                   | 4b    | 10 metres                                                 |
-| Salt                   | 4b    |                                                           |
-| Satchel                | 6b    | 3 normal-sized items, worn, available in combat           |
-| Scissors               | 9b    |                                                           |
-| Skateboard             | 20b   |                                                           |
-| Sleeping bag           | 4b    |                                                           |
-| Snacks                 | 1b    | 1 day                                                     |
-| Spare robot parts      | 10b   |                                                           |
-| Tent                   | 12b   |                                                           |
-| Thermos                | 4b    | 4 days of water                                           |
-| Toolbox                | 20b   | 10 nails, hammer, small saw, tongs                        |
-| Yo-yo                  | 2b    |                                                           |
-
 ## Creepy crawlies, monsters, and other things to fight or befriend
 
 **Warning! This section contains spoilers!**
@@ -513,72 +362,6 @@ Pilgrims
 Wizards
 
 Wormfolk
-
-### Crater
-
-Crystal Guardians
-
-Artefact Fiends
-
-### Cathedral of Loria
-
-Cultists
-
-### Martite
-
-Ancient Sentinels
-
-Blind Scavengers
-
-Cave Beasts
-
-### Ur
-
-Phasethieves
-
-### Swamp-lake Barbaute
-
-Scalies
-
-Snaeks
-
-### Tower of Trials
-
-### Mirandali Forest
-
-Trees
-
-Crumpled Ones
-
-### Virbistok Desert
-
-Sandworms
-
-Mirages
-
-### Cheiod Ruins
-
-Immortals
-
-
-### Qharno Mountains
-
-### Mercurius (Fire) - Queen Maia
-
-Golems
-
-Will 'o Wisps
-
-### Gríðarstór (Ice) - Queen Sif
-
-### N'Guara (Nature) - Iphild, the Gardener
-
-### Phthon (Undeath) - The Council of Glos
-
-### Llanrhestinion (Cyborg) - Metamind Lzoroth-Follelliwig
-
-### The Wigh (Weird) - Baron Willon Volden
-
 
 ## Cultural touchstones
 
