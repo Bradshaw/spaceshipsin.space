@@ -109,7 +109,7 @@ Begin with (worst case 1, never less):
 4. Tier 3 **-d6 damage** *Moves -4 (except defence Moves -2)*
 
 ## Optional
-Roll for [/content/cool-vibes](Cool Vibes)
-Roll for [/content/fashion-statements](Fashion Statements)
+Roll for [Cool Vibes](content/cool-vibes)
+Roll for [Fashion Statements](content/fashion-statements)
 
 

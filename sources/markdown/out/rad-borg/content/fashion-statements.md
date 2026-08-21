@@ -1,6 +1,8 @@
 # Fashion statements.
 
-> *"Before you leave the house, look in the mirror and remove one accessory."* — Coco Chanel (apocryphal)
+> Before you leave the house, look in the mirror and remove one accessory.
+> — Coco Chanel (apocryphal)
+
 Roll until something doesn't look right, remove that last thing
 
 1. Popped collar
