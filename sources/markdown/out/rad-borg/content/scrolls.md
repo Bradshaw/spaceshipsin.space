@@ -9,7 +9,7 @@
     6. **Snicker-Snack** Produce d2 lightning bolts dealing d6 damage each
     7. **Antimemetism** A creature becomes invisible for d6 rounds or until it is damaged, attacking/defending with +6 Muscles/Moves
     8. **Arise ye, creepy crawlies!** Summon d4 mudlings (HP 4 / Morale 7 / Ram d4)
-    9. **Power Word: Sleep** d4 creatures fall asleep for one hour unless they succeed a DR14 test
+    9. **Power Word: Sleep** d4 creatures fall asleep for one hour unless they succeed a CH14 Guts test
     10. **Power Word: Hollow** All creatures within 10 metres lose a total of 4d10 HP
 - d10 fresh scrolls
     1. **My Love Undoes Pain** A creature of your choice regains d10 HP

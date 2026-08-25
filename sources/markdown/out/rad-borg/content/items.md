@@ -3,8 +3,8 @@
 | ---------------------- | ----- | --------------------------------------------------------- |
 | Backpack               | 6b    | 7 normal-sized items, worn                                |
 | Batteries (10-pack)    | 10b   |                                                           |
-| Bear trap              | 20b   | Smarts DR14 to spot, d8 damage                            |
-| Black slime            | 20b   | Toughness DR14 or d6 damage + blind for one hour, 3 doses |
+| Bear trap              | 20b   | Smarts CH14 to spot, d8 damage                            |
+| Black slime            | 20b   | Toughness CH14 or d6 damage + blind for one hour, 3 doses |
 | BMX                    | 40b   |                                                           |
 | Boombox                | 45b   | Uses one battery per hour                                 |
 | Bubblegum              | 1b    |                                                           |
@@ -16,7 +16,7 @@
 | First-aid kit          | 15b   | Stops infection & radiation and heals d6 HP               |
 | Flashlight             | 10b   | Uses one battery per hour                                 |
 | Grappling hook         | 12b   |                                                           |
-| Green slime            | 20b   | Toughness DR12 or d10 damage, 3 doses                     |
+| Green slime            | 20b   | Toughness CH12 or d10 damage, 3 doses                     |
 | Guitar                 | 6b    |                                                           |
 | Hammer                 | 8b    |                                                           |
 | Handheld 100-in-1 game | 8b    | Uses one battery per day                                  |

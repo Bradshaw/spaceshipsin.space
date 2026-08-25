@@ -33,7 +33,7 @@ Spicy: +2 / +1 / ±0 / -1
 ### Vitals
 Begin with (worst case 1, never less):
 - Guts + d8 Hitpoints
-- Moves + d2 Flexes
+- Moves + d4 Flexes
 - Smarts + d4 Magicks
 
 ## Gear
@@ -74,7 +74,7 @@ Begin with (worst case 1, never less):
 12. Portable games console with d4 batteries
 
 ### Weird Stuff (d12)
-1. A bottle of green slime, d4 doses (Guts DR12 or d10 damage)
+1. A bottle of green slime, d4 doses (Guts CH12 or d10 damage)
 2. Random gnarly scroll
 3. Minibot with a knife (d6+2 HP, stab d4, only obeys you)
 4. d4 radrats that ignore but love you (d4+2HP, bite d4)
