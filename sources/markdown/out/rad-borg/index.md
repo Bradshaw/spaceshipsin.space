@@ -24,8 +24,6 @@ See the [rädicalisations](/rad-borg/radicalisations) page for a quick rundown o
 +++
 
 ## Vibes
-
-
 Colourful post-apocalypse. Riding the edge between gross-out and funny. 50/50 mix of medieval fantasy and post-collapse sci-fi.
 
 Räd Borg takes place on the Wilderas continent on planet Meer. It is known that other continents lie somewhere across the gunky seas, beyond the glowing fog, but their names have been lost to time and war, as has most Wilderan and Meeran history.
@@ -35,7 +33,6 @@ Wilderas is mostly composed of feudal-like fiefdoms ruled over by monarchs, baro
 Scattered around Wilderas are dungeons. These dungeons sometimes have historical reasons for their existence, but they can equally have been created or just randomly appeared just to challenge whatever band of plucky adventurers happen to stumble upon them.
 
 ## Lifeforms
-
 The main classes of sentient lifeform are Mutant, Dirtling, Robot, and Cyborg.   
    
 Mutants are the descendants of the animal kingdom, of flesh and bone. Most bear some ressemblance to their long lost ancestors. Eyes and ears. Skin, fur, feathers, or scales. Feet, hooves, hands, and paws.   
@@ -47,84 +44,27 @@ Mutants often believe their ancestors built the robots. That belief is true, in 
 Cyborgs are an amalgamation of mutant and machine. When the robot war didn't happen, the peoples reunited. Robots enjoy tinkering, and with access to flesh, nerves, and other materials with interesting properties, some incorporated biology into their designs. Some mutants, aware of the limitations of their flesh, learnt from the robots' innovations and began to replace their flesh with metal. Where the line between mutant and robot is blurred, cyborgs were born.
 
 ## Rules
-- Adventuring
-    - Combat
-        - Initiative d6
-            - 1-3 Enemies begin
-            - 4-6 Player characters begin
-        - Melee: CH12 Muscles
-        - Ranged: CH12 Smarts
-        - Defence: CH12 Moves
-        - Crit (nat 20)
-            - Attack: ×2 damage, armour/protection reduced one tier
-            - Defence: PC gains a free attack
-        - Fumble (nat 1)
-            - Attack:
-                - Melee: Enemy gains a gree attack
-                - Ranged: Attack hits an ally
-            - Defence: ×2 damage, armour reduced one tier
-        - Armour tiers
-            1. light: -d2
-            2. medium: -d4, Moves -2
-            3. heavy: -d6, Moves -4 (Defence Moves -2)
-    - Rest, healing and repair
-        - Take a breather:
-            - An hour in a safe, or at least defensible location
-            - Restore one flex
-            - Fertilise (Dirtlings): eat a snack and restore 1 HP
-            - Cyborgs choose whether to heal or repair, not both
-            - Heal (Mutants and Cyborgs): restore d4 HP
-            - Repair (Robots and Cyborgs):
-                - Use spare parts and test Guts CH12: restore d6 HP
-                - Repair rolls can be performed by an ally who chooses not to heal or repair themself
-        - Call it a day:
-            - At least six uninterrupted hours in a safe place
-            - Restore all flexes
-            - Restore all magicks
-            - Clear whooped points, down to your number of sick scars
-            - Cyborgs choose whether to heal or repair, not both
-            - Fertilise (Dirtlings): eat a snack and restore d4 HP
-            - Heal (Mutants and Cyborgs): restore d6 HP
-            - Repair (Robots and Cyborgs) choose repair method:
-                - Percussive maintenance:
-                    - Use spare parts and test Guts CH10: Restore d6 HP
-                    - This choice can be repeated any number of times, spending spare parts each time
-                - Engineering: Smarts CH12:
-                    - Use spare parts and test Smarts CH12: Restore to maximum HP
-                - Repair rolls can be performed by an ally who chooses not to heal or repair themself
-        - Dirtlings heal over time when they are in their preferred environment (todo: remove this and make something better. This system is just annoying. It limits what dirtlings can do in a way that just isn't fun, especially if there are fungi and plants in the same party)
-            - In the dark, fungi heal 1 HP up to four times a day
-            - In the light, plants heal d2 HP up to four times a day, during daylight hours
-        - Sustenance:
-            - Robots consume one battery per day, or go into low-power mode:
-                - Cannot move by themselves or fight
-                - All rolls -4
-            - Mutants and Cyborgs consume water and snacks every day, or lose d4 HP per day and cannot rest
-                - Cyborgs can consume a battery instead of snacks
-            - Dirtlings consume water every day, or begin to wither:
-                - Cannot move by themselves, rest, or fight
-                - All rolls -4
-                - Lose d4 HP per day
-        - **Infected/irradiated** No healing when resting, take d6 damage each day
-            - Robots do not suffer these effects
-            - Repairing an infected or irradiated Robot or Cyborg: Test Guts CH12 or become infected/irradiated
-    - Getting Whooped (0 HP) - Gain a whooped point, and roll as many d6 as you have whooped points:
-        - 4-6: Shook: Come back next turn with d4 HP
-        - 2-3 Bashed: Out for d4 rounds, come back with d4 HP
-        - 1: Schooled: Roll on the sick scars table, out for d4 rounds, come back with d4 HP
-        - Multiple 1s: Absolutely Dunked On: Totally humiliated, you're no longer cool enough to be an adventurer, go home...
-    - Magick
-        - Cast magick
-            - Make a Smarts CH12 test
-            - Failure means the magick doesn't work, the caster becomes dizzy for one hour
-                - The PC can choose to rolls on the Magickal Mishaps table and "power through" and cast the magick anyway
-            - Fumble or failing when dizzy: Roll on the Magickal Mishaps table
-            - Fumble too often: Begin dreaming of a golden door, tucked away in a nook between tall and rocky cliffs
+- [Rules reference](./rules/cheat-sheet)
+- [Character creation](./rules/character-creation)
+- [Carrying](./rules/carrying-capacity)
+- [Abilities](./rules/abilities)
+- [Power through](./rules/power-through)
+- [Combat](./rules/combat)
+- [Magick](./rules/magick)
+- [Flexes](./rules/flexes)
+- [Rest](./rules/rest)
+- [Progression](./rules/progression)
+
+## Stuff
+- [Weapons](./content/weapons)
+- [Items](./content/items)
 
 ## Tables
-
-- d10 Sick scars
-    - WIP: A list of scars and injuries, they often have some kind of malus, but have a way to get better
+- [d20 Cool Vibes](./content/cool-vibes)
+- [d20 Fashion Statements](./content/fashion-statements)
+- [d12 Sick Scars](./content/sick-scars)
+- [d20 Magickal Mishaps](./content/magickal-mishaps)
+- [d10 Gnarly Scrolls & d10 Fresh Scrolls](./content/scrolls)
 - d20 The Gunkspillers demand
     - WIP: Some ideas for long-term quests or projects
 - d6×d8 Robot? Mutant? Absolute legends all...
@@ -140,13 +80,10 @@ Cyborgs are an amalgamation of mutant and machine. When the robot war didn't hap
 - Even more reasons to kick some ass
     - d12 where do you wander?
         - WIP: List some good starting locations around the continent
-        - WIP: For the time being: a village on the outskirts of Virbistok
     - d20 who (or what) contacts you?
         - WIP: List some interesting character archetypes for "quest givers"
-        - WIP For the time being: a busted up robot, caught in a reboot loop, trying to "backup" some important information before it powers down
     - d100 adventure spark
         - WIP: List some ideas for adventures, treasures, and things to do
-        - WIP: For the time being: a map to an untouched dungeon, containing a magickal object known as the "Eye of Otohath"
 - One of the many rad dungeons
     - WIP: A bunch of tables to aid in creating a dungeon
     - WIP: For the time being: Refer to Mörk Borg's dungeon tables and switch up the tone, soz lol
@@ -158,8 +95,6 @@ Cyborgs are an amalgamation of mutant and machine. When the robot war didn't hap
     - d4 d6 sample rooms
 - d20 Awesome stories
     - WIP: Create list of cool backgrounds for player characters
-- d20 Magickal Mishaps
-    - WIP: For the time being, accidentally cast a randomly targeted random magick
 
 ## Creepy crawlies, monsters, and other things to fight or befriend
 
@@ -200,7 +135,6 @@ Wizards
 Wormfolk
 
 ## Cultural touchstones
-
 - Adventure Time
     - Colourful post-apocalypse
     - The entire setting and tone
@@ -216,9 +150,7 @@ Wormfolk
     - Loria is basically White Diamond
 
 ## Random notes, lol
-
 Bogus, wack, weak, bunk, stale, rank,
-
 Epic, sweet, primo, cool, räd, righteous, badass,
 
 ## Legal
