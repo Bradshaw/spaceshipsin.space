@@ -1,4 +1,4 @@
-# Character Creation - Räd Borg
+# Character Creation - Rad Brats
 
 ## Lifeform
 Choose or roll d4:

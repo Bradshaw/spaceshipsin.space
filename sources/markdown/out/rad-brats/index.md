@@ -1,6 +1,6 @@
-# Räd Borg
+# Rad Brats
 
-Räd Borg is based upon, and compatible with Mörk Borg. See [legal](#legal) for more information.   
+Rad Brats is based upon, and compatible with Mörk Borg. See [legal](#legal) for more information.   
 This document is a work in progress, entire chunks are missing, some parts are incomplete, and it's being written and tweaked on the fly as I playtest it.
 
 About the name:
@@ -9,7 +9,7 @@ About the name:
 
 About the tone:
 - Play it fast, loose, loud, and stupid
-- If Mörk Borg is doom metal, Räd Borg is skater punk
+- If Mörk Borg is doom metal, Rad Brats is skater punk
 - Take existential dread and cosmic horror, soak it in epic beast-slaying fantasy, add a healthy dash of graffiti and teenage recklessness, and run wild
 - If it makes sense while you're playing, but sounds ridiculous when you talk about it the next day, you're playing it right!
 
@@ -17,7 +17,7 @@ About the intent:
 Mörk Borg is probably the most fun I've ever had running TTRPGs. I love how quick and easy it is to throw together a dungeon, roll up some characters, and spend an evening playing with TTRPG veterans and newbies alike. The book is *beautiful*, it's dripping with flavour, every time I open it, I'm flooded with ideas for the next session. The community is overflowing with creativity, there are so many cool addons and extras to keep things fresh and exciting.
 <MORE>
 
-See the [rädicalisations](/rad-borg/radicalisations) page for a quick rundown of the rule differences between Mörk Borg and Räd Borg
+See the [rädicalisations](/rad-borg/radicalisations) page for a quick rundown of the rule differences between Mörk Borg and Rad Brats
 
 +++ Table of contents
 [[toc]]
@@ -26,7 +26,7 @@ See the [rädicalisations](/rad-borg/radicalisations) page for a quick rundown o
 ## Vibes
 Colourful post-apocalypse. Riding the edge between gross-out and funny. 50/50 mix of medieval fantasy and post-collapse sci-fi.
 
-Räd Borg takes place on the Wilderas continent on planet Meer. It is known that other continents lie somewhere across the gunky seas, beyond the glowing fog, but their names have been lost to time and war, as has most Wilderan and Meeran history.
+Rad Brats takes place on the Wilderas continent on planet Meer. It is known that other continents lie somewhere across the gunky seas, beyond the glowing fog, but their names have been lost to time and war, as has most Wilderan and Meeran history.
 
 Wilderas is mostly composed of feudal-like fiefdoms ruled over by monarchs, barons, and counts. The rulers are sometimes evil, sometimes arguably benevolent, and seemingly always on the precipice of going to war.
 
@@ -117,7 +117,7 @@ Epic, sweet, primo, cool, räd, righteous, badass,
 
 ## Legal
 
-Räd Borg is an independent production by Gaeel Bradshaw-Rodriguez and is not affiliated with Ockult Örtmästare Games or Stockholm Kartell. It is published under the MÖRK BORG Third Party License.
+Rad Brats is an independent production by Gaeel Bradshaw-Rodriguez and is not affiliated with Ockult Örtmästare Games or Stockholm Kartell. It is published under the MÖRK BORG Third Party License.
 
 MÖRK BORG is copyright Ockult Örtmästare Games and Stockholm Kartell.
 
@@ -125,7 +125,7 @@ Find out more about Mörk Borg, the artpunk doom metal album of a game: http://m
 
 ## Acknowledgements & thanks
 
-Räd Borg's creation was powered by a mind that has absorbed many things. Here are (to the best of my knowledge) the things that inspired or accompanied my creative process:
+Rad Brats's creation was powered by a mind that has absorbed many things. Here are (to the best of my knowledge) the things that inspired or accompanied my creative process:
 - Adventure Time by Pendleton Ward
 - Kipo and the Age of Wonderbeasts by Radford Sechrist
 - Steven Universe by Rebecca Sugar
@@ -151,7 +151,7 @@ Thanks to:
 
 %YAML 1.2
 ---
-title: Räd Borg
+title: Rad Brats
 status: unpublished
 tags:
   - rad-borg

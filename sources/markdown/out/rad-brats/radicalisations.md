@@ -1,19 +1,19 @@
-# Rädicalisations
+# Radicalisations
 
-Core rule differences between Mörk Borg and Räd Borg.
+Core rule differences between Mörk Borg and Rad Brats.
 Use this document to...
-- learn Räd Borg as a Mörk Borg player
-- adapt Mörk Borg content to Räd Borg
-- rädicalise Mörk Borg to make it looser and stupider
-- mörkicalise Räd Borg to make it darker and heavier
+- learn Rad Brats as a Mörk Borg player
+- adapt Mörk Borg content to Rad Brats
+- radicalise Mörk Borg to make it looser and stupider
+- mörkicalise Rad Brats to make it darker and heavier
 
-In general, Räd Borg characters are stronger and have more tools to survive danger. The rules changes allow the players to be a bit more reckless and hold on to their characters longer. Where Mörk Borg characters are disposable and their lives are cheap, Räd Borg characters are skater punk teens who are equally reckless yet somehow manage to survive through sheer enthusiasm.
+In general, Rad Brats characters are stronger and have more tools to survive danger. The rules changes allow the players to be a bit more reckless and hold on to their characters longer. Where Mörk Borg characters are disposable and their lives are cheap, Rad Brats characters are skater punk teens who are equally reckless yet somehow manage to survive through sheer enthusiasm.
 
 ## Vocabulary
 
 Some things have been renamed for flavour, their rules might be slightly changed
 
-| Mörk Borg         | Räd Borg  |
+| Mörk Borg         | Rad Brats |
 | ----------------- | --------- |
 | Difficulty Rating | Challenge |
 | Agility           | Moves     |
@@ -34,5 +34,5 @@ Isn't changed by character condition. Difficulty Rating modifiers are typically 
 
 ## Flexes (Omens)
 
-Räd Borg characters begin with Moves (Agility) + d4 Flexes, this becomes their maximum.
+Rad Brats characters begin with Moves (Agility) + d4 Flexes, this becomes their maximum.
 Flexes are restored when resting, up to the character's maximum.
