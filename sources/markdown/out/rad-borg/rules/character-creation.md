@@ -12,7 +12,8 @@ Choose or roll d4:
 ## Stats
 
 ### Abilities
-Choose whether to roll for abilities or pick a standard array. The stardard arrays give a total of +2, whereas rolling gives an average of +2.56.
+Choose whether to roll for abilities or pick a standard array.
+The stardard arrays give a total of +2, whereas rolling gives an average of +2.56.
 
 Once you have your array of four scores, assign them as you like to Moves, Smarts, Muscles, and Guts
 
@@ -109,7 +110,7 @@ Begin with (worst case 1, never less):
 4. Tier 3 **-d6 damage** *Moves -4 (except defence Moves -2)*
 
 ## Optional
-Roll for [Cool Vibes](content/cool-vibes)
-Roll for [Fashion Statements](content/fashion-statements)
+Roll for [Cool Vibes](../content/cool-vibes)
+Roll for [Fashion Statements](../content/fashion-statements)
 
 

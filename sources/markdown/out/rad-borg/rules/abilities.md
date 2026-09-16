@@ -1,4 +1,4 @@
-#Abilities
+# Abilities
 - Moves: Dodge, dance, kickflip, leg it
     - (flexes & defense)
 - Smarts: Spot, outwit, flirt, use magicks

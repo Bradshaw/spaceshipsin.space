@@ -88,3 +88,38 @@ Do͖͈̟͐
 n̫̹o̜ț   
 D̡̠̖̭̠́̒̀̏̾͋͟Ẹ̷̷̢̧̲̜͓ͨ̂̎̄͂̒̚͢͡V̯͙̣͓̝̽ͨ̀O̵̼̖̘͕̜̹ͥ͗́̚̕U̢̹̥͕͐̎ͩ̀̑̅̉R̵̬̥͙̗̃̽ͪ̀͂͘͡͡
 
+## Creepy crawlies, monsters, and other things to fight or befriend
+
+### Mutants
+
+Moles
+
+Armourdillos
+
+Radrats
+
+Spittlebugs
+
+### Cyborgs
+
+Gunbirds
+
+Brainsuckers
+
+Tendrils
+
+### Robots
+
+Minibots
+
+Warbots
+
+Riptires
+
+### Roamers
+
+Pilgrims
+
+Wizards
+
+Wormfolk

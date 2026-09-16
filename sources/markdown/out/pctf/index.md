@@ -109,6 +109,8 @@ Damage includes (but is not limited to):
 
 ### After each case
 
+**TODO: Add debrief scene**
+
 Gain one Echelon, regardless of success or failure.
 If the administrator judges that the unit performed above and beyond the standard PCTF evaluation criteria, one more Echelon may exceptionally be awarded to each surviving member of the unit.
 
