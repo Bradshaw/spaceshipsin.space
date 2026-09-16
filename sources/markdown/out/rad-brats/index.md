@@ -17,7 +17,7 @@ About the intent:
 Mörk Borg is probably the most fun I've ever had running TTRPGs. I love how quick and easy it is to throw together a dungeon, roll up some characters, and spend an evening playing with TTRPG veterans and newbies alike. The book is *beautiful*, it's dripping with flavour, every time I open it, I'm flooded with ideas for the next session. The community is overflowing with creativity, there are so many cool addons and extras to keep things fresh and exciting.
 <MORE>
 
-See the [rädicalisations](/rad-borg/radicalisations) page for a quick rundown of the rule differences between Mörk Borg and Rad Brats
+See the [rädicalisations](./radicalisations) page for a quick rundown of the rule differences between Mörk Borg and Rad Brats
 
 +++ Table of contents
 [[toc]]
@@ -121,7 +121,7 @@ Rad Brats is an independent production by Gaeel Bradshaw-Rodriguez and is not af
 
 MÖRK BORG is copyright Ockult Örtmästare Games and Stockholm Kartell.
 
-Find out more about Mörk Borg, the artpunk doom metal album of a game: http://morkborg.com
+Find out more about Mörk Borg, the artpunk doom metal album of a game: [morkborg.com](http://morkborg.com)
 
 ## Acknowledgements & thanks
 
@@ -142,8 +142,9 @@ Rad Brats's creation was powered by a mind that has absorbed many things. Here a
 Thanks to:
 - "The Brodie Appreciation Society", for reigniting my love for roleplaying games!
 - Les amis de Roubaix, c'est vraiment une belle bande d'amis qu'on a là, j'adore partager mes jeux de rôles avec vous!
-- /r/morkborg, a welcoming community of Mörk Borg fans, full of supportive and creative people
-- Folks on the Knot Knot Games Discord
+- [/r/MorkBorg](https://www.reddit.com/r/MorkBorg/), a welcoming community of Mörk Borg fans, full of supportive and creative people
+- The wise and inquisitive folk on the [Knot Knot Games Discord server](https://discord.gg/3rQQxq7pVr)
+- The miserable scvm from the [the trve MÖRK BORG Discord server](https://discord.gg/RP2Q2dTBsA)
 
 
 ![Compatible with Mörk Borg](CompWith_MORKBORG_horiz.svg)
@@ -155,4 +156,5 @@ title: Rad Brats
 status: unpublished
 tags:
   - rad-borg
+  - rad-brats
   - ttrpg
