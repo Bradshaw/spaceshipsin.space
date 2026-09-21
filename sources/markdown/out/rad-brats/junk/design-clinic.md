@@ -1,6 +1,6 @@
 # Design Clinic pitch
 
-Knot Knot Games Design Clinic - Sunday, September 20th 2026, 7PM London time
+Knot Knot Games Design Clinic [on Twitch](https://www.twitch.tv/knotknottv) - Sunday, September 20th 2026, 7PM London time
 
 ## The context: Rad Brats, a TTRPG about cool kids on badass adventures
 

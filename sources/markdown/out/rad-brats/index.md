@@ -3,10 +3,6 @@
 Rad Brats is based upon, and compatible with Mörk Borg. See [legal](#legal) for more information.   
 This document is a work in progress, entire chunks are missing, some parts are incomplete, and it's being written and tweaked on the fly as I playtest it.
 
-About the name:
-- The player character are totally rädical adventurers in an irrädiated wasteland
-- It also happens to spell "Raid Fort" in broken Swedish, a happy coincidence
-
 About the tone:
 - Play it fast, loose, loud, and stupid
 - If Mörk Borg is doom metal, Rad Brats is skater punk
