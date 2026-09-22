@@ -2,7 +2,7 @@
 
 [Knot Knot Games](https://knotknotgames.com/) Design Clinic [on Twitch](https://www.twitch.tv/knotknottv) - Sunday, September 20th 2026, 7PM BST
 
-> The stream was fun, I've added some further thoughts at the bottom of this page: [Post-stream notes](#post-stream-notes)
+> The stream was fun, I've added some further thoughts at the bottom of this page: [Post-stream notes](#poststream-notes)
 
 ## The context: Rad Brats, a TTRPG about cool kids on badass adventures
 
